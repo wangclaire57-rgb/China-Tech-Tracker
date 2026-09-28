@@ -1,0 +1,203 @@
+# ============================================================
+#  信源清单 / Source registry     —— 所有查询已实测可用（2026-09-25）
+#
+#  增删信源只需改这个文件：在 GitHub 网页上点 Edit 即可，无需安装任何软件。
+#
+#  type: rss    直接给 RSS/Atom 地址（最干净，有就优先用）
+#  type: gnews  用 Google News 搜索当 RSS —— 给没有 RSS 的中文站兜底
+#               query 里可以用 when:7d 限定时间、site: 限定站点、OR 并列关键词
+#  enabled: false  临时停用而不删除
+# ============================================================
+
+defaults:
+  max_items_per_run: 25
+  lookback_days: 7
+
+sources:
+
+  # ---------- 综合科技（原生 RSS，质量最高）----------
+  - id: scmp_tech
+    name_cn: 南华早报·科技
+    name_en: SCMP Tech
+    type: rss
+    url: https://www.scmp.com/rss/36/feed
+    lang: en
+    default_sector: 综合
+
+  - id: technode
+    name_cn: 动点科技
+    name_en: TechNode
+    type: rss
+    url: https://technode.com/feed/
+    lang: en
+    default_sector: 综合
+
+  - id: pandaily
+    name_cn: Pandaily
+    name_en: Pandaily
+    type: rss
+    url: https://pandaily.com/feed/
+    lang: en
+    default_sector: 综合
+
+  # ---------- 综合科技（中文，走 Google News）----------
+  - id: 36kr
+    name_cn: 36氪
+    name_en: 36Kr
+    type: gnews
+    query: "36氪 when:7d"
+    lang: zh
+    default_sector: 综合
+
+  - id: thepaper_tech
+    name_cn: 澎湃新闻·科技
+    name_en: The Paper (Tech)
+    type: gnews
+    query: "澎湃 科技 when:7d"
+    lang: zh
+    default_sector: 综合
+
+  - id: stdaily
+    name_cn: 中国科技网（科技日报）
+    name_en: Science and Technology Daily
+    type: gnews
+    query: "site:stdaily.com when:7d"
+    lang: zh
+    default_sector: 综合
+
+  # ---------- 半导体 ----------
+  - id: semi_cn
+    name_cn: 中国半导体产业
+    name_en: China Semiconductor
+    type: gnews
+    query: "中国 芯片 半导体 when:7d"
+    lang: zh
+    default_sector: 半导体
+
+  - id: eet_china
+    name_cn: 电子工程专辑
+    name_en: EE Times China
+    type: gnews
+    query: "site:eet-china.com when:7d"
+    lang: zh
+    default_sector: 半导体
+
+  # ---------- 人工智能 ----------
+  - id: jiqizhixin
+    name_cn: 机器之心
+    name_en: Synced
+    type: gnews
+    query: "机器之心 模型 when:7d"
+    lang: zh
+    default_sector: 人工智能
+
+  - id: qbitai
+    name_cn: 量子位
+    name_en: QbitAI
+    type: gnews
+    query: "site:qbitai.com when:7d"
+    lang: zh
+    default_sector: 人工智能
+
+  - id: ai_cn
+    name_cn: 中国大模型动态
+    name_en: China AI Models
+    type: gnews
+    query: "中国 大模型 OR 人工智能 发布 OR 开源 when:7d"
+    lang: zh
+    default_sector: 人工智能
+
+  # ---------- 政策 / 部委 ----------
+  # 说明：部委官网本身很少被索引，用“关于该部委的报道”效果好得多
+  - id: miit
+    name_cn: 工业和信息化部
+    name_en: MIIT
+    type: gnews
+    query: "工业和信息化部 印发 OR 发布 OR 政策 when:7d"
+    lang: zh
+    default_sector: 政策
+
+  - id: most
+    name_cn: 科学技术部
+    name_en: MOST
+    type: gnews
+    query: "科技部 重点研发 OR 政策 OR 发布 when:7d"
+    lang: zh
+    default_sector: 政策
+
+  - id: cac
+    name_cn: 国家互联网信息办公室
+    name_en: Cyberspace Administration of China
+    type: gnews
+    query: "国家网信办 OR 网信办 规定 OR 备案 when:7d"
+    lang: zh
+    default_sector: 政策
+
+  - id: ndrc
+    name_cn: 国家发展和改革委员会
+    name_en: NDRC
+    type: gnews
+    query: "发改委 人工智能 OR 算力 OR 新能源 when:7d"
+    lang: zh
+    default_sector: 政策
+
+  # ---------- 绿色科技 / 能源 / 电动车 ----------
+  - id: energy_cn
+    name_cn: 中国能源
+    name_en: China Energy
+    type: gnews
+    query: "中国 新能源 装机 OR 储能 OR 光伏 政策 when:7d"
+    lang: zh
+    default_sector: 绿色科技
+
+  - id: d1ev
+    name_cn: 第一电动网
+    name_en: D1EV
+    type: gnews
+    query: "site:d1ev.com when:7d"
+    lang: zh
+    default_sector: 绿色科技
+
+  # ---------- 生物医药 ----------
+  - id: biotech_cn
+    name_cn: 中国创新药
+    name_en: China Biopharma
+    type: gnews
+    query: "中国 创新药 授权 OR 获批 OR license-out when:7d"
+    lang: zh
+    default_sector: 生物医药
+
+  # ---------- 航天 ----------
+  - id: space_cn
+    name_cn: 中国航天
+    name_en: China Space
+    type: gnews
+    query: "中国 火箭 发射 卫星 when:7d"
+    lang: zh
+    default_sector: 航天
+
+  # ---------- 数字互联 ----------
+  - id: c114
+    name_cn: C114通信网
+    name_en: C114
+    type: gnews
+    query: "中国 5G OR 6G OR 运营商 网络 when:7d"
+    lang: zh
+    default_sector: 数字互联
+
+  # ---------- 量子 ----------
+  - id: quantum_cn
+    name_cn: 中国量子科技
+    name_en: China Quantum
+    type: gnews
+    query: "中国 量子 计算 OR 通信 突破 when:7d"
+    lang: zh
+    default_sector: 量子
+
+  - id: quantum_insider
+    name_cn: The Quantum Insider
+    name_en: The Quantum Insider
+    type: rss
+    url: https://thequantuminsider.com/feed/
+    lang: en
+    default_sector: 量子
