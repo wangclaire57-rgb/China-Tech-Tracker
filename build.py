@@ -30,7 +30,7 @@ OUT      = ROOT / "docs" / "index.html"
 PROVIDER = os.environ.get("TRACKER_PROVIDER") or "claude"   # claude|deepseek|qwen|gemini
 MODEL    = os.environ.get("TRACKER_MODEL") or DEFAULT_MODEL[PROVIDER]
 
-# 单次运行最大加工 AI 新闻数量（防止首次启动积压几百条运行时间过长）
+# 单次运行最大加工 AI 新闻数量
 MAX_ENRICH_ITEMS = int(os.environ.get("MAX_ENRICH_PER_RUN", 100))
 
 
@@ -88,7 +88,6 @@ Return a strict JSON object:
 }
 """
 
-# 将自定义 Prompt 覆盖到 providers 模块中（兼容模式）
 if hasattr(providers, "SYSTEM_PROMPT"):
     providers.SYSTEM_PROMPT = SYSTEM_PROMPT
 
@@ -167,9 +166,8 @@ def fetch(src, defaults):
 # ---------------------------------------------------------------- AI 处理包装
 
 def enrich_item(item):
-    """包装单条新闻的 AI 加工逻辑，传入最新的 SYSTEM_PROMPT 并清洗过滤"""
+    """返回规范化字典：{"status": "success"|"filtered"|"failed", ...}"""
     try:
-        # 兼容不同 providers 实现的参数传递方式
         sig = inspect.signature(enrich)
         if "prompt" in sig.parameters:
             res = enrich(item, prompt=SYSTEM_PROMPT)
@@ -178,16 +176,16 @@ def enrich_item(item):
         else:
             res = enrich(item)
 
-        if not res:
-            return None
+        if not res or not isinstance(res, dict):
+            return {"status": "failed", "reason": "AI 返回空或非合法字典"}
 
-        # 检查是否通过相关性校验（过滤植树造林、PR软文、非科技新闻等）
+        # 检查是否被 Prompt 判定为无关内容
         if res.get("is_relevant") is False:
             reason = res.get("reason", "不符合科技新闻筛选标准")
-            print(f"  [已过滤] {item.get('title_cn', '')[:22]}... -> 原因: {reason}")
-            return None
+            print(f"  [过滤] {item.get('title_cn', '')[:22]}... -> 原因: {reason}")
+            return {"status": "filtered", "reason": reason}
 
-        # 规范化 Sector 分类标准名称
+        # 规范化 Sector
         valid_sectors = {
             "Artificial Intelligence", "Robotics", "Semiconductors",
             "Quantum Computing", "Digital Connectivity", "Green Tech",
@@ -216,16 +214,16 @@ def enrich_item(item):
             else:
                 res["sector"] = "General Tech"
 
-        return res
+        return {"status": "success", "data": res}
+
     except Exception as e:
-        print(f"  ! 加工条目失败 [{item.get('title_cn', '')[:15]}...]: {e}")
-        return None
+        print(f"  ! 加工条目报错 [{item.get('title_cn', '')[:15]}...]: {e}")
+        return {"status": "failed", "reason": str(e)}
 
 
 # ---------------------------------------------------------------- 健康检查
 
-def diagnose(sources, per_source, fresh, todo, done, failed):
-    """区分两种故障：跑挂了（Actions 自己会红），和跑通了但没产出（静默停更）。"""
+def diagnose(sources, per_source, fresh, todo, done_count, filtered_count, failed_count):
     dead = [k for k, v in per_source.items() if v == 0]
     problems = []
 
@@ -236,12 +234,10 @@ def diagnose(sources, per_source, fresh, todo, done, failed):
         problems.append(
             f"{len(dead)}/{len(sources)} 个信源返回空：{', '.join(dead[:8])}")
 
-    if todo and not done:
+    # 只有当【接口真正的报错数】超过总送审数的一半时才判定为 API 故障
+    if todo and failed_count > len(todo) * 0.5:
         problems.append(
-            f"有 {len(todo)} 条新内容，但一条都没加工成功 —— 大概率是 {PROVIDER} 的 "
-            f"key 失效、额度用尽，或型号名 {MODEL} 已下线")
-    elif todo and failed > len(todo) * 0.5:
-        problems.append(f"加工失败率过半：{failed}/{len(todo)} 条失败")
+            f"AI 接口报错率过半：{failed_count}/{len(todo)} 条失败，请检查 {PROVIDER} Key 额度或型号状态")
 
     return problems, dead
 
@@ -254,7 +250,6 @@ def main():
     print(f"正在并发抓取 {len(sources)} 个信源…")
     per_source, fresh = {}, []
     
-    # 采用多线程并发抓取 RSS
     with ThreadPoolExecutor(max_workers=10) as pool:
         results = pool.map(lambda src: fetch(src, defaults), sources)
         for src_id, got in results:
@@ -266,7 +261,6 @@ def main():
     known = {i["id"] for i in archive}
     todo_dict = {i["id"]: i for i in fresh if i["id"] not in known}
     
-    # 取最新的未加工条目
     todo_list = list(todo_dict.values())
     if len(todo_list) > MAX_ENRICH_ITEMS:
         print(f"\n未加工新条目共 {len(todo_list)} 条，本次优先处理最新的 {MAX_ENRICH_ITEMS} 条…")
@@ -274,21 +268,22 @@ def main():
     else:
         print(f"\n新条目 {len(todo_list)} 条，送 {PROVIDER}/{MODEL} 加工…")
 
-    # 针对不同 Provider 配置并发数（Qwen/DeepSeek 支持更高并发）
     max_workers = 1 if PROVIDER == "gemini" else 20
     
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        raw = list(pool.map(enrich_item, todo_list))
+        enrich_results = list(pool.map(enrich_item, todo_list))
         
-    done = [r for r in raw if r]
-    failed = sum(1 for r in raw if r is None)
-    print(f"\n处理完成：筛选并存留 {len(done)} 条高质量新闻（{failed} 条被剔除或加工失败）")
+    done = [r["data"] for r in enrich_results if r.get("status") == "success"]
+    filtered_count = sum(1 for r in enrich_results if r.get("status") == "filtered")
+    failed_count = sum(1 for r in enrich_results if r.get("status") == "failed")
+    
+    print(f"\n处理完成：存留 {len(done)} 条高质量新闻，正常过滤 {filtered_count} 条无关/噪声条目，接口报错 {failed_count} 条")
 
     keep_from = (dt.date.today() - dt.timedelta(days=120)).isoformat()
     merged = sorted([i for i in archive + done if i["date"] >= keep_from],
                     key=lambda i: (i["date"], i["source_en"]), reverse=True)
 
-    problems, dead = diagnose(sources, per_source, fresh, todo_list, done, failed)
+    problems, dead = diagnose(sources, per_source, fresh, todo_list, len(done), filtered_count, failed_count)
     now = dt.datetime.now(dt.timezone.utc)
 
     HEALTH.parent.mkdir(parents=True, exist_ok=True)
@@ -299,7 +294,7 @@ def main():
         "model":    MODEL,
         "sources":  {"total": len(sources), "empty": len(dead), "empty_ids": dead},
         "items":    {"fetched": len(fresh), "new": len(todo_dict), "enriched": len(done),
-                     "failed": failed, "archive_total": len(merged)},
+                     "filtered": filtered_count, "failed": failed_count, "archive_total": len(merged)},
         "problems": problems,
     }, ensure_ascii=False, indent=1), "utf-8")
 
@@ -319,7 +314,7 @@ def main():
             print("    -", p)
         notify.send("抓取异常，页面可能已停更",
                     [f"· {p}" for p in problems] + [f"（{PROVIDER}/{MODEL}）"])
-        sys.exit(1)          # 让 Actions 标红，触发 workflow 里的兜底通知
+        sys.exit(1)
 
 
 if __name__ == "__main__":
