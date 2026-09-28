@@ -1,0 +1,103 @@
+# ============================================================
+#  信源配置 v4 —— 只从 whitelist.yml 的域名抓取
+#
+#  三种 type，对应三种媒体特性（实测得出，不是拍脑袋）：
+#
+#  1) type: rss    原生订阅源。最干净，有就优先用。
+#
+#  2) type: topic  主题式检索 + 按发布媒体域名硬过滤。
+#     用于综合媒体（新华网/财新/澎湃/21世纪/部委）—— 它们什么都发，
+#     必须靠主题词筛。实测：不加 site: 的主题查询 95% 切题，加了
+#     site: 之后 Google 会忽略主题词（切题率掉到 0%），所以这里
+#     不写 site:，改为抓回来之后按 entry.source 的域名硬过滤。
+#     抓取免费，被过滤掉的条目不花一分钱。
+#
+#  3) type: site   裸 site: 检索。用于垂直媒体（爱集微/泰伯网/C114…）——
+#     它们发的东西本来就全是本行业的，不需要再加主题词。
+#
+#  default_sector 只是兜底，模型会重新判定。
+# ============================================================
+
+defaults:
+  max_items_per_run: 40      # 抓取免费，可以放宽；真正花钱的是过滤后送加工的条数
+  lookback_days: 14
+  window: "when:14d"
+
+sources:
+
+  # ════════ type: topic —— 综合媒体与部委，靠主题词筛 ════════
+  - {id: t_ai,        type: topic, sector: AI,       lang: zh, name_cn: AI·技术,
+     query: "中国 大模型 OR 人工智能 发布 OR 开源 OR 突破 OR 训练"}
+  - {id: t_ai_corp,   type: topic, sector: AI,       lang: zh, name_cn: AI·公司与资本,
+     query: "中国 AI OR 人工智能 融资 OR 上市 OR 收购 OR 战略"}
+  - {id: t_ai_policy, type: topic, sector: AI,       lang: zh, name_cn: AI·监管,
+     query: "人工智能 OR 算力 监管 OR 政策 OR 标准 OR 规划 中国"}
+
+  - {id: t_robot,     type: topic, sector: Robotics, lang: zh, name_cn: 机器人·技术,
+     query: "中国 人形机器人 OR 具身智能 量产 OR 发布 OR 落地"}
+  - {id: t_robot_cap, type: topic, sector: Robotics, lang: zh, name_cn: 机器人·资本,
+     query: "机器人 融资 OR 上市 OR 订单 OR 产线 中国"}
+
+  - {id: t_semi,      type: topic, sector: Semiconductors, lang: zh, name_cn: 半导体·技术,
+     query: "中国 芯片 OR 半导体 设备 OR 制程 OR 存储 OR 封装 OR 国产化"}
+  - {id: t_semi_cap,  type: topic, sector: Semiconductors, lang: zh, name_cn: 半导体·资本,
+     query: "中国 半导体 OR 芯片 融资 OR 上市 OR 并购 OR 扩产"}
+  - {id: t_semi_geo,  type: topic, sector: Semiconductors, lang: zh, name_cn: 半导体·出口管制,
+     query: "芯片 OR 半导体 出口管制 OR 实体清单 OR 制裁 OR 关税 中国"}
+
+  - {id: t_quantum,   type: topic, sector: Quantum,  lang: zh, name_cn: 量子,
+     query: "中国 量子 计算 OR 通信 OR 测量 突破 OR 发布 OR 报告"}
+
+  - {id: t_6g,        type: topic, sector: Digital Connectivity, lang: zh, name_cn: 通信·6G与标准,
+     query: "中国 6G OR 5G-A 试验 OR 标准 OR 频谱 OR 实验室"}
+  - {id: t_network,   type: topic, sector: Digital Connectivity, lang: zh, name_cn: 通信·网络,
+     query: "中国 算力网络 OR 运营商 OR 卫星通信 部署 OR 招标"}
+
+  - {id: t_bio,       type: topic, sector: Biotech,  lang: zh, name_cn: 生物医药·交易,
+     query: "中国 创新药 授权 OR 获批 OR 出海 OR 临床 OR BD"}
+  - {id: t_bio_cap,   type: topic, sector: Biotech,  lang: zh, name_cn: 生物医药·资本与监管,
+     query: "中国 生物医药 融资 OR 上市 OR 并购 OR 药监局"}
+
+  - {id: t_green,     type: topic, sector: Green Tech, lang: zh, name_cn: 绿色科技·技术,
+     query: "中国 光伏 OR 储能 OR 固态电池 OR 氢能 技术 OR 量产 OR 装机"}
+  - {id: t_green_pol, type: topic, sector: Green Tech, lang: zh, name_cn: 绿色科技·政策,
+     query: "中国 新能源 政策 OR 产能 OR 出口 OR 反倾销 OR 补贴"}
+  - {id: t_ev,        type: topic, sector: Green Tech, lang: zh, name_cn: 电动车,
+     query: "中国 新能源汽车 销量 OR 出海 OR 智驾 OR 车企"}
+
+  - {id: t_space,     type: topic, sector: Space,    lang: zh, name_cn: 航天·发射,
+     query: "中国 商业航天 OR 火箭 发射 成功 OR 入轨"}
+  - {id: t_space_ai,  type: topic, sector: Space,    lang: zh, name_cn: 航天·太空算力,
+     query: "太空 算力 OR 在轨计算 OR 太空数据中心 卫星"}
+  - {id: t_space_con, type: topic, sector: Space,    lang: zh, name_cn: 航天·星座,
+     query: "卫星互联网 OR 星座 组网 OR 频轨 中国"}
+
+  - {id: t_policy,    type: topic, sector: AI,       lang: zh, name_cn: 部委政策,
+     query: "工信部 OR 发改委 OR 科技部 OR 网信办 OR 国家数据局 印发 OR 发布 OR 批复"}
+
+  # ════════ type: site —— 垂直媒体，全站内容都切题 ════════
+  - {id: s_ijiwei,    type: site, domain: ijiwei.com,      sector: Semiconductors, lang: zh}
+  - {id: s_eet,       type: site, domain: eet-china.com,   sector: Semiconductors, lang: zh}
+  - {id: s_eefocus,   type: site, domain: eefocus.com,     sector: Semiconductors, lang: zh}
+  - {id: s_qbitai,    type: site, domain: qbitai.com,      sector: AI,             lang: zh}
+  - {id: s_zhiding,   type: site, domain: zhiding.cn,      sector: AI,             lang: zh}
+  - {id: s_cinn,      type: site, domain: cinn.cn,         sector: AI,             lang: zh}
+  - {id: s_taibo,     type: site, domain: taibo.cn,        sector: Space,          lang: zh}
+  - {id: s_c114,      type: site, domain: c114.com.cn,     sector: Digital Connectivity, lang: zh}
+  - {id: s_cww,       type: site, domain: cww.net.cn,      sector: Digital Connectivity, lang: zh}
+  - {id: s_energy,    type: site, domain: cnenergynews.cn, sector: Green Tech,     lang: zh}
+  - {id: s_d1ev,      type: site, domain: d1ev.com,        sector: Green Tech,     lang: zh}
+  - {id: s_cada,      type: site, domain: cada.cn,         sector: Green Tech,     lang: zh}
+  - {id: s_pharmcube, type: site, domain: pharmcube.com,   sector: Biotech,        lang: zh}
+  - {id: s_36kr,      type: site, domain: 36kr.com,        sector: AI,             lang: zh}
+
+  # 机器之心裸 site: 查不到，改用关键词式
+  - {id: t_jiqizhixin, type: topic, sector: AI, lang: zh, name_cn: 机器之心,
+     query: "机器之心 模型 OR 论文 OR 智能体"}
+
+  # ════════ type: rss —— 原生订阅源 ════════
+  - {id: r_scmp,     type: rss, sector: AI,      lang: en, url: "https://www.scmp.com/rss/36/feed"}
+  - {id: r_pandaily, type: rss, sector: AI,      lang: en, url: "https://pandaily.com/feed/"}
+  - {id: r_tqi,      type: rss, sector: Quantum, lang: en, url: "https://thequantuminsider.com/feed/"}
+  - {id: r_bpd,      type: rss, sector: Biotech, lang: en, url: "https://www.biopharmadive.com/feeds/news/"}
+  - {id: r_fierce,   type: rss, sector: Biotech, lang: en, url: "https://www.fiercepharma.com/rss.xml"}
