@@ -1,26 +1,56 @@
 {
- "last_run": "2026-09-28T11:46:12+00:00",
- "status": "fail",
+ "last_run": "2026-09-28T13:41:55+00:00",
+ "status": "ok",
  "provider": "qwen",
  "model": "qwen3.7-flash",
+ "concurrency": 4,
  "sources": {
-  "total": 35,
-  "empty": 3,
-  "empty_ids": [
-   "pandaily",
-   "jiqizhixin",
-   "eto_scout"
-  ]
+  "total": 31,
+  "empty": 0,
+  "empty_ids": []
  },
  "items": {
-  "fetched": 624,
-  "new": 440,
-  "enriched": 6,
-  "filtered": 0,
-  "failed": 94,
-  "archive_total": 353
+  "fetched": 906,
+  "new": 250,
+  "deferred": 513,
+  "enriched": 168,
+  "failed": 4,
+  "archive_total": 521
  },
- "problems": [
-  "AI 接口报错率过半：94/100 条失败，请检查 qwen Key 额度或型号状态"
+ "by_sector": {
+  "General Tech": 130,
+  "人工智能": 87,
+  "综合": 36,
+  "半导体": 35,
+  "Semiconductors": 32,
+  "Digital Connectivity": 30,
+  "Space": 28,
+  "AI": 24,
+  "Green Tech": 22,
+  "政策": 19,
+  "数字互联": 16,
+  "Robotics": 15,
+  "Biotech": 12,
+  "市场与交易": 11,
+  "绿色科技": 8,
+  "Quantum": 5,
+  "生物医药": 5,
+  "航天": 4,
+  "量子": 2
+ },
+ "by_news_type": {
+  "?": 353,
+  "Corporate": 74,
+  "Product": 24,
+  "Policy": 23,
+  "Capital": 21,
+  "Breakthrough": 13,
+  "Geopolitics": 13
+ },
+ "problems": [],
+ "sample_errors": [
+  "ValueError: 板块越界: 'Geopolitics'",
+  "ValueError: 板块越界: 'Capital'",
+  "ValueError: 板块越界: ''"
  ]
 }
