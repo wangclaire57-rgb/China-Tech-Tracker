@@ -1,0 +1,81 @@
+# ============================================================
+#  信源白名单 —— 只有这里列出的域名才会进入管线
+#
+#  两层防护：
+#    1) sources.yml 的查询用 (site:a OR site:b ...) 把检索范围锁死
+#    2) build.py 再按 Google News 返回的真实发布媒体域名硬过滤一遍
+#       （查询偶尔会漏，这一层是兜底保证）
+#
+#  tier 用于「同一件事多家报道时保留哪一家」：数字越小优先级越高
+#    0 = 政府部委原始发布（政策类最权威）
+#    1 = 主流大媒体
+#    2 = 行业垂直媒体
+# ============================================================
+
+domains:
+
+  # ---------- tier 1：主流媒体 ----------
+  news.cn:              {name_cn: 新华网, name_en: Xinhua, tier: 1}
+  xinhuanet.com:        {name_cn: 新华网, name_en: Xinhua, tier: 1}
+  caixin.com:           {name_cn: 财新, name_en: Caixin, tier: 1}
+  thepaper.cn:          {name_cn: 澎湃新闻, name_en: The Paper, tier: 1}
+  21jingji.com:         {name_cn: 21世纪经济报道, name_en: 21st Century Business Herald, tier: 1}
+  jingji.com.cn:        {name_cn: 经济网, name_en: Economic Net, tier: 1}
+  stdaily.com:          {name_cn: 中国科技网, name_en: Science and Technology Daily, tier: 1}
+  cinn.cn:              {name_cn: 中国工业新闻网, name_en: China Industry News, tier: 1}
+  scmp.com:             {name_cn: 南华早报, name_en: SCMP, tier: 1}
+  reuters.com:          {name_cn: 路透社, name_en: Reuters, tier: 1}
+  bloomberg.com:        {name_cn: 彭博社, name_en: Bloomberg, tier: 1}
+  asia.nikkei.com:      {name_cn: 日经亚洲, name_en: Nikkei Asia, tier: 1}
+  thewirechina.com:     {name_cn: The Wire China, name_en: The Wire China, tier: 1}
+
+  # ---------- tier 2：行业垂直媒体 ----------
+  36kr.com:             {name_cn: 36氪, name_en: 36Kr, tier: 2}
+  eet-china.com:        {name_cn: 电子工程专辑, name_en: EE Times China, tier: 2}
+  eefocus.com:          {name_cn: 与非网, name_en: EEFocus, tier: 2}
+  ijiwei.com:           {name_cn: 爱集微, name_en: JW Insights, tier: 2}
+  pharmadj.com:         {name_cn: 研发客, name_en: PharmaDJ, tier: 2}
+  pharmcube.com:        {name_cn: 医药魔方, name_en: PharmCube, tier: 2}
+  jiqizhixin.com:       {name_cn: 机器之心, name_en: Synced, tier: 2}
+  qbitai.com:           {name_cn: 量子位, name_en: QbitAI, tier: 2}
+  zhiding.cn:           {name_cn: 至顶网, name_en: Zhiding, tier: 2}
+  cnenergynews.cn:      {name_cn: 中国能源网, name_en: China Energy News, tier: 2}
+  taibo.cn:             {name_cn: 泰伯网, name_en: Taibo, tier: 2}
+  cww.net.cn:           {name_cn: 通信世界网, name_en: Communication World, tier: 2}
+  c114.com.cn:          {name_cn: C114通信网, name_en: C114, tier: 2}
+  cada.cn:              {name_cn: 中国汽车流通协会, name_en: CADA, tier: 2}
+  d1ev.com:             {name_cn: 第一电动网, name_en: D1EV, tier: 2}
+  pandaily.com:         {name_cn: Pandaily, name_en: Pandaily, tier: 2}
+  thequantuminsider.com: {name_cn: The Quantum Insider, name_en: The Quantum Insider, tier: 2}
+  fiercepharma.com:     {name_cn: Fierce Pharma, name_en: Fierce Pharma, tier: 2}
+  biocentury.com:       {name_cn: BioCentury, name_en: BioCentury, tier: 2}
+  biopharmadive.com:    {name_cn: BioPharma Dive, name_en: BioPharma Dive, tier: 2}
+  hpcwire.com:          {name_cn: HPCwire, name_en: HPCwire, tier: 2}
+  aiweekly.co:          {name_cn: AI Weekly, name_en: AI Weekly, tier: 2}
+  eto.tech:             {name_cn: 新兴技术观察站, name_en: Emerging Technology Observatory, tier: 2}
+
+  # ---------- tier 0：政府部委原始发布 ----------
+  gov.cn:               {name_cn: 中国政府网, name_en: State Council, tier: 0}
+  scio.gov.cn:          {name_cn: 国务院新闻办, name_en: SCIO, tier: 0}
+  most.gov.cn:          {name_cn: 科学技术部, name_en: MOST, tier: 0}
+  cas.cn:               {name_cn: 中国科学院, name_en: CAS, tier: 0}
+  miit.gov.cn:          {name_cn: 工业和信息化部, name_en: MIIT, tier: 0}
+  cac.gov.cn:           {name_cn: 国家网信办, name_en: CAC, tier: 0}
+  nda.gov.cn:           {name_cn: 国家数据局, name_en: National Data Administration, tier: 0}
+  ndrc.gov.cn:          {name_cn: 国家发展和改革委员会, name_en: NDRC, tier: 0}
+  mofcom.gov.cn:        {name_cn: 商务部, name_en: MOFCOM, tier: 0}
+  customs.gov.cn:       {name_cn: 海关总署, name_en: GACC, tier: 0}
+  fmprc.gov.cn:         {name_cn: 外交部, name_en: MFA, tier: 0}
+  mfa.gov.cn:           {name_cn: 外交部, name_en: MFA, tier: 0}
+  mod.gov.cn:           {name_cn: 国防部, name_en: MND, tier: 0}
+  mof.gov.cn:           {name_cn: 财政部, name_en: MOF, tier: 0}
+  pbc.gov.cn:           {name_cn: 中国人民银行, name_en: PBoC, tier: 0}
+  moe.gov.cn:           {name_cn: 教育部, name_en: MOE, tier: 0}
+  mps.gov.cn:           {name_cn: 公安部, name_en: MPS, tier: 0}
+  nhc.gov.cn:           {name_cn: 国家卫生健康委员会, name_en: NHC, tier: 0}
+  nmpa.gov.cn:          {name_cn: 国家药品监督管理局, name_en: NMPA, tier: 0}
+  mee.gov.cn:           {name_cn: 生态环境部, name_en: MEE, tier: 0}
+  mot.gov.cn:           {name_cn: 交通运输部, name_en: MOT, tier: 0}
+  mnr.gov.cn:           {name_cn: 自然资源部, name_en: MNR, tier: 0}
+  mohrss.gov.cn:        {name_cn: 人力资源和社会保障部, name_en: MOHRSS, tier: 0}
+  mohurd.gov.cn:        {name_cn: 住房和城乡建设部, name_en: MOHURD, tier: 0}
