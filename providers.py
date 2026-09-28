@@ -8,7 +8,7 @@
 各家的 key 环境变量见 PROVIDERS 表。除 Claude 外全部走 OpenAI 兼容协议，
 所以只需要 openai 这一个 SDK。
 """
-import os, json, datetime as dt
+import os, json, time, datetime as dt
 
 SECTORS = ["人工智能", "半导体", "数字互联", "绿色科技", "生物医药",
            "航天", "量子", "政策", "市场与交易", "综合"]
@@ -43,7 +43,7 @@ PROVIDERS = {
 PRICES = {
     "claude-opus-5":     (5.00, 25.00),
     "claude-sonnet-5":   (2.00, 10.00),
-    "claude-haiku-4-5":  (1.00,  5.00),
+    "claude-haiku-4-5": (1.00,  5.00),
     "deepseek-flash":    (0.30,  1.20),   # 高峰价，平峰减半，见 deepseek_is_peak()
     "deepseek-v4-pro":   (1.32,  3.96),   # 同上
     "qwen3.7-flash":     (0.03,  0.13),   # ≤32K 上下文档位
@@ -142,25 +142,46 @@ def _call_anthropic(item, model, cfg):
     return json.loads(text), (r.usage.input_tokens, r.usage.output_tokens)
 
 
-def _call_openai_compatible(item, model, cfg):
+def _call_openai_compatible(item, model, cfg, provider="openai"):
     from openai import OpenAI
     client = OpenAI(api_key=os.environ[cfg["key_env"]], base_url=cfg["base_url"])
-    r = client.chat.completions.create(
-        model=model, max_tokens=1200,
-        response_format={"type": "json_object"},
-        messages=[{"role": "system", "content": SYSTEM_BASE + SHAPE_HINT},
-                  {"role": "user",   "content": _user_prompt(item)}],
-    )
-    u = r.usage
-    return json.loads(r.choices[0].message.content or "{}"), \
-           (u.prompt_tokens, u.completion_tokens)
+    
+    max_retries = 5
+    for attempt in range(max_retries):
+        try:
+            r = client.chat.completions.create(
+                model=model, max_tokens=1200,
+                response_format={"type": "json_object"},
+                messages=[{"role": "system", "content": SYSTEM_BASE + SHAPE_HINT},
+                          {"role": "user",   "content": _user_prompt(item)}],
+            )
+            
+            # 针对 Gemini 免费版（5 RPM）平滑请求速率：每次成功后强制休眠 12 秒
+            if provider == "gemini":
+                time.sleep(12)
+                
+            u = r.usage
+            return json.loads(r.choices[0].message.content or "{}"), \
+                   (u.prompt_tokens, u.completion_tokens)
+
+        except Exception as e:
+            err_msg = str(e)
+            # 判断是否触发 429 或限流错误
+            if ("429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg) and attempt < max_retries - 1:
+                wait_time = (attempt + 1) * 20 + 5  # 自动重试时间：25s, 45s, 65s...
+                print(f"  ![Gemini] 触发 429 频率限制，等待 {wait_time} 秒后进行第 {attempt + 1} 次重试...")
+                time.sleep(wait_time)
+            else:
+                raise e
 
 
 def enrich(item, provider=None, model=None, with_usage=False):
     provider, model, cfg = resolve(provider, model)
-    fn = _call_anthropic if cfg["kind"] == "anthropic" else _call_openai_compatible
     try:
-        data, usage = fn(item, model, cfg)
+        if cfg["kind"] == "anthropic":
+            data, usage = _call_anthropic(item, model, cfg)
+        else:
+            data, usage = _call_openai_compatible(item, model, cfg, provider=provider)
         data = _validate(data)
     except Exception as e:
         print(f"  ! 加工失败 {item['id']} [{provider}/{model}]: {e}")
