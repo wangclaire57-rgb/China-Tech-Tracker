@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>中国科技动态追踪 China Tech Tracker</title>
+<title>China Tech Tracker</title>
 <style>
   :root{
     --paper:#f5f7f9; --card:#fff; --ink:#141c24; --mid:#3e4c58; --soft:#64727e;
@@ -17,11 +17,11 @@
   }}
   *{box-sizing:border-box}
   body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 -apple-system,
-       BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+        BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
   .wrap{max-width:1000px;margin:0 auto;padding:0 20px 80px}
   header{padding:36px 0 18px;border-bottom:2px solid var(--ink)}
-  h1{margin:0 0 6px;font-size:26px;letter-spacing:-.01em}
-  h1 span{color:var(--soft);font-weight:400;font-size:17px;margin-left:8px}
+  h1{margin:0 0 6px;font-size:26px;letter-spacing:-.01em;font-weight:700}
+  h1 span{color:var(--soft);font-weight:400;font-size:16px;margin-left:8px}
   .meta{font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--soft)}
 
   .controls{position:sticky;top:0;z-index:5;background:var(--paper);
@@ -38,10 +38,9 @@
   .count{font:12px/1.4 ui-monospace,Menlo,monospace;color:var(--soft);margin-left:auto}
 
   article{padding:18px 0;border-bottom:1px solid var(--soft-rule)}
-  article h2{margin:0 0 4px;font-size:17px;line-height:1.35;font-weight:600}
+  article h2{margin:0 0 6px;font-size:17px;line-height:1.35;font-weight:600}
   article h2 a{color:inherit;text-decoration:none}
   article h2 a:hover{color:var(--accent);text-decoration:underline}
-  .cn{margin:0 0 7px;font-size:14px;color:var(--mid)}
   .tags{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-bottom:8px;
         font:11px/1.4 ui-monospace,Menlo,monospace;color:var(--soft)}
   .t{padding:2px 7px;border-radius:3px;background:var(--jade-wash);color:var(--jade)}
@@ -56,21 +55,21 @@
 <div class="wrap">
 
 <header>
-  <h1>中国科技动态追踪 <span>China Tech Tracker</span></h1>
-  <div class="meta">最后更新 Last updated: {{UPDATED}} · 自动抓取，每日刷新</div>
+  <h1>China Tech Tracker <span>Daily Policy & Technology Intelligence</span></h1>
+  <div class="meta">Last updated: {{UPDATED}} · Automated Daily Collection</div>
   <div class="stale" id="stale"></div>
 </header>
 
 <div class="controls">
   <div class="row">
-    <input type="search" id="q" placeholder="搜索标题、摘要、公司…  Search titles, summaries, companies">
-    <select id="company"><option value="">全部公司 All companies</option></select>
-    <select id="source"><option value="">全部信源 All sources</option></select>
+    <input type="search" id="q" placeholder="Search titles, summaries, companies...">
+    <select id="company"><option value="">All Companies</option></select>
+    <select id="source"><option value="">All Sources</option></select>
     <select id="days">
-      <option value="7">近 7 天</option>
-      <option value="30" selected>近 30 天</option>
-      <option value="90">近 90 天</option>
-      <option value="9999">全部</option>
+      <option value="7">Past 7 Days</option>
+      <option value="30" selected>Past 30 Days</option>
+      <option value="90">Past 90 Days</option>
+      <option value="9999">All Time</option>
     </select>
   </div>
   <div class="row" id="sectors"></div>
@@ -82,17 +81,30 @@
 const ITEMS = /*DATA*/[];
 const UPDATED = "{{UPDATED_ISO}}";
 
-// 停更自检：超过 48 小时没更新就在页面顶部亮红条。
-// 定时任务挂掉时，页面本身仍然打得开、内容看着也正常 —— 这是最容易漏掉的故障。
+// 自检停更警报（全英文）
 (function(){
   const age = (Date.now() - new Date(UPDATED)) / 36e5;
   if (age > 48) {
     const el = document.getElementById("stale");
-    el.textContent = `⚠ 已经 ${Math.floor(age/24)} 天没有更新了。`
-      + `自动抓取可能已经停了 —— 去仓库的 Actions 页面看看最近一次运行。`;
+    el.textContent = `⚠ Warning: Data has not been updated for ${Math.floor(age/24)} days. Ingestion workflow may have stalled — please check GitHub Actions.`;
     el.style.display = "block";
   }
 })();
+
+// 板块中英文映射字典（避免改动后台数据结构）
+const SECTOR_MAP = {
+  "人工智能": "AI & Big Data",
+  "半导体": "Semiconductors",
+  "数字互联": "Digital & Internet",
+  "绿色科技": "Green Tech",
+  "生物医药": "Biotech & Healthcare",
+  "航天": "Aerospace",
+  "量子": "Quantum Computing",
+  "政策": "Policy & Governance",
+  "市场与交易": "Markets & Finance",
+  "综合": "General Tech"
+};
+
 const SECTORS = ["人工智能","半导体","数字互联","绿色科技","生物医药","航天","量子","政策","市场与交易","综合"];
 let sector = "";
 
@@ -100,11 +112,12 @@ const $ = s => document.querySelector(s);
 const list = $("#list"), qEl = $("#q"), coEl = $("#company"),
       srEl = $("#source"), dyEl = $("#days"), secEl = $("#sectors");
 
-// 板块筛选条
-secEl.innerHTML = `<button class="chip" data-s="" aria-pressed="true">全部板块</button>` +
+// 渲染板块筛选按键
+secEl.innerHTML = `<button class="chip" data-s="" aria-pressed="true">All Sectors</button>` +
   SECTORS.filter(s => ITEMS.some(i => i.sector === s))
-         .map(s => `<button class="chip" data-s="${s}" aria-pressed="false">${s} <em style="opacity:.6;font-style:normal">${ITEMS.filter(i=>i.sector===s).length}</em></button>`)
+         .map(s => `<button class="chip" data-s="${s}" aria-pressed="false">${SECTOR_MAP[s] || s} <em style="opacity:.6;font-style:normal">${ITEMS.filter(i=>i.sector===s).length}</em></button>`)
          .join("") + `<span class="count" id="count"></span>`;
+
 secEl.addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
   sector = b.dataset.s;
@@ -112,11 +125,11 @@ secEl.addEventListener("click", e => {
   render();
 });
 
-// 公司 / 信源下拉
+// 充实公司与信源下拉菜单
 const fill = (el, vals) => el.insertAdjacentHTML("beforeend",
-  [...new Set(vals)].sort((a,b)=>a.localeCompare(b,"zh")).map(v=>`<option>${v}</option>`).join(""));
+  [...new Set(vals)].filter(Boolean).sort().map(v=>`<option>${esc(v)}</option>`).join(""));
 fill(coEl, ITEMS.flatMap(i => i.companies || []));
-fill(srEl, ITEMS.map(i => i.source_cn));
+fill(srEl, ITEMS.map(i => i.source_cn || i.source_en || i.source));
 
 [qEl, coEl, srEl, dyEl].forEach(el => el.addEventListener("input", render));
 
@@ -127,27 +140,27 @@ function render(){
   const hits = ITEMS.filter(i =>
     (!sector || i.sector === sector) &&
     (!co || (i.companies || []).includes(co)) &&
-    (!sr || i.source_cn === sr) &&
+    (!sr || (i.source_cn === sr || i.source_en === sr || i.source === sr)) &&
     i.date >= floor &&
     (!q || [i.title_en, i.title_cn, i.summary_en, (i.companies||[]).join(" ")]
              .join(" ").toLowerCase().includes(q))
   );
 
-  $("#count").textContent = `${hits.length} 条 / ${ITEMS.length}`;
+  $("#count").textContent = `${hits.length} / ${ITEMS.length} items`;
   list.innerHTML = hits.length ? hits.map(i => `
     <article>
       <h2><a href="${i.url}" target="_blank" rel="noopener">${esc(i.title_en)}</a></h2>
-      ${i.title_cn ? `<p class="cn">${esc(i.title_cn)}</p>` : ""}
       <div class="tags">
-        <span class="t">${i.sector}</span>
-        <span class="t src">${esc(i.source_cn)}</span>
+        <span class="t">${esc(SECTOR_MAP[i.sector] || i.sector)}</span>
+        <span class="t src">${esc(i.source_en || i.source_cn || i.source)}</span>
         <span>${i.date}</span>
         ${(i.companies||[]).map(c=>`<span>${esc(c)}</span>`).join(" · ")}
       </div>
       <p class="sum">${esc(i.summary_en)}</p>
     </article>`).join("")
-    : `<div class="empty">没有匹配的条目 · No matching items</div>`;
+    : `<div class="empty">No matching items found</div>`;
 }
+
 function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 render();
 </script>
