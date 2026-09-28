@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-28T07:48:12+00:00",
+ "last_run": "2026-09-28T07:56:31+00:00",
  "status": "fail",
  "provider": "gemini",
  "model": "gemini-3.5-flash",
@@ -9,13 +9,13 @@
   "empty_ids": []
  },
  "items": {
-  "fetched": 502,
-  "new": 495,
+  "fetched": 503,
+  "new": 496,
   "enriched": 0,
-  "failed": 495,
+  "failed": 496,
   "archive_total": 0
  },
  "problems": [
-  "有 495 条新内容，但一条都没加工成功 —— 大概率是 gemini 的 key 失效、额度用尽，或型号名 gemini-3.5-flash 已下线"
+  "有 496 条新内容，但一条都没加工成功 —— 大概率是 gemini 的 key 失效、额度用尽，或型号名 gemini-3.5-flash 已下线"
  ]
 }
