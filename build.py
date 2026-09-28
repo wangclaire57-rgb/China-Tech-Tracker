@@ -4,7 +4,7 @@ China Tech Tracker — 抓取 -> 去重 -> 模型翻译/摘要/分类 -> 生成�
 
 运行：  python build.py
 需要：  对应厂商的 API key（见 providers.py / README）
-产出：  data/items.json    累积存档，可直接转 Excel
+产出：  data/items.json   累积存档，可直接转 Excel
         data/health.json   每次运行的健康快照
         docs/index.html    GitHub Pages 发布的页面
 
@@ -27,6 +27,9 @@ OUT      = ROOT / "docs" / "index.html"
 
 PROVIDER = os.environ.get("TRACKER_PROVIDER") or "claude"   # claude|deepseek|qwen|gemini
 MODEL    = os.environ.get("TRACKER_MODEL") or DEFAULT_MODEL[PROVIDER]
+
+# 单次运行最大加工 AI 新闻数量（防止首次启动积压几百条运行时间过长）
+MAX_ENRICH_ITEMS = int(os.environ.get("MAX_ENRICH_PER_RUN", 100))
 
 
 # ---------------------------------------------------------------- 取数
@@ -75,7 +78,7 @@ def fetch(src, defaults):
         parsed = feedparser.parse(feed_url(src))
     except Exception as e:
         print(f"  ! {src['id']} 抓取失败：{e}")
-        return out
+        return src["id"], out
 
     limit = int(src.get("max_items_per_run", defaults.get("max_items_per_run", 25)))
     for e in parsed.entries[:limit]:
@@ -99,8 +102,7 @@ def fetch(src, defaults):
             "source_en": src.get("name_en", src["id"]),
             "sector":    src.get("default_sector", "综合"),
         })
-    print(f"  · {src['id']}: {len(out)} 条")
-    return out
+    return src["id"], out
 
 
 # ---------------------------------------------------------------- 健康检查
@@ -132,20 +134,35 @@ def diagnose(sources, per_source, fresh, todo, done, failed):
 def main():
     defaults, sources = load_sources()
 
-    print(f"抓取 {len(sources)} 个信源…")
+    print(f"正在并发抓取 {len(sources)} 个信源…")
     per_source, fresh = {}, []
-    for src in sources:
-        got = fetch(src, defaults)
-        per_source[src["id"]] = len(got)
-        fresh += got
+    
+    # 优化1：对 RSS 抓取也采用多线程，防止阻塞
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        results = pool.map(lambda src: fetch(src, defaults), sources)
+        for src_id, got in results:
+            per_source[src_id] = len(got)
+            fresh += got
+            print(f"  · {src_id}: {len(got)} 条")
 
     archive = json.loads(DATA.read_text("utf-8")) if DATA.exists() else []
     known = {i["id"] for i in archive}
-    todo = {i["id"]: i for i in fresh if i["id"] not in known}
-    print(f"\n新条目 {len(todo)} 条，送 {PROVIDER}/{MODEL} 加工…")
+    todo_dict = {i["id"]: i for i in fresh if i["id"] not in known}
+    
+    # 取最新的未加工条目
+    todo_list = list(todo_dict.values())
+    if len(todo_list) > MAX_ENRICH_ITEMS:
+        print(f"\n未加工新条目共 {len(todo_list)} 条，本次优先处理最新的 {MAX_ENRICH_ITEMS} 条…")
+        todo_list = todo_list[:MAX_ENRICH_ITEMS]
+    else:
+        print(f"\n新条目 {len(todo_list)} 条，送 {PROVIDER}/{MODEL} 加工…")
 
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        raw = list(pool.map(enrich, todo.values()))
+    # 优化2：针对不同 Provider 配置最佳线程数（Qwen/DeepSeek 可开高并发）
+    max_workers = 1 if PROVIDER == "gemini" else 20
+    
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        raw = list(pool.map(enrich, todo_list))
+        
     done = [r for r in raw if r]
     failed = sum(1 for r in raw if r is None)
     print(f"通过相关性筛选 {len(done)} 条（{failed} 条被丢弃或加工失败）")
@@ -154,7 +171,7 @@ def main():
     merged = sorted([i for i in archive + done if i["date"] >= keep_from],
                     key=lambda i: (i["date"], i["source_en"]), reverse=True)
 
-    problems, dead = diagnose(sources, per_source, fresh, todo, done, failed)
+    problems, dead = diagnose(sources, per_source, fresh, todo_list, done, failed)
     now = dt.datetime.now(dt.timezone.utc)
 
     HEALTH.parent.mkdir(parents=True, exist_ok=True)
@@ -164,7 +181,7 @@ def main():
         "provider": PROVIDER,
         "model":    MODEL,
         "sources":  {"total": len(sources), "empty": len(dead), "empty_ids": dead},
-        "items":    {"fetched": len(fresh), "new": len(todo), "enriched": len(done),
+        "items":    {"fetched": len(fresh), "new": len(todo_dict), "enriched": len(done),
                      "failed": failed, "archive_total": len(merged)},
         "problems": problems,
     }, ensure_ascii=False, indent=1), "utf-8")
@@ -182,7 +199,7 @@ def main():
     if problems:
         print("\n!! 本次运行异常：")
         for p in problems:
-            print("   -", p)
+            print("    -", p)
         notify.send("抓取异常，页面可能已停更",
                     [f"· {p}" for p in problems] + [f"（{PROVIDER}/{MODEL}）"])
         sys.exit(1)          # 让 Actions 标红，触发 workflow 里的兜底通知
