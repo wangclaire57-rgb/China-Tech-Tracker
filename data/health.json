@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-28T11:30:14+00:00",
+ "last_run": "2026-09-28T11:34:47+00:00",
  "status": "fail",
  "provider": "qwen",
  "model": "qwen3.7-flash",
@@ -12,13 +12,13 @@
   ]
  },
  "items": {
-  "fetched": 647,
-  "new": 506,
-  "enriched": 44,
-  "failed": 56,
-  "archive_total": 325
+  "fetched": 644,
+  "new": 463,
+  "enriched": 14,
+  "failed": 86,
+  "archive_total": 339
  },
  "problems": [
-  "加工失败率过半：56/100 条失败"
+  "加工失败率过半：86/100 条失败"
  ]
 }
