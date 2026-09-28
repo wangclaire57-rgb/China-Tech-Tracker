@@ -2,7 +2,7 @@
 模型适配层 —— 同一套 prompt，四家可切换：claude / deepseek / qwen / gemini
 
 环境变量：
-    TRACKER_PROVIDER   claude（默认） | deepseek | qwen | gemini
+    TRACKER_PROVIDER   claude | deepseek | qwen（默认建议） | gemini
     TRACKER_MODEL      覆盖具体型号（各家型号名变得很快，留空用下面的默认值）
 
 各家的 key 环境变量见 PROVIDERS 表。除 Claude 外全部走 OpenAI 兼容协议，
@@ -146,7 +146,7 @@ def _call_openai_compatible(item, model, cfg, provider="openai"):
     from openai import OpenAI
     client = OpenAI(api_key=os.environ[cfg["key_env"]], base_url=cfg["base_url"])
     
-    max_retries = 5
+    max_retries = 3
     for attempt in range(max_retries):
         try:
             r = client.chat.completions.create(
@@ -156,9 +156,11 @@ def _call_openai_compatible(item, model, cfg, provider="openai"):
                           {"role": "user",   "content": _user_prompt(item)}],
             )
             
-            # 针对 Gemini 免费版（5 RPM）平滑请求速率：每次成功后强制休眠 12 秒
+            # 仅在仍然选择 Gemini 且是免费层时保留微小延迟，Qwen/DeepSeek 无需强制休眠
             if provider == "gemini":
                 time.sleep(12)
+            else:
+                time.sleep(0.1)  # 保持轻微间隔防止网络冲击
                 
             u = r.usage
             return json.loads(r.choices[0].message.content or "{}"), \
@@ -166,10 +168,9 @@ def _call_openai_compatible(item, model, cfg, provider="openai"):
 
         except Exception as e:
             err_msg = str(e)
-            # 判断是否触发 429 或限流错误
-            if ("429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg) and attempt < max_retries - 1:
-                wait_time = (attempt + 1) * 20 + 5  # 自动重试时间：25s, 45s, 65s...
-                print(f"  ![Gemini] 触发 429 频率限制，等待 {wait_time} 秒后进行第 {attempt + 1} 次重试...")
+            if ("429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg or "rate limit" in err_msg.lower()) and attempt < max_retries - 1:
+                wait_time = (attempt + 1) * 3 + 2  # 触发偶尔限流时短暂停顿 5s、8s
+                print(f"  ![{provider}] 触发速率限制，等待 {wait_time} 秒后重试...")
                 time.sleep(wait_time)
             else:
                 raise e
