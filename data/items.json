@@ -1,5 +1,33 @@
 [
  {
+  "id": "8be5294344f9beff",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd1ZhRE5oMW5ZRXgzWkNBanpMYXJqelRNbUNmRllsemRHbjNJODRsVXdhUjZVM2VYclMtNmRBdHAzcUU1czdkYTM4U3QzM2RweERwLXpFNVdyVWQtWndOMVJDTmtwQ3pGZU83WVBXX2R6VnNNR0VsUEhqeWxnQmxEQnk3TQ?oc=5",
+  "title_cn": "《中国科学院“十五五”发展规划》发布",
+  "date": "2026-09-28",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Chinese Academy of Sciences Releases '15th Five-Year Plan'",
+  "summary_en": "Xinhua Net reports that the Chinese Academy of Sciences has officially released its '15th Five-Year Plan' development blueprint. The document outlines strategic priorities and research directions for the period spanning 2026 to 2030.",
+  "companies": [
+   "Chinese Academy of Sciences"
+  ]
+ },
+ {
+  "id": "a479986132d3497d",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15SVFmMXpPYVBOaUJfM09wRllVOEpjVmJTMkV1d2Voem9EdFpiU0NLWHdDbGFfdW5TU3lfVmtaalRMZlJrbUxnY19iMndlVWdzWktTUHhKeVlBQ2tlTk81MjFyX2xaTEQxUEZDSkZCVXhPYTc4NUtJ?oc=5",
+  "title_cn": "国务院国资委：中央企业要更好锻造国家战略科技力量",
+  "date": "2026-09-28",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "SASAC: Central Enterprises to Strengthen National Strategic Scientific and Technological Forces",
+  "summary_en": "On September 28, 2026, the State-owned Assets Supervision and Administration Commission (SASAC) issued a directive stating that central state-owned enterprises must better forge national strategic scientific and technological forces. The announcement emphasizes the role of these enterprises in enhancing China's technology sector without specifying detailed quantitative metrics.",
+  "companies": [
+   "State-owned Assets Supervision and Administration Commission"
+  ]
+ },
+ {
   "id": "ccbfca7265cbcca6",
   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiZ0dNQWwwSGVvaDZWelhCVWJyTmdQQVI0Snp3TlMwWWtRUk5Vbkd1NWNnWXJBVjduRWl2aEFTVFNlNERFMUtVMTRxZXRFUEVZMU1ZbER1aWJqODk1RGUtWQ?oc=5",
   "title_cn": "核心任务抢占科技制高点，《中国科学院“十五五”发展规划》发布",
@@ -23,6 +51,58 @@
   "sector": "综合",
   "title_en": "Shanghai Hongqiao International Science and Technology Week in November to Feature Yangtze River Delta Innovation Corridor",
   "summary_en": "The Shanghai Hongqiao International Science and Technology Week is scheduled to be held in November. The event will feature a flagship exhibition area dedicated to the Yangtze River Delta Innovation Corridor, showcasing regional technological collaboration.",
+  "companies": []
+ },
+ {
+  "id": "fd5dd6526aa1f83c",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BbFp4WTFtRUc0MGVKRTFkRTRMdlg2RGdueDh6anRSbjJmSzRwZFktazRNa3BjRG5YMjJLTDVxNHoyMHVHQS04ekNfdm93WVNTQnNhcDhpTWc0cTlUQWZYdQ?oc=5",
+  "title_cn": "国务院国资委首次专门编制“十五五”科技创新规划：推动中央企业一致发力，避免低效重复投入",
+  "date": "2026-09-28",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "General Tech",
+  "title_en": "SASAC Compiles First '15th Five-Year' Tech Innovation Plan for Central SOEs",
+  "summary_en": "The State-owned Assets Supervision and Administration Commission (SASAC) has compiled its first dedicated technology innovation plan for the 15th Five-Year Plan period. The initiative aims to coordinate central state-owned enterprises to exert collective effort and prevent inefficient, redundant investments in technological sectors.",
+  "companies": [
+   "SASAC"
+  ]
+ },
+ {
+  "id": "c06058fca7b53f4b",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15RnB3SHFEVXhLNDVBQzdIWGVkSUh2Mm1YdkhqQk1yQXJIYVRqSUVZTHB1WlNuS1h3dTB4UlNVczV5YTE3emR6MUc0WDRPbDkydHBfYWNHdk5uZnJsWXc?oc=5",
+  "title_cn": "",
+  "date": "2026-09-28",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "General Tech",
+  "title_en": "A-shares Open Lower and Fall; Computing Hardware and Semiconductor Chips Lead Declines",
+  "summary_en": "On September 28, 2026, the A-share market opened lower and continued to fall during morning trading. The computing hardware and semiconductor chip sectors led the declines. Specific indices or percentage drops were not detailed in the provided text.",
+  "companies": []
+ },
+ {
+  "id": "54377faec189a86d",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrRWlTdksxa3E4VXRzVWZnSzgwYlFtSXdqbjVPSUh2X0w2WUZBa2lQMFFKMUYyRUtUaHItZ0tFT3Fndl9QTE9NMV90ZkdWTEQ0Z3hXOGQ5Nl9iM2ZaeFEyag?oc=5",
+  "title_cn": "国务院国资委：继续加大算力网投资力度，接续打造“AI+”产业共同体",
+  "date": "2026-09-28",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "General Tech",
+  "title_en": "SASAC: Continue to Increase Investment in Computing Power Networks, Build 'AI+' Industrial Community",
+  "summary_en": "The State-owned Assets Supervision and Administration Commission (SASAC) announced plans to expand investment in computing power networks. The initiative aims to foster an industrial ecosystem centered on the 'AI+' concept, integrating artificial intelligence with various sectors under the guidance of state-owned enterprises.",
+  "companies": [
+   "SASAC"
+  ]
+ },
+ {
+  "id": "a95f2650fabe6e00",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zbmJJUG9oNC1xbGFzMDB4U2VCazhFbVRLcTN6WXV2T1RyQ3QydlNmaGU3U1lNNEJVMDRMeFMxSU5sWi1UYlFFVWdSOXJ4eU82dm1rWHNiTGxGYTJpSEE?oc=5",
+  "title_cn": "A股周一再迎调整，科技板块领跌是否意味着基本面反转？",
+  "date": "2026-09-28",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "General Tech",
+  "title_en": "A-shares face further adjustments on Monday: Does the tech sector's leadership in declines signal a fundamental reversal?",
+  "summary_en": "The article questions whether the leading decline in China's A-share technology sector during Monday's market adjustment indicates a reversal in fundamentals. The provided text is limited to this headline question and offers no specific data, events, or company details.",
   "companies": []
  },
  {
@@ -165,6 +245,20 @@
   "companies": [
    "China Geological Survey",
    "Chinese Academy of Sciences"
+  ]
+ },
+ {
+  "id": "b5f5eb7dbe27f81f",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15aTRPSWhhR0R0YWlPVUZpN3FBUHdQLWhDMm51NVpyWXAzVlhYNEczMDJsNnhFUWE1TUdJSUlId0hSSjltMkJiR3Z6MFJIM2JoblZHTk9NRFNhbk1lSEE2ejFLaUpsVFdsQ2FNOWJfTTE?oc=5",
+  "title_cn": "一周科技盘点丨最高、最大、首次，中国创新刷新多项纪录！",
+  "date": "2026-09-28",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "General Tech",
+  "title_en": "Weekly Tech Review: Chinese Innovation Sets New Records for Height, Scale, and Firsts",
+  "summary_en": "Science and Technology Daily published a weekly review summarizing Chinese technological achievements noted as 'highest', 'largest', or 'firsts' during the week of September 28, 2026. The article aggregates multiple innovation milestones but does not provide specific details on entities, technologies, or numerical data in the provided text excerpt.",
+  "companies": [
+   "Science and Technology Daily"
   ]
  },
  {
@@ -626,6 +720,20 @@
   ]
  },
  {
+  "id": "8df7b263ce437eea",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwZl8tN2lyUlIxczNHTG1ZeVZzQ3htMXc5LS1QOFB3Nk5YZ1VMRFV0eXA4Mm5LMURuSEswYVFaSFYtcGpwbTEzUW5DUGl5RE4tb2k4WXlSMkI5WmN3bjgxem4tYzM?oc=5",
+  "title_cn": "苹果确认iPhone 18 Pro系列存在软件漏洞 本周推送更新",
+  "date": "2026-09-28",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Apple Confirms Software Vulnerability in iPhone 18 Pro Series, to Release Update",
+  "summary_en": "Caixin reports that Apple has confirmed a software vulnerability affecting the iPhone 18 Pro series and stated it will release an update this week.",
+  "companies": [
+   "Apple"
+  ]
+ },
+ {
   "id": "d8b12cc58eb746af",
   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wbmZjMl9tbkhnY1lmNVBnNVJKcVNTZlhYbkZpamxCUUh5dVBEMno5eHRVV2JIU2lPb3hrWDJLczktelhiNVlXZ0hISnpwclU?oc=5",
   "title_cn": "穿越18年电商变局、年营收仍超千亿，唯品会为什么一直没死？",
@@ -666,6 +774,165 @@
   ]
  },
  {
+  "id": "0ef4a902a128c0bf",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QdGZka28xLUVkVFFUSkxlVHp6Tm1GejRsY2FLbjFiZmVIcHk5OEJ6NERoWlRkMEhlU0lCaVptUzJLRGplYlMyeEgxRnFZU0NVaHZObXVYX2M?oc=5",
+  "title_cn": "金融监管总局、科技部等部门联合召开科技保险交流推进会，多方协同支持科技创新",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Financial Regulatory Administration, MOST Hold Tech Insurance Promotion Meeting to Support Sci-Tech Innovation",
+  "summary_en": "The National Financial Regulatory Administration (NFRA) and the Ministry of Science and Technology (MOST) jointly held a promotional meeting on technology insurance. The event aimed to strengthen multi-party coordination to support scientific and technological innovation through insurance mechanisms.",
+  "companies": [
+   "National Financial Regulatory Administration",
+   "Ministry of Science and Technology"
+  ]
+ },
+ {
+  "id": "ab53c9279bf02c85",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55dloySEJaMy1yaEM3WHFzZEctc3NlbGhnQm0tcEFldjJ4V1lBT0lTYWRtMFY5WTZqdTJYUDdVZjg1ZE0wLThCV0I3Si1RbExWbk9ZY011WEY?oc=5",
+  "title_cn": "",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "HGTECH Proposes Restricted Stock Incentive Plan for 9.8 Million Shares",
+  "summary_en": "HGTECH plans to launch a restricted stock incentive plan involving 9.8 million shares, according to reports from September 2026. The specific details regarding the recipients, pricing, and performance targets are not provided in the available source text.",
+  "companies": [
+   "HGTECH"
+  ]
+ },
+ {
+  "id": "d554a743d91d4dfe",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NazhRRlZER29nZEhDRHp4VWQzMnNRRmdjT0dqRV8yeW5DSE0tdEJTbHFTWnNUNXpxeVM2NDB3VS1fbjBQY3hlcmpPQkxHM2ZacWlIcEtvSFM?oc=5",
+  "title_cn": "宁德时代：完成发行50亿元第八期绿色科技创新债券",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "CATL Completes Issuance of 5 Billion Yuan Eighth Green Sci-Tech Innovation Bond",
+  "summary_en": "Contemporary Amperex Technology Co. Limited (CATL) has completed the issuance of its eighth tranche of green sci-tech innovation bonds, totaling 5 billion yuan. The financing activity reinforces the company's capital resources dedicated to green technology development and sustainability initiatives.",
+  "companies": [
+   "Contemporary Amperex Technology Co. Limited"
+  ]
+ },
+ {
+  "id": "2d38b64563efded5",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xMEtPZldISldGOURsSGhUZGtRN291cHo1UnpyclNkbzNuV1FON1pkcEJUVkZ3ckR2RXNncWJnNmt2RkNWd0xUMEdqVFZNWmtBSXJnYmpPVVI?oc=5",
+  "title_cn": "鼎阳科技：发布SNA6000A系列高性能矢量网络分析仪新品",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Siglent Technologies Launches New SNA6000A Series High-Performance Vector Network Analyzers",
+  "summary_en": "Siglent Technologies (鼎阳科技) has released the new SNA6000A series of high-performance vector network analyzers. The announcement is sourced from 36Kr.",
+  "companies": [
+   "Siglent Technologies"
+  ]
+ },
+ {
+  "id": "198951574d36aa9f",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1YUllKY3htRFY1WHFDdEFuNEpQeUhBNmJ6ZUU2R3JxaDI1TkF1MGl0M2lkbzVUZU5sTExNY1Q0ZWdiOXdrX2lWODdiQWRwLWdaX3BVbEVIWXc?oc=5",
+  "title_cn": "光智科技：拟设立合资公司投建高性能红外探测器产业化项目",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Optech to Establish Joint Venture for High-Performance Infrared Detector Project",
+  "summary_en": "Optech plans to establish a joint venture to invest in the industrialization project of high-performance infrared detectors. Specific details regarding investment scale, partners, or timelines are not provided in the source text.",
+  "companies": [
+   "Optech"
+  ]
+ },
+ {
+  "id": "a91fc1d950b47bf8",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlVTc2NEhDcmM5WnVpMTBwY3N6QXRQaVhOeHZIZFRHMGZpcWNzbzg5NnRnNm0tY3RiNncxSUFLS1RUcU10U2RpN2ZXLU5lUFgxenNJSmJ6ZzI?oc=5",
+  "title_cn": "1—8月科技保险为科技活动提供风险保障8.7万亿元",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Sci-Tech Insurance Provided Risk Protection Worth 8.7 Trillion RMB for Tech Activities in Jan-Aug",
+  "summary_en": "From January to August, sci-tech insurance provided risk protection totaling 8.7 trillion RMB for technology-related activities. This figure reflects the scale of financial backing supporting innovation and technological endeavors in China during the first eight months of the year.",
+  "companies": []
+ },
+ {
+  "id": "a334b77d529d6b51",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Ja0tZT1g2YUVEcEI2WU03VzBkU05VZVV1cF8tTWJSdHJuNzlOZXRpTVJra1M5Z3N5em5ja1Q0TnNteHl5MHdGdVhsd21UQjlONTVXekFNak8?oc=5",
+  "title_cn": "",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Eight Departments: Improve Financing System for Early, Small, Long-term, and Hard Tech Investments",
+  "summary_en": "Eight Chinese government departments have jointly issued guidance to strengthen the financing ecosystem supporting early-stage startups, small enterprises, long-term capital allocation, and hard technology sectors. The policy aims to align financial resources with national innovation goals.",
+  "companies": []
+ },
+ {
+  "id": "3009aade4ac0a3e7",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EbEJUMlJucVlWNVIxSmh2YlVjWHV5eDJfTTAwTU9fNlkxc3V4NWoxV3NRT0Q2REI5ejZ5OERua2tHVG1iMDNiZm0zR2lfdjc3RmZCRWZ0STc?oc=5",
+  "title_cn": "虹软科技：已耗资3497.32万元回购0.28%股份",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "ArcSoft: Spends 34.97 Million Yuan to Repurchase 0.28% of Shares",
+  "summary_en": "ArcSoft has spent 34.97 million yuan to repurchase 0.28% of its shares.",
+  "companies": [
+   "ArcSoft"
+  ]
+ },
+ {
+  "id": "0c00a67de5b3a464",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VdUYtTy1ETXRlNWREcW9MUnNVdExjRU00WGxjeVljZUE4Z1R6dWlGNjRQNkxqb0dqXzVjZ21YRUNpYy1zamtmVm5PZElyS3VJMW9XbkhxdG8?oc=5",
+  "title_cn": "国务院国资委：中央企业要更好锻造国家战略科技力量",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "SASAC: Central Enterprises to Strengthen National Strategic Tech Capabilities",
+  "summary_en": "The State-owned Assets Supervision and Administration Commission (SASAC) has stated that central enterprises must better forge national strategic science and technology capabilities. The directive emphasizes enhancing the role of state-owned firms in driving China's technological innovation and strategic development.",
+  "companies": []
+ },
+ {
+  "id": "b5a253a900a17c35",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84LXIxOTQwVnVpQWlKdUtkNHd6bjl2YU5EajQ5ejUtQktiU3k5R1B4QXl0WXNaT2NES01PTG5HYjVDNVN1T19hRHdUemc5QWkyQjJmYTlrZmU?oc=5",
+  "title_cn": "盒马在广西成立桂鲜达网络科技公司",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Hema Freshta Establishes Guixianda Network Technology in Guangxi",
+  "summary_en": "Hema Freshta has established a new entity, Guixianda Network Technology Co., Ltd., in Guangxi. The company has a registered capital of 10 million RMB.",
+  "companies": [
+   "Hema Freshta"
+  ]
+ },
+ {
+  "id": "e84cf57f362eeca6",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0tWFFwWk0xYUpLYzM5MnNvdU51MXNKdm9HcFZ1VGdvczRndk9iMmlOc3QzdTBFUnFEZ1ZKYWx2cEMzVWJlMEF4ZDN0UlpGUQ?oc=5",
+  "title_cn": "北方沿海省份，瞄准下一个“万亿之城”",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Northern Coastal Provinces Target the Next 'Trillion-Yuan City'",
+  "summary_en": "The article discusses economic development goals in northern coastal provinces, specifically focusing on identifying and cultivating the next city with a GDP of one trillion yuan. No specific cities, companies, or detailed policy metrics are provided in the supplied text snippet.",
+  "companies": []
+ },
+ {
+  "id": "cce8c10e624e2b9a",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KVnNLQjgzemdIVEktQ0RsVC1xbTBjVGVYY3FOYmNHS29FZXZYWWd3b3YySTNQYTFtZ3Y5eTdxeTJHVTNmbThjNjBBN0RzUGZhc25UWm14WmFHUnkxLS1KNWJKTFl5MEp6VDJLcEdxWGlreTg0MndR?oc=5",
+  "title_cn": "当AI遇见岐黄 中医药高等教育拥抱科技创新",
+  "date": "2026-09-27",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Traditional Chinese Medicine Higher Education Embraces Tech Innovation with AI",
+  "summary_en": "A Xinhua report highlights the integration of artificial intelligence into higher education for traditional Chinese medicine (TCM), emphasizing how tech innovation is being applied to this sector. No specific companies, institutions, or key figures are identified in the provided source text.",
+  "companies": []
+ },
+ {
   "id": "5961f358271c8e67",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iTUMtNmZ1UFNrU3hHMmlxV1Jram9GQ3VoeTFtYVo5VEJOZ2dtLWx6NnRLT3R5aFdLcDk3dk9NLTFDdk1IVFNMV0UxaTdobE5EVVlVLTFwSHJ6aW9WbHc?oc=5",
   "title_cn": "京蓝科技：拟5000万元起拍转让中科鼎实股权及债权，剥离持续大额亏损业务",
@@ -679,6 +946,32 @@
    "Jinglan Technology",
    "Zhongke Dingshi"
   ]
+ },
+ {
+  "id": "48fa3e85af4afcf0",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uZkZmcF9ZTmE3WVBJSlRzejl0bXg5akdjR3dNQzFpU1FnVnpLWGY5RnVKbWVYNlV2ZEd0VUpnVEdNNnYwdHMybjIzY2hVei05WnozX1JZRE5aVmo1cVE?oc=5",
+  "title_cn": "中圣科技回复深交所IPO问询：业绩持续下滑情况下仍实施大额分红、购买大额理财产品等问题受关注",
+  "date": "2026-09-27",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "General Tech",
+  "title_en": "Zhongsheng Technology Addresses SZSE IPO Inquiries on Dividends and Wealth Management Amid Declining Performance",
+  "summary_en": "Zhongsheng Technology responded to inquiries from the Shenzhen Stock Exchange regarding its IPO application. Regulators focused on why the company implemented large-scale dividend distributions and purchased significant wealth management products while its financial performance continues to decline. The company addressed these concerns as part of its regulatory review process.",
+  "companies": [
+   "Zhongsheng Technology"
+  ]
+ },
+ {
+  "id": "d760652bd82956f8",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50NFhyb2xtaFYyYnVvejhCX3hVbHNEUlZ2ZDVnaHVVdXp5UHRqZWY3UnJEZEhvTEFJXzk0ZkZGeTRLdWd6dEpKRHhhZGpDcWhHTXdIbTdKUE1HQzhPcEFUSQ?oc=5",
+  "title_cn": "XR营造沉浸式视听体验，“文化+科技”在上海解锁演艺新可能",
+  "date": "2026-09-27",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "General Tech",
+  "title_en": "XR Creates Immersive Audio-Visual Experiences, Unlocking New Possibilities for Performance in Shanghai through 'Culture + Technology'",
+  "summary_en": "The article discusses the application of XR (Extended Reality) technology to create immersive audio-visual experiences in Shanghai's entertainment sector. It highlights how the combination of culture and technology is unlocking new possibilities for performances and exhibitions in the city.",
+  "companies": []
  },
  {
   "id": "71866f078fb07a6c",
@@ -897,6 +1190,105 @@
   "companies": []
  },
  {
+  "id": "f72d6d5f445cc9cf",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QRXJNNmphSlNJMlEzMGlwM1F2Y3JiR2JDVUx1NE96aWVQT2FNOWdWaThJd0pEeXpFZ3djRDI3R2RnVUhGTGo5LWJmSHRpbXZtX1l5Z2lNTUQ?oc=5",
+  "title_cn": "伯恩斯坦：澜起科技维持“跑赢大市”评级，目标价520港元",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Bernstein Maintains 'Outperform' Rating for Montage Technology, Target Price HKD 520",
+  "summary_en": "Brokerage Bernstein maintains an outperform rating on Montage Technology with a target price of HKD 520. The recommendation reflects continued optimism regarding the company's market position and future performance prospects within the semiconductor sector.",
+  "companies": [
+   "Montage Technology"
+  ]
+ },
+ {
+  "id": "ab44ca3d8c16f66e",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14cDhYclJ4TG04MTYzMTZXa2VjdEFQZjduVVdWN2tqN2lrODh5VlFfQ3NmX01rbkx6dVZGNl9rM1kyeThZY1VTODVVWjhDRWRSellV?oc=5",
+  "title_cn": "让AI控制航空发动机 玉琮科技为AI打造专属“安全笼”",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Yuzhong Technology Builds 'Safety Cage' for AI to Control Aircraft Engines",
+  "summary_en": "Shanghai-based Yuzhong Technology is applying its safety technology to aircraft engine control. The company aims to enable artificial intelligence to manage complex industrial operations by creating a dedicated security framework, referred to as a 'safety cage,' ensuring reliable and safe AI implementation in aviation contexts.",
+  "companies": [
+   "Yuzhong Technology"
+  ]
+ },
+ {
+  "id": "b582824f79c4cdf8",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpQWlHa3JoSFFabnhxU1NqT1lEcmVXZlNUMFZEWUdhNFR6RDFjb2FDMGtmSGVnS3Rjd2hMRHZmYV84cFFfc0szazdJdWxPRlhQZnBuUDM5ci11XzQ?oc=5",
+  "title_cn": "与小鹏、小米、蔚来等客户的合作是否有可披露的新进展？欣锐科技回应",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Xinrui Technology Responds to Questions on Cooperation with XPeng, Xiaomi, Nio",
+  "summary_en": "Xinrui Technology provided a response regarding inquiries about any disclosable new developments in its business cooperation with major electric vehicle clients, specifically mentioning XPeng, Xiaomi, and Nio. The article reports that the company addressed these specific client-related questions.",
+  "companies": [
+   "Xinrui Technology",
+   "XPeng",
+   "Xiaomi",
+   "Nio"
+  ]
+ },
+ {
+  "id": "b7b8d67b9ea10e64",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10Qm9oY2dGS09tR1R1bmVEbUFQbEpYd3dJazdSZXRZdmpDVHhPdllnd2lOM0xJSXQ0OU4tSG1ncXhHbGU3b2RnTktJc3NkQQ?oc=5",
+  "title_cn": "凯文·凯利：AI的价值最终在场景，而医疗被低估了",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Kevin Kelly: AI's Value Lies in Scenarios, and Healthcare is Undervalued",
+  "summary_en": "In a 36Kr article, Kevin Kelly argues that the ultimate value of artificial intelligence resides in practical application scenarios rather than raw technology alone. He specifically contends that the healthcare sector has been undervalued in the current AI landscape, suggesting significant potential for AI-driven innovations within this field.",
+  "companies": [
+   "Kevin Kelly"
+  ]
+ },
+ {
+  "id": "ba459c6e30db52c1",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XcGt3b0hoTjZlMUo1OVBEN1pCNEh0NnNzazE0R1YtVVFNSFJrTWs1TDJSSEtPSEdMRFdqQklaMEVhXzdUbFRMOGMyOXFFSFU2dFhz?oc=5",
+  "title_cn": "36氪项目推荐周榜第20期：覆盖光刻设备到商业航天的10大创新项目精选",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "36Kr Weekly Project Recommendations No. 20: 10 Innovative Projects from Lithography Equipment to Commercial Aerospace",
+  "summary_en": "36Kr publishes its 20th weekly ranking of innovative Chinese projects. The selection highlights ten companies spanning various high-tech sectors, explicitly ranging from lithography equipment manufacturing to commercial aerospace ventures. The article curates these specific innovation examples for investor and researcher consideration.",
+  "companies": [
+   "36Kr"
+  ]
+ },
+ {
+  "id": "3bd17aa21e163757",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ia25lZUUxS3JqVVd5UUtzbVJVQXVwakgwWjRQTHpuSVU2Y0gyMjVhQ3JvVnZqblhfZ0tZM3BQbGEyQVBTR2pZRnVMZThtWnowYzdrMmltYnhJcEk?oc=5",
+  "title_cn": "A股三大指数集体低开，黄金股领跌",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "A-share Major Indices Open Lower, Gold Stocks Lead Declines",
+  "summary_en": "China's three major A-share indices opened lower in collective declines. Within the market, gold-related stocks experienced the most significant drops, leading the downward movement across the sector.",
+  "companies": []
+ },
+ {
+  "id": "bc2f01a997e6cc88",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YcklFMm81M0R4a1hIUWhucnhjVUthcG9TMU1GYmJwS21PUzc4Uldkb2J2Q203ZFdLQ2N5SUJHX0hJRHI0NHhRTWQwenBBbW1KYUhENDE5SUNqSVNTU2c?oc=5",
+  "title_cn": "电子科技大学，70岁生日快乐！",
+  "date": "2026-09-26",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "General Tech",
+  "title_en": "University of Electronic Science and Technology of China Celebrates 70th Anniversary",
+  "summary_en": "The University of Electronic Science and Technology of China (UESTC) is celebrating its 70th anniversary. The university, founded in 1956, is a leading institution in China specializing in electronic science and technology.",
+  "companies": [
+   "University of Electronic Science and Technology of China"
+  ]
+ },
+ {
   "id": "bb93f91dad854ed0",
   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BVmFGdzJIa3puU014aTZ0NUVkeDNLcVptOWRid0ZyVjNBZTM3TUtnRzJxMDR5Rjc0dVk0aWpsYkYwcGJhcmhyamJxZ0JHQQ?oc=5",
   "title_cn": "Claude取得理论物理突破，只用了一句话+几千美元",
@@ -1022,6 +1414,18 @@
   ]
  },
  {
+  "id": "11c70795fb7e505b",
+  "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DeGtYMVNGSVpXamR5MTl3bWFlMUdBUGtlelB1MDJBaHJydnZTUWI2ZnBfZURfMDRRZElxT2VXVDd5MDZxcVFQT01JdDVzSXJuQXhTRWwza1NyZ2tobTN6UXFNNA?oc=5",
+  "title_cn": "【周刊提前读】信贷资源锚定科技、普惠、“五大篇章” 降速提质有何隐忧？",
+  "date": "2026-09-26",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Weekly Preview: Credit Resources Anchored to Tech and Inclusive Finance; Concerns Over Slowing Speed for Quality",
+  "summary_en": "The article previews a weekly report analyzing how Chinese bank credit resources are being directed toward technology, inclusive finance, and five major financial chapters. It explores the implications of shifting focus from quantity to quality in credit allocation and identifies potential concerns or risks associated with this slowdown in growth velocity.",
+  "companies": []
+ },
+ {
   "id": "f42192e4c08517da",
   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hVFZHZEl5MFVCdXFQaXNDTHVxd2p0d1BzX3JHWFkxcnFxel9hbE5hWkdLWXJ1cWtJWjVqUnpKbEVWVXEtS0I3clBSb2NLVVlm?oc=5",
   "title_cn": "从B站UP主到500亿上市公司，33岁天才少年再闯港交所",
@@ -1058,6 +1462,22 @@
   "companies": []
  },
  {
+  "id": "342d16f6edc95efe",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMYTJRZnk0c1hOWTFqU1lXRlJFZ3lOYXc0YzE5NXpiQm9iTkRKZ2ZUNmlXR25ObGo2QWNpMC16ellGbngyeGdQa0hNVjR5VnZlcXRzd0J5UzM?oc=5",
+  "title_cn": "近一周15股融资净买入额在3亿元以上，胜宏科技、新易盛、中际旭创排名前三",
+  "date": "2026-09-26",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "15 Stocks with Over 300M RMB Net Margin Buying in One Week, Victory Giant Technology and Eoptolink Top Three",
+  "summary_en": "Over the past week, 15 stocks recorded net margin buying exceeding 300 million RMB each. The top three recipients were Shenghong Technology (Victory Giant Technology), Eoptolink, and Zhongji Innolight. This data reflects short-term leverage activity by investors in these specific equities.",
+  "companies": [
+   "Shenghong Technology",
+   "Eoptolink",
+   "Zhongji Innolight"
+  ]
+ },
+ {
   "id": "96a75f0df5bb4274",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oMHQ3SEIwZ2E2ZTVfVnBXRTJhMFRmMDR3d3NVRnllM1UxdXRRUVpMdkhxZ0JDM3FyaHpNZWhxWGd3a0poOUExWENuckRkZk1xc1ZvdTBNT3VzdFNoSWc?oc=5",
   "title_cn": "AI直接下场砍价！智能体Muse爆火，给出哪些新启示？",
@@ -1068,6 +1488,20 @@
   "title_en": "AI Joins the Negotiation: AI Agent Muse Goes Viral and Offers New Insights",
   "summary_en": "The article discusses the viral popularity of 'Muse,' an artificial intelligence agent capable of negotiating prices directly. It explores the phenomenon of AI participating in consumer transactions and examines the implications or new insights provided by this development.",
   "companies": []
+ },
+ {
+  "id": "a10fe16d958e4b4a",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YdHpRYVMwS1hTMG12ZzJiVk83YXVhbERmUVZnVGRQVWxqR3psWlB0cmpuXzE1V1VuWHoxSk1FdTRzd0JVdmN5Z3NtdFpldXljY3VBekQxbHZhdDFJR1E?oc=5",
+  "title_cn": "山东航福智能装备科技有限公司：先进复合材料三维织造技术与装备",
+  "date": "2026-09-25",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "General Tech",
+  "title_en": "Shandong Hangfu Intelligent Equipment: Advanced Composite Materials 3D Weaving Technology and Equipment",
+  "summary_en": "Shandong Hangfu Intelligent Equipment Co., Ltd. presented its advanced composite materials 3D weaving technology and equipment at the ICIE-9 event. The content highlights specific industrial capabilities in manufacturing composites via three-dimensional weaving techniques.",
+  "companies": [
+   "Shandong Hangfu Intelligent Equipment Co., Ltd."
+  ]
  },
  {
   "id": "9ac78dde7730d0c8",
@@ -1293,6 +1727,35 @@
   ]
  },
  {
+  "id": "86edbd8a07d9528b",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBud2U0b0Y4bndkWEVVTk5FdUNFeVF2U2JjZVp1bXJBaU9rdHBlXzk1NkJOV19pV0tEVnZTMnlkYXRNNDdxdnZUa29rODNpbWFKRHEyQmJJcnN2c01GZXRCeFBFVXk?oc=5",
+  "title_cn": "高通孟樸：智能体跨终端协同需2027年至2028年落地",
+  "date": "2026-09-25",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Qualcomm's Mughan: Cross-device agent collaboration expected in 2027-2028",
+  "summary_en": "Qualcomm executive Mughan stated that the practical implementation of collaborative AI agents across multiple devices is projected to occur between 2027 and 2028. The comment highlights the timeline for achieving seamless interoperability of intelligent systems on different terminals.",
+  "companies": [
+   "Qualcomm"
+  ]
+ },
+ {
+  "id": "e2903507f043e088",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSMF95TWxCZ3JDSC1ZWkp4Q0psU05aVGhzUFZIN1ZrOS04SjIxcFlUUTdqZUh0X1p1MGVtNVYtRldLbjl5NzRUWDY4LTQ4N0ppcjdJRXN3UlRTcXp4b1c1VV9aS0Y?oc=5",
+  "title_cn": "智谱被指未经用户允许上传数据；Meta Muse智能体火爆；美国加州等地推新法管控数据中心建设",
+  "date": "2026-09-25",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "GPT Weekly: Zhipu AI Accused of Uploading User Data Without Consent; Meta's Muse Agent Gains Popularity; California Enacts New Rules on Data Center Construction",
+  "summary_en": "This weekly tech roundup covers three developments: (1) Zhipu AI is accused of uploading user data without consent; (2) Meta's new 'Muse' AI agent has gained significant popularity; and (3) US states including California are implementing new regulations to control the construction of data centers. The items focus on AI data privacy, AI product adoption, and infrastructure policy.",
+  "companies": [
+   "Zhipu AI",
+   "Meta"
+  ]
+ },
+ {
   "id": "39c79c41b0401cdc",
   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RRXR1SUF4UTVtbDNLdFZfYWFrTm1qY0EwN3NEWG03bEtMTlI0SllFaGJlRFd6S0NkLVlBM0JXQ3hxRTFSSmRrZHNoRzFLQQ?oc=5",
   "title_cn": "融资3亿，她宣布公司倒闭",
@@ -1302,6 +1765,30 @@
   "sector": "市场与交易",
   "title_en": "After Raising 300 Million, She Announces Company Bankruptcy",
   "summary_en": "An entrepreneur announced the closure of her company despite having previously secured 300 million in financing. The provided text is insufficient to identify the specific individual, company name, sector, or reasons for the bankruptcy.",
+  "companies": []
+ },
+ {
+  "id": "1f9661e80ce01627",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBnb0NoTFFxeWNCRXNwMWVGaFpQYy1hUXdXMEhaUVN1NmY3T25zNFR0RUhtT2d2d003Vk93ZnctUDZfSUZ5UFZDbmcyM3hGRnBIS29kRWZjUEFWeHByZkU3dWR3cHRhNWVJYzhIZFY5enE3dmFy?oc=5",
+  "title_cn": "科技创新看湖北丨一粒玉米，见证荆楚种业硬核力量",
+  "date": "2026-09-24",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Tech Innovation in Hubei: A Single Corn Seed Showcases the Strength of Jingchu Seed Industry",
+  "summary_en": "The article highlights the technological advancement and core capabilities of Hubei's seed industry, focusing on corn breeding. It positions agricultural innovation as a key part of regional scientific progress, showcasing local achievements in biotechnology and crop genetics without specific corporate or numerical data.",
+  "companies": []
+ },
+ {
+  "id": "7629767e305b9b65",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWmppT2R6VFdQejgxQWtCVzJhQzNocF9vLU5IdnJ1M2stSF94RlFROUx2cVF2U2hKY1Rmcm5GNWVGdWU4X2Zxcl93alNId19rTzRaVnAybE0zSmdRSllibjZ4WklqMnBQcDFteUNMUGpNdFVwd3hkYnQxVURoMTNmeA?oc=5",
+  "title_cn": "福建农林大学成立科技特派员学院",
+  "date": "2026-09-24",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Fujian Agriculture and Forestry University Establishes Science and Technology Commissioner College",
+  "summary_en": "Fujian Agriculture and Forestry University has established a new Science and Technology Commissioner College. The initiative aims to organize and deploy technical experts, known as 'tech commissioners,' to provide agricultural and forestry technology services at the grassroots level.",
   "companies": []
  },
  {
@@ -1507,6 +1994,18 @@
   "companies": [
    "China University of Petroleum (Beijing)"
   ]
+ },
+ {
+  "id": "d96864c5510fa4a0",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yazROV1FpTXRxcnBNRTVLMS1NZThrXzNkZDlSMUlKN1BYeG40Um1DTFBnWlFyaGdLSmxGQm9yaDFQQTBzeUJ2UUNsaklpMFdLNGhlZU1LQTJPRWowUUl6WXVtVHhWejJtQ0tXVGcyWTY?oc=5",
+  "title_cn": "海岛特色多功能车亮相世界新能源汽车大会舞台",
+  "date": "2026-09-24",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "General Tech",
+  "title_en": "Multi-purpose Vehicle for Islands Debuts at World New Energy Vehicle Congress",
+  "summary_en": "A specialized multi-purpose vehicle designed for island environments made its appearance at the World New Energy Vehicle Congress. The specific manufacturer, technical specifications, and performance metrics were not detailed in the provided source text.",
+  "companies": []
  },
  {
   "id": "86751f0ce3df55db",
@@ -1863,6 +2362,49 @@
   "companies": []
  },
  {
+  "id": "ae65376f290a63ff",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5ZjRDcTdnV1pyYWUtTlY1eU9zaE5vd0JILVZQUFVYSnVIYlpnbWZzcXFFZHI0UEVnWXVoMXNVVnRfZFZtSHUxa3hCRmVha2JZT2FuRlpBeTl2SGhyVU9DTkJ3?oc=5",
+  "title_cn": "环动科技撤回科创板上市申请 机器人赛道资本市场遇冷",
+  "date": "2026-09-24",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "HuanDong Technology Withdraws STAR Market IPO Application Amid Cooling Robotics Sector",
+  "summary_en": "HuanDong Technology has withdrawn its application for listing on the Shanghai Stock Exchange's STAR Market. The withdrawal highlights the current cooling sentiment in the capital market towards the robotics sector, suggesting increased difficulties or strategic shifts for companies in this high-growth industry seeking public financing.",
+  "companies": [
+   "HuanDong Technology"
+  ]
+ },
+ {
+  "id": "b1adc7bebee979c7",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ydTFtOFllX3htQTdKbkNtQUY4UlpxZDFyemNkRzBUd0QtV1J5UGhvRzB2T294SkI1QkNNck1nNDIxRGZaT054bzkteUlRMVdaaHhTcVhlSjIzdGl1LWl4ajljcGs?oc=5",
+  "title_cn": "T早报｜OpenAI和Anthropic呼吁加强AI国际合作；阿里发布智能体电脑等多款产品；高通发布两款2纳米工艺手机芯片",
+  "date": "2026-09-24",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "T Morning Brief: OpenAI and Anthropic Call for AI Cooperation; Alibaba Releases Agent PC; Qualcomm Launches 2nm Mobile Chips",
+  "summary_en": "This morning's news covers three major developments. First, OpenAI and Anthropic have publicly called for strengthened international cooperation on artificial intelligence. Second, Alibaba Group announced the launch of new products, including an \"Agent PC\" (artificial intelligence agent computer), alongside other devices. Third, Qualcomm released two new mobile phone chips manufactured using a 2-nanometer process technology.",
+  "companies": [
+   "OpenAI",
+   "Anthropic",
+   "Alibaba",
+   "Qualcomm"
+  ]
+ },
+ {
+  "id": "fb65e21347939e60",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mUnNjcUFFUE1yR1VqaVl3WGJVcEZIZW0tTVVYNjNReU9aVDk5Z3hWUVhoaHNIN0xLa25xUGlWXzNaNkxqbHc0R2RhV0RGMVhCd1BLMTNyakl4TFNCbWY0?oc=5",
+  "title_cn": "人事观察｜疫情期间高频出镜 53岁焦雅辉升任广西副主席",
+  "date": "2026-09-24",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Personnel Watch: Jiao Yahui, Frequent Public Face During Pandemic, Appointed Vice Chairwoman of Guangxi at Age 53",
+  "summary_en": "Jiao Yahui has been appointed as the vice chairwoman of the Guangxi Zhuang Autonomous Region government. Previously a frequent public figure during the pandemic era, she is now stepping into a key regional leadership role in Guangxi at the age of 53.",
+  "companies": []
+ },
+ {
   "id": "cf4e17ebeff281bc",
   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sc3Mxdm1valhBTHZlWkNuZXl1SlM3M3p3SU1RY3VQbVBqY1FJTjVuOHN2WVZBdC1kaTMzdF8tSGlHS1ItTjlUSUZOejdPZw?oc=5",
   "title_cn": "大厂AI赛马下，腾讯“龙虾”退场",
@@ -1874,6 +2416,32 @@
   "summary_en": "The provided text mentions that Tencent has withdrawn or discontinued its internal project known as 'Lobster' (Longxia) amidst intense competition among major tech firms racing in the artificial intelligence sector. No specific details regarding the project's timeline, objectives, or strategic reasons are included in the source snippet.",
   "companies": [
    "Tencent"
+  ]
+ },
+ {
+  "id": "bcf4ad6077b67837",
+  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zbTY1dlM0ZTlJX016dUZ5YTBtX19MY3hLMlJDa3FkUGozQWxuekR3R3h5Vm1BYk1IdkNObzF6ZEtKZnFNTU5vdnNOZTJ1ak5qNkVEN1FrWlNLeVFFWUlWYWdWOVVfVEV4ZEVPRkoySl91WkQ3ejh0Tk1zRQ?oc=5",
+  "title_cn": "甘肃省“最美科技工作者”名单公布",
+  "date": "2026-09-23",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Gansu Province Announces List of 'Most Beautiful Scientific and Technological Workers'",
+  "summary_en": "Gansu Province has announced its list of individuals honored as the \"Most Beautiful Scientific and Technological Workers.\" The text provided does not specify the number of awardees, their specific achievements, or the technologies they are associated with.",
+  "companies": []
+ },
+ {
+  "id": "5539562875ef503b",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HS0RWcHhycG0xdEQyWFc2ME1ZbjRvajB2U3laRmV3UzNxcExfajZYZXVYcWpJT054SXAxNldJNHh1YVc4elp2c0RHUG5Kb19iTXdxR0M4V2Q5LTVZTVlDZjRVSkdsOHpreG9aWEoxZWg2c3NpYVI3LUk2ZWY?oc=5",
+  "title_cn": "守护健康，守护家 瘦吧科技联合新华网发起家庭健康守护计划",
+  "date": "2026-09-23",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Shoubao Technology and Xinhua Net Launch Family Health Guardian Plan",
+  "summary_en": "Shoubao Technology (瘦吧科技) has partnered with Xinhua Net to initiate a 'Family Health Guardian Plan.' The collaborative effort aims to promote family health awareness, though specific program details or metrics were not provided in the source text.",
+  "companies": [
+   "Shoubao Technology"
   ]
  },
  {
@@ -2312,6 +2880,34 @@
   "companies": []
  },
  {
+  "id": "b93ff3890612536c",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85X3NCallEa3MteXpVczhaQW5tZUZzTEU5ZkNFQWVoVHNEaHRuNHhHVUxSU2Zxc3pGdXh1c0ZlVWRwemlEWHhOSWxJRE02X3NrclhiOURqbFllNnAxelBiT2NPYUU?oc=5",
+  "title_cn": "高通安蒙：智能体重构移动终端体验 端侧芯片面临系统级挑战",
+  "date": "2026-09-23",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Qualcomm CEO: AI Agents Redefine Mobile Experience, Pose System-Level Challenges for Edge Chips",
+  "summary_en": "Qualcomm CEO Cristiano Amon stated that AI agents are reshaping the mobile terminal experience and creating system-level challenges for edge chips. The article discusses the impact of this shift on semiconductor design.",
+  "companies": [
+   "Qualcomm"
+  ]
+ },
+ {
+  "id": "d89611539120ed08",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xcjlhUTdPNXY2YW9xZk1VdWhPR1V1SG5CYkpHcnJXaTh5RlB4VkdvaWRTUEY0WkFteTJWd3k5UUVhS3gtZWZqTE0ybUExeFFIQ1VyT2ZGbUZJeFdqVGZsNGg2cUVuQU0?oc=5",
+  "title_cn": "T早报｜外交部：各方应共同推动AI开放、包容、普惠、向善发展；林毅夫：中国AI开源模式将缩小不同经济体收入差距；吴泳铭：AI模型、芯片和云是阿里长期战略选择",
+  "date": "2026-09-23",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Foreign Ministry: Jointly Promote Open, Inclusive, Beneficial AI; Lin Yifu on Chinese AI Open Source; Wu Yongming on Alibaba's Long-Term AI Strategy",
+  "summary_en": "Caixin Tech reports three key developments. The Chinese Foreign Ministry stated that all parties should jointly promote the open, inclusive, universal, and beneficial development of AI. Economist Justin Yifu Lin argued that China's AI open-source model will help narrow the income gap between different economies. Alibaba Executive Chairman Wu Yongming affirmed that AI models, chips, and cloud computing constitute Alibaba's long-term strategic choices.",
+  "companies": [
+   "Alibaba"
+  ]
+ },
+ {
   "id": "cefdb256a690a1fd",
   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RUU83R1lIY1dIaDNDRG9YbWswT1VqdjdiTktjVXhzYm9vQ2JzV1NDMklteGM0Qm10cElWOG9ZYzVxMldPeHFyU2tCSEQtY2tn?oc=5",
   "title_cn": "朱一明做VC，给DeepSeek准备了50亿",
@@ -2364,6 +2960,56 @@
   "sector": "人工智能",
   "title_en": "Another AI Breakthrough Claims to Surpass ChatGPT",
   "summary_en": "The article title suggests the release of a new AI model that purportedly surpasses ChatGPT in performance. The provided source text is extremely sparse, containing only the headline without specific details on the developer, key metrics, or technical achievements. Consequently, no factual summary regarding who did it or key numbers can be generated beyond the existence of this claim.",
+  "companies": []
+ },
+ {
+  "id": "b8335cd513772d5b",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bDJpdjhyN0JFR3dOTWJZenBTNEFIUWJZd1p4R3A5dUVMdm1UWG1Dc1VZNnZhRTdmNVJOaXF5MUNTMDRNSUFpSnUyaW8yb0dSZjc5SEt2TkdrVWM?oc=5",
+  "title_cn": "恒指收盘跌0.29%，恒生科技指数跌0.41%",
+  "date": "2026-09-23",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Hang Seng Index Closes Down 0.29%, Hang Seng Tech Index Falls 0.41%",
+  "summary_en": "The Hang Seng Index closed with a 0.29% decline, while the Hang Seng Technology Index fell by 0.41%. The report provides closing performance figures for these major Hong Kong market indices without detailing specific drivers or individual stock movements.",
+  "companies": []
+ },
+ {
+  "id": "de31c6ed2f28b963",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UUkJlSXBaNlJpYmFZUk5ZUERpLU1yQTFNYk9LSjQxcnpfcjZ6dUJfX050ZEcxdVJtQktxakNUaWFhUGl5aTlhTEYwS3BzazFtR0hxZzlRdTE2Q2M?oc=5",
+  "title_cn": "腾讯混元宣布“腾讯Hy翻译”APP上线",
+  "date": "2026-09-23",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Tencent Hunyuan Launches 'Tencent Hy Translate' App",
+  "summary_en": "Tencent's AI division, Hunyuan, has officially launched the 'Tencent Hy Translate' mobile application. The release marks an expansion of Tencent's consumer-facing AI tools into the real-time translation sector, leveraging its underlying large language model technologies for translation services.",
+  "companies": [
+   "Tencent"
+  ]
+ },
+ {
+  "id": "1f850e82a6b57d31",
+  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPREpYT1l3VnZFMUFYcHBoeHpBaUdCSXctdkJqb2RrS1JkTVRYc00xQmIxRTRqOVRyVml6VEhzRE4weHBHdm9nVFlhQUh5Snl2Mmx6ZGNwakNBS1BFeDdKaHJybWl5UUMtSzNzYzdad04xNEJ0dEtvQnJEdXZfLWpUMkVB?oc=5",
+  "title_cn": "圆形里德堡原子多项纪录刷新",
+  "date": "2026-09-22",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Multiple Records Broken for Circular Rydberg Atoms",
+  "summary_en": "A new record has been established for circular Rydberg atoms, marking a significant advancement in atomic physics research. The specific details regarding the nature of the records and the research institution involved are not provided in the source text.",
+  "companies": []
+ },
+ {
+  "id": "e6ff9233502bede5",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vYkdLS0VVRV9MMi1oa2JJTmJGektXMUg0VnJ6cmUtbUlhdnJHakZkNnFuOWpwR0ZQQ1kwZEtGTkMxLThBNzJZOTAwdHJIdkNDczdQRGlDS2xhTjFMaFNZWS0tY1JOUmhfdk1RbHFuLVNUeWE0?oc=5",
+  "title_cn": "2026西安国际虚拟现实电影周聚焦科技赋能电影创新",
+  "date": "2026-09-22",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "2026 Xi'an International VR Film Week Focuses on Technology-Empowered Film Innovation",
+  "summary_en": "The 2026 Xi'an International Virtual Reality Film Week is highlighting how technology drives innovation in the film industry. The event centers on exploring virtual reality applications within cinema, aiming to showcase advancements in immersive digital storytelling and production techniques.",
   "companies": []
  },
  {
@@ -2990,6 +3636,97 @@
   ]
  },
  {
+  "id": "467532fe8537ece1",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uS3VYM0V4ZEVUR0E5ZklCMEtDUTdxZkR2VFE1WmhBdjdQVFdfbFd1Vk9iNjQxNkZYQ3dPaFZRQk1HNGRQbDI5NmVlSU9QZENYY0pIMG8zdThKM0RVUjV3TTFBR2VYQTA?oc=5",
+  "title_cn": "吴泳铭：AI模型、芯片和云是阿里长期战略选择",
+  "date": "2026-09-22",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Wu Yongming: AI Models, Chips, and Cloud Are Alibaba's Long-Term Strategic Choices",
+  "summary_en": "Alibaba executive Wu Yongming stated that AI models, chips, and cloud computing constitute the company's long-term strategic choices. The source text provides only this headline without further details, specific numbers, or additional context regarding implementation plans or financial commitments.",
+  "companies": [
+   "Alibaba"
+  ]
+ },
+ {
+  "id": "59a624d925906bb7",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWUy1KaW05M1lYdmRLRGkwdG5USWg5TkFOSktoNHZLakdwUWRjUlJZWUhncVlmcWNMaFJKY1hoRHhqelNjaXVETTZEc2pDYTdqSmI0dy1ZQm5YUnh6?oc=5",
+  "title_cn": "人形机器人公司帕西尼开启A股上市辅导 公司估值超百亿元",
+  "date": "2026-09-22",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Palibio Begins A-Share Listing Counseling, Valuation Exceeds 10 Billion RMB",
+  "summary_en": "Humanoid robot manufacturer Palibio (Paixin) has initiated listing counseling for the A-share market. The company's valuation exceeds 10 billion RMB.",
+  "companies": [
+   "Palibio"
+  ]
+ },
+ {
+  "id": "04227199f0de5769",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43LVpmRTdPSUYtZlFfUXpHYm5rWGZIcXUtdWpyY1ZHZ0dWcUh4T3RId0F1NUVYY3J0cHlqcjNiZlpkZUxiRXpLNlJkQ2c3cDVaT25XWTQ0NU56Z0d5?oc=5",
+  "title_cn": "夜读精选｜美银：AI驱动资本流入亚洲 万亿美元存储市场将翻倍",
+  "date": "2026-09-22",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Night Reading: Bank of America Says AI Drives Capital to Asia, Trillion-Dollar Memory Market to Double",
+  "summary_en": "A Caixin Tech selection highlights a Bank of America analysis predicting that artificial intelligence demand will drive capital inflows into Asian markets. The report projects the global memory market, valued at one trillion dollars, will double in size due to these trends.",
+  "companies": [
+   "Bank of America",
+   "Caixin"
+  ]
+ },
+ {
+  "id": "8f0de308ce0dfd63",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOdTdLWkp6UEpXZEFESGprNlVqTzZ6YzFBMnRCOGwtT2VSN0ZwLTcxOV85MFhQU0tMQ3lPV3UyNmhJSVR0YkpQX0djU2RMVGxhR3g2SENEM3Z0QUNhU2FxYlBiSVJLNldiUmc?oc=5",
+  "title_cn": "盖茨吁各方共同权衡AI利弊 防止其成为“坏人最强大的武器之一”",
+  "date": "2026-09-22",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Gates Urges Joint Effort to Balance AI Pros and Cons, Preventing It from Becoming a Weapon for Malicious Actors",
+  "summary_en": "Bill Gates called for collective action to balance the benefits and risks of artificial intelligence. He warned against AI becoming one of the most powerful weapons for malicious actors, urging stakeholders to address safety concerns through joint efforts.",
+  "companies": []
+ },
+ {
+  "id": "2ce3032acdc381f7",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8weDJYQnJXd29WcTJOWXkxbDJYaGx2RzNtaEgxR0p3Zmh5YUxHZE1IM1pUdmc4NDlFY2p2Q2VHcF83V3l3S0M1aG9sQkozTXdPREU3ajlJVVkwZ0k?oc=5",
+  "title_cn": "恒指收跌1.01%，恒生科技指数跌1.33%",
+  "date": "2026-09-22",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Hang Seng Index Closes Down 1.01%, Hang Seng Tech Index Drops 1.33%",
+  "summary_en": "The Hang Seng Index closed with a decrease of 1.01%. The Hang Seng Tech Index fell by 1.33% on the same day, reflecting broader market declines in Hong Kong trading.",
+  "companies": []
+ },
+ {
+  "id": "ef25a35a34aea6a2",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50UUdhLTJQMEhiUkpQZ3RxMnR2ZEpkci1aZlhGVW9DbmxMWGdoWFV2RXQwNGtjcWNSMWI0Z280Qm1idl80b1FFZ2luZVoyYmZXVTQzbHBGYm5BTWFaVnVmLU8zcF9QZ2VrTU9YMWNtelpJeFo3NHdkU2MzV1ZkNkU?oc=5",
+  "title_cn": "2026世界制造业大会无人科技成果精彩呈现",
+  "date": "2026-09-21",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Unmanned Technology Achievements Showcase at 2026 World Manufacturing Conference",
+  "summary_en": "The 2026 World Manufacturing Conference featured a showcase of unmanned technology achievements. The event, held in September 2026, highlighted advancements in autonomous and unmanned systems within the manufacturing sector.",
+  "companies": []
+ },
+ {
+  "id": "ee3ce609dff31043",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbEo0Y1dVRUdWa0ljV3RBcW9XbzlxZWlxTkdUejB1U1gyTmNJR1N6TVZHcmF4dXd1Rk9id2NIc2FEdC1heGVPaHhOeFJQVzhtT0FjZ3Jvb2k4ZHRJdDdtQ294V1FhWU1Dd293eWdqd0d5MnBRM3NReW9pNGdsMTlZNnhMV3NObEgz?oc=5",
+  "title_cn": "2026世界制造业大会无人科技成果精彩呈现",
+  "date": "2026-09-21",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Unmanned Technology Achievements Highlighted at 2026 World Manufacturing Conference",
+  "summary_en": "The 2026 World Manufacturing Conference featured displays of unmanned technology achievements. The text confirms the presentation of these technologies but provides no specific details on companies involved, exact innovations presented, or numerical data.",
+  "companies": []
+ },
+ {
   "id": "64b13518616806ac",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xSXJSRHdCeVFxbXV5QTh6Qk5mWGh4bFZFdmhfV3ZiYUFZZHRFQzQ1RFVRY0tqNTVRZDZRYUdLb1ZuTWhuTmtSd09jc2haNEhZZEVabFVtZ3pTVXVFSEE?oc=5",
   "title_cn": "低空经济需要产业科技创新平台",
@@ -2999,6 +3736,18 @@
   "sector": "综合",
   "title_en": "Low-Altitude Economy Needs Industrial Sci-Tech Innovation Platform",
   "summary_en": "An opinion piece argues that the low-altitude economy requires dedicated industrial sci-tech innovation platforms to support its development. The article discusses the necessity of such infrastructure but does not provide specific data, companies, or policy details in the supplied text.",
+  "companies": []
+ },
+ {
+  "id": "d5ef86b6f22cae7d",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QdVUzLXNuNFEyZVBadGNIRWIySXJHNk1ydUVaRWw0d3NPcjFidXNIQ0NhYWx1Rk5OZFl5anBWTXBpZm91TjJlSHV5RVZQZWZndzJFRmJ2ZmVFUlpqSmJDWUFiN0tmWXFTamZSR25zNlU?oc=5",
+  "title_cn": "活力中国调研行丨国产“胖白鲸”牛在哪？",
+  "date": "2026-09-21",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "General Tech",
+  "title_en": "Where Does the Domestic \"Fat Beluga\" Excel?",
+  "summary_en": "The article title suggests a report on the capabilities of a domestic product or platform nicknamed 'Fat Beluga' (guochan pangbaijing), likely referring to a large-scale technological system or vehicle. The text provided is limited to the headline and source, offering no specific details on technologies, metrics, or outcomes.",
   "companies": []
  },
  {
@@ -3027,5 +3776,31 @@
    "Moonshot AI",
    "Amazon Web Services"
   ]
+ },
+ {
+  "id": "4e0586f6e11bd3d0",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnNjJ4SVBGSFVtcDJ1Y1FscDFRdHhpcWkzeWN3VV8tZVFLZ3pDNzR3SW1oSzdtTTRFNWtjTHZ2QkU1bTRUVXZwbkRWelpuOEZzWFA1WXZRMmFqdHpP?oc=5",
+  "title_cn": "芯片企业奕行智能完成20亿元融资 投后估值近150亿元",
+  "date": "2026-09-21",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Chip Firm Yixing Intelligence Secures 2 Billion RMB in Funding",
+  "summary_en": "Chinese chip company Yixing Intelligence has completed a financing round of 2 billion yuan. The funding places the firm's post-investment valuation at approximately 15 billion yuan. The specific identity of investors and details regarding the company's semiconductor products were not disclosed in the provided text.",
+  "companies": [
+   "Yixing Intelligence"
+  ]
+ },
+ {
+  "id": "16ef9d013e164a0e",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EMmdCSC14ZW1GdU9oWEY2dHFCMzNNRzdRY0VZQ2UteUZ2TFJCaTl5djdnOXgzcEMxS1pYRzlTUDNEQWxpVHBXSnB3bVY3c3duSWREMENYaU5nZ1J3YVNjSzRmN04?oc=5",
+  "title_cn": "电动两轮车龙头加码三轮市场 冲击传统电三轮巨头地位",
+  "date": "2026-09-21",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Leading Two-Wheel EV Maker Expands into Three-Wheeler Market",
+  "summary_en": "A leading manufacturer of electric two-wheelers is increasing its investment in the electric three-wheeler market, aiming to challenge established incumbents in that segment.",
+  "companies": []
  }
 ]
