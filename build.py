@@ -1,137 +1,240 @@
-import os
-import sys
-import json
-import time
-from typing import Dict, List, Any, Optional
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from openai import OpenAI
+#!/usr/bin/env python3
+"""
+China Tech Tracker — 抓取 -> 去重 -> 模型分类/摘要 -> 生成静态页面
 
-# ==========================================
-# 1. 配置参数
-# ==========================================
-MAX_WORKERS = 10  # 并发线程数（同时请求 10 条，可大幅提升速度且不易触发限流）
-INPUT_FILE = "raw_news.json"
-OUTPUT_FILE = "processed_news.json"
+产出：
+    data/items.json    累积存档
+    data/health.json   每次运行的健康快照（含真实错误信息）
+    docs/index.html    GitHub Pages 页面
 
-API_KEY = os.getenv("DASHSCOPE_API_KEY") or os.getenv("OPENAI_API_KEY")
+环境变量：
+    TRACKER_PROVIDER      claude | deepseek | qwen | gemini
+    TRACKER_MODEL         覆盖型号
+    TRACKER_CONCURRENCY   并发数，默认 4。限流严重时设成 2。
+    TRACKER_MAX_NEW       单次最多加工多少条新内容，默认 250。
+                          防止改了信源后一次涌入几百条把额度打爆。
+"""
 
-if not API_KEY:
-    print("❌ [错误] 未设置 API Key，请检查 GitHub Secrets 或环境变量！")
-    sys.exit(1)
+import os, re, sys, json, hashlib, pathlib, collections, datetime as dt
+from concurrent.futures import ThreadPoolExecutor
+from urllib.parse import quote_plus
 
-client = OpenAI(
-    api_key=API_KEY,
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-)
+import yaml, feedparser, requests
+from providers import enrich, resolve, SECTORS, NEWS_TYPES
+import notify
 
-# ==========================================
-# 2. 单条数据处理函数
-# ==========================================
-def process_single_item(index: int, total: int, user_input_item: Any, max_retries: int = 2) -> Optional[Dict[str, Any]]:
-    user_input = user_input_item if isinstance(user_input_item, str) else json.dumps(user_input_item, ensure_ascii=False)
-    
-    system_prompt = (
-        "你是一个专业的新闻解析助手。请务必输出合法的纯 JSON 对象，"
-        "且必须严格包含以下三个字段：\n"
-        "- `title`: 新闻标题（中文）\n"
-        "- `title_en`: 新闻英文标题（若无法翻译，直接使用原文标题，严禁遗漏该字段）\n"
-        "- `summary`: 核心摘要（中文）\n\n"
-        "请确保返回格式为：{\"title\": \"...\", \"title_en\": \"...\", \"summary\": \"...\"}"
-    )
+ROOT     = pathlib.Path(__file__).parent
+DATA     = ROOT / "data" / "items.json"
+HEALTH   = ROOT / "data" / "health.json"
+TEMPLATE = ROOT / "template.html"
+OUT      = ROOT / "docs" / "index.html"
 
-    for attempt in range(max_retries + 1):
+PROVIDER, MODEL, _ = resolve()
+CONCURRENCY = int(os.environ.get("TRACKER_CONCURRENCY", "4"))
+MAX_NEW     = int(os.environ.get("TRACKER_MAX_NEW", "250"))
+KEEP_DAYS   = 180
+
+
+# ---------------------------------------------------------------- 取数
+
+def load_sources():
+    cfg = yaml.safe_load((ROOT / "sources.yml").read_text("utf-8"))
+    srcs = [s for s in cfg["sources"] if s.get("enabled", True)]
+
+    csv_url = os.environ.get("SOURCES_CSV_URL", "").strip()
+    if csv_url:
         try:
-            response = client.chat.completions.create(
-                model="qwen3.7-flash",
-                response_format={"type": "json_object"},  # 强制要求返回 JSON
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_input},
-                ],
-                max_tokens=4096,
-                temperature=0.3,
-            )
-
-            raw_content = response.choices[0].message.content.strip()
-            data = json.loads(raw_content)
-
-            # --- 兜底逻辑 ---
-            title = data.get("title") or "无标题新闻"
-            title_en = data.get("title_en") or title or "Untitled"
-            summary = data.get("summary") or ""
-
-            print(f"[{index}/{total}] ✅ 解析成功: {title[:15]}...")
-            return {
-                "id": index,
-                "title": title,
-                "title_en": title_en,
-                "summary": summary,
-                "raw_input": user_input
-            }
-
+            import csv, io
+            rows = list(csv.DictReader(io.StringIO(
+                requests.get(csv_url, timeout=30).content.decode("utf-8-sig"))))
+            for r in rows:
+                if r.get("id") and str(r.get("enabled", "true")).lower() != "false":
+                    srcs.append({k: v for k, v in r.items() if v})
+            print(f"  + 在线表格追加 {len(rows)} 个信源")
         except Exception as e:
-            if attempt < max_retries:
-                time.sleep(1)
+            print(f"  ! 在线表格读取失败，忽略：{e}")
+    return cfg.get("defaults", {}), srcs
+
+
+def feed_url(src):
+    if src["type"] == "rss":
+        return src["url"]
+    if src["type"] == "gnews":
+        q = quote_plus(src["query"])
+        if src.get("lang") == "en":
+            return f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
+        return f"https://news.google.com/rss/search?q={q}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    raise ValueError(f"未知的 type: {src['type']}")
+
+
+def clean(html):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html or "")).strip()
+
+
+def fetch(src, defaults):
+    out = []
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(
+        days=int(defaults.get("lookback_days", 14)))
+    try:
+        parsed = feedparser.parse(feed_url(src))
+    except Exception as e:
+        print(f"  ! {src['id']} 抓取失败：{e}")
+        return out
+
+    limit = int(src.get("max_items_per_run", defaults.get("max_items_per_run", 30)))
+    for e in parsed.entries[:limit]:
+        published = None
+        for key in ("published_parsed", "updated_parsed"):
+            if getattr(e, key, None):
+                published = dt.datetime(*getattr(e, key)[:6], tzinfo=dt.timezone.utc)
+                break
+        if published and published < cutoff:
+            continue
+        link = getattr(e, "link", "")
+        title = clean(getattr(e, "title", ""))
+        if not link or len(title) < 6:
+            continue
+        out.append({
+            "id":        hashlib.sha1(link.encode()).hexdigest()[:16],
+            "url":       link,
+            "title_cn":  title,
+            "raw":       clean(getattr(e, "summary", ""))[:1500],
+            "date":      (published or dt.datetime.now(dt.timezone.utc)).strftime("%Y-%m-%d"),
+            "source_cn": src.get("name_cn", src["id"]),
+            "source_en": src.get("name_en", src["id"]),
+            "sector":    src.get("default_sector", "AI"),
+            "news_type": "Corporate",
+        })
+    print(f"  · {src['id']:<22}{len(out):>4} 条")
+    return out
+
+
+# ---------------------------------------------------------------- 健康检查
+
+def diagnose(sources, per_source, fresh, n_todo, n_done, errors):
+    """把「跑通了但没产出」这种静默故障也判成失败。"""
+    dead = [k for k, v in per_source.items() if v == 0]
+    problems = []
+
+    if not fresh:
+        problems.append(f"所有 {len(sources)} 个信源都没抓到内容 —— 网络或抓取逻辑故障")
+    elif len(dead) > len(sources) / 3:
+        problems.append(f"{len(dead)}/{len(sources)} 个信源返回空：{', '.join(dead[:8])}")
+
+    if n_todo and not n_done:
+        problems.append(f"有 {n_todo} 条新内容，一条都没加工成功")
+    elif n_todo and len(errors) > n_todo * 0.25:
+        problems.append(f"加工失败率 {len(errors)}/{n_todo}")
+
+    # 把错误按类型归并，直接说清楚是限流还是 key 的问题
+    if errors:
+        kinds = collections.Counter()
+        for e in errors:
+            low = e.lower()
+            if "ratelimited" in low or "429" in low or "rate limit" in low or "throttl" in low:
+                kinds["限流(429)"] += 1
+            elif "auth" in low or "401" in low or "403" in low or "api key" in low or "invalid_api" in low:
+                kinds["认证失败(key 无效)"] += 1
+            elif "quota" in low or "insufficient" in low or "balance" in low or "arrears" in low:
+                kinds["额度不足"] += 1
+            elif "model" in low and ("not found" in low or "not exist" in low or "404" in low):
+                kinds["型号名无效"] += 1
+            elif "板块越界" in e:
+                kinds["分类越界(已丢弃)"] += 1
+            elif "timeout" in low or "timed out" in low:
+                kinds["超时"] += 1
             else:
-                print(f"[{index}/{total}] ❌ 解析失败 ({e})")
+                kinds["其他"] += 1
+        top = "，".join(f"{k}×{v}" for k, v in kinds.most_common())
+        if problems:
+            problems.append(f"错误构成：{top}")
+        elif kinds.get("认证失败(key 无效)") or kinds.get("额度不足") or kinds.get("型号名无效"):
+            problems.append(f"出现致命错误：{top}")
+    return problems, dead
 
-    return None
 
-# ==========================================
-# 3. 多线程主流程
-# ==========================================
+# ---------------------------------------------------------------- 主流程
+
 def main():
-    start_time = time.time()
-    print("🚀 开始并发新闻解析任务...")
+    defaults, sources = load_sources()
+    print(f"抓取 {len(sources)} 个信源…")
+    per_source, fresh = {}, []
+    for src in sources:
+        got = fetch(src, defaults)
+        per_source[src["id"]] = len(got)
+        fresh += got
 
-    # 读取输入文件
-    if os.path.exists(INPUT_FILE):
-        with open(INPUT_FILE, "r", encoding="utf-8") as f:
-            items = json.load(f)
-    else:
-        print(f"⚠️ 未找到 {INPUT_FILE}，使用测试数据")
-        items = ["测试新闻 1", "测试新闻 2"]
+    archive = json.loads(DATA.read_text("utf-8")) if DATA.exists() else []
+    known = {i["id"] for i in archive}
 
-    total_items = len(items)
-    print(f"📦 共计需处理 {total_items} 条内容，开启 {MAX_WORKERS} 线程并发处理...")
+    # 去重 + 按日期倒序取前 MAX_NEW 条，保证最新的先进
+    todo = sorted({i["id"]: i for i in fresh if i["id"] not in known}.values(),
+                  key=lambda i: i["date"], reverse=True)
+    skipped = max(0, len(todo) - MAX_NEW)
+    todo = todo[:MAX_NEW]
+    print(f"\n抓到 {len(fresh)} 条，其中新内容 {len(todo) + skipped} 条"
+          f"{f'（本次只处理最新 {MAX_NEW} 条，其余 {skipped} 条留到下次）' if skipped else ''}")
+    print(f"送 {PROVIDER}/{MODEL} 加工，并发 {CONCURRENCY}…")
 
-    successful_results = []
-    failed_count = 0
+    done, errors = [], []
+    if todo:
+        with ThreadPoolExecutor(max_workers=CONCURRENCY) as pool:
+            for item, err in pool.map(enrich, todo):
+                if item:
+                    done.append(item)
+                elif err:
+                    errors.append(err)
+    print(f"通过 {len(done)} 条 | 失败 {len(errors)} 条 | "
+          f"判定不相关 {len(todo) - len(done) - len(errors)} 条")
 
-    # 使用线程池并发请求
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {
-            executor.submit(process_single_item, idx, total_items, item): idx 
-            for idx, item in enumerate(items, 1)
-        }
+    keep_from = (dt.date.today() - dt.timedelta(days=KEEP_DAYS)).isoformat()
+    merged = sorted([i for i in archive + done if i["date"] >= keep_from],
+                    key=lambda i: (i["date"], i.get("source_en", "")), reverse=True)
 
-        for future in as_completed(futures):
-            res = future.result()
-            if res:
-                successful_results.append(res)
-            else:
-                failed_count += 1
+    problems, dead = diagnose(sources, per_source, fresh, len(todo), len(done), errors)
+    now = dt.datetime.now(dt.timezone.utc)
 
-    # 按原始顺序重新排序结果
-    successful_results.sort(key=lambda x: x["id"])
+    HEALTH.parent.mkdir(parents=True, exist_ok=True)
+    HEALTH.write_text(json.dumps({
+        "last_run": now.isoformat(timespec="seconds"),
+        "status":   "fail" if problems else ("warn" if dead else "ok"),
+        "provider": PROVIDER, "model": MODEL,
+        "concurrency": CONCURRENCY,
+        "sources":  {"total": len(sources), "empty": len(dead), "empty_ids": dead},
+        "items":    {"fetched": len(fresh), "new": len(todo), "deferred": skipped,
+                     "enriched": len(done), "failed": len(errors),
+                     "archive_total": len(merged)},
+        "by_sector":    dict(collections.Counter(i["sector"] for i in merged).most_common()),
+        "by_news_type": dict(collections.Counter(i.get("news_type", "?") for i in merged).most_common()),
+        "problems": problems,
+        "sample_errors": list(dict.fromkeys(errors))[:5],   # 去重后的前 5 条原始错误
+    }, ensure_ascii=False, indent=1), "utf-8")
 
-    # 保存处理结果
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(successful_results, f, ensure_ascii=False, indent=2)
+    DATA.write_text(json.dumps(merged, ensure_ascii=False, indent=1), "utf-8")
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(
+        TEMPLATE.read_text("utf-8")
+            .replace("/*DATA*/[]", json.dumps(merged, ensure_ascii=False))
+            .replace("{{UPDATED}}", now.strftime("%Y-%m-%d %H:%M UTC"))
+            .replace("{{UPDATED_ISO}}", now.strftime("%Y-%m-%dT%H:%M:%SZ")),
+        "utf-8")
 
-    elapsed_time = time.time() - start_time
-    failure_rate = (failed_count / total_items) if total_items > 0 else 0
-    
-    print("\n================ 运行报告 ================")
-    print(f"⏱️ 耗时: {elapsed_time:.1f} 秒")
-    print(f"📊 总数: {total_items} | 成功: {len(successful_results)} | 失败: {failed_count}")
-    print(f"📉 报错率: {failure_rate:.1%}")
+    print(f"\n存档 {len(merged)} 条 -> {OUT}")
+    print("  板块:", dict(collections.Counter(i["sector"] for i in merged).most_common()))
+    print("  类型:", dict(collections.Counter(i.get("news_type","?") for i in merged).most_common()))
 
-    if failure_rate > 0.5:
-        print("❌ AI 接口报错率过高（>50%），终止构建！")
+    if problems:
+        print("\n!! 本次运行异常：")
+        for p in problems:
+            print("   -", p)
+        if errors:
+            print("   原始错误样本：")
+            for e in list(dict.fromkeys(errors))[:3]:
+                print("     ·", e)
+        notify.send("抓取异常，页面可能已停更",
+                    [f"· {p}" for p in problems] + [f"（{PROVIDER}/{MODEL}）"])
         sys.exit(1)
 
-    print("🎉 任务顺利完成！")
 
 if __name__ == "__main__":
     main()
