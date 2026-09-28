@@ -1,21 +1,21 @@
 {
- "last_run": "2026-09-28T07:56:31+00:00",
+ "last_run": "2026-09-28T08:13:09+00:00",
  "status": "fail",
- "provider": "gemini",
- "model": "gemini-3.5-flash",
+ "provider": "qwen",
+ "model": "qwen3.7-flash",
  "sources": {
   "total": 22,
   "empty": 0,
   "empty_ids": []
  },
  "items": {
-  "fetched": 503,
-  "new": 496,
+  "fetched": 504,
+  "new": 497,
   "enriched": 0,
-  "failed": 496,
+  "failed": 497,
   "archive_total": 0
  },
  "problems": [
-  "有 496 条新内容，但一条都没加工成功 —— 大概率是 gemini 的 key 失效、额度用尽，或型号名 gemini-3.5-flash 已下线"
+  "有 497 条新内容，但一条都没加工成功 —— 大概率是 qwen 的 key 失效、额度用尽，或型号名 qwen3.7-flash 已下线"
  ]
 }
