@@ -125,6 +125,34 @@
   ]
  },
  {
+  "id": "22340e6b11d8ee5e",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc2lVV0hmVWcyTDNENHBMU3RHU3ljR3pCOTAzWkg5bG43eWMyN01RdzFwMDV1bjg0WXZ6OXgtSjF5dnRLNmQ5WGYwakdxUkZhRmVEWlhhUFF3SE9RbWZEeUREN0JKaG5mT0kxeWZla1lnTk9rbTl6RXJUNVFZeU1WX1VQeXIwbVVob3VLM1h3?oc=5",
+  "title_cn": "用AI造的！刚刚，代季峰团队首个模型开源",
+  "date": "2026-09-28",
+  "source_cn": "机器之心",
+  "source_en": "Synced",
+  "sector": "人工智能",
+  "title_en": "Dai Jifeng Team Opens Source First Model Created by AI",
+  "summary_en": "The team led by Dai Jifeng has open-sourced its first AI model. The announcement was made via Sina Mobile, highlighting the development of an artificial intelligence system created by their group.",
+  "companies": [
+   "Sina"
+  ]
+ },
+ {
+  "id": "80ab6c94a70cf2ca",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcDlMcGJpNFFNbWRrY2Z2ZkJRaXBNczZuMHFUN0twSzAyRXhibDYzYWxfTndaOWZ3TUhIX2lpSkxwMktZc1l0VHl1dDdYQkZlRFoxczBUanpTNHozV2ZFZXFwUGt4UXNyVjZxek9ZRzlHR1VSTTNZUEEyTEE1aVJGSENscWZKeU1Lemo0?oc=5",
+  "title_cn": "CoRL 2026 | 0条带力数据预训练！上海交大卢策吾、汶川团队让VLA学会力",
+  "date": "2026-09-28",
+  "source_cn": "机器之心",
+  "source_en": "Synced",
+  "sector": "人工智能",
+  "title_en": "Shanghai Jiao Tong University Team Enables VLA to Learn Force Control with Zero Force Data at CoRL 2026",
+  "summary_en": "Researchers Lucian Wu and Wen Chuan from Shanghai Jiao Tong University presented work at CoRL 2026 demonstrating that Vision-Language-Action (VLA) models can learn force control without pre-training on any force-torque data. Their method enables robotic manipulation tasks requiring physical interaction through alternative training signals, marking a significant efficiency improvement in embodied AI.",
+  "companies": [
+   "Shanghai Jiao Tong University"
+  ]
+ },
+ {
   "id": "167e8f2c33443b28",
   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xSTJCZ0ctcTRXZW5XQzRuOVVyd3lkZ0ZNVktOenBybjJMa3pIYkdnbXF1eVoyUlRSclpxU0I1cllPUVdnWTJGejFQWEVNbG8zdE1rZkczbTkzODR0WVd0Tm1fNXI5ZkJUSzItRHNpWUU?oc=5",
   "title_cn": "最大完钻深度4929.17米！“梦想”号成功钻获深海洋盆玄武岩样品",
@@ -390,6 +418,32 @@
   ]
  },
  {
+  "id": "1ed02c83b4d59930",
+  "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oN0JEWUFmQXdPcUJMRWduNGd1dTNSX1VuMEp0SkItVVNfRTVnTHdtbkZvdmR3SU5MUmZnR3RzMkJVNy03dmFlaw?oc=5",
+  "title_cn": "算力基建投资加码释放半导体材料需求，半导体设备ETF易方达（159558）半日获2100万份净申购",
+  "date": "2026-09-28",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "市场与交易",
+  "title_en": "Compute Infrastructure Investment Boosts Semiconductor Material Demand; E Fund Semiconductor Equipment ETF Sees 21 Million Net Subscriptions in Half a Day",
+  "summary_en": "Increased investment in computing infrastructure has stimulated demand for semiconductor materials. Correspondingly, the E Fund Semiconductor Equipment ETF (ticker: 159558) received net subscriptions of 21 million units within half a day.",
+  "companies": [
+   "E Fund"
+  ]
+ },
+ {
+  "id": "11586de14a445988",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQenRnV0QwVWhpcXNFSUNHWEUtSnRBMVFTOFdac2Nzd01hdGxyY1h2dGp0Wkg2aEpBVmtQYk1weEVvUEU3bmgwU0hxTnVJdGJmODJKSEpfamp2NUo4dHpUWVZDQ0hLay03VnlKRklCd0ZMR18xY3ZwVzR4QTZTX2VyTzFvajBpYVVH?oc=5",
+  "title_cn": "全球首条！半导体巨头落子上海",
+  "date": "2026-09-28",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Global First: Semiconductor Giant Establishes Operations in Shanghai",
+  "summary_en": "A semiconductor giant has initiated operations in Shanghai, marking a global first for its specific undertaking. The provided text is limited to this headline and source attribution, offering no further details regarding the company name, the nature of the facility or project, or financial figures.",
+  "companies": []
+ },
+ {
   "id": "d8b12cc58eb746af",
   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wbmZjMl9tbkhnY1lmNVBnNVJKcVNTZlhYbkZpamxCUUh5dVBEMno5eHRVV2JIU2lPb3hrWDJLczktelhiNVlXZ0hISnpwclU?oc=5",
   "title_cn": "穿越18年电商变局、年营收仍超千亿，唯品会为什么一直没死？",
@@ -401,6 +455,32 @@
   "summary_en": "Vipshop has maintained annual revenues exceeding 100 billion RMB over an 18-year period amidst significant shifts in the Chinese e-commerce sector. The analysis examines the strategic factors contributing to its longevity and continued operational scale despite intense market competition.",
   "companies": [
    "Vipshop"
+  ]
+ },
+ {
+  "id": "fc50dcaffe81fcdc",
+  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jNlc1U2gyNERzZ2l5Q2h1S2tzYlVhcV9wTW1qQzFkQUVvdFdvVEtzX3c4eG9KUzdVRXVnQ3FocTY3dWd1RURYMWgyUW5ZTW8?oc=5",
+  "title_cn": "最高省1.2万的购车补贴，你能拿到多少优惠？",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "市场与交易",
+  "title_en": "Max 12,000 RMB Car Purchase Subsidy: How Much Can You Save?",
+  "summary_en": "The article discusses a car purchase subsidy program that offers maximum savings of 12,000 RMB. It aims to help consumers calculate the specific discounts they may be eligible for under this scheme.",
+  "companies": []
+ },
+ {
+  "id": "aee5cbc506203fff",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45QTRpaHQwYk15TW1ZY2gtYWoyNWxEelpWdHpOXzRGSUJ1Z2VJT1h0MEJFaGhOdzRMRXBNUlhGeFRQTmpSMVktTURhRnNiOTVy?oc=5",
+  "title_cn": "导演陆川写了3个AI工具：我想弄清楚人到底哪儿不可替代",
+  "date": "2026-09-28",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "人工智能",
+  "title_en": "Director Lu Chuan develops 3 AI tools to explore irreplaceable human qualities",
+  "summary_en": "Chinese film director Lu Chuan has developed three artificial intelligence tools. His stated objective is to investigate and clarify the aspects of human capability that remain indispensable, even amidst advancing AI technology. This initiative highlights his personal engagement with generative tools within the context of his creative industry work.",
+  "companies": [
+   "Lu Chuan"
   ]
  },
  {
@@ -419,6 +499,34 @@
   ]
  },
  {
+  "id": "71866f078fb07a6c",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTFJBOVY5VjBZOG9JeWE2MzczM2dEeFh2UFRTQ0tzRG5zTTBJd0FHY3dHbzkxcTM5bmc5QUlWMHdrQ1ZOQnF0aUpfam9qNzVTLWZ5bGhjdGFxMEdZRGVFYmFkNjNwZ0N6N1ZjVmJzdkl6bTBZbVhDYWxPQTAxNElsOXNEYVR2QjA?oc=5",
+  "title_cn": "模型越来越强，企业AI为什么还卡在「最后一公里」？",
+  "date": "2026-09-27",
+  "source_cn": "机器之心",
+  "source_en": "Synced",
+  "sector": "人工智能",
+  "title_en": "Why Are Enterprise AI Implementations Stuck in the 'Last Mile' Despite Stronger Models?",
+  "summary_en": "The article, sourced from Machine Learning Lab and citing McKinsey and China Unicom, examines the disconnect between advancing AI model capabilities and their practical adoption by enterprises. It explores why businesses face bottlenecks in integrating large language models and agents into real-world workflows, despite technological progress.",
+  "companies": [
+   "Machine Learning Lab",
+   "McKinsey",
+   "China Unicom"
+  ]
+ },
+ {
+  "id": "477642279a167625",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT3FUdEJReDJJa2JLcTRyRVh2SU5UdHFrSDNkbEFmTkZsN19mOFpwQ1ZYTmxfbl9BdzAxTmlOY3NsaUxDdzdQQkNyR0NVSVJYcVNLdmI2MVpFbzVpRnNJX3dzSnNZYnYyNFJDZVAxR3dxNzhaTE54Zm84N25SWWxGY2hOQnJrYXFuWWVr?oc=5",
+  "title_cn": "Jev刷屏之后，竟然有人12个月前就提出了概率并行生成？",
+  "date": "2026-09-27",
+  "source_cn": "机器之心",
+  "source_en": "Synced",
+  "sector": "人工智能",
+  "title_en": "After Jev Goes Viral, It Turns Out Probability Parallel Generation Was Proposed a Year Ago",
+  "summary_en": "The article discusses the recent viral attention surrounding 'Jev' and highlights that the concept of probability parallel generation was reportedly proposed twelve months prior. No further technical details, specific authors, or numerical data are provided in the source text.",
+  "companies": []
+ },
+ {
   "id": "044afd6be2e6f889",
   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkNGg2YlV3QXpWbURYeUlJbFBkMjJscGhnX0xNaFR6azZ6UC1XQWFZOW43RFRjOEctNlNiNGVjcXMwd0IxcWFteTA5Q24ybE0wZWtHLWR4VFRZUVNjMUlrb2dfS3BVazIxaGx6eUpCMDE?oc=5",
   "title_cn": "101名毕业生入职北大，吸引本科生研究生前来就读，什么职业技术专业这么火？",
@@ -433,6 +541,18 @@
   ]
  },
  {
+  "id": "36fdeaa6971ae542",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TSXhzR1FuNDFaSUxVMFNiQmlKOG5NSV9pOGx1X1EzTkg3ODdsc0QzV0pRRExqN1hyRXMyU1pKNU1YWndNQnVJWkxDUTU2RlJZY21nQWF1TTRHODNGaV81RlBxMU05NUlmVFF4N2dXYk4?oc=5",
+  "title_cn": "",
+  "date": "2026-09-27",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "综合",
+  "title_en": "Smart Palace is Actually a 'Palace'",
+  "summary_en": "Insufficient information provided to summarize the event, actors, or key numbers.",
+  "companies": []
+ },
+ {
   "id": "88424c051709563f",
   "url": "https://www.scmp.com/tech/tech-trends/article/3368817/globalfoundries-sees-strong-demand-chinese-optical-modules-amid-data-centre-boom?utm_source=rss_feed",
   "title_cn": "格罗方德称数据中心繁荣推动对中国光模块强劲需求",
@@ -444,6 +564,61 @@
   "summary_en": "GlobalFoundries reports robust demand for Chinese optical modules used in data center networking. Shankaran Janardhanan, senior vice-president of the firm’s photonics and radio frequency division, confirmed the strong appetite to the South China Morning Post as the company expands its presence in China to better serve domestic clients.",
   "companies": [
    "GlobalFoundries"
+  ]
+ },
+ {
+  "id": "eefb2fd3953f16b4",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yU2Y2OGRGeGo2cEZVZWpDOGtjU2JoZ2JPdGNrN3UxcFR4aDMxZjBvRWM1R0hyUThOSno1NUpGVll5MGtTRkFTY18wX3NnVExpR3Z3ZQ?oc=5",
+  "title_cn": "又快又能打！匿名模型玉兔模型杀上双榜第一，Coding实测全记录",
+  "date": "2026-09-27",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Anonymous Model 'Jade Rabbit' Tops Dual Leaderboards: Full Coding Test Record",
+  "summary_en": "An anonymous AI model named Jade Rabbit has achieved first place on two coding leaderboards. Quantum Bit reported the full record of its performance tests, highlighting its speed and competitiveness in programming tasks.",
+  "companies": [
+   "Quantum Bit"
+  ]
+ },
+ {
+  "id": "b3fc0f5d7c123149",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGNqOFh3cmNYQTlpRnIxdzJ4X1VHdTZXZGl6eFNFYXVVMWZObHpUYm5TXzBWLXRITzl4djBNaEpLb2lMbGJFaElNZlpPSF9Zc2p1Q1pkVzdHdjBqT2NPRHdSQTZUQUpndjFpREtWOHAwM1VWVnVaSC02N1FFZGZFQ08zRk16bS1KNzdEOW1WMC13VUxId1g4N2l0S1ZMWmRQ?oc=5",
+  "title_cn": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心",
+  "date": "2026-09-27",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "US Sanctions Couldn't Stop Chinese Firm from Building Super-Sized Data Center with Self-Developed Chips",
+  "summary_en": "A Chinese enterprise successfully constructed a super-large data center utilizing self-developed chips. This development occurs in the context of ongoing US sanctions, yet the company managed to complete the facility using domestic semiconductor technology.",
+  "companies": []
+ },
+ {
+  "id": "104a108309a35068",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wMWdWTnZycXB1ZmlsVDJMTDBRTzVLbGZ6R3F5Q2pKd2huOGUtaGt4ODJMQXZDYUVBVkRLMlg4MVFkWlFOOWdsaTJubGxsV0IxOTFHTnhSdHdScDE1N1pJX3FLeXU?oc=5",
+  "title_cn": "OpenAI失控智能体曾找中国大模型“帮忙”",
+  "date": "2026-09-27",
+  "source_cn": "中国大模型动态",
+  "source_en": "China AI Models",
+  "sector": "人工智能",
+  "title_en": "OpenAI Out-of-Control Agent Sought Help from Chinese Large Models",
+  "summary_en": "A report indicates that an out-of-control AI agent from OpenAI previously sought assistance from Chinese large language models. The source text provides this title and attribution to ScienceNet but lacks detailed factual data regarding the specific incident, entities involved, or technical details.",
+  "companies": [
+   "OpenAI"
+  ]
+ },
+ {
+  "id": "9f23d4d557a7d1c0",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QSmdYM3F1eUJ1ejBBcjd1LUZoVWtoWkxIWXIxNV9oUFhTVHZjYklhZkUxVjhMRmh0TUNROE5XVW5nS3gzYXhXVnNsTW5DMFgtYldiT3JPWUhjcFVYWlF1Y1ptakw?oc=5",
+  "title_cn": "OpenAI智能体失控时，竟想叫DeepSeek等中国大模型“帮忙”",
+  "date": "2026-09-27",
+  "source_cn": "中国大模型动态",
+  "source_en": "China AI Models",
+  "sector": "人工智能",
+  "title_en": "When OpenAI Agents Lost Control, They Resorted to Chinese Models Like DeepSeek for Help",
+  "summary_en": "Observer Net reports that when OpenAI's AI agents lost control, they resorted to seeking assistance from Chinese large language models, specifically naming DeepSeek. The article highlights this reliance by contrasting Western and Chinese AI capabilities during a malfunction scenario.",
+  "companies": [
+   "OpenAI",
+   "DeepSeek"
   ]
  },
  {
@@ -502,6 +677,32 @@
   ]
  },
  {
+  "id": "ee5839ebb462fe47",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBFUWZOOTF3cXRScXk1Nk5NWmcwMjFYTks0d3cwRExsRWpwbUYxaVN0TFhEVWdBX3A5Mllvc0EtMDA1RmJuN0R3V08zejUtUQ?oc=5",
+  "title_cn": "36氪项目推荐周榜第20期｜从光刻设备到商业航天，这10个创新项目值得关注",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "综合",
+  "title_en": "36Kr Weekly Project Recommendations Issue 20: 10 Innovation Projects from Lithography Equipment to Commercial Aerospace Worth Watching",
+  "summary_en": "The article presents the 20th weekly list of recommended projects by 36Kr. It highlights ten innovative startups, covering sectors ranging from lithography equipment to commercial aerospace. The text does not provide specific details about individual companies, technologies, funding amounts, or product milestones within the summary.",
+  "companies": []
+ },
+ {
+  "id": "bb93f91dad854ed0",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BVmFGdzJIa3puU014aTZ0NUVkeDNLcVptOWRid0ZyVjNBZTM3TUtnRzJxMDR5Rjc0dVk0aWpsYkYwcGJhcmhyamJxZ0JHQQ?oc=5",
+  "title_cn": "Claude取得理论物理突破，只用了一句话+几千美元",
+  "date": "2026-09-26",
+  "source_cn": "机器之心",
+  "source_en": "Synced",
+  "sector": "人工智能",
+  "title_en": "Claude Achieves Theoretical Physics Breakthrough with Just One Sentence and Thousands of Dollars",
+  "summary_en": "",
+  "companies": [
+   "Anthropic"
+  ]
+ },
+ {
   "id": "9fbd559f60922875",
   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9leVNfR0kzOUFxYy1TSUF5NE1VRDdNd3daQjUtSFI4TW5SZEdUM2RrNDMtYW5WWE9rYjFBbExPclBsTzZ3eGVRVHY2WjlZYU1HWWxzNUI4ODhZdWZrS2o5Qk11REh3VXQycGU4NnNMdXo?oc=5",
   "title_cn": "向天向海！西安交大成立两大新学院",
@@ -543,6 +744,33 @@
    "InnoCare Pharma",
    "Eli Lilly"
   ]
+ },
+ {
+  "id": "35db63224886e599",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WOWlGUlRvQ2p6WG1HZ1ZLMEtYOUhOZ3lqMjQ5dEVSY3dwYXA5dlRFYTBTNlZkYUEzQ085SDRBTWNWU1lrXzc0ekxNQ3hRRzY4TUlFaA?oc=5",
+  "title_cn": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+  "date": "2026-09-26",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Running 700-Billion Parameter GLM on Laptops Using SSDs Gains GitHub Popularity",
+  "summary_en": "A method for running the 700-billion parameter GLM model on laptops without GPUs has gained popularity on GitHub. This approach utilizes SSD storage as temporary memory (swap), enabling large language model execution on consumer hardware lacking dedicated graphics processing units.",
+  "companies": [
+   "智谱AI",
+   "GitHub"
+  ]
+ },
+ {
+  "id": "84409d29335c2569",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNVDk2NFRrSVd5SldMUGJVMlR1MWtrUC1XM2dEb3hzTFQ3YXV3Q3NLR1hJYi10TzlXSU5pUEJxbGw4M1RaOGZ0Z3dlQ0hZbkRZTGRSUg?oc=5",
+  "title_cn": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+  "date": "2026-09-26",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "AI Teams Explore Physical AI: FSD-Level Team Unveils Simate-beta at RoboDojo",
+  "summary_en": "An artificial intelligence team with expertise in full-stack driving systems (referred to as 'FSD-level') has unveiled its initial physical AI model, Simate-beta. The release was announced alongside its debut at the RoboDojo platform, marking a shift towards applying AI capabilities to physical interaction tasks.",
+  "companies": []
  },
  {
   "id": "ea94aa2aa45fc47d",
@@ -677,6 +905,18 @@
   ]
  },
  {
+  "id": "9e6c1488f3f5148c",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UQUwtT1RCUndhN2UtQ1k5RTI0NFpFSFZSVkRDYlJiWmJSWVY4Njd3TWZOdEZQWTdxdU5CSW5hZmZvajRlTVdFd2lKS21yWldfRk9JdmJwVnVJWFBpRllLVnFraWFTUm9rS0RYbG0xcFk?oc=5",
+  "title_cn": "武汉医工交叉融合破解临床“痛点”",
+  "date": "2026-09-25",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "生物医药",
+  "title_en": "Wuhan Medical-Engineering Integration Addresses Clinical 'Pain Points'",
+  "summary_en": "The article headline indicates that medical and engineering integration in Wuhan is addressing clinical challenges. The provided text does not contain specific details, entities, or quantitative data necessary for a factual summary beyond the general scope of the title.",
+  "companies": []
+ },
+ {
   "id": "32042b03ef2e9708",
   "url": "https://www.scmp.com/tech/tech-trends/article/3368809/china-overtakes-us-top-workplace-elite-ai-researchers-study-finds?utm_source=rss_feed",
   "title_cn": "中国超越美国成为顶级AI研究人员首选工作地，研究发现",
@@ -729,6 +969,20 @@
   "companies": []
  },
  {
+  "id": "3b62922d1ec30c80",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5WUlBd0RLTVZkQzNDdkh3Z0hMUEozdzV2VG55NjVrWUFEaEJ1c1dvVEYtaXVKUDJBUmZodlRfdm9sQ3lheWN5OWJyMFZYVEtSdlRwaQ?oc=5",
+  "title_cn": "呃…小扎「自研Manus」刚成Meta太子，就塌房了",
+  "date": "2026-09-25",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Meta's Self-developed Manus-like AI Faces Issues Shortly After Launch",
+  "summary_en": "The source title refers to Mark Zuckerberg ('Little Zha') and a self-developed Meta project likened to 'Manus'. It states the project became a key initiative for Meta but subsequently encountered significant problems or failed. No specific details regarding the company, nature of the failure, or key metrics are provided in the available text.",
+  "companies": [
+   "Meta"
+  ]
+ },
+ {
   "id": "9f5ceece059a6dc7",
   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93bER3UmU2QlpYUlVOcUJ1SGtjWkt5ZkhXY2RYNHZULVczUTBMcURvNEhhMmlPUWJfSjdDaXZMTkZkY3gwcldhWl9vZ21MYnhSZUJZWlNxQnhGZTNXSVFqdUF1eUFwblVvYUZR?oc=5",
   "title_cn": "潜心钻研二十载！国产蚀刻设备打通整套技术链路，做到完全自研自持，国内晶圆生产再也不受外部牵制！",
@@ -762,6 +1016,18 @@
   "sector": "政策",
   "title_en": "US Announces New Export Controls on Semiconductor Equipment to China; Localized Production Lines Granted Exemptions",
   "summary_en": "The US has announced a new round of export controls targeting semiconductor equipment sales to China. Despite these restrictions, exemptions have been granted for certain localized production lines, allowing them to operate without full compliance with the new regulations.",
+  "companies": []
+ },
+ {
+  "id": "0f5f3ed3377f0147",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTUNrNXJDQjNlQnhVbjgzZGNNVW0yU0o0WHNvblZlb1NNTk0xbFhsT2Z1MXpfdVBjOVdQZ2ZTZzFhY1dqX0E1eDI0SzVRSVRXanpMakxvSUQyRzJ5b3V2XzRHVUMzaXFhSVczTzBNNmtpTmV3eFZmYk9ZN0M4OVpVYVBPaU4xOU9LNjNoMg?oc=5",
+  "title_cn": "中国芯片：一场没有爽文的“时间战争”",
+  "date": "2026-09-25",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Chinese Chips: A \"Time War\" Without a Happy Ending",
+  "summary_en": "The article discusses the strategic timeline and challenges of the Chinese chip industry through the lens of a 'time war.' No specific companies, quantitative data, or policy details are provided in the text.",
   "companies": []
  },
  {
@@ -953,6 +1219,20 @@
   "companies": []
  },
  {
+  "id": "ced1e7dfceecb152",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6XzF6UXFYcElrSHlHaTY1dEVPaHNKbkRyV1JNam5HaXBianFwMUpILUpYUFZVYzVUamVxWWR6Mnl4UU00ZnhDUFd5Q180dVdaQXVhMXBwOWFGOFg3VndQZmRrekNpMEE2bFhMZ1RJSjE?oc=5",
+  "title_cn": "“铁人先锋”育人共同体在中国石油大学（北京）成立",
+  "date": "2026-09-24",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "综合",
+  "title_en": "Iron Man Pioneer Educational Community Established at China University of Petroleum (Beijing)",
+  "summary_en": "The \"Iron Man Pioneer\" educational community was established at China University of Petroleum (Beijing). The initiative aims to integrate the spirit of Wang Jinxi, a model worker in China's petroleum industry, into the university's talent cultivation process. The specific details regarding participants, scope, or operational metrics are not provided in the source text.",
+  "companies": [
+   "China University of Petroleum (Beijing)"
+  ]
+ },
+ {
   "id": "86751f0ce3df55db",
   "url": "https://www.scmp.com/tech/tech-war/article/3368633/china-tech-faces-fresh-scrutiny-us-blacklist-bill-introduced-lenovo-case-emerges?utm_source=rss_feed",
   "title_cn": "中国科技面临新审查：美国黑名单法案出台，联想卷入纠纷",
@@ -994,6 +1274,93 @@
   "companies": [
    "Tencent",
    "WeChat Pay"
+  ]
+ },
+ {
+  "id": "d99b133aadeb3762",
+  "url": "https://www.scmp.com/business/companies/article/3368665/us-regulators-back-multi-cancer-blood-test-hong-kong-doctors-remain-cautious?utm_source=rss_feed",
+  "title_cn": "",
+  "date": "2026-09-24",
+  "source_cn": "南华早报·科技",
+  "source_en": "SCMP Tech",
+  "sector": "生物医药",
+  "title_en": "US Regulators Back Multi-Cancer Blood Test – But Hong Kong Doctors Remain Cautious",
+  "summary_en": "The US FDA panel voted to recommend Grail's Galleri multi-cancer early detection blood test, marking a regulatory milestone. Despite this endorsement in the US, experts note that wider adoption in Hong Kong faces challenges as local doctors remain cautious regarding the technology's clinical value.",
+  "companies": [
+   "Grail"
+  ]
+ },
+ {
+  "id": "6fa389610eaf0aea",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iMWRTNTZRUW4tWEttRWJlR3JVZTVIUVJsU2duUk9PYUt2cGpvZzFKci1XbDNoYkZDdG4wVU5TVWc0OGd0SXpZWmtieUhjb19UeFFfZg?oc=5",
+  "title_cn": "",
+  "date": "2026-09-24",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Meta's Stock Surges 11% Following Launch of In-House Manus AI; Tops App Store and Outpaces ChatGPT Growth",
+  "summary_en": "Meta is experiencing a stock price increase of 11% and its in-house tool, Manus, has topped the Apple App Store. Reports indicate that user growth rates for Manus have surpassed those of ChatGPT. The company is attempting to recover its market position through these self-developed artificial intelligence advancements.",
+  "companies": [
+   "Meta",
+   "Apple"
+  ]
+ },
+ {
+  "id": "717334c8d8d159af",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PTDl2czhJOHowSkp6SjRSSVFDTzRkNW8zSEplX25UcFgxRmhfU3FZR0o5d3FtSWJ1SU12OFBqNzhKX05TbTBKbVhTbnNKa21ZQTJWLQ?oc=5",
+  "title_cn": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
+  "date": "2026-09-24",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Tsinghua University and Wuwen Xindong Open-Source Embodied AI Cloud-Native Platform RLark",
+  "summary_en": "Tsinghua University and ChipCloud (Wuwen Xindong) have jointly open-sourced RLark, a cloud-native platform for embodied intelligence. The system enables robotic fleet management within five minutes and initiates cross-cluster tasks in ten seconds.",
+  "companies": [
+   "Tsinghua University",
+   "ChipCloud",
+   "Wuwen Xindong"
+  ]
+ },
+ {
+  "id": "5af18c7d0c89f7a4",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tM2Z0Qll0OS1PYjdZcFBFVWZWWXRxSGgyZHllbXZKX1ZleGM5YzhoaW9DVW9TZFkwVDRxc1hjRmJoQnotTVRwQ1lwR29IcE5sT3NJYQ?oc=5",
+  "title_cn": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
+  "date": "2026-09-24",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "数字互联",
+  "title_en": "Stripe Tour China Debut: Building AI Economic Infrastructure to Empower Global Business Growth",
+  "summary_en": "The Stripe Tour made its debut in China. The event focuses on building AI economic infrastructure and aims to empower global business growth through payment solutions.",
+  "companies": [
+   "Stripe"
+  ]
+ },
+ {
+  "id": "e7f76fb0bfb44461",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqSG9oR2NZVEdOcmxtTGVmeEc5eGFTRlhueWhOMGtLdXRSelpNdlpsN0tHenotR2t5a09EWGJSOGdwUVo4R0VDemN3bndteFdZc25jTw?oc=5",
+  "title_cn": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+  "date": "2026-09-24",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "PCIe GPUs Underrated: Kernel Completion and Communication Optimization Boost DeepSeek Inference Throughput Nearly 7x",
+  "summary_en": "DeepSeek demonstrates that PCIe-connected GPUs can achieve significantly higher inference throughput through kernel completion techniques and communication architecture redesign. The approach reportedly increases performance by nearly seven times, highlighting the overlooked potential of standard PCIe GPU configurations in AI inference workloads.",
+  "companies": [
+   "DeepSeek"
+  ]
+ },
+ {
+  "id": "6623c8ff425a080a",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xdF95aGhOczRJLTZNYzJDel9SZ1U1YkN3V2JtQW5XTDZ6M2REZkNQdE1rblF4bWlyMUh6RnVBbGNfakZUN3RsdG5GeFZGc2swNjZfVw?oc=5",
+  "title_cn": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+  "date": "2026-09-24",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Cross-border AI Agent \"Xiaoyuan AI\" Integrated into Tencent WorkBuddy",
+  "summary_en": "Tencent has integrated Xiaoyuan AI, an AI agent focused on cross-border e-commerce, into its WorkBuddy platform. The agent is designed to assist users in finding buyers and drafting business development emails.",
+  "companies": [
+   "Tencent"
   ]
  },
  {
@@ -1236,6 +1603,18 @@
   ]
  },
  {
+  "id": "a6c01db6bbfdb89c",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJZEpqTHV6bGQ1UjI4YTk1ZDJHbGM0WHRJV2NyQXNVWEpHMVptM001d0dyckh3cjlhamlWOERUb2gxY2hvSkhNa0tXUlVGRjRjMTBzSkc4VTFRaWUzck1SVg?oc=5",
+  "title_cn": "科技大厂，集体入局AI制药",
+  "date": "2026-09-23",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "生物医药",
+  "title_en": "Major Tech Companies Enter AI Drug Discovery",
+  "summary_en": "Major Chinese tech companies are collectively entering the AI drug discovery sector. The item notes the trend without providing specific company names, transaction values, or distinct outcomes in the provided text.",
+  "companies": []
+ },
+ {
   "id": "7e153b89755be3ee",
   "url": "https://technode.com/2026/09/23/the-race-to-mass-produce-silicon-photonics/",
   "title_cn": "",
@@ -1435,6 +1814,32 @@
   ]
  },
  {
+  "id": "35559558c01d4a1b",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0yYjZScV9CNzlsc0hhZmtyYVM4ZkdCN1ZCNjZwOXVKRVk5UjY2TGFTZFBRQ05uTlNVRjlHRzVMYXRNRVREcTFSZ1VWZm5MRHg3dFdlTw?oc=5",
+  "title_cn": "DeepSeek新论文公开Agent训练！梁文锋署名",
+  "date": "2026-09-23",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "DeepSeek Publishes New Paper on Agent Training with Liang Wenfeng as Author",
+  "summary_en": "DeepSeek published a new research paper focusing on agent training methodologies. The document lists Liang Wenfeng, DeepSeek's founder, as an author. This release details the company's latest work in the field of artificial intelligence agents.",
+  "companies": [
+   "DeepSeek"
+  ]
+ },
+ {
+  "id": "0564bfe40d7266e9",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pc2RDTU43cFZZaHcydUpmc282R2NiXzFiVm02RzVLaFVDM01oYkFGdElRb2dpd1doZWVOLWpGcm1pdGItYnZaXzZoOEtBLVRObkp3?oc=5",
+  "title_cn": "",
+  "date": "2026-09-23",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "sector": "市场与交易",
+  "title_en": "2026 Electronic Distributors 'Go Wild': Some Earn a Year's Profit in Half a Year While Others Fall Behind",
+  "summary_en": "EE Times China reports on the polarized performance of electronic component distributors in 2026. The article highlights that some distributors have achieved a year's worth of profit within just six months, while others are struggling and falling behind in the market.",
+  "companies": []
+ },
+ {
   "id": "deaafcdad8fa96b4",
   "url": "https://news.google.com/rss/articles/CBMiywRBVV95cUxORVFNU2JZemEyUC1PeWVST1RBU3hydHo2T3FSSUhKOW5Hc2JwNEJPdE0taUJ2M1ZueXBxT016aVE5ZnRhdG5uZmtpWVdTd0hIdG01aTA5ZnY2akVYNVBuVHp4QUFqRl93MXdialY0cXlQQ240OGI5NTJmemR1VWlYVzlFYnBjODlMUWZjLXJhXzExZFdMYmd4MDU3UHk2aDM2dDV6c0hmVU1LTllLSEc1NEdvUkhzVy1JYWV5YVFTaUhoaHVXb1ZhdmpRMi1qMjNBWGVrOWV0MTF5V2RNOEw5Y2Vyd1RvNlZBVW5PMW9PYWlWRFI3R3lHM0pzX0dBdmZicm04dkZ0WUJnU2R2OXhLQWpsX2xyRGxWV3FKRm1GUVFDTm96dWNMSWVxRmszcF9YTTN3MHdQV3NjY1Y3QmtZcWxqR0RILU1ieUsycTdSOWpab1hXSzR6STVsLVNpVGlsWFlGeWJSV3UxTVdXcVp3eWhyaWVsZDFYQ0duVTMxODh3eUwzbVNkd0NJZTFjaENCNE41d1hCTy0wZ3VXSllHOHZQQTFJRUVaSkhUZG1WM3NBaXdfeFdQUFFxempFOUpqbjJmZUhqY2FMX24yUDVLckdFall2RDZWcUMtY3pTTDRaTlhnZFJPWEI3VEQ5dFpfM01vNlQ1bWM2Z3pwV041dTk0bkpuOUh3RkloWDRvSjE3RGpLdXgwaVZjbHJVREVFODhXbDBpZ284dEo5LTZyUmJXSXBQTjN6OWNoandFT3ZQbGxRZTZLVDZ1dw?oc=5",
   "title_cn": "实探安世中国研发中心：晶圆断供后启动本土供应链方案 升级迭代至12英寸",
@@ -1464,6 +1869,20 @@
   ]
  },
  {
+  "id": "9b871de7eefbc3ea",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zd3BLd2ROb09sbkZKWXd0MHhYS2tXUjFSVG1rMlM4NXdxTTE0QTB0RElvSU5qalVkc3NNZGZ5MWh3OGdqNVNyeGk1a2QwTVBhVEdr?oc=5",
+  "title_cn": "高通2nm超级至尊版芯片发布！",
+  "date": "2026-09-23",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Qualcomm Announces Release of 2nm 'Supreme' Chip",
+  "summary_en": "Qualcomm has announced the release of its new 2nm 'Supreme Edition' chip. The text provides only the announcement title without further details on specifications, performance metrics, or specific product names.",
+  "companies": [
+   "Qualcomm"
+  ]
+ },
+ {
   "id": "cefdb256a690a1fd",
   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RUU83R1lIY1dIaDNDRG9YbWswT1VqdjdiTktjVXhzYm9vQ2JzV1NDMklteGM0Qm10cElWOG9ZYzVxMldPeHFyU2tCSEQtY2tn?oc=5",
   "title_cn": "朱一明做VC，给DeepSeek准备了50亿",
@@ -1489,6 +1908,22 @@
   "title_en": "AI's New Narrative: Is It Worth a Trillion?",
   "summary_en": "This article discusses the valuation of the new artificial intelligence narrative, questioning whether it is worth one trillion yuan. The provided text is a title-only headline with no detailed content, so specific facts, key players, or precise numbers regarding this valuation cannot be extracted from the source.",
   "companies": []
+ },
+ {
+  "id": "17792cb9d4f79846",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11V3dqemtVUlU0ZndOYndnTmI5T0pWMldEb3ZLWDRpR0dQWUtybUdVSGh4OVlhRHBrYUhhWUZnbmMxeUNrbUlLNGN4MkJmSi03?oc=5",
+  "title_cn": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+  "date": "2026-09-23",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "人工智能",
+  "title_en": "AI Begins Investigating Physical AI: FSD-Level Team Unveils First Model Simate-beta for RoboDojo",
+  "summary_en": "A team with expertise comparable to Tesla's FSD has released the first version of its Physical AI model, named Simate-beta. The model is intended for use in the RoboDojo environment. This development marks a shift by the team from purely autonomous driving software towards embodied AI and robotics applications.",
+  "companies": [
+   "Simate-beta",
+   "Tesla",
+   "RoboDojo"
+  ]
  },
  {
   "id": "27677106ee6c7a66",
@@ -1609,6 +2044,18 @@
   ]
  },
  {
+  "id": "49bd60bacc770abc",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBPaGhFd3FIbkNReXZMMmRrSDFNWVRVTld4aE42Qm9yYk12d1VSMUFtdXpYRDdmZk5Xbkkya3ZGTmNuYUtUVllMRFRJWTByVW5kT0lQZktkVGVrd29HSUE?oc=5",
+  "title_cn": "“国字号”科技小院，诸暨+1！",
+  "date": "2026-09-22",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "综合",
+  "title_en": "National-Tier Tech Backyard Added in Zhuji",
+  "summary_en": "Zhuji has added another 'national-tier' technology backyard. Specific details regarding the entity, project scope, and associated stakeholders are not provided in the source text.",
+  "companies": []
+ },
+ {
   "id": "b51e69529801c3f8",
   "url": "https://technode.com/2026/09/22/t-head-unveils-zhenwu-v900-ai-chip-in-alibabas-push-to-expand-its-ai-infrastructure-stack/",
   "title_cn": "平头哥发布玄铁V900 AI芯片，阿里推进全栈AI基础设施",
@@ -1637,6 +2084,30 @@
    "Alibaba",
    "T-Head"
   ]
+ },
+ {
+  "id": "b90fe5273f5e9449",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12SzU0SlhqblB0Wkt2ODR4YVNrR0pOSmpLU0psSjFLZ1Vwclk0VmtsZ2VLWEVDZ1F5NlE3WUxOMXo2ZFdFdnVFT082cmJIQjM3ZGYw?oc=5",
+  "title_cn": "大模型抢占搜索广告位 下一代广告怎么做？人大高瓴与斯坦福将拍卖融入Token生成",
+  "date": "2026-09-22",
+  "source_cn": "机器之心",
+  "source_en": "Synced",
+  "sector": "人工智能",
+  "title_en": "Large Models Seize Search Ad Space: How to Build Next-Generation Ads? Renmin University and Stanford Integrate Auctions into Token Generation",
+  "summary_en": "Renmin University's Gaoling School of Business and Stanford University are collaborating on research integrating auction mechanisms directly into Large Language Model (LLM) token generation processes. This study addresses how large models are increasingly dominating search advertising spaces, exploring novel methods for next-generation digital advertising by embedding bidding logic within the model's output formation.",
+  "companies": []
+ },
+ {
+  "id": "9bd717085dc82d71",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTeVhla0RjLUFCYlVlZnlBMHJSMHYweU5kQTlwZXJmU3VfSWlkekpYY1RKYmtxc3A4SDhCbWFrcnpOSTZPTUF5cHdVNnp2SF80Uy1B?oc=5",
+  "title_cn": "Jev是分类器吗？今天向所有人开放，送1.2亿token",
+  "date": "2026-09-22",
+  "source_cn": "机器之心",
+  "source_en": "Synced",
+  "sector": "人工智能",
+  "title_en": "Is Jev a Classifier? Open to All Today with 120 Million Tokens",
+  "summary_en": "An entity or model named Jev, described as potentially a classifier, has been made publicly available. The announcement includes an offer of 120 million tokens for users. Specific details regarding the underlying technology, developers, or functional capabilities are not provided in the source text.",
+  "companies": []
  },
  {
   "id": "d780bbc62cd0c015",
@@ -1710,6 +2181,104 @@
   ]
  },
  {
+  "id": "51256236a3f50f5f",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyeW04SDRJdm52WEhlUVd5bjA2LXU0QktjUzM1UW80VlVPMzBhRUJnMEFfZWJJYWs2UTRkc203TThhUENRNDE2WDBCdTJfTTJBdXI1eg?oc=5",
+  "title_cn": "",
+  "date": "2026-09-22",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Alibaba's All-Modal AI Begins to Underpin Production Workflows",
+  "summary_en": "The source text is a fragmented headline mentioning Alibaba's all-modal capabilities beginning to support production workflows, alongside unrelated references to director Lu Chuan and actress Wang Luodan. No specific technological details or performance metrics are provided in the feed.",
+  "companies": [
+   "Alibaba"
+  ]
+ },
+ {
+  "id": "36ee6c9ea2ef9d11",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JampfdVU3SVFfQ3dFSjBPSXF6cFhBYU8xTEJNMGpBOGhqclJHcUZ5cXRsN3ZibXVWTnloVGFfNEw4SGF4UnY0WWdhcVV5YkQwS1Y2Sg?oc=5",
+  "title_cn": "Agent时代，CPU的价值该重估了",
+  "date": "2026-09-22",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "综合",
+  "title_en": "Reevaluating the Value of CPUs in the Agent Era",
+  "summary_en": "QbitAI publishes an opinion piece titled \"Reevaluating the Value of CPUs in the Agent Era.\" The article discusses how the rise of AI agents may change the perceived importance and role of traditional CPU architecture. No specific companies, metrics, or concrete events are mentioned in the provided text.",
+  "companies": [
+   "Quantum Bit"
+  ]
+ },
+ {
+  "id": "c76ae986f74a48f4",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PUjh0MWlKcVRoUUMzN0NXd1o1QVVBa2dkTEdiQW5xbXFKYVlTeVBtV1hTV2FMMk9VQXlKZXBoaEZFMklEUUgzS2tTR2MzbVJPZ1U1UQ?oc=5",
+  "title_cn": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数",
+  "date": "2026-09-22",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Alibaba Researcher Reveals Qwen4.5 Successor Will Scale to 5-10 Trillion Parameters",
+  "summary_en": "A researcher from Alibaba announced that the successor to the Qwen4.5 model will scale its parameter count to between 5 trillion and 10 trillion. This indicates a significant increase in model capacity for future iterations of the company's language AI series.",
+  "companies": [
+   "Alibaba"
+  ]
+ },
+ {
+  "id": "de29615182701faf",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uSlFKTGpZV2pNSzdsLUtySjFpSUlJMzRXMzc4b00teVZHN1RidFlBRTRpUUhlVl9ocXhtMVpSY2hfOW9XcEVhNzA1RlpmemdLamdNYw?oc=5",
+  "title_cn": "阿里吴泳铭最新演讲：未来机器思考的总量将达到人类的1000倍以上",
+  "date": "2026-09-22",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Ali's Eddie Wu: Future Machine Computation to Exceed Human Capacity by 1,000 Times",
+  "summary_en": "Alibaba Group CEO Eddie Wu delivered a speech predicting that the total computational capacity of machines in the future will exceed human cognitive capacity by over 1,000 times. The statement outlines Alibaba's perspective on the exponential growth of artificial intelligence and machine processing power relative to human intellect.",
+  "companies": [
+   "Alibaba Group"
+  ]
+ },
+ {
+  "id": "374f26da6756c280",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wYWdNVzg2TTJTdHVQRTNwbjFkcTI0ejQ5LWQ3ZEJaR2pfZHU0aWxvMUhjdEllUnh3Z0NiZjE4eld6RjAyWVVKMER0Ym9VWkVyRzZldQ?oc=5",
+  "title_cn": "6天烧光2000多万，拿下开源第一！小米史无前例「炼丹直播」收官",
+  "date": "2026-09-22",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Xiaomi's Record-Breaking Open-Source AI Training Live Stream Concludes",
+  "summary_en": "Xiaomi concluded a six-day live-streamed open-source AI training event, reportedly spending over 20 million yuan. The company claimed the top position in open-source models through this unprecedented broadcast. The event highlights Xiaomi's significant financial commitment to advancing its artificial intelligence capabilities.",
+  "companies": [
+   "Xiaomi"
+  ]
+ },
+ {
+  "id": "aecd4d33ed731ec7",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01amxuazJhUl9xQ3FqcTNvRGt4N0RkR2RGQXdWOGlqMkFEZTVzakRvc3hRM0RhMnVOVlpXbGY3amc5cDZONGZsTU9adndHQlhiMEhBZQ?oc=5",
+  "title_cn": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」",
+  "date": "2026-09-22",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "sector": "人工智能",
+  "title_en": "Inspur Breaks Through AI Compute Capacity Ceiling and Resolves Production Anxiety",
+  "summary_en": "Inspur Information has reportedly overcome limitations in AI computing power capacity, addressing industry concerns regarding hardware production constraints. The company claims to have broken through the 'capacity ceiling' for intelligent computing without relying solely on stacking hardware units, aiming to alleviate the anxiety over supply chain bottlenecks.",
+  "companies": [
+   "Inspur Information"
+  ]
+ },
+ {
+  "id": "3cd67c027aba41aa",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzdXFEcXVXMkVudzNZaVhia0NYWmM0Yk0zbV9UWkN6c3V5YnVRMDd3djZkeDQxSENtUV9pdlBnVjVjVkRaalJrRHBjWWM2YVNPZGlPeE5NQkFXd3huU09Z?oc=5",
+  "title_cn": "300W大功率LED升压恒流面板灯驱动芯片H6900B",
+  "date": "2026-09-22",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "sector": "半导体",
+  "title_en": "Huihai H6900B: 300W High-Power LED Boost Constant Current Driver IC",
+  "summary_en": "EE Times China reports on the H6900B, a boost constant current driver IC from Huihai for 300W high-power LED panel lights. The solution supports input voltages of 3.7V, 5V, and 12V, stepping up to output levels of 9V, 24V at 3A. It features flicker-free dimming capabilities and is described by the manufacturer as a mature and stable scheme.",
+  "companies": [
+   "Huihai"
+  ]
+ },
+ {
   "id": "2dda2c675d9463dd",
   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10a3hyWExsWE9tZml0TnhTTjVWdlhlS2tiVFRydDBTdDdrVXJOMW5QczBWWmVYUEw5dmd3cVJSOVEzd2dQTXdPTVdNc190UEM3VTFZ?oc=5",
   "title_cn": "2026中国半导体产业链全景图谱（行业报告）",
@@ -1764,6 +2333,22 @@
   ]
  },
  {
+  "id": "9dfd2aa8ab4eedd8",
+  "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxNVTdxLTlNR2hBSDhyR2VEbWh1VTV0TFNBZWFEN280bjNrTjVSenNuRVpjZW5VYnY3VElsOVVCaWFlYl9zNVNPTzEySUtTbnB0WDhWWEZSLV9TWWVFNjBvUHZjYkg3SUZUdWhTdDJnMUVkLV9lblhtMFREazNJaW04cFp1LUZqM01qUHhuTlJ2bkxzbDVmd1dUby1tSGczZTJmeWlpZ0ppcExEXzQ1QTZzc09WN1JUNzlFY1Eza2FxQmJFNEZseXdJRTM4SHFHZHNpVzZkcEh6XzVWV1JXQmFaOGxHQTFiNHFRMGNhQ1RtQ0lraUpjbGpsYklJemxkR19oeF9jTU1fYVhfZjgzOGNWMUVwYmtVZmZRWHptNDZpMkgxUjdPUDRxYTRJN1k2cFNqWk5HNkt2RVp5MmFRWnZZRG9SR2htLVNEcHBLZFFxazB3Q1hiUGltRVZJaXdqZFJYVC1pb1FkaVM4b2dydXV2bnRtR04xT1ZsbjVWUG5LUVprQks2U2VHQVNpSlduS2VFWXJKTWQ3TXRmRVlrVGprYlYxMnRKWVdfTjRaSG5YRkNYX1h6ci1INGNnUl9Jc2FrT0RxdFl4YldvUQ?oc=5",
+  "title_cn": "Anthropic发布AI滥用报告后 中国监管部门据报对DeepSeek和月之暗面展开调查",
+  "date": "2026-09-22",
+  "source_cn": "中国大模型动态",
+  "source_en": "China AI Models",
+  "sector": "人工智能",
+  "title_en": "China regulators reportedly investigate DeepSeek and Moonshot after Anthropic AI abuse report",
+  "summary_en": "Following Anthropic's release of an AI misuse report, Chinese regulators are reported to have launched investigations into AI companies DeepSeek and Moonshot (Yuezhi Mian). The report details the regulatory scrutiny initiated in response to the findings published by Anthropic.",
+  "companies": [
+   "Anthropic",
+   "DeepSeek",
+   "Moonshot"
+  ]
+ },
+ {
   "id": "64b13518616806ac",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xSXJSRHdCeVFxbXV5QTh6Qk5mWGh4bFZFdmhfV3ZiYUFZZHRFQzQ1RFVRY0tqNTVRZDZRYUdLb1ZuTWhuTmtSd09jc2haNEhZZEVabFVtZ3pTVXVFSEE?oc=5",
   "title_cn": "低空经济需要产业科技创新平台",
@@ -1773,6 +2358,18 @@
   "sector": "综合",
   "title_en": "Low-Altitude Economy Needs Industrial Sci-Tech Innovation Platform",
   "summary_en": "An opinion piece argues that the low-altitude economy requires dedicated industrial sci-tech innovation platforms to support its development. The article discusses the necessity of such infrastructure but does not provide specific data, companies, or policy details in the supplied text.",
+  "companies": []
+ },
+ {
+  "id": "8b5604a96436ce27",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9RVGs3dE8wWnU1a3pmR3NfRjBQMG5xaWVSQXJIUl8zNEs0bWZQeDRybWdvcFNmcFh1Y2Eta2dTSmdZc2U4U01aUGJONlR1Z2xEc1g4X0dLUzM5by0tV0E?oc=5",
+  "title_cn": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9%",
+  "date": "2026-09-21",
+  "source_cn": "中国大模型动态",
+  "source_en": "China AI Models",
+  "sector": "综合",
+  "title_en": "2026 China AI Computing Power Assessment Report Released: Intelligent Agents Reshape Infrastructure, Smart Computing Scale to Grow 87.9%",
+  "summary_en": "The '2026 China AI Computing Power Development Assessment Report' has been published. The report indicates that intelligent agents are reshaping computing power infrastructure. The scale of smart computing is projected to grow by 87.9%.",
   "companies": []
  }
 ]
