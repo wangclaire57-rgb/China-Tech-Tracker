@@ -1,6 +1,6 @@
 {
- "last_run": "2026-09-28T10:23:00+00:00",
- "status": "fail",
+ "last_run": "2026-09-28T10:27:32+00:00",
+ "status": "ok",
  "provider": "qwen",
  "model": "qwen3.7-flash",
  "sources": {
@@ -9,13 +9,11 @@
   "empty_ids": []
  },
  "items": {
-  "fetched": 504,
-  "new": 373,
-  "enriched": 44,
-  "failed": 56,
-  "archive_total": 173
+  "fetched": 503,
+  "new": 333,
+  "enriched": 50,
+  "failed": 50,
+  "archive_total": 223
  },
- "problems": [
-  "加工失败率过半：56/100 条失败"
- ]
+ "problems": []
 }
