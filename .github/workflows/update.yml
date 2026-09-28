@@ -32,6 +32,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # 防线 1：确认每个文件装的确实是它该装的内容。
+      # 曾经发生过 build.py 里被贴成 providers.py 内容的事故 —— 那个文件没有
+      # __main__ 入口，跑起来静默退出 0，workflow 全绿但页面永远不更新。
+      - name: Verify file integrity
+        run: python verify_files.py
+
       # 核心步骤：调用大模型生成数据
       - name: Build tracker content
         id: build
@@ -44,10 +50,29 @@ jobs:
           GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}
           TRACKER_PROVIDER:  ${{ vars.TRACKER_PROVIDER }}
           TRACKER_MODEL:     ${{ vars.TRACKER_MODEL }}
+          TRACKER_CONCURRENCY: ${{ vars.TRACKER_CONCURRENCY }}   # 默认 4，限流就调到 2
+          TRACKER_MAX_NEW:     ${{ vars.TRACKER_MAX_NEW }}       # 默认 250，单次加工上限
           SOURCES_CSV_URL:   ${{ vars.SOURCES_CSV_URL }}
           NOTIFY_WEBHOOK_URL:  ${{ secrets.NOTIFY_WEBHOOK_URL }}
           NOTIFY_WEBHOOK_TYPE: ${{ vars.NOTIFY_WEBHOOK_TYPE }}
           NOTIFY_PAGE_URL:     ${{ vars.NOTIFY_PAGE_URL }}
+
+      # 防线 2：退出码 0 不代表真干了活。直接检查产物有没有被重写。
+      # 这一步失败会中断后面的 Pages 部署，避免把旧页面当成新的发出去。
+      - name: Assert the page was actually rebuilt
+        if: steps.build.outcome == 'success'
+        run: |
+          if [ ! -f docs/index.html ]; then
+            echo "::error::docs/index.html 不存在 —— build.py 没有产出页面"
+            exit 1
+          fi
+          AGE=$(( $(date +%s) - $(stat -c %Y docs/index.html) ))
+          echo "docs/index.html 距上次写入 ${AGE} 秒"
+          if [ "$AGE" -gt 900 ]; then
+            echo "::error::页面没有被重新生成（已 ${AGE} 秒未变动）。"
+            echo "::error::build.py 很可能退出码为 0 但实际什么都没做 —— 检查它的内容是否正确。"
+            exit 1
+          fi
 
       # 1. 提交更新的数据到 Git 仓库
       - name: Commit results to git
@@ -77,7 +102,7 @@ jobs:
 
       # 3. 失败时开/更新 Alert Issue
       - name: Open or update alert issue
-        if: steps.build.outcome == 'failure'
+        if: failure() || steps.build.outcome == 'failure'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
