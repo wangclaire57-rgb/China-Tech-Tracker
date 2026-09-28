@@ -1,6 +1,6 @@
 {
- "last_run": "2026-09-28T08:55:21+00:00",
- "status": "fail",
+ "last_run": "2026-09-28T09:02:59+00:00",
+ "status": "ok",
  "provider": "qwen",
  "model": "qwen3.7-flash",
  "sources": {
@@ -9,13 +9,11 @@
   "empty_ids": []
  },
  "items": {
-  "fetched": 503,
-  "new": 496,
-  "enriched": 0,
-  "failed": 100,
-  "archive_total": 0
+  "fetched": 506,
+  "new": 499,
+  "enriched": 78,
+  "failed": 22,
+  "archive_total": 78
  },
- "problems": [
-  "有 100 条新内容，但一条都没加工成功 —— 大概率是 qwen 的 key 失效、额度用尽，或型号名 qwen3.7-flash 已下线"
- ]
+ "problems": []
 }
