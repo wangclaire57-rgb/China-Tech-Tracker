@@ -14,6 +14,18 @@
   ]
  },
  {
+  "id": "b1ab6de692a58656",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YZGpBcFpEUVQ2alJsYU1wNHlDLTJ6azN5OUw0TFlZVEdYNTVXNWV0VWZFS2VIaXpiR0JCeDVncTM4c1pYNkMtYTdfUXhmdF82ZVZJdHFBRlF6eHBmOWgwOA?oc=5",
+  "title_cn": "上海虹桥国际科技周11月举办，将设长三角创新走廊旗舰展区",
+  "date": "2026-09-28",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "综合",
+  "title_en": "Shanghai Hongqiao International Science and Technology Week in November to Feature Yangtze River Delta Innovation Corridor",
+  "summary_en": "The Shanghai Hongqiao International Science and Technology Week is scheduled to be held in November. The event will feature a flagship exhibition area dedicated to the Yangtze River Delta Innovation Corridor, showcasing regional technological collaboration.",
+  "companies": []
+ },
+ {
   "id": "b6d7b76d29b8ca5d",
   "url": "https://technode.com/2026/09/28/nio-and-geely-agree-on-comprehensive-charging-and-battery-swapping-cooperation/",
   "title_cn": "蔚来与吉利达成全面充电及换电合作",
@@ -99,6 +111,35 @@
   ]
  },
  {
+  "id": "cc687de6f5d5ee54",
+  "url": "https://technode.com/2026/09/28/chinas-first-ai-produced-theatrical-film-sets-october-23-release/",
+  "title_cn": "",
+  "date": "2026-09-28",
+  "source_cn": "动点科技",
+  "source_en": "TechNode",
+  "sector": "人工智能",
+  "title_en": "China's First AI-Produced Theatrical Film Sets October Release",
+  "summary_en": "Bona Film Group announced that 'Sanxingdui: Future Past,' China's first hyper-realistic theatrical feature using AI throughout production, will release on October 23. The 100-minute film holds an official screening license, marking a milestone for AI filmmaking in China.",
+  "companies": [
+   "Bona Film Group"
+  ]
+ },
+ {
+  "id": "167e8f2c33443b28",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xSTJCZ0ctcTRXZW5XQzRuOVVyd3lkZ0ZNVktOenBybjJMa3pIYkdnbXF1eVoyUlRSclpxU0I1cllPUVdnWTJGejFQWEVNbG8zdE1rZkczbTkzODR0WVd0Tm1fNXI5ZkJUSzItRHNpWUU?oc=5",
+  "title_cn": "最大完钻深度4929.17米！“梦想”号成功钻获深海洋盆玄武岩样品",
+  "date": "2026-09-28",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "航天",
+  "title_en": "\"Dream\" Drill Ship Successfully Obtains Deep Ocean Basin Basalt Samples at Record Depth of 4,929.17 Meters",
+  "summary_en": "The Chinese research vessel \"Dream\" has successfully drilled and retrieved basalt samples from a deep ocean basin, reaching a maximum total depth of 4,929.17 meters. This operation marks a significant achievement in China's deep-sea scientific exploration capabilities.",
+  "companies": [
+   "China Geological Survey",
+   "Chinese Academy of Sciences"
+  ]
+ },
+ {
   "id": "3fede504ad0d297f",
   "url": "https://www.scmp.com/business/china-business/article/3369040/mainland-chinese-stocks-hit-13-month-low-tech-sell-hong-kong-market-holds?utm_source=rss_feed",
   "title_cn": "中国大陆股市因科技股抛售跌至13个月低点，香港市场表现稳健",
@@ -140,6 +181,32 @@
    "Xiaomi",
    "Hong Kong Exchanges and Clearing"
   ]
+ },
+ {
+  "id": "7a6408985f171610",
+  "url": "https://www.scmp.com/tech/big-tech/article/3369056/bytedance-grabs-one-fifth-chinas-data-centre-capacity-ai-drives-infrastructure-boom?utm_source=rss_feed",
+  "title_cn": "",
+  "date": "2026-09-28",
+  "source_cn": "南华早报·科技",
+  "source_en": "SCMP Tech",
+  "sector": "数字互联",
+  "title_en": "ByteDance accounts for one-fifth of China’s data centre capacity as AI drives infrastructure boom",
+  "summary_en": "ByteDance holds approximately 20% of China's delivered data center capacity, ranking it the country's largest tenant and a key driver of AI infrastructure expansion. These figures are based on SemiAnalysis estimates derived from tracking over 1,000 facilities operated by more than 60 companies. ByteDance primarily rents its data center footprint to support its AI products.",
+  "companies": [
+   "ByteDance"
+  ]
+ },
+ {
+  "id": "0a783371f8c9c77b",
+  "url": "https://www.scmp.com/business/banking-finance/article/3369048/accomplices-espionage-beijings-stance-cryptocurrencies-hardens?utm_source=rss_feed",
+  "title_cn": "",
+  "date": "2026-09-28",
+  "source_cn": "南华早报·科技",
+  "source_en": "SCMP Tech",
+  "sector": "政策",
+  "title_en": "China's MSS Warns Cryptocurrencies Are 'Accomplices' in Espionage and Crime",
+  "summary_en": "China’s Ministry of State Security (MSS) issued a new warning highlighting the risks of cryptocurrencies, noting their role in facilitating money laundering, cyberattacks, and espionage. The agency emphasized that digital currency transactions are not anonymous, reinforcing Beijing’s hardened stance against virtual assets due to security concerns.",
+  "companies": []
  },
  {
   "id": "902813dbda90663f",
@@ -283,6 +350,46 @@
   ]
  },
  {
+  "id": "9c80dccd5c2abe0c",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10eHU2d0lqTkVoRURZUzRYcE9OUzUwajNBOEtHR0pyNEt5Snc1MjJNeWswVDVoNVBqSk4xZG0wVGRqRUV2cXlGbnluNzVxaUlwVFhsX21LVGhTSGJoTll0Sg?oc=5",
+  "title_cn": "国新办发布会丨介绍“十五五”时期推进科技强国建设有关情况",
+  "date": "2026-09-28",
+  "source_cn": "科学技术部",
+  "source_en": "MOST",
+  "sector": "政策",
+  "title_en": "State Council Information Office Briefing: Advancing a Leading Science and Technology Nation During the 15th Five-Year Plan Period",
+  "summary_en": "The State Council Information Office held a briefing to outline China's strategies for building a leading science and technology nation during the 15th Five-Year Plan period (2026-2030). The event focused on policy frameworks and national goals for technological advancement, though specific quantitative targets were not detailed in the provided source text.",
+  "companies": []
+ },
+ {
+  "id": "093f2c6ec3d06b0d",
+  "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE94dWRHSUNMSGEyczRSS3ZHQ3JlMFY3cVRTcmpadkpmY0ZQQmRSb19rS1lzMlJaaTBqMXYyWlJHVVFHaTFCUGxTNQ?oc=5",
+  "title_cn": "美光93亿美元扩建广岛项目动工 预计2028下半年出货HBM",
+  "date": "2026-09-28",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Micron Breaks Ground on $9.3 Billion Hiroshima Expansion, HBM Shipments Expected in Second Half of 2028",
+  "summary_en": "Micron has started construction on a $9.3 billion expansion project in Hiroshima, Japan. The facility is scheduled to begin shipping High Bandwidth Memory (HBM) products in the second half of 2028.",
+  "companies": [
+   "Micron"
+  ]
+ },
+ {
+  "id": "bba52fc722f7aa08",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwVEYzeFM1RExsWmlvOUFqdGV0dUNYOGFTY2p4aG9JQVhKRGRlSm9tamtMOWtpamRpNGlleXlBSzhObmxZbHl0VjNqZmdWelZreUdOYjJ4eElhRVU?oc=5",
+  "title_cn": "英伟达芯片在中国销售传闻引发半导体股价暴跌",
+  "date": "2026-09-28",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Rumors of Nvidia Chip Sales in China Trigger Semiconductor Stock Plunge",
+  "summary_en": "Asian Daily reports that rumors regarding Nvidia chip sales to China triggered a sharp decline in semiconductor stock prices. The text does not provide specific quantitative data, named companies, or official policy details beyond the market reaction described.",
+  "companies": [
+   "Nvidia"
+  ]
+ },
+ {
   "id": "d8b12cc58eb746af",
   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wbmZjMl9tbkhnY1lmNVBnNVJKcVNTZlhYbkZpamxCUUh5dVBEMno5eHRVV2JIU2lPb3hrWDJLczktelhiNVlXZ0hISnpwclU?oc=5",
   "title_cn": "穿越18年电商变局、年营收仍超千亿，唯品会为什么一直没死？",
@@ -294,6 +401,35 @@
   "summary_en": "Vipshop has maintained annual revenues exceeding 100 billion RMB over an 18-year period amidst significant shifts in the Chinese e-commerce sector. The analysis examines the strategic factors contributing to its longevity and continued operational scale despite intense market competition.",
   "companies": [
    "Vipshop"
+  ]
+ },
+ {
+  "id": "5961f358271c8e67",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iTUMtNmZ1UFNrU3hHMmlxV1Jram9GQ3VoeTFtYVo5VEJOZ2dtLWx6NnRLT3R5aFdLcDk3dk9NLTFDdk1IVFNMV0UxaTdobE5EVVlVLTFwSHJ6aW9WbHc?oc=5",
+  "title_cn": "京蓝科技：拟5000万元起拍转让中科鼎实股权及债权，剥离持续大额亏损业务",
+  "date": "2026-09-27",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "综合",
+  "title_en": "Jinglan Technology to Transfer Equity and Creditor Rights in Zhongke Dingshi Starting at 50 Million RMB",
+  "summary_en": "Jinglan Technology plans to transfer its equity and creditor rights in Zhongke Dingshi via auction with a starting price of 50 million RMB. The move aims to divest Zhongke Dingshi, which has been incurring significant continuous losses.",
+  "companies": [
+   "Jinglan Technology",
+   "Zhongke Dingshi"
+  ]
+ },
+ {
+  "id": "044afd6be2e6f889",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkNGg2YlV3QXpWbURYeUlJbFBkMjJscGhnX0xNaFR6azZ6UC1XQWFZOW43RFRjOEctNlNiNGVjcXMwd0IxcWFteTA5Q24ybE0wZWtHLWR4VFRZUVNjMUlrb2dfS3BVazIxaGx6eUpCMDE?oc=5",
+  "title_cn": "101名毕业生入职北大，吸引本科生研究生前来就读，什么职业技术专业这么火？",
+  "date": "2026-09-27",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "综合",
+  "title_en": "101 Graduates Join Peking University, Attracting Undergraduate and Graduate Students: Why Is This Vocational Technical Major So Popular?",
+  "summary_en": "101 vocational education graduates were employed by Peking University, drawing significant interest from undergraduate and prospective graduate students. The article investigates the specific vocational technical major behind this trend and questions why such programs are becoming increasingly popular despite traditional perceptions of university employment barriers.",
+  "companies": [
+   "Peking University"
   ]
  },
  {
@@ -337,6 +473,47 @@
   "companies": []
  },
  {
+  "id": "a0453a8380b7f068",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2V1hPcnVWeDl0NFozZVVhc2dUWVBzMGxXS2JQNEI3Wkl4UFl6eExLQmZLckZvUjF0UDYyMmNNRkZid2pfYm1WMjV6bFRNTmlz?oc=5",
+  "title_cn": "不要相信“AI资本开支可以无限增长”以及“十年需求能见度”这种叙事",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "人工智能",
+  "title_en": "Do Not Believe the Narrative of 'Unlimited AI CapEx Growth' and 'Ten-Year Demand Visibility'",
+  "summary_en": "An opinion piece questioning two prevailing narratives in the artificial intelligence investment landscape: that capital expenditure for AI infrastructure can grow indefinitely, and that demand visibility extends reliably for a decade. The article suggests these assumptions may be flawed or overly optimistic.",
+  "companies": [
+   "36Kr"
+  ]
+ },
+ {
+  "id": "e5e84b0cc49f59bc",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9QTXFzaXFZaWZ3VC01VWFHUzZtNGR4dllzYjRmOE5IdVJiRzVhY2MyNFNYaFhRSjhiRF93SGhza0xMVFIwSjRfWWUxUzJCMUVh?oc=5",
+  "title_cn": "空间破局，龙湖千丁用AI解锁物理世界",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "综合",
+  "title_en": "Longfor Qianding Uses AI to Unlock Physical Spaces",
+  "summary_en": "The source text provides only the title and does not contain specific details, company actions, or numerical data. It suggests that Longfor Qianding is applying artificial intelligence technology to physical spaces, but further information is unavailable in the provided snippet.",
+  "companies": [
+   "Longfor Group",
+   "Longfor Qianding"
+  ]
+ },
+ {
+  "id": "9fbd559f60922875",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9leVNfR0kzOUFxYy1TSUF5NE1VRDdNd3daQjUtSFI4TW5SZEdUM2RrNDMtYW5WWE9rYjFBbExPclBsTzZ3eGVRVHY2WjlZYU1HWWxzNUI4ODhZdWZrS2o5Qk11REh3VXQycGU4NnNMdXo?oc=5",
+  "title_cn": "向天向海！西安交大成立两大新学院",
+  "date": "2026-09-26",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "综合",
+  "title_en": "Xi'an Jiaotong University Establishes Two New Colleges",
+  "summary_en": "Xi'an Jiaotong University has established two new colleges, signaling a strategic expansion into aerospace and marine fields. The source text confirms the establishment of these entities without providing specific details on their names or scope.",
+  "companies": []
+ },
+ {
   "id": "ef8f12163c603e05",
   "url": "https://www.scmp.com/tech/big-tech/article/3368819/how-alibaba-using-ai-revamp-its-mapping-app-and-take-meituan?utm_source=rss_feed",
   "title_cn": "阿里巴巴利用人工智能改造高德地图以应对美团",
@@ -365,6 +542,138 @@
   "companies": [
    "InnoCare Pharma",
    "Eli Lilly"
+  ]
+ },
+ {
+  "id": "ea94aa2aa45fc47d",
+  "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSzR2VUNkdTZxbWZIcUVNOVVrelYzWHUzWkc0dXB0TnNQeVMxWGRUTXpvbU5USmhXdXdXanhLbnJlZE1qUHo5MmUyZFU5akNNZl9JYUpiOE9aeXprMHhhV2laU1pLM2xqZ0RvOHkwNWFRU0wyUmR4Q04wV3dKdGJxdUpyb3ZRRE5kQ3ZYSmFINFpsT1FzanhGQVJFSEI2cmVRQ0MtNzJkc3FFei16VTVKVndDWktvOXM3bTU5Y29sWF8tTm5fbEJOMVBHVEZjc3Rjc0VPZTI0SGNwNVZTREhRSUV1MzNuYm1DRlZzM2s4XzE?oc=5",
+  "title_cn": "【美股盘前】中国芯片竞争升温，美光、AMD盘前重挫，美联储会议今日启动",
+  "date": "2026-09-26",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "US Stocks Pre-Market: Intensifying China Chip Competition, Micron and AMD Drop, Fed Meeting Begins",
+  "summary_en": "Micron and AMD experienced significant pre-market declines amid reports of intensifying competition in the Chinese chip market. Concurrently, Federal Reserve meetings are scheduled to begin on this day.",
+  "companies": [
+   "Micron",
+   "AMD"
+  ]
+ },
+ {
+  "id": "56895d5ac9494947",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2SEY1Vk5BZEtTZWs2TFV4QXN3UGdWeFhlZ28tMHZ3ck54c2tYR1Z3b1VKeHpyYS12aW82MmdfN3hhaFk4QTdueTVNVXlyWTFSSDNV?oc=5",
+  "title_cn": "中国大陆集成电路制造区域全面梳理！",
+  "date": "2026-09-26",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Comprehensive Review of Integrated Circuit Manufacturing Regions in Mainland China",
+  "summary_en": "Electronics Engineering Asia provides a comprehensive overview of the geographic distribution of integrated circuit manufacturing facilities across mainland China. The article maps out key semiconductor production hubs and clusters within the country, offering a structural analysis of the industry's regional layout.",
+  "companies": []
+ },
+ {
+  "id": "e8f61910d3974cd3",
+  "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBFQzNfdGQyaEQ2cHB3VFBXaUJzYk0zRmtyYWpDbUxqZW5Ud0d0bzQtc1Q0d09Db3ZnYk9OWklIbE8wOHFPUVFtWA?oc=5",
+  "title_cn": "英伟达的卡买不到之后，中国大模型靠什么继续跑？",
+  "date": "2026-09-26",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "After NVIDIA GPUs Become Unavailable, How Will Chinese Large Models Continue to Run?",
+  "summary_en": "The article poses a question regarding the operational sustainability of Chinese large language models following the unavailability of NVIDIA graphics processing units. It explores potential alternative strategies and infrastructure solutions for AI compute needs in China amidst supply constraints.",
+  "companies": [
+   "NVIDIA"
+  ]
+ },
+ {
+  "id": "f42192e4c08517da",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hVFZHZEl5MFVCdXFQaXNDTHVxd2p0d1BzX3JHWFkxcnFxel9hbE5hWkdLWXJ1cWtJWjVqUnpKbEVWVXEtS0I3clBSb2NLVVlm?oc=5",
+  "title_cn": "从B站UP主到500亿上市公司，33岁天才少年再闯港交所",
+  "date": "2026-09-26",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "数字互联",
+  "title_en": "From Bilibili Creator to $50 Billion Listed Company: 33-Year-Old Again Targets Hong Kong Stock Exchange",
+  "summary_en": "A 33-year-old founder, previously known as a Bilibili creator, has built a listed company valued at approximately 50 billion RMB. The text reports on his attempt to list or expand operations via the Hong Kong Stock Exchange again. Specific business details, company names, and exact valuation metrics are not provided in the source snippet.",
+  "companies": []
+ },
+ {
+  "id": "f0f57cdf970f5b84",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5SMW1BajFJVlJ6WXMtWnJ5OEQwSmV6RldRY2VNU1RVTTdMSWsxSU5zYlctejQxc1lPa1BNX0VkVTlvckh5S1VCLW5PYjRkQQ?oc=5",
+  "title_cn": "光模块的七个转折",
+  "date": "2026-09-26",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "综合",
+  "title_en": "Seven Turning Points in Optical Modules",
+  "summary_en": "The source text contains only the title 'Seven Turning Points in Optical Modules' without any body content. No specific events, actors, or quantitative data are provided to summarize.",
+  "companies": []
+ },
+ {
+  "id": "96a75f0df5bb4274",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oMHQ3SEIwZ2E2ZTVfVnBXRTJhMFRmMDR3d3NVRnllM1UxdXRRUVpMdkhxZ0JDM3FyaHpNZWhxWGd3a0poOUExWENuckRkZk1xc1ZvdTBNT3VzdFNoSWc?oc=5",
+  "title_cn": "AI直接下场砍价！智能体Muse爆火，给出哪些新启示？",
+  "date": "2026-09-25",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "人工智能",
+  "title_en": "AI Joins the Negotiation: AI Agent Muse Goes Viral and Offers New Insights",
+  "summary_en": "The article discusses the viral popularity of 'Muse,' an artificial intelligence agent capable of negotiating prices directly. It explores the phenomenon of AI participating in consumer transactions and examines the implications or new insights provided by this development.",
+  "companies": []
+ },
+ {
+  "id": "9ac78dde7730d0c8",
+  "url": "https://technode.com/2026/09/25/a-game-studio-in-minutes-jiyi-soon-ai-game-creation/",
+  "title_cn": "几分钟打造游戏工作室：JIYI SOON 旨在用 AI 重新定义游戏创作",
+  "date": "2026-09-25",
+  "source_cn": "动点科技",
+  "source_en": "TechNode",
+  "sector": "人工智能",
+  "title_en": "A Game Studio in Minutes: JIYI SOON Aims to Redefine Game Creation with AI",
+  "summary_en": "TechNode highlights JIYI SOON, a startup aiming to redefine game creation using AI technology. The article positions the company within TechNode's DragonLab series, which seeks to identify promising Chinese startups that may be less known to global audiences.",
+  "companies": [
+   "JIYI SOON"
+  ]
+ },
+ {
+  "id": "4ab96a27dd57287d",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfM2lfMU5sUElDS1NQOXIxUE5JWVZjRVVsM1A0VG1MRW9IeThNSjh1Qm1pYTdoQkVFOExlXzM5ZWxyZ2lFVWpJYlJYbEhBV1NBTGpFUFBPYnpPc1A5NVpvZV90RG9xaHhKc081UHZsOE4?oc=5",
+  "title_cn": "活力中国调研行丨绿进沙退，宁夏白芨滩三代人不断治沙筑起绿色长廊",
+  "date": "2026-09-25",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "绿色科技",
+  "title_en": "Three Generations of Desert Control at Biji Tan, Ningxia",
+  "summary_en": "The article highlights the multi-generational efforts to combat desertification in Ningxia. Three generations of people have worked continuously at Biji Tan to transform sandy terrain into a green corridor, reflecting broader themes of ecological improvement in China.",
+  "companies": []
+ },
+ {
+  "id": "7d1cb7b7114855b3",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XVjBtYnJPVGdxamFzVFJWVlBxbUZYdDdSNmt1OGlZT0haSGtsVDI1VC1YRE1iSWtKNHJWNUFDOEJTSEMzc0E3ZTFoQ3N6S0d5RzZxR3VZbmFZcmp2N3dYNzVDR2p3Y2VnOEpjTkdyVXE?oc=5",
+  "title_cn": "神23乘组从“天宫”送来中秋祝福",
+  "date": "2026-09-25",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "航天",
+  "title_en": "Shenzhou-23 Crew Sends Mid-Autumn Festival Greetings from Tiangong",
+  "summary_en": "The crew of the Shenzhou-23 mission sent Mid-Autumn Festival greetings to Earth from the Tiangong space station. This event marks a festive occasion for China's ongoing human spaceflight operations.",
+  "companies": [
+   "Tiangong",
+   "China Manned Space Agency"
+  ]
+ },
+ {
+  "id": "680c3e942ecc1bb2",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SY2oyb1BPRDVsRFVWQzJWYkpTOTU2Zzh2RlBlZFdIc2JXR0c2WFE0bUZUczlkWGx0OTE2T19aeGp2ZEpnVWd2UjFQRTRkUzNHMGxOX3BZWWZDajRfcjVyb1lIYmZpUEVKY181V0trYVo?oc=5",
+  "title_cn": "\"只能成功不能失败！\"交付前半年，\"中国天眼\"控制系统推倒重建",
+  "date": "2026-09-25",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "综合",
+  "title_en": "\"Must Succeed, Cannot Fail!\" Six Months Before Delivery, FAST Control System Rebuilt from Scratch",
+  "summary_en": "Six months before the scheduled delivery of the Five-hundred-meter Aperture Spherical radio Telescope (FAST), nicknamed \"China Sky Eye,\" its control system underwent a complete reconstruction. The project team adhered to a strict mandate that the outcome must be successful, leading to this significant overhaul of the core control infrastructure to ensure operational reliability.",
+  "companies": [
+   "FASO (CAS)"
   ]
  },
  {
@@ -420,6 +729,42 @@
   "companies": []
  },
  {
+  "id": "9f5ceece059a6dc7",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93bER3UmU2QlpYUlVOcUJ1SGtjWkt5ZkhXY2RYNHZULVczUTBMcURvNEhhMmlPUWJfSjdDaXZMTkZkY3gwcldhWl9vZ21MYnhSZUJZWlNxQnhGZTNXSVFqdUF1eUFwblVvYUZR?oc=5",
+  "title_cn": "潜心钻研二十载！国产蚀刻设备打通整套技术链路，做到完全自研自持，国内晶圆生产再也不受外部牵制！",
+  "date": "2026-09-25",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Domestic Etching Equipment Achieves Full Self-Reliance After 20 Years of R&D",
+  "summary_en": "A financial news post from East Money claims that domestic semiconductor etching equipment has completed its entire technical chain through 20 years of independent research, achieving full self-reliance. This development allegedly ensures that Chinese wafer production is no longer subject to external restrictions. The text highlights national pride in China's semiconductor hardware progress.",
+  "companies": []
+ },
+ {
+  "id": "6e40d884e45613fc",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTRDg5bElxeHNJVEExMzg2OTlnejRZaURfaG16MFBDdUZ4dmI5TUdHY1c0N1RBUTFBNUU2bDhOTkNMNnphdDYtdE5lVEp6UUFMdFhnTDZrN3pvLUxjTC0wWEtBVi1pUGFmTXNubTQ3ZUVPQQ?oc=5",
+  "title_cn": "美国: 中国车再强, 不还得买我智驾芯片? 中国: 谁说的? 自研 4nm 入列!",
+  "date": "2026-09-25",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "US: Does China Still Need to Buy My Smart Driving Chips? China: Who Says? Self-developed 4nm Now Available!",
+  "summary_en": "The article presents a rhetorical exchange highlighting China's advancement in smart driving chip technology. It claims that despite US dominance in the sector, Chinese automakers are no longer dependent on foreign chips due to the deployment of self-developed 4nm smart driving processors.",
+  "companies": []
+ },
+ {
+  "id": "691e3ba6d8dd15e0",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWY290bldBN3NqUGpuOE5ka21UUEhaaFZUQkstUURfbTlSSmR6bnZDZFk0d1FJNlRvT0Vob3VTZENfY3RrLXhqZllvOHdnSVZ3OTZZRWJtaFRwd1JCcE5vb091cTdlTUpXak5xTnFtQjVJZmhR?oc=5",
+  "title_cn": "",
+  "date": "2026-09-25",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "政策",
+  "title_en": "US Announces New Export Controls on Semiconductor Equipment to China; Localized Production Lines Granted Exemptions",
+  "summary_en": "The US has announced a new round of export controls targeting semiconductor equipment sales to China. Despite these restrictions, exemptions have been granted for certain localized production lines, allowing them to operate without full compliance with the new regulations.",
+  "companies": []
+ },
+ {
   "id": "39c79c41b0401cdc",
   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RRXR1SUF4UTVtbDNLdFZfYWFrTm1qY0EwN3NEWG03bEtMTlI0SllFaGJlRFd6S0NkLVlBM0JXQ3hxRTFSSmRrZHNoRzFLQQ?oc=5",
   "title_cn": "融资3亿，她宣布公司倒闭",
@@ -445,6 +790,30 @@
    "Zhongyuan Construction",
    "Lianheng Technology"
   ]
+ },
+ {
+  "id": "c79b909a57ef59a0",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ZenRnbHhBb25GVW1ldEVhczd4WE50eUxFLVpqVFpGb0ZhMVlkYmhXMGpwdVlCellQRjBZeVM2MWpBRHQ0N01XRU1fU0x4TDZjV0J3VlUwVk5abjZIblE?oc=5",
+  "title_cn": "\"AI教父\"辛顿答澎湃：在让AI学会关怀人类之前，不应开发超级智能",
+  "date": "2026-09-24",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "人工智能",
+  "title_en": "\"Godfather of AI\" Geoffrey Hinton Answers The Paper: Superintelligence Should Not Be Developed Until AI Learns to Care for Humans",
+  "summary_en": "Geoffrey Hinton, known as the \"Godfather of AI,\" gave an interview to The Paper (澎湃新闻). In this Q&A, he stated that superintelligent AI should not be developed until it learns to care for humans. No specific event, company, or numerical data is mentioned in the provided text.",
+  "companies": []
+ },
+ {
+  "id": "46944f794d43e7cc",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QbGlvVGo4alhiZ3E5RXdka19HNjcwTFEyNW4zbHBOTHpPbndiRFljUkE0bWRvQUk0WldMLUZ1OUF1c3lTNnFFaG8tYjRQVmpLY3JzcFdSLVdLMUYxUkE?oc=5",
+  "title_cn": "中国科学院院士张旭：类脑智能有望5年内走进千家万户",
+  "date": "2026-09-24",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "人工智能",
+  "title_en": "CAS Academician Zhang Xu: Brain-inspired Intelligence Expected to Enter Households Within Five Years",
+  "summary_en": "Zhang Xu, an academician of the Chinese Academy of Sciences, stated that brain-inspired intelligence may become widely available to households within five years. The source text provides this timeline prediction but does not include specific quantitative data or detailed technical metrics regarding the development roadmap.",
+  "companies": []
  },
  {
   "id": "ab3167baf73f6bf2",
@@ -546,6 +915,42 @@
    "Xiaomi",
    "Qualcomm"
   ]
+ },
+ {
+  "id": "f2ee636eb7cd2cf8",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5URGlEcl9OblBLOHF3RThJelk4Tjh3UzBtS0tXaWFpWnZBR3dsaHpBSzVPVmFRSnZVdldMNE5vSjJWM2ZVZjk0ODVrZ2p5SDVMVUxrTjBERGRvTGNCR3hFN2xpWkUzdnlIRlhDOVRZaTQ?oc=5",
+  "title_cn": "活力中国调研行丨立足内陆，宁夏银川综保区打造靠西开放前沿",
+  "date": "2026-09-24",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "综合",
+  "title_en": "Ningxia Yinchuan Comprehensive Bonded Zone Builds Western Opening Frontier",
+  "summary_en": "The article reports on the strategic development of the Ningxia Yinchuan Comprehensive Bonded Zone. Positioned inland, the zone aims to establish itself as a forefront for western opening-up and international trade within China's broader regional economic strategy.",
+  "companies": []
+ },
+ {
+  "id": "fc2229fea0732615",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aMmU3bmpQcGtWZEhKXzYwdHdCRDVzUUpUVm5VbVBYbmZFSkRvdVlDdkliRzRqaVV4bDNuTzBTRVlwVWdESm9WSWN1LTRCVDlVOTF6WHdkUEFCVHpILVdINFJENHpWMXdMM0FWOWVPeXM?oc=5",
+  "title_cn": "\"中国天眼\"十年大事记",
+  "date": "2026-09-24",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "航天",
+  "title_en": "The 'China Sky Eye' Decade Chronicle",
+  "summary_en": "Published on September 24, 2026, China Science and Technology Network released a decade chronicle of the Five-hundred-meter Aperture Spherical Radio Telescope (FAST). The article documents major milestones achieved during the telescope's first ten years of operation.",
+  "companies": []
+ },
+ {
+  "id": "10d99d64a70a3f58",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91eDNRY3VfNU1SdTFZZGUxSXBRMnBXMWpQZkkwV3pveHAybTRDOElvSHY1YWRUMUtoX3BhVjBTd3J0Q2RwWFc4TWNMUE5lN1B4VWp4SUhjVEpNOFJTMC04aFBzekg4d3NTWUZvQ3VodnE?oc=5",
+  "title_cn": "全球首发！红蓝组合“数字员工”提升防护能力",
+  "date": "2026-09-24",
+  "source_cn": "中国科技网（科技日报）",
+  "source_en": "Science and Technology Daily",
+  "sector": "人工智能",
+  "title_en": "World Premiere: Red-Blue 'Digital Employee' Duo Enhances Protective Capabilities",
+  "summary_en": "China unveiled a 'digital employee' system featuring a red-blue collaboration model to enhance protective capabilities. The initiative represents a global premiere, integrating dual-team dynamics into automated digital workforce solutions for improved security or operational resilience.",
+  "companies": []
  },
  {
   "id": "86751f0ce3df55db",
@@ -734,6 +1139,75 @@
   ]
  },
  {
+  "id": "5c158b20c27f99e0",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sUW5fb3lLdVUxNDRuT3RNbkxVQXhucWdNLURyYkMzSkE4N1pZNnZDWGdZRlhNYWNHcWFEcUxiTkFsR3M1MEJvU3RsbU9qSkMxa0R0VGZpek1PeE12dmRhdmVCemFINXl5UWl6d0R3cXA?oc=5",
+  "title_cn": "长六改火箭成功发射遥感四十号04组卫星",
+  "date": "2026-09-24",
+  "source_cn": "中国航天",
+  "source_en": "China Space",
+  "sector": "航天",
+  "title_en": "Long March 6A Successfully Launches Yaogan-40 Group 04 Satellites",
+  "summary_en": "The Long March 6A (Kuaizhou) launch vehicle successfully placed the Yaogan-40 Group 04 satellites into orbit on September 24, 2026. This mission demonstrates ongoing operational capability of the commercial launch segment within China's space program.",
+  "companies": [
+   "China Great Wall Industry Corporation",
+   "Long March"
+  ]
+ },
+ {
+  "id": "0288f71ae6f7455e",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbzBmNWR4Y2ZKZGRzdEZ4ZWc2dUVNazJyWEtGV0lwT0hEUzRZbFpsd3h3OUZUMGUybkpMeTJGc2VOa0E1enRSZXFPXzF5OXo4bElEbXdISk5KSmRRQ2l5Tkx5LUpQUWpBLTJwS1lBZGd1YTJ3WHpvRF9uM1VhNW5wb0hMb2pWZkwxZFRJWC0xQQ?oc=5",
+  "title_cn": "深耕特色工艺晶圆代工赛道 粤芯半导体开启申购",
+  "date": "2026-09-24",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Guangdong Core Semiconductor Begins Share Subscription Amid Focus on Specialty Process Wafer Foundry",
+  "summary_en": "Guangdong Core Semiconductor (Yuxin Semiconductor) has begun share subscription for its initial public offering. The company focuses on specialty process wafer foundry services, differentiating itself from generic logic manufacturing. This marks a significant step in China's domestic semiconductor supply chain development.",
+  "companies": [
+   "Guangdong Core Semiconductor"
+  ]
+ },
+ {
+  "id": "840c54b9d3e8ba2a",
+  "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNYUt0RklDN2VNcUZMQzhHeHRoXzFfSF9fTlk5SG94eG01Q25ybjludzM0ck5ZV2hfRF91aEZOWkJNOGRXYnRWZEVlbFZwcWwyWG82eWo3OGVoOHVPVzRPZWtsRkRmR2lYSlpENmhad1prYmMxVHQyV1NHd3lQNzUzb05zQjVRRHJibXlwZ0thUGgzZTdEM1hESk9lazdPNzNuam04c3FMa3AtUXc0a1dhOWdDY2lNSzhqelVleml6NGdrV3hONTFEd01kU2FlS0dseEltbGtvYllHZl9xSkhidVZCQ3JZWkxUTmtXbV9iNDJJMGh5MmI1ZFFieklFaE94UmI0?oc=5",
+  "title_cn": "实探安世中国研发中心：晶圆断供后启动本土供应链方案 升级迭代至12英寸",
+  "date": "2026-09-24",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Nexperia China R&D Center: Launches Local Supply Chain Solutions After Wafer Shortage, Upgrades to 12-Inch",
+  "summary_en": "Nexperia's China research and development center has initiated a domestic supply chain strategy following disruptions in wafer supplies. The facility is upgrading its production capabilities to support 12-inch wafers as part of its localization efforts.",
+  "companies": [
+   "Nexperia"
+  ]
+ },
+ {
+  "id": "97af30af89414295",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xME5pNjB5a01jNy1QZlZ6WGZwQ1pqNnFxb1B6Q2U5NzFzd1NYNFhMcnZvczBrYXNpM3I3cE9EV1BmT2NrUWhMMWswNTh3UzBraHp4c2pVSkZaa1E?oc=5",
+  "title_cn": "存储芯片对中国出口增速的影响",
+  "date": "2026-09-24",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Impact of Memory Chip Exports on China's Export Growth",
+  "summary_en": "The provided text contains only a title discussing the impact of memory chip exports on China's export growth. No specific data, companies, or analytical details are available in the source snippet to summarize beyond this topic.",
+  "companies": []
+ },
+ {
+  "id": "266d4542f551835b",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOZ0F6eGRQYVh4c19mWUROOUdyNnY3VGFIX0JnbFBfdzZWY3hWM2NQNTRZaEFfb0dBZWtCVDJRd0w1Y3paWjNqS1ZEUEJKZw?oc=5",
+  "title_cn": "一个量子AI团队，三个月融两轮",
+  "date": "2026-09-24",
+  "source_cn": "中国量子科技",
+  "source_en": "China Quantum",
+  "sector": "量子",
+  "title_en": "A Quantum AI Team Raises Two Rounds of Funding in Three Months",
+  "summary_en": "A quantum artificial intelligence team has secured two rounds of funding within a three-month period, as reported by 36Kr. Specific details regarding the valuation amounts, investor identities, or technical focus areas are not provided in the source text.",
+  "companies": [
+   "36Kr"
+  ]
+ },
+ {
   "id": "cf4e17ebeff281bc",
   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sc3Mxdm1valhBTHZlWkNuZXl1SlM3M3p3SU1RY3VQbVBqY1FJTjVuOHN2WVZBdC1kaTMzdF8tSGlHS1ItTjlUSUZOejdPZw?oc=5",
   "title_cn": "大厂AI赛马下，腾讯“龙虾”退场",
@@ -745,6 +1219,20 @@
   "summary_en": "The provided text mentions that Tencent has withdrawn or discontinued its internal project known as 'Lobster' (Longxia) amidst intense competition among major tech firms racing in the artificial intelligence sector. No specific details regarding the project's timeline, objectives, or strategic reasons are included in the source snippet.",
   "companies": [
    "Tencent"
+  ]
+ },
+ {
+  "id": "1632b0a80bde268f",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KYkNhYmVuZ0VXdEFTcXBmdTUxUEtkbFJhVTVnS1NoLVo5VHZuYkRIdGJOZlNnN3BOd1ZXbzFMS3R0aHVSdW9takppV2RtNnVubWl0XzI5emxPc3BfYWc?oc=5",
+  "title_cn": "星环科技H股上市首日大跌9.18%，亏损多年还遭腾讯系减持",
+  "date": "2026-09-23",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "数字互联",
+  "title_en": "Transwarp H-shares plunge 9.18% on debut amid long-term losses and Tencent stake reduction",
+  "summary_en": "On its listing day, Transwarp Technology's H-shares fell 9.18%. The company, which provides database and big data software solutions in China, has operated at a loss for multiple years prior to this offering. Additionally, investors associated with Tencent reduced their holdings, contributing to negative market sentiment surrounding the stock's initial public debut.",
+  "companies": [
+   "Transwarp"
   ]
  },
  {
@@ -933,6 +1421,49 @@
   "companies": []
  },
  {
+  "id": "55854636ffc2a005",
+  "url": "https://www.scmp.com/tech/tech-trends/article/3368535/chinas-storage-makers-aim-climb-value-chain-advanced-packaging-bets?utm_source=rss_feed",
+  "title_cn": "中国存储厂商进军先进封装以攀升价值链",
+  "date": "2026-09-23",
+  "source_cn": "南华早报·科技",
+  "source_en": "SCMP Tech",
+  "sector": "半导体",
+  "title_en": "China's Storage Makers Aim to Climb Value Chain with Advanced Packaging Bets",
+  "summary_en": "Biwin Storage Technology announced a 4.5 billion yuan (US$672 million) investment for the third phase of its advanced packaging and testing project in Dongguan, Guangdong. This marks a strategic shift from basic module packaging to wafer-level operations as Chinese storage makers move up the value chain. The investment exceeds the combined 3.09 billion yuan previously invested in the first two phases.",
+  "companies": [
+   "Biwin Storage Technology"
+  ]
+ },
+ {
+  "id": "deaafcdad8fa96b4",
+  "url": "https://news.google.com/rss/articles/CBMiywRBVV95cUxORVFNU2JZemEyUC1PeWVST1RBU3hydHo2T3FSSUhKOW5Hc2JwNEJPdE0taUJ2M1ZueXBxT016aVE5ZnRhdG5uZmtpWVdTd0hIdG01aTA5ZnY2akVYNVBuVHp4QUFqRl93MXdialY0cXlQQ240OGI5NTJmemR1VWlYVzlFYnBjODlMUWZjLXJhXzExZFdMYmd4MDU3UHk2aDM2dDV6c0hmVU1LTllLSEc1NEdvUkhzVy1JYWV5YVFTaUhoaHVXb1ZhdmpRMi1qMjNBWGVrOWV0MTF5V2RNOEw5Y2Vyd1RvNlZBVW5PMW9PYWlWRFI3R3lHM0pzX0dBdmZicm04dkZ0WUJnU2R2OXhLQWpsX2xyRGxWV3FKRm1GUVFDTm96dWNMSWVxRmszcF9YTTN3MHdQV3NjY1Y3QmtZcWxqR0RILU1ieUsycTdSOWpab1hXSzR6STVsLVNpVGlsWFlGeWJSV3UxTVdXcVp3eWhyaWVsZDFYQ0duVTMxODh3eUwzbVNkd0NJZTFjaENCNE41d1hCTy0wZ3VXSllHOHZQQTFJRUVaSkhUZG1WM3NBaXdfeFdQUFFxempFOUpqbjJmZUhqY2FMX24yUDVLckdFall2RDZWcUMtY3pTTDRaTlhnZFJPWEI3VEQ5dFpfM01vNlQ1bWM2Z3pwV041dTk0bkpuOUh3RkloWDRvSjE3RGpLdXgwaVZjbHJVREVFODhXbDBpZ284dEo5LTZyUmJXSXBQTjN6OWNoandFT3ZQbGxRZTZLVDZ1dw?oc=5",
+  "title_cn": "实探安世中国研发中心：晶圆断供后启动本土供应链方案 升级迭代至12英寸",
+  "date": "2026-09-23",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "Inside Nexsemi China R&D: Local Supply Chain Initiative Upgrades to 12-Inch Wafer Production Post-Disruption",
+  "summary_en": "Nexsemi (Anshi) is advancing its local supply chain strategy at its China R&D center following semiconductor wafer supply disruptions. The initiative has progressed to upgrading manufacturing capabilities to 12-inch wafers, aiming to reduce dependency on external sources and enhance domestic production resilience.",
+  "companies": [
+   "Nexsemi",
+   "Nexsemi China"
+  ]
+ },
+ {
+  "id": "c501c63057c3e729",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MNkdTNkF5cGdpcHVhRkNoLWpscF81Tk1aa0ZuZFg5dUVZZEs1cWRSR09yNGpFOW1KOUxpMEpxZnp2X2lvMHhSWUpsck5SYjF1QmNJSnBXemYtSzI3VVlhT2ZScnBGX0N4VHAzRE1YWlRkcVZkVEdV?oc=5",
+  "title_cn": "CIOE观察：AI算力催生光互连刚需 老鹰半导体双材料体系补齐全维度芯片能力",
+  "date": "2026-09-23",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "数字互联",
+  "title_en": "CIOE Observations: AI Computing Drives Demand for Optical Interconnects; Eagle Semiconductor Fills Gap with Dual-Platform Chip Capabilities",
+  "summary_en": "At the China International Optoelectronic Exposition (CIOE), industry observations highlight that rising AI computing power creates a mandatory demand for optical interconnect solutions. Meanwhile, Eagle Semiconductor is leveraging a dual-material platform to complete its comprehensive semiconductor capabilities.",
+  "companies": [
+   "Eagle Semiconductor"
+  ]
+ },
+ {
   "id": "cefdb256a690a1fd",
   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RUU83R1lIY1dIaDNDRG9YbWswT1VqdjdiTktjVXhzYm9vQ2JzV1NDMklteGM0Qm10cElWOG9ZYzVxMldPeHFyU2tCSEQtY2tn?oc=5",
   "title_cn": "朱一明做VC，给DeepSeek准备了50亿",
@@ -984,6 +1515,97 @@
   "companies": [
    "Unitree Robotics",
    "Shunwei Capital"
+  ]
+ },
+ {
+  "id": "0588d1959b0afe3e",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yNDZuWXUtajZPMWdjLWtMa3FYd3lhSU5FT0VPR2UtbHhQc0FVNVhHZDRsSWtRMFJ0T1JVeXp5ZU5KaTl2SmZfS2ZxX3Vua2w1eXlGZkZfakZLWk84eUE?oc=5",
+  "title_cn": "",
+  "date": "2026-09-22",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "政策",
+  "title_en": "China's 'Tech Vice President' Model: University Staff Applied in Enterprises",
+  "summary_en": "This report examines the 'Science and Technology Vice President' initiative in Shaanxi, where university-affiliated researchers are deployed to enterprises. The model retains personnel tenure at universities while utilizing their technical expertise in industrial settings, aiming to bridge academic research with corporate innovation.",
+  "companies": []
+ },
+ {
+  "id": "1c3384656318eda3",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UQ2FxRjA2TG5XNFBYdDR1Sk95dW5qQjJFbFB1WGpuU0Y1RkVUakpoa1BIMWNrYWd0eVFZQnBmZTYyRXFPbWFTZGtrT25WUjhkUmhkN1lvbDE4YThhV3JEWg?oc=5",
+  "title_cn": "2026年荆楚科技工作者风采展示 | 钟继卫：以数字之笔绘桥梁新篇",
+  "date": "2026-09-22",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "综合",
+  "title_en": "2026 Jingchu Tech Worker Showcase: Zhong Jiwei - Drawing New Chapters for Bridges with Digital Tools",
+  "summary_en": "The article is part of the 2026 Jingchu (Hubei) Science and Technology Workers showcase. It highlights Zhong Jiwei's work in applying digital technology to bridge engineering, specifically using digital methods to create new developments or designs in the field.",
+  "companies": []
+ },
+ {
+  "id": "907a2e153d6afca3",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45cWwyWHVtZzJ1emJmalplX0U1eWdDY2ZGb04wbWMtc1o5NzdGREVNX0FaYUtHTUMxX0k5MzRwNXpQOGhJc3p3dkRXeXhGblJ0RGJ6bnJSMUNBQzFuOHc?oc=5",
+  "title_cn": "中国科协：2026年开放合作月将举办约70项科技交流活动",
+  "date": "2026-09-22",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "综合",
+  "title_en": "CAST: ~70 Tech Exchange Activities Planned for 2026 Open Cooperation Month",
+  "summary_en": "The China Association for Science and Technology (CAST) announced that the 2026 Open Cooperation Month will host approximately 70 science and technology exchange activities. The event aims to facilitate international technological collaboration and dialogue.",
+  "companies": [
+   "China Association for Science and Technology"
+  ]
+ },
+ {
+  "id": "2830eb038519edb9",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16bGs0NVFDd0xVaHJqWDIzYW9XcVdhOTFZckI0WDFOTUNqSVBGY3FXOWg3eHNGZlIyWUk2Snpzb0t5MGZaYzR6SVR3eTRJTGprOGpBTklWMXdMU3VVb1E?oc=5",
+  "title_cn": "雄安助力“一人公司”加速成长",
+  "date": "2026-09-22",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "政策",
+  "title_en": "Xiong'an Helps 'One-Person Companies' Accelerate Growth",
+  "summary_en": "The article headline states that the Xiong'an New Area is assisting \"one-person companies\" in accelerating their growth. The provided text is limited to the title and lacks specific details, data, or information regarding specific enterprises or policy mechanisms.",
+  "companies": []
+ },
+ {
+  "id": "6322c62e756592a7",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FVlcxcUE5Mkt2N1B0bnZOSVBSN1lra29UN3VxU3kxMy01LXdqR3M3VUNlZ2dXalVCem5yVkg4ZHEwQ2RlbnpqczNlU1I3cjhyR2hCOHh3REVCUFhXamc?oc=5",
+  "title_cn": "九号科技有限公司再被列为被执行人",
+  "date": "2026-09-22",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "市场与交易",
+  "title_en": "Ninebot Co., Ltd. Listed Again as Defendant in Enforcement Case",
+  "summary_en": "Ninebot Co., Ltd. (Segway-Ninebot) has been listed again as a defendant subject to enforcement, according to the paper.cn report on September 22, 2026. The article does not specify the amount involved, the nature of the dispute, or the applicant.",
+  "companies": [
+   "Ninebot"
+  ]
+ },
+ {
+  "id": "61ae8b53ca0be260",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5iLTRxWWg4Rm9FdnlVT3BSM2hKM3RXaWJWdVBBbl9SVFkzNlVqS0VicEpLQ0ZGcnBkSjVSR01YQ3JVMzJHdEREUWNNYW9BQ0hpYWp1bFNsYjByV0dHZEE?oc=5",
+  "title_cn": "打通产教融合通道 青岛“青芯计划”在崂山启动",
+  "date": "2026-09-22",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "综合",
+  "title_en": "Qingdao's 'Qingxin Plan' Launched in Laoshan to Bridge Industry and Education",
+  "summary_en": "Qingdao launched the 'Qingxin Plan' in Laoshan District on September 22, 2026. The initiative aims to integrate industry and education sectors, fostering talent development and collaboration between local enterprises and academic institutions. Specific participating companies or financial figures were not detailed in the provided source text.",
+  "companies": []
+ },
+ {
+  "id": "9396b083f10aea1a",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xcHRQbHk0djJVelE4QlJlUGl5akVCa3VFRmoyelJkTFkzeUZmMVpzazVkZU4yaUNSQktZaFZEdGFqVTBDdFE4dWVJUXJodFM5R3VXNk94OUdLRGlYQWc?oc=5",
+  "title_cn": "雷军回应“打新宇树科技赚100亿”",
+  "date": "2026-09-22",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "综合",
+  "title_en": "Lei Jun responds to rumors of earning 10 billion by investing in Unitree Robotics",
+  "summary_en": "Xiaomi founder Lei Jun addressed online speculation claiming he earned 10 billion yuan from a primary market investment in robot maker Unitree Robotics. The brief report indicates that Lei Jun issued a response to these financial rumors, though specific details regarding the validity of the claims or his exact rebuttal were not included in the provided text.",
+  "companies": [
+   "Unitree Robotics",
+   "Xiaomi"
   ]
  },
  {
@@ -1088,6 +1710,46 @@
   ]
  },
  {
+  "id": "2dda2c675d9463dd",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10a3hyWExsWE9tZml0TnhTTjVWdlhlS2tiVFRydDBTdDdrVXJOMW5QczBWWmVYUEw5dmd3cVJSOVEzd2dQTXdPTVdNc190UEM3VTFZ?oc=5",
+  "title_cn": "2026中国半导体产业链全景图谱（行业报告）",
+  "date": "2026-09-22",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "2026 China Semiconductor Industry Chain Panorama Report",
+  "summary_en": "This item is a reference to an industry report titled '2026 China Semiconductor Industry Chain Panorama' published by EE Times (Electronic Engineering Times). No specific factual details, events, or numerical data regarding the semiconductor sector are provided in the source text.",
+  "companies": [
+   "EE Times"
+  ]
+ },
+ {
+  "id": "925bde6358a4b5a7",
+  "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBUaTJsd09OZGloR1Y1aTdzU3pzWnZERjAzVm03V0RueU5EMjJYX0IyaURKZmttRFE0N25xWW45NEZVQUFiazRKUEZNZ0dxc3VORTVqWE8wRnFyRER0V0l0dk1yUFc3VXBPd0FUZHFlT2wwX2ptMTBNOV93?oc=5",
+  "title_cn": "创业板指一度涨逾2%，半导体芯片、算力硬件、PCB等方向领涨",
+  "date": "2026-09-22",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "市场与交易",
+  "title_en": "ChiNext Index Surges Over 2%, Led by Semiconductor and Computing Hardware Sectors",
+  "summary_en": "China's ChiNext index rose more than 2% briefly, driven by gains in semiconductor chips, computing hardware, and PCB sectors. The movement reflects broader market activity in China's technology and manufacturing markets without specific corporate details provided in the report.",
+  "companies": []
+ },
+ {
+  "id": "ee3763b93fda85f8",
+  "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBBblgtaXJMZFdnbnhBZV9xSVFBOXM2NGxFT0xjbW1TN3NEaWtpQktCTkc2dE1VY1dqVVRGTC1IR0ZRcDF3eE42bjhoUTY?oc=5",
+  "title_cn": "ASML高管直言：欧洲本土光刻机销量为零，半导体产业面临掉队风险",
+  "date": "2026-09-22",
+  "source_cn": "中国半导体产业",
+  "source_en": "China Semiconductor",
+  "sector": "半导体",
+  "title_en": "ASML Exec: Zero Local EU Lithography Machine Sales, Semiconductor Industry at Risk of Falling Behind",
+  "summary_en": "An ASML executive stated that sales of lithography machines manufactured in Europe are zero, highlighting a risk of the European semiconductor industry falling behind. The comment points to challenges in maintaining local manufacturing competitiveness in critical semiconductor equipment.",
+  "companies": [
+   "ASML"
+  ]
+ },
+ {
   "id": "ff171fa856ff0165",
   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBT3BhLUw0OF9lQTcwdVdDZVVMUzhOWmtacEgxSUlpN3V3YVg2R08xRTNaVHZIbU1YZTNqNTNFek9PWDhRQ3ZPNGoxc2NjQQ?oc=5",
   "title_cn": "AIGC的2026：不再炫技，开始抢订单",
@@ -1100,5 +1762,17 @@
   "companies": [
    "36Kr"
   ]
+ },
+ {
+  "id": "64b13518616806ac",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xSXJSRHdCeVFxbXV5QTh6Qk5mWGh4bFZFdmhfV3ZiYUFZZHRFQzQ1RFVRY0tqNTVRZDZRYUdLb1ZuTWhuTmtSd09jc2haNEhZZEVabFVtZ3pTVXVFSEE?oc=5",
+  "title_cn": "低空经济需要产业科技创新平台",
+  "date": "2026-09-21",
+  "source_cn": "澎湃新闻·科技",
+  "source_en": "The Paper (Tech)",
+  "sector": "综合",
+  "title_en": "Low-Altitude Economy Needs Industrial Sci-Tech Innovation Platform",
+  "summary_en": "An opinion piece argues that the low-altitude economy requires dedicated industrial sci-tech innovation platforms to support its development. The article discusses the necessity of such infrastructure but does not provide specific data, companies, or policy details in the supplied text.",
+  "companies": []
  }
 ]
