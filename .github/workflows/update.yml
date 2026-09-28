@@ -1,0 +1,91 @@
+name: Update tracker
+
+on:
+  schedule:
+    # UTC 00:00 = 北京时间 08:00。
+    # 刻意避开 DeepSeek 高峰时段（UTC 01:00-04:00 / 06:00-10:00 周一至周五，平峰价减半）。
+    # 用 Claude / 千问 / Gemini 的话不分时段，无所谓。
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write          # 失败时开 Issue 需要
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # continue-on-error 让后面的提交步骤仍然跑，
+      # 这样 health.json 和已抓到的部分内容不会因为失败而丢掉
+      - name: Build
+        id: build
+        continue-on-error: true
+        run: python build.py
+        env:
+          # 只需要配你实际用的那一家
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # claude
+          DEEPSEEK_API_KEY:  ${{ secrets.DEEPSEEK_API_KEY }}    # deepseek
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}   # qwen（阿里云百炼）
+          GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}      # gemini
+          # Variables（不是 Secrets），随时可改
+          TRACKER_PROVIDER:  ${{ vars.TRACKER_PROVIDER }}   # claude（默认）|deepseek|qwen|gemini
+          TRACKER_MODEL:     ${{ vars.TRACKER_MODEL }}
+          SOURCES_CSV_URL:   ${{ vars.SOURCES_CSV_URL }}
+          # 群机器人通知（可选）
+          NOTIFY_WEBHOOK_URL:  ${{ secrets.NOTIFY_WEBHOOK_URL }}
+          NOTIFY_WEBHOOK_TYPE: ${{ vars.NOTIFY_WEBHOOK_TYPE }}  # feishu|dingtalk|wecom|slack
+          NOTIFY_PAGE_URL:     ${{ vars.NOTIFY_PAGE_URL }}
+
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name  "tracker-bot"
+          git config user.email "tracker-bot@users.noreply.github.com"
+          git add -A data docs
+          git diff --staged --quiet || git commit -m "update $(date -u +%F) [${{ steps.build.outcome }}]"
+          git push
+
+      # 兜底通知：即使 build.py 自己崩了（连通知代码都没跑到），这一步也会执行。
+      # GitHub 默认会把自己仓库的新 Issue 和新评论发到你邮箱，所以这条路零配置。
+      - name: Open or update alert issue
+        if: steps.build.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create tracker-alert --color B93724 --description "追踪器运行异常" 2>/dev/null || true
+
+          SUMMARY="（本次没能写出 health.json，说明 build.py 在更早的阶段就崩了）"
+          if [ -f data/health.json ]; then
+            SUMMARY=$(jq -r '
+              "- 状态：\(.status)\n- 模型：\(.provider)/\(.model)\n" +
+              "- 信源：\(.sources.total) 个，其中 \(.sources.empty) 个返回空\n" +
+              "- 条目：抓到 \(.items.fetched)，新增 \(.items.new)，成功加工 \(.items.enriched)，失败 \(.items.failed)\n" +
+              "\n问题：\n" + (.problems | map("- " + .) | join("\n"))' data/health.json)
+          fi
+
+          BODY=$(printf '追踪器在 %s 的运行出现异常。\n\n%s\n\n运行日志：%s/%s/actions/runs/%s\n\n---\n修好之后请手动关闭这个 Issue；下次再出问题会重新开一个。' \
+            "$(date -u +'%F %H:%M UTC')" "$SUMMARY" \
+            "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
+
+          NUM=$(gh issue list --state open --label tracker-alert --limit 1 --json number -q '.[0].number // empty')
+          if [ -n "$NUM" ]; then
+            gh issue comment "$NUM" --body "$BODY"
+            echo "已在 Issue #$NUM 追加评论"
+          else
+            gh issue create --title "🔴 追踪器运行异常" --label tracker-alert --body "$BODY"
+          fi
+
+      - name: Mark job failed
+        if: steps.build.outcome == 'failure'
+        run: exit 1
+        
