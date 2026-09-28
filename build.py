@@ -76,14 +76,16 @@ Assign the news to EXACTLY ONE of the following sectors based on these guideline
 9. "General Tech":
    - Cross-cutting digital transformation, overarching policy frameworks, or news that meets relevance criteria but spans multiple categories equally.
 
-### OUTPUT FORMAT (JSON ONLY):
-Return a strict JSON object:
+### 4. CRITICAL OUTPUT FORMAT RULES (JSON ONLY):
+You MUST return a valid JSON object containing ALL 6 keys listed below under EVERY condition.
+NEVER omit "title_en", "summary_en", "sector", or "companies", EVEN WHEN "is_relevant" IS FALSE.
+
 {
-  "is_relevant": true, // or false
-  "reason": "Brief explanation if irrelevant",
+  "is_relevant": true, // boolean: true or false
+  "reason": "Brief explanation for the judgment",
   "sector": "Exact Sector Name from the list above",
-  "title_en": "Professional concise English title",
-  "summary_en": "Executive English summary (2-3 sentences focusing on facts and strategic impact)",
+  "title_en": "Professional concise English title (MANDATORY: translate the original title even if is_relevant is false)",
+  "summary_en": "Executive English summary (2-3 sentences)",
   "companies": ["Primary tech companies explicitly involved"]
 }
 """
