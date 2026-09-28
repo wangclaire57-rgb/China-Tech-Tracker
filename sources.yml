@@ -1,12 +1,9 @@
 # ============================================================
-#  信源清单 / Source registry     —— 所有查询已实测可用（2026-09-25）
+#  中国科技动态追踪 — 信源配置文件 (Source Registry)
 #
-#  增删信源只需改这个文件：在 GitHub 网页上点 Edit 即可，无需安装任何软件。
-#
-#  type: rss    直接给 RSS/Atom 地址（最干净，有就优先用）
-#  type: gnews  用 Google News 搜索当 RSS —— 给没有 RSS 的中文站兜底
-#               query 里可以用 when:7d 限定时间、site: 限定站点、OR 并列关键词
-#  enabled: false  临时停用而不删除
+#  type: rss    直接读取 RSS/Atom 订阅源（最稳定快捷）
+#  type: gnews  通过 Google News 聚合引擎检索（解决无 RSS 及反爬问题）
+#  enabled: false 临时停用信源
 # ============================================================
 
 defaults:
@@ -15,22 +12,16 @@ defaults:
 
 sources:
 
-  # ---------- 综合科技（原生 RSS，质量最高）----------
+  # ============================================================
+  # 1. 综合科技与深度媒体 (Comprehensive & Deep Tech)
+  # ============================================================
   - id: scmp_tech
     name_cn: 南华早报·科技
     name_en: SCMP Tech
     type: rss
     url: https://www.scmp.com/rss/36/feed
     lang: en
-    default_sector: 综合
-
-  - id: technode
-    name_cn: 动点科技
-    name_en: TechNode
-    type: rss
-    url: https://technode.com/feed/
-    lang: en
-    default_sector: 综合
+    default_sector: General Tech
 
   - id: pandaily
     name_cn: Pandaily
@@ -38,24 +29,31 @@ sources:
     type: rss
     url: https://pandaily.com/feed/
     lang: en
-    default_sector: 综合
+    default_sector: General Tech
 
-  # ---------- 综合科技（中文，走 Google News）----------
+  - id: xinhua_tech
+    name_cn: 新华网·科技
+    name_en: Xinhua Net (Tech)
+    type: gnews
+    query: "site:news.cn/tech OR (新华网 科技) when:7d"
+    lang: zh
+    default_sector: General Tech
+
+  - id: caixin_tech
+    name_cn: 财新网·科技
+    name_en: Caixin Tech
+    type: gnews
+    query: "site:caixin.com 科技 OR 创投 OR 芯片 when:7d"
+    lang: zh
+    default_sector: General Tech
+
   - id: 36kr
     name_cn: 36氪
     name_en: 36Kr
     type: gnews
-    query: "36氪 when:7d"
+    query: "site:36kr.com OR (36氪 科技) when:7d"
     lang: zh
-    default_sector: 综合
-
-  - id: thepaper_tech
-    name_cn: 澎湃新闻·科技
-    name_en: The Paper (Tech)
-    type: gnews
-    query: "澎湃 科技 when:7d"
-    lang: zh
-    default_sector: 综合
+    default_sector: General Tech
 
   - id: stdaily
     name_cn: 中国科技网（科技日报）
@@ -63,33 +61,42 @@ sources:
     type: gnews
     query: "site:stdaily.com when:7d"
     lang: zh
-    default_sector: 综合
+    default_sector: General Tech
 
-  # ---------- 半导体 ----------
-  - id: semi_cn
-    name_cn: 中国半导体产业
-    name_en: China Semiconductor
+  - id: thepaper_tech
+    name_cn: 澎湃新闻·科技
+    name_en: The Paper (Tech)
     type: gnews
-    query: "中国 芯片 半导体 when:7d"
+    query: "site:thepaper.cn 科技 OR 算力 OR 创投 when:7d"
     lang: zh
-    default_sector: 半导体
+    default_sector: General Tech
 
-  - id: eet_china
-    name_cn: 电子工程专辑
-    name_en: EE Times China
+  - id: jingji_21jingji
+    name_cn: 21世纪经济报道 & 经济网
+    name_en: 21st Century Business Herald & Economic Daily
     type: gnews
-    query: "site:eet-china.com when:7d"
+    query: "site:21jingji.com OR site:jingji.com.cn 科技 OR 产业 OR 监管 when:7d"
     lang: zh
-    default_sector: 半导体
+    default_sector: General Tech
 
-  # ---------- 人工智能 ----------
+  - id: cinn_industrial
+    name_cn: 中国工业新闻网
+    name_en: China Industry News
+    type: gnews
+    query: "site:cinn.cn when:7d"
+    lang: zh
+    default_sector: General Tech
+
+  # ============================================================
+  # 2. 人工智能与前沿计算 (AI & Advanced Computing)
+  # ============================================================
   - id: jiqizhixin
     name_cn: 机器之心
     name_en: Synced
     type: gnews
-    query: "机器之心 模型 when:7d"
+    query: "site:jiqizhixin.com when:7d"
     lang: zh
-    default_sector: 人工智能
+    default_sector: Artificial Intelligence
 
   - id: qbitai
     name_cn: 量子位
@@ -97,107 +104,223 @@ sources:
     type: gnews
     query: "site:qbitai.com when:7d"
     lang: zh
-    default_sector: 人工智能
+    default_sector: Artificial Intelligence
 
-  - id: ai_cn
-    name_cn: 中国大模型动态
-    name_en: China AI Models
+  - id: zhiding_ai
+    name_cn: 至顶网
+    name_en: ZDNet China / Zhiding
     type: gnews
-    query: "中国 大模型 OR 人工智能 发布 OR 开源 when:7d"
+    query: "site:zhiding.cn when:7d"
     lang: zh
-    default_sector: 人工智能
+    default_sector: Artificial Intelligence
 
-  # ---------- 政策 / 部委 ----------
-  # 说明：部委官网本身很少被索引，用“关于该部委的报道”效果好得多
-  - id: miit
-    name_cn: 工业和信息化部
-    name_en: MIIT
+  - id: ai_weekly
+    name_cn: AI Weekly
+    name_en: AI Weekly
     type: gnews
-    query: "工业和信息化部 印发 OR 发布 OR 政策 when:7d"
-    lang: zh
-    default_sector: 政策
+    query: "site:aiweekly.co OR \"AI Weekly\" when:7d"
+    lang: en
+    default_sector: Artificial Intelligence
 
-  - id: most
-    name_cn: 科学技术部
-    name_en: MOST
+  - id: hpcwire
+    name_cn: HPCwire 高性能计算
+    name_en: HPCwire
+    type: rss
+    url: https://www.hpcwire.com/feed/
+    lang: en
+    default_sector: Artificial Intelligence
+
+  # ============================================================
+  # 3. 半导体 (Semiconductors)
+  # ============================================================
+  - id: ijiwei
+    name_cn: 爱集微
+    name_en: Jiwei / JW Insights
     type: gnews
-    query: "科技部 重点研发 OR 政策 OR 发布 when:7d"
+    query: "site:ijiwei.com when:7d"
     lang: zh
-    default_sector: 政策
+    default_sector: Semiconductors
 
-  - id: cac
-    name_cn: 国家互联网信息办公室
-    name_en: Cyberspace Administration of China
+  - id: eet_china
+    name_cn: 电子工程专辑
+    name_en: EE Times China
     type: gnews
-    query: "国家网信办 OR 网信办 规定 OR 备案 when:7d"
+    query: "site:eet-china.com when:7d"
     lang: zh
-    default_sector: 政策
+    default_sector: Semiconductors
 
-  - id: ndrc
-    name_cn: 国家发展和改革委员会
-    name_en: NDRC
+  - id: eefocus
+    name_cn: 与非网
+    name_en: EEFocus
     type: gnews
-    query: "发改委 人工智能 OR 算力 OR 新能源 when:7d"
+    query: "site:eefocus.com when:7d"
     lang: zh
-    default_sector: 政策
+    default_sector: Semiconductors
 
-  # ---------- 绿色科技 / 能源 / 电动车 ----------
-  - id: energy_cn
-    name_cn: 中国能源
-    name_en: China Energy
+  # ============================================================
+  # 4. 生物医药与医疗科技 (Biotech & Healthcare)
+  # ============================================================
+  - id: pharmcube
+    name_cn: 医药魔方 & 研发客
+    name_en: PharmaCube & PharmaDJ
     type: gnews
-    query: "中国 新能源 装机 OR 储能 OR 光伏 政策 when:7d"
+    query: "site:pharmcube.com OR site:pharmadj.com when:7d"
     lang: zh
-    default_sector: 绿色科技
+    default_sector: Biotech
 
-  - id: d1ev
-    name_cn: 第一电动网
-    name_en: D1EV
+  - id: fierce_pharma
+    name_cn: Fierce Pharma
+    name_en: Fierce Pharma
+    type: rss
+    url: https://www.fiercepharma.com/rss/xml
+    lang: en
+    default_sector: Biotech
+
+  - id: biocentury_china
+    name_cn: BioCentury 中国
+    name_en: BioCentury China
     type: gnews
-    query: "site:d1ev.com when:7d"
-    lang: zh
-    default_sector: 绿色科技
+    query: "site:biocentury.com \"China\" when:7d"
+    lang: en
+    default_sector: Biotech
 
-  # ---------- 生物医药 ----------
-  - id: biotech_cn
-    name_cn: 中国创新药
-    name_en: China Biopharma
-    type: gnews
-    query: "中国 创新药 授权 OR 获批 OR license-out when:7d"
-    lang: zh
-    default_sector: 生物医药
+  - id: biopharmadive
+    name_cn: BioPharma Dive
+    name_en: BioPharma Dive
+    type: rss
+    url: https://www.biopharmadive.com/feeds/news/
+    lang: en
+    default_sector: Biotech
 
-  # ---------- 航天 ----------
-  - id: space_cn
-    name_cn: 中国航天
-    name_en: China Space
-    type: gnews
-    query: "中国 火箭 发射 卫星 when:7d"
-    lang: zh
-    default_sector: 航天
-
-  # ---------- 数字互联 ----------
+  # ============================================================
+  # 5. 数字通信与网络 (Digital Connectivity & Telecom)
+  # ============================================================
   - id: c114
     name_cn: C114通信网
-    name_en: C114
+    name_en: C114 Telecom
     type: gnews
-    query: "中国 5G OR 6G OR 运营商 网络 when:7d"
+    query: "site:c114.com.cn when:7d"
     lang: zh
-    default_sector: 数字互联
+    default_sector: Digital Connectivity
 
-  # ---------- 量子 ----------
-  - id: quantum_cn
-    name_cn: 中国量子科技
-    name_en: China Quantum
+  - id: cww_telecom
+    name_cn: 通信世界网
+    name_en: Communication World Network
     type: gnews
-    query: "中国 量子 计算 OR 通信 突破 when:7d"
+    query: "site:cww.net.cn when:7d"
     lang: zh
-    default_sector: 量子
+    default_sector: Digital Connectivity
 
+  # ============================================================
+  # 6. 绿色科技、能源与电动车 (Green Tech & EVs)
+  # ============================================================
+  - id: china_energy_news
+    name_cn: 中国能源网
+    name_en: China Energy News
+    type: gnews
+    query: "site:cnenergynews.cn when:7d"
+    lang: zh
+    default_sector: Green Tech
+
+  - id: d1ev_cada
+    name_cn: 第一电动网 & 汽车流通协会
+    name_en: D1EV & CADA
+    type: gnews
+    query: "site:d1ev.com OR site:cada.cn when:7d"
+    lang: zh
+    default_sector: Green Tech
+
+  - id: bloomberg_green
+    name_cn: 彭博社·绿色与清洁技术
+    name_en: Bloomberg Green
+    type: gnews
+    query: "site:bloomberg.com/green OR (site:bloomberg.com \"China\" (\"EV\" OR \"clean energy\" OR \"battery\")) when:7d"
+    lang: en
+    default_sector: Green Tech
+
+  # ============================================================
+  # 7. 航天与商业航天 (Aerospace)
+  # ============================================================
+  - id: taibo_space
+    name_cn: 泰伯网
+    name_en: Taibo Space & Geospatial
+    type: gnews
+    query: "site:taibo.cn when:7d"
+    lang: zh
+    default_sector: Aerospace
+
+  # ============================================================
+  # 8. 量子计算 (Quantum Computing)
+  # ============================================================
   - id: quantum_insider
     name_cn: The Quantum Insider
     name_en: The Quantum Insider
     type: rss
     url: https://thequantuminsider.com/feed/
     lang: en
-    default_sector: 量子
+    default_sector: Quantum Computing
+
+  # ============================================================
+  # 9. 国际智库与外媒关注 (Global Intelligence & Foreign Media)
+  # ============================================================
+  - id: eto_scout
+    name_cn: 新兴技术观察站
+    name_en: Emerging Technology Observatory (ETO)
+    type: gnews
+    query: "site:eto.tech OR \"Emerging Technology Observatory\" when:7d"
+    lang: en
+    default_sector: Policy & Governance
+
+  - id: the_wire_china
+    name_cn: The Wire China
+    name_en: The Wire China
+    type: gnews
+    query: "site:thewirechina.com when:7d"
+    lang: en
+    default_sector: Policy & Governance
+
+  - id: nikkei_china_tech
+    name_cn: 恒生/日经亚洲·中国科技
+    name_en: Nikkei Asia (China Tech)
+    type: gnews
+    query: "site:asia.nikkei.com \"China\" \"tech\" when:7d"
+    lang: en
+    default_sector: General Tech
+
+  - id: reuters_bloomberg_tech
+    name_cn: 路透社 & 彭博社·中国科技
+    name_en: Reuters & Bloomberg (China Tech)
+    type: gnews
+    query: "(site:reuters.com OR site:bloomberg.com) \"China\" (\"technology\" OR \"semiconductor\" OR \"AI\") when:7d"
+    lang: en
+    default_sector: General Tech
+
+  # ============================================================
+  # 10. 国家部委与官方政策追踪 (China State & Policy Agencies)
+  #     覆盖：国务院、科技部、中科院、工信部、网信办、国家数据局、发改委、
+  #     商务部、海关总署、外交部、国防部、财政部、央行、教育部、公安部、
+  #     卫健委、药监局、生态环境部、交通部、自然资源部、人社部、住建部
+  # ============================================================
+  - id: state_policy_core
+    name_cn: 核心部委 (发改委/工信部/网信办/科技部/国家数据局/中科院)
+    name_en: Policy - Tech & Economic Regulators (NDRC, MIIT, CAC, MOST, NDA, CAS)
+    type: gnews
+    query: "site:ndrc.gov.cn OR site:miit.gov.cn OR site:cac.gov.cn OR site:most.gov.cn OR site:nda.gov.cn OR site:cas.gov.cn OR site:scio.gov.cn OR \"工业和信息化部\" OR \"国家数据局\" OR \"国家网信办\" when:7d"
+    lang: zh
+    default_sector: Policy & Governance
+
+  - id: state_policy_trade
+    name_cn: 宏观与外贸规制 (商务部/海关总署/外交部/国防部/财政部/央行)
+    name_en: Policy - Trade, Diplomacy & Finance (MOFCOM, Customs, MFA, MOD, MOF, PBC)
+    type: gnews
+    query: "site:mofcom.gov.cn OR site:customs.gov.cn OR site:fmprc.gov.cn OR site:mod.gov.cn OR site:mof.gov.cn OR site:pbc.gov.cn OR \"商务部\" OR \"海关总署\" OR \"出口管制\" OR \"实体清单\" when:7d"
+    lang: zh
+    default_sector: Policy & Governance
+
+  - id: state_policy_sectors
+    name_cn: 行业监管与部委政策 (药监局/卫健委/生态环境部/交通部/自然资源部/教育部/公安部/住建部/人社部)
+    name_en: Policy - Sectoral Ministries (NMPA, NHC, MEE, MOT, MNR, MOE, MPS)
+    type: gnews
+    query: "site:nmpa.gov.cn OR site:nhc.gov.cn OR site:mee.gov.cn OR site:mot.gov.cn OR site:mnr.gov.cn OR site:moe.gov.cn OR site:mps.gov.cn OR site:mohurd.gov.cn OR site:mohrss.gov.cn OR \"国家药监局\" OR \"生态环境部\" OR \"交通运输部\" when:7d"
+    lang: zh
+    default_sector: Policy & Governance
