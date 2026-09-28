@@ -1288,6 +1288,18 @@
   ]
  },
  {
+  "id": "9dfaf433e7aacf52",
+  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mRHJiR2xIbW83TWJ6bFRRZHFwVGd1WkZ6eGZVX2xSTGhjTU85Z1Jtd2FWck5ZRXhEOE9sUDIxekJFT3k0bXZLazhmVTlMSE1jalNBRVpGY3dkQQ?oc=5",
+  "title_cn": "亚洲愿景论坛-财新网",
+  "date": "2026-09-27",
+  "source_cn": "财新网·科技",
+  "source_en": "Caixin Tech",
+  "sector": "General Tech",
+  "title_en": "Asia New Vision Forum",
+  "summary_en": "The source text provides only the title of a news item from Caixin Tech, identifying it as covering the 'Asia New Vision Forum.' No body content, dates, specific announcements, or key metrics are provided in the feed. The event name implies a policy or economic discussion, but without further details, no summary of events or participants can be constructed.",
+  "companies": []
+ },
+ {
   "id": "903eff6918df4591",
   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVlgwTENuVmdDNHBWY0xobVlWQm9qOUhLMDZjMF9WdDI3bk1nbEdrMzdXRHZkaWQ4LWF5QWt1U3EtZkF6ZTYtdW5tY0NrQ0dqT3U2V0ZibUhJZ3FxTWJJcEpTaGVaZ1NFSVdpVDJwQ3pHSTVaTV9FeGl0M3QzbHhaZExReWVVcnptRjIwYldNRk5WT3c?oc=5",
   "title_cn": "",
@@ -1463,6 +1475,18 @@
   "sector": "General Tech",
   "title_en": "Big Tech Drops Faith in Expensive Office Chairs",
   "summary_en": "Chinese tech companies are moving away from purchasing high-end office furniture, such as chairs costing ten thousand yuan. This reflects a broader shift in corporate procurement trends within the Chinese technology sector towards more cost-conscious spending.",
+  "companies": []
+ },
+ {
+  "id": "51f8be2a64cc8fb1",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9vRFFlbVJEek5tTlpTYkt0bExwLURhSHVSd0o2blBsUXRUWktFRHlJMllraHB4dGtCMzQ1UmZXR0V5UGViYk1DVVFKUFhqZw?oc=5",
+  "title_cn": "震荡转暖概率较大，知名私募展望四季度：科技仍是核心主线",
+  "date": "2026-09-27",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "sector": "General Tech",
+  "title_en": "Prominent Private Equity Firm Sees High Probability of Market Stabilization, Identifies Technology as Key Driver for Q4",
+  "summary_en": "A prominent private equity firm forecasts a high probability of the market transitioning from volatility to stability in the fourth quarter. The firm identifies technology as the central investment theme. However, they note that objectively, undervalued sectors are currently lacking in momentum, while sectors with strong performance are not inexpensive. Consequently, the difficulty of stock selection is increasing.",
   "companies": []
  },
  {
@@ -1980,6 +2004,21 @@
   ]
  },
  {
+  "id": "6b7e76631077c5e9",
+  "url": "https://www.hpcwire.com/2026/09/25/huawei-and-alibaba-tout-progress-in-ai-chip-clusters-and-models/",
+  "title_cn": "",
+  "date": "2026-09-25",
+  "source_cn": "HPCwire 高性能计算",
+  "source_en": "HPCwire",
+  "sector": "General Tech",
+  "title_en": "Huawei and Alibaba Showcase Advances in AI Chips, Clusters, and Models",
+  "summary_en": "During the Huawei Connect 2026 conference in Shanghai on September 17, Huawei announced new cluster, interconnect, and storage offerings. Concurrently, Alibaba presented new chips, servers, and AI models. The announcements highlight both companies' efforts to expand scale and capabilities in AI infrastructure.",
+  "companies": [
+   "Huawei",
+   "Alibaba"
+  ]
+ },
+ {
   "id": "9f5ceece059a6dc7",
   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93bER3UmU2QlpYUlVOcUJ1SGtjWkt5ZkhXY2RYNHZULVczUTBMcURvNEhhMmlPUWJfSjdDaXZMTkZkY3gwcldhWl9vZ21MYnhSZUJZWlNxQnhGZTNXSVFqdUF1eUFwblVvYUZR?oc=5",
   "title_cn": "潜心钻研二十载！国产蚀刻设备打通整套技术链路，做到完全自研自持，国内晶圆生产再也不受外部牵制！",
@@ -2225,6 +2264,18 @@
   "sector": "General Tech",
   "title_en": "Maijishan Grottoes: Technology Ensures Permanent Preservation",
   "summary_en": "Xinhua Net reports on the application of technology to protect and preserve the Maijishan Grottoes. The initiative aims to ensure the long-term preservation of this cultural heritage site through technological support.",
+  "companies": []
+ },
+ {
+  "id": "720eb35ef4972b8c",
+  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSDJvQkV1Rjg1WWNPU1NLRTVFU0hIQld6bFZva1kyc2JHVGE0akR2OXBteU1HdUxIUEJ5NmdfLU1nMnY0VnczU0V5ZFZkZXduLVlEZE5ZOHA4dmpxSTY2cGZiTXl6NFpCSXlNN1JnRE12cTIxWThRNHpFNk9abE5Mb0xR?oc=5",
+  "title_cn": "潍坊高新区以链式思维放飞“科技风筝”",
+  "date": "2026-09-24",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Weifang High-tech Zone Uses Chain Thinking to Foster Innovation",
+  "summary_en": "The Weifang High-tech Zone is promoting innovation through a 'chain-thinking' approach, metaphorically described as flying 'science and technology kites.' The article highlights the region's strategic efforts to connect industrial chains and boost technological development.",
   "companies": []
  },
  {
@@ -3035,6 +3086,18 @@
   "companies": []
  },
  {
+  "id": "b390cf48af94ea37",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeWRrUGFpZEtaaDQtVTdVajA5UVNhcjlWUkh6d0oyZzFNUjV3VlpPcVl5SnZJcWF5dDNTMEZlQ18tOHdkaUlwNXVkUERybERmaXBUTDVsdHZza0JmUUhvVTdxRDM1T2I4OEpNak85U012MHpVS3F4VVB5NURtcExSV1JvMA?oc=5",
+  "title_cn": "金风送爽迎丰收 科技助力仓廪实——秋收一线见闻",
+  "date": "2026-09-23",
+  "source_cn": "新华网·科技",
+  "source_en": "Xinhua Net (Tech)",
+  "sector": "General Tech",
+  "title_en": "Golden Autumn Brings Harvest: Technology Boosts Grain Storage - Observations from the Frontlines of Autumn Harvest",
+  "summary_en": "Xinhua Net reports on autumn harvest activities, highlighting how technology supports grain storage and farming processes. The article provides frontline observations of the harvesting season but lacks specific details on particular technological innovations, companies involved, or quantitative data.",
+  "companies": []
+ },
+ {
   "id": "1632b0a80bde268f",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KYkNhYmVuZ0VXdEFTcXBmdTUxUEtkbFJhVTVnS1NoLVo5VHZuYkRIdGJOZlNnN3BOd1ZXbzFMS3R0aHVSdW9takppV2RtNnVubWl0XzI5emxPc3BfYWc?oc=5",
   "title_cn": "星环科技H股上市首日大跌9.18%，亏损多年还遭腾讯系减持",
@@ -3604,6 +3667,20 @@
   "title_en": "AMIE Team: Benchmarks Alone Cannot Earn Trust in Medical AI",
   "summary_en": "The AMIE team argues that relying solely on benchmarks is insufficient to build trust in medical artificial intelligence systems. The statement highlights limitations of current evaluation metrics in ensuring reliability for healthcare applications.",
   "companies": []
+ },
+ {
+  "id": "7ba44327513edb54",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV3ZhUXpJVHlUVnpCVnJNaTNVcHU1Ym9LbFJYZUFhamtWQ0ZqYnM2ZkFtV3FaWE9WU012MTJzTDF4NHR0RFZyTTNGYlFVMGxCNFJ4S3dfY3Zfd1lfNDZpaFZzR3JVN2pzMEIyNWxSV2w5UnBzWWtUWVYyNWFhYVBMVFFzcEFqbWRPTjN3ekRUYUZ3RVV1RWxV?oc=5",
+  "title_cn": "",
+  "date": "2026-09-23",
+  "source_cn": "AI Weekly",
+  "source_en": "AI Weekly",
+  "sector": "General Tech",
+  "title_en": "Alibaba Cloud Opens First Regions in Turkey, Finland, and Netherlands",
+  "summary_en": "Alibaba Cloud has launched its first cloud regions in Turkey, Finland, and the Netherlands. This move expands Alibaba Cloud's global infrastructure footprint to meet growing international demand for cloud services outside China.",
+  "companies": [
+   "Alibaba Cloud"
+  ]
  },
  {
   "id": "cefdb256a690a1fd",
