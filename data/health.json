@@ -1,5 +1,5 @@
 {
- "last_run": "2026-09-28T11:34:47+00:00",
+ "last_run": "2026-09-28T11:40:52+00:00",
  "status": "fail",
  "provider": "qwen",
  "model": "qwen3.7-flash",
@@ -12,13 +12,14 @@
   ]
  },
  "items": {
-  "fetched": 644,
-  "new": 463,
-  "enriched": 14,
-  "failed": 86,
-  "archive_total": 339
+  "fetched": 647,
+  "new": 449,
+  "enriched": 8,
+  "filtered": 0,
+  "failed": 92,
+  "archive_total": 347
  },
  "problems": [
-  "加工失败率过半：86/100 条失败"
+  "AI 接口报错率过半：92/100 条失败，请检查 qwen Key 额度或型号状态"
  ]
 }
