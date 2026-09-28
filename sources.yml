@@ -1,285 +1,112 @@
-# ============================================================
-#  中国科技动态追踪 — 信源配置 v3
-#
-#  设计原则：主题式查询为主，站点式为辅。
-#    site: 查询 = 「这家媒体最近发了什么」，按 Google 对站点的相关性排序，
-#                 不按重要性。实测 site:taibo.cn 返回 88 条，前几条是
-#                 「会员服务」页和一条人事新闻，真正的航天报道在截断线之后。
-#    主题式查询 = 「这件事谁报道了」，头部就是重要新闻。
-#
-#  每个板块都配了三类查询，对应你要的三种信息：
-#    tech    新技术 / 新产品 / 技术突破
-#    corp    公司动态：融资、上市、并购、重组、战略调整、人事
-#    policy  监管政策、行业组织、政府合作、国际冲突与合作
-#
-#  default_sector 必须是 providers.py 里 SECTORS 的值。
-# ============================================================
+#!/usr/bin/env python3
+"""
+多厂商实测对比 —— 用你自己的真实信源跑一遍，自己判断谁的摘要更好。
 
-defaults:
-  max_items_per_run: 30
-  lookback_days: 14
+    python compare.py 30                          # 默认四家全跑
+    python compare.py 30 qwen gemini              # 只比这两家
+    python compare.py 20 claude qwen              # 贵的 vs 便宜的
 
-sources:
+只需要配你要测的那几家的 key：
+    ANTHROPIC_API_KEY / DEEPSEEK_API_KEY / DASHSCOPE_API_KEY / GEMINI_API_KEY
 
-  # ══════════════════ AI ══════════════════
-  - id: ai_tech
-    name_cn: 中国大模型·技术
-    name_en: China AI · Tech
-    type: gnews
-    query: "中国 大模型 OR 人工智能 发布 OR 开源 OR 突破 when:14d"
-    lang: zh
-    default_sector: AI
-    max_items_per_run: 40
+产出 compare.html —— 并排对照，附各家实际 token 用量与推算月成本。
+"""
+import os, sys, json, html, pathlib
+from concurrent.futures import ThreadPoolExecutor
 
-  - id: ai_corp
-    name_cn: 中国AI·公司动态
-    name_en: China AI · Corporate
-    type: gnews
-    query: "中国 AI OR 人工智能 公司 融资 OR 上市 OR 收购 OR 战略 when:14d"
-    lang: zh
-    default_sector: AI
+import build, providers
 
-  - id: ai_policy
-    name_cn: 中国AI·监管
-    name_en: China AI · Policy
-    type: gnews
-    query: "人工智能 监管 OR 政策 OR 标准 OR 备案 中国 when:14d"
-    lang: zh
-    default_sector: AI
+args = [a for a in sys.argv[1:]]
+N = int(args[0]) if args and args[0].isdigit() else 20
+WANT = [a for a in args if not a.isdigit()] or list(providers.PROVIDERS)
+# 只跑配了 key 的那几家，没配的静默跳过
+WANT = [p for p in WANT if os.environ.get(providers.PROVIDERS[p]["key_env"])]
 
-  - id: qbitai
-    name_cn: 量子位
-    name_en: QbitAI
-    type: gnews
-    query: "量子位 模型 OR 智能体 when:14d"
-    lang: zh
-    default_sector: AI
 
-  - id: jiqizhixin
-    name_cn: 机器之心
-    name_en: Synced
-    type: gnews
-    query: "机器之心 模型 OR 论文 when:14d"
-    lang: zh
-    default_sector: AI
+def main():
+    if not WANT:
+        sys.exit("没有检测到任何可用的 API key，先 export 一个再跑。")
+    print(f"本次对比：{', '.join(WANT)}\n")
 
-  # ══════════════════ Robotics ══════════════════
-  - id: robot_tech
-    name_cn: 具身智能·技术
-    name_en: Robotics · Tech
-    type: gnews
-    query: "中国 人形机器人 OR 具身智能 发布 OR 量产 OR 落地 when:14d"
-    lang: zh
-    default_sector: Robotics
-    max_items_per_run: 40
+    defaults, sources = build.load_sources()
+    print("抓取样本…")
+    pool, seen = [], set()
+    for s in sources:
+        for it in build.fetch(s, defaults):
+            if it["id"] not in seen and len(it["raw"]) > 80:
+                seen.add(it["id"]); pool.append(it)
+        if len(pool) >= N * 2:
+            break
+    sample = pool[:N]
+    print(f"取到 {len(sample)} 条\n")
 
-  - id: robot_corp
-    name_cn: 机器人·公司动态
-    name_en: Robotics · Corporate
-    type: gnews
-    query: "机器人 公司 融资 OR 上市 OR 订单 OR 工厂 中国 when:14d"
-    lang: zh
-    default_sector: Robotics
+    results, cost = {}, {}
+    for prov in WANT:
+        _, model, _ = providers.resolve(prov)
+        print(f"跑 {prov}/{model} …")
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            rows = list(ex.map(
+                lambda i: providers.enrich(dict(i), prov, with_usage=True), sample))
+        results[prov] = [r[0] for r in rows]   # (item, usage, err) 三元组
+        tin  = sum((r[1] or (0, 0))[0] for r in rows)
+        tout = sum((r[1] or (0, 0))[1] for r in rows)
+        pin, pout = providers.price_for(model)
+        c = tin / 1e6 * pin + tout / 1e6 * pout
+        cost[prov] = (model, tin, tout, c)
+        print(f"  成功 {sum(1 for r in rows if r[0])}/{len(sample)} | "
+              f"in {tin:,} out {tout:,} tok | ${c:.4f}")
 
-  # ══════════════════ Semiconductors ══════════════════
-  - id: semi_tech
-    name_cn: 中国半导体·技术
-    name_en: Semiconductors · Tech
-    type: gnews
-    query: "中国 芯片 OR 半导体 制程 OR 设备 OR 存储 OR 国产化 when:14d"
-    lang: zh
-    default_sector: Semiconductors
-    max_items_per_run: 40
+    # ---- 生成对照表 ----
+    head = "".join(f"<th>{p}<div class=hm>{cost[p][0]}</div></th>" for p in WANT)
+    body = []
+    for i, src in enumerate(sample):
+        cells = []
+        for p in WANT:
+            r = results[p][i]
+            cells.append(
+                f"<td><div class=t>{html.escape(r['title_en'])}</div>"
+                f"<div class=s>{html.escape(r['summary_en'])}</div>"
+                f"<div class=m>{r['sector']} / {r.get('news_type','?')} · "
+                f"{' / '.join(html.escape(c) for c in r['companies']) or '—'} · "
+                f"{len(r['summary_en'].split())} words</div></td>"
+                if r else "<td class=skip>（判定不相关 / 失败）</td>")
+        body.append(
+            f"<tr><td class=src><a href='{html.escape(src['url'])}' target=_blank>"
+            f"{html.escape(src['title_cn'][:70])}</a>"
+            f"<div class=m>{html.escape(src['source_cn'])} · {src['date']}</div></td>"
+            + "".join(cells) + "</tr>")
 
-  - id: semi_corp
-    name_cn: 中国半导体·资本
-    name_en: Semiconductors · Capital
-    type: gnews
-    query: "中国 半导体 OR 芯片 融资 OR 上市 OR 并购 OR 扩产 when:14d"
-    lang: zh
-    default_sector: Semiconductors
+    peak = "高峰" if providers.deepseek_is_peak() else "平峰"
+    summary = "<table class=cost><tr><th>provider</th><th>model</th><th>in</th>"\
+              "<th>out</th><th>本次花费</th><th>推算每月<br>(80条/天)</th></tr>" + "".join(
+        f"<tr><td>{p}{'（'+peak+'价）' if p=='deepseek' else ''}</td><td>{m}</td>"
+        f"<td>{ti:,}</td><td>{to:,}</td><td>${c:.4f}</td>"
+        f"<td><b>{'免费额度内' if c==0 else f'${c/len(sample)*80*30:.2f}'}</b></td></tr>"
+        for p, (m, ti, to, c) in cost.items()) + "</table>"
 
-  - id: semi_geo
-    name_cn: 芯片·出口管制与博弈
-    name_en: Semiconductors · Geopolitics
-    type: gnews
-    query: "芯片 出口管制 OR 实体清单 OR 制裁 OR 关税 中国 when:14d"
-    lang: zh
-    default_sector: Semiconductors
+    pathlib.Path("compare.html").write_text(f"""<!doctype html><meta charset=utf-8>
+<title>模型横评</title><style>
+body{{font:14px/1.55 -apple-system,"PingFang SC",sans-serif;margin:24px;color:#141c24;background:#fff}}
+h1{{font-size:20px;margin:0 0 12px}}
+table{{border-collapse:collapse;width:100%;margin-bottom:22px}}
+td{{vertical-align:top;padding:12px 14px;border-top:1px solid #e7ecf1}}
+td.src{{width:26%;background:#f5f7f9}} td.src a{{color:#141c24;font-weight:600;text-decoration:none}}
+th{{text-align:left;padding:9px 14px;background:#141c24;color:#fff;font:13px ui-monospace,Menlo,monospace}}
+.hm{{font-weight:400;opacity:.65;font-size:11px;margin-top:2px}}
+.t{{font-weight:600;margin-bottom:5px}} .s{{color:#3e4c58}}
+.m{{font:11px ui-monospace,Menlo,monospace;color:#64727e;margin-top:6px}}
+.skip{{color:#b93724;font-size:13px}}
+table.cost{{width:auto}} table.cost td{{padding:7px 14px;font:12px ui-monospace,Menlo,monospace}}
+</style>
+<h1>模型横评 · {len(sample)} 条真实样本</h1>
+{summary}
+<table><tr><th>原文（中文）</th>{head}</tr>{''.join(body)}</table>""", encoding="utf-8")
 
-  - id: eet_china
-    name_cn: 电子工程专辑
-    name_en: EE Times China
-    type: gnews
-    query: "site:eet-china.com 芯片 OR 半导体 OR 制造 when:14d"
-    lang: zh
-    default_sector: Semiconductors
+    print("\n完成 -> compare.html")
+    for p, (m, ti, to, c) in cost.items():
+        est = "免费额度内" if c == 0 else f"${c/len(sample)*80*30:.2f}"
+        print(f"  {p:<9}{m:<20} ${c:.4f} / {len(sample)}条  → 每月约 {est}")
 
-  # ══════════════════ Quantum ══════════════════
-  - id: quantum_tech
-    name_cn: 中国量子·技术
-    name_en: Quantum · Tech
-    type: gnews
-    query: "中国 量子 计算 OR 通信 OR 测量 突破 OR 发布 OR 报告 when:14d"
-    lang: zh
-    default_sector: Quantum
 
-  - id: quantum_corp
-    name_cn: 量子·产业动态
-    name_en: Quantum · Industry
-    type: gnews
-    query: "量子 公司 融资 OR 合作 OR 产业化 中国 when:14d"
-    lang: zh
-    default_sector: Quantum
-
-  - id: quantum_insider
-    name_cn: The Quantum Insider
-    name_en: The Quantum Insider
-    type: rss
-    url: https://thequantuminsider.com/feed/
-    lang: en
-    default_sector: Quantum
-
-  # ══════════════════ Digital Connectivity ══════════════════
-  - id: conn_6g
-    name_cn: 中国6G与通信标准
-    name_en: 6G & Standards
-    type: gnews
-    query: "中国 6G 试验 OR 标准 OR 频谱 OR 实验室 when:14d"
-    lang: zh
-    default_sector: Digital Connectivity
-
-  - id: conn_network
-    name_cn: 算力网络与运营商
-    name_en: Compute Network & Carriers
-    type: gnews
-    query: "中国 5G-A OR 算力网络 OR 运营商 部署 OR 招标 when:14d"
-    lang: zh
-    default_sector: Digital Connectivity
-
-  - id: c114
-    name_cn: C114通信网
-    name_en: C114
-    type: gnews
-    query: "site:c114.com.cn 6G OR 5G-A OR 算力 OR 运营商 when:14d"
-    lang: zh
-    default_sector: Digital Connectivity
-
-  # ══════════════════ Biotech ══════════════════
-  - id: bio_deals
-    name_cn: 中国创新药·交易
-    name_en: Biotech · Deals
-    type: gnews
-    query: "中国 创新药 授权 OR 获批 OR BD交易 OR 出海 when:14d"
-    lang: zh
-    default_sector: Biotech
-    max_items_per_run: 40
-
-  - id: bio_corp
-    name_cn: 中国生物医药·资本与监管
-    name_en: Biotech · Capital & Policy
-    type: gnews
-    query: "中国 生物医药 融资 OR 上市 OR 并购 OR 药监局 when:14d"
-    lang: zh
-    default_sector: Biotech
-
-  - id: biopharmadive
-    name_cn: BioPharma Dive
-    name_en: BioPharma Dive
-    type: rss
-    url: https://www.biopharmadive.com/feeds/news/
-    lang: en
-    default_sector: Biotech
-
-  - id: fierce_pharma
-    name_cn: Fierce Pharma
-    name_en: Fierce Pharma
-    type: rss
-    url: https://www.fiercepharma.com/rss.xml
-    lang: en
-    default_sector: Biotech
-
-  # ══════════════════ Green Tech ══════════════════
-  - id: green_tech
-    name_cn: 中国新能源·技术
-    name_en: Green Tech · Tech
-    type: gnews
-    query: "中国 光伏 OR 储能 OR 固态电池 OR 氢能 技术 OR 量产 when:14d"
-    lang: zh
-    default_sector: Green Tech
-    max_items_per_run: 40
-
-  - id: green_policy
-    name_cn: 中国新能源·政策与贸易
-    name_en: Green Tech · Policy & Trade
-    type: gnews
-    query: "中国 新能源 政策 OR 产能 OR 出口 OR 反倾销 OR 装机 when:14d"
-    lang: zh
-    default_sector: Green Tech
-
-  - id: ev_cn
-    name_cn: 中国电动车
-    name_en: China EV
-    type: gnews
-    query: "中国 新能源汽车 销量 OR 出海 OR 智驾 OR 车企 when:14d"
-    lang: zh
-    default_sector: Green Tech
-
-  # ══════════════════ Space ══════════════════
-  - id: space_launch
-    name_cn: 中国航天·发射
-    name_en: Space · Launch
-    type: gnews
-    query: "中国 商业航天 OR 火箭 发射 成功 when:14d"
-    lang: zh
-    default_sector: Space
-    max_items_per_run: 40
-
-  - id: space_compute
-    name_cn: 太空算力
-    name_en: Space · Orbital Computing
-    type: gnews
-    query: "太空 算力 OR 在轨计算 OR 太空数据中心 卫星 when:14d"
-    lang: zh
-    default_sector: Space
-
-  - id: space_constellation
-    name_cn: 卫星互联网与星座
-    name_en: Space · Constellations
-    type: gnews
-    query: "卫星互联网 OR 星座 组网 OR 融资 中国 when:14d"
-    lang: zh
-    default_sector: Space
-
-  - id: taibo_space
-    name_cn: 泰伯网
-    name_en: Taibo
-    type: gnews
-    query: "site:taibo.cn 卫星 OR 火箭 OR 航天 OR 遥感 when:14d"
-    lang: zh
-    default_sector: Space
-
-  # ══════════════════ 英文主力（原生 RSS，跨板块）══════════════════
-  - id: scmp_tech
-    name_cn: 南华早报·科技
-    name_en: SCMP Tech
-    type: rss
-    url: https://www.scmp.com/rss/36/feed
-    lang: en
-    default_sector: AI
-
-  - id: pandaily
-    name_cn: Pandaily
-    name_en: Pandaily
-    type: rss
-    url: https://pandaily.com/feed/
-    lang: en
-    default_sector: AI
-
-  - id: caixin_tech
-    name_cn: 财新·科技
-    name_en: Caixin Tech
-    type: gnews
-    query: "site:caixin.com 科技 OR 芯片 OR 算力 OR 创新药 when:14d"
-    lang: zh
-    default_sector: AI
+if __name__ == "__main__":
+    main()
