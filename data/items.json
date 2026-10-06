@@ -1,5 +1,121 @@
 [
  {
+  "id": "09ed879466627704",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hX1dJaFp5aW9nLUpuR2MtSkZqV09yYUxDVVJFTlRldmdxVmd0LVR5UWNuRkI5WnBaR1pWU3l2TjZvR2pfbHZVZGtmTnJ5aFp4dDRsYVdxSUxzNTJ2WjMyV0YtM3BNbWNCbzNBZTZDMkVvX1hN?oc=5",
+  "title_cn": "中国汽车供应链企业改写全球产业格局",
+  "date": "2026-10-05",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "gov.cn",
+  "source_cn": "中国政府网",
+  "source_en": "State Council",
+  "source_tier": 0,
+  "title_en": "Chinese Auto Supply Chain Firms Reshape Global Industry Landscape",
+  "summary_en": "The Chinese Embassy in Germany published an article highlighting the growing influence of Chinese automotive supply chain enterprises on the global industry landscape. The text serves as a promotional overview rather than reporting specific factual events, partnerships, or financial data.",
+  "companies": []
+ },
+ {
+  "id": "2b0ec828712cd1c1",
+  "url": "https://pandaily.com/dalian-university-of-technology-va-bench-multimodal-models-robot-arm-tasks-qwen3-8-max",
+  "title_cn": "大连理工大学VA-Bench评测：顶级多模态模型仅完成一半机器人任务",
+  "date": "2026-10-05",
+  "sector": "Robotics",
+  "news_type": "Breakthrough",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Dalian University of Technology's VA-Bench: Top Multimodal Models Finish Only Half of Robot Tasks",
+  "summary_en": "Dalian University of Technology released VA-Bench, a benchmark evaluating 12 multimodal model setups on robot-arm tasks. Qwen3.8-max achieved the highest success rate at 53.93%. No model completed strict long-horizon tasks.",
+  "companies": [
+   "Dalian University of Technology",
+   "Qwen"
+  ]
+ },
+ {
+  "id": "436aa460df36153e",
+  "url": "https://pandaily.com/superclue-embodied-brain-leaderboard-september-2026-qwen3-8-max-zte-nebula-tie",
+  "title_cn": "阿里云Qwen3.8-Max与中兴Nebula并列SuperCLUE具身智能排行榜榜首",
+  "date": "2026-10-05",
+  "sector": "AI",
+  "news_type": "Breakthrough",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Alibaba's Qwen3.8-Max and ZTE's Nebula Tie for Top Chinese Spot in SuperCLUE Embodied Brain Ranking",
+  "summary_en": "SuperCLUE's September leaderboard ranks Alibaba's Qwen3.8-Max-0902 and ZTE's Nebula-EmbodiedBrain equal at 77.48, placing them as the top Chinese models. Xiaomi's MiMo-Embodied-7B leads the small model category.",
+  "companies": [
+   "Alibaba",
+   "ZTE",
+   "Xiaomi"
+  ]
+ },
+ {
+  "id": "dd96fb6a690f49d6",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFB0Q0Jla3pCdF94eDV0LWg1Z25nbVdpOXY2X09nSm9rOHJ0OXdsbExFdTNTNVE0Q0ZkZFJhQXFrbjVVdw?oc=5",
+  "title_cn": "5499元起！iQOO16与Pad Ultra登场 打通移动与PC游戏壁垒",
+  "date": "2026-10-05",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "iQOO 16 and Pad Ultra Launch, Bridging Mobile and PC Gaming",
+  "summary_en": "Vivo's iQOO brand launched the iQOO 16 smartphone starting at 5,499 yuan and the Pad Ultra tablet. The devices are marketed as bridging the gap between mobile and PC gaming experiences.",
+  "companies": [
+   "Vivo"
+  ]
+ },
+ {
+  "id": "e2cf4e92c1d7d522",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9kai1kRW1MUjJEZUNKU2dNZU11OHMtRnpCbVVrSnA2b2tuNEIzTXZvdllxelhoOUdEcEZTTlM2MDdEQQ?oc=5",
+  "title_cn": "智谱股价涨超5%，GLM-5.3海外走红",
+  "date": "2026-10-05",
+  "sector": "AI",
+  "news_type": "Capital",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Zhipu AI Shares Rise Over 5% as GLM-5.3 Gains Traction Overseas",
+  "summary_en": "Shares of Zhipu AI rose more than 5%. The company's latest model, GLM-5.3, has gained popularity in international markets. Specific details regarding the model's technical specifications or the reasons for its overseas success are not provided in the source text.",
+  "companies": [
+   "Zhipu AI"
+  ]
+ },
+ {
+  "id": "c48f4f6880febd91",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1FcndGNnNmWjBLaFd6cHN2U3FQYWUwT2FJem82SDBvMnMwNld5eTU1X0xwam0xOHp6MUFzcXhDSElrZw?oc=5",
+  "title_cn": "总投资约12亿元，光谷高端微电子器件产业园开建",
+  "date": "2026-10-05",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Optics Valley High-End Microelectronics Device Industrial Park Construction Begins",
+  "summary_en": "Construction has commenced on the Optics Valley High-End Microelectronics Device Industrial Park in Wuhan. The project involves a total investment of approximately 1.2 billion yuan. Specific details regarding the park's capacity, tenant companies, or specific microelectronic technologies are not provided in the source text.",
+  "companies": []
+ },
+ {
+  "id": "3ac4ceb6075ff975",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPcHJ3RWdab1B6WEVvTHFQa1p0QjlUWmJKa3Z4YWgtdUZ0YjJkNnRfRi1URHFNOXVCZFdNSGU0RmdYdGpCY0JOc3VMbkpKWkloR09Ua3ZkVVZNWDljek1aNA?oc=5",
+  "title_cn": "当中国机器狗进入哈萨克斯坦工地：托卡耶夫平衡术下的中美“错位竞争”",
+  "date": "2026-10-04",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "thepaper.cn",
+  "source_cn": "澎湃新闻",
+  "source_en": "The Paper",
+  "source_tier": 1,
+  "title_en": "Chinese Robot Dogs Enter Kazakhstan Construction Sites: US-China 'Asymmetric Competition' Under Tokayev's Balancing Act",
+  "summary_en": "Chinese robot dogs are being deployed at construction sites in Kazakhstan. The article analyzes this development as part of a broader US-China 'asymmetric competition,' highlighting how Kazakh President Tokayev balances relations between the two powers while adopting Chinese robotics technology.",
+  "companies": []
+ },
+ {
   "id": "4b5be07f1b0061fc",
   "url": "https://www.scmp.com/tech/policy/article/3368700/quality-over-quantity-chinas-ai-microdrama-producers-battle-viewer-fatigue?utm_source=rss_feed",
   "title_cn": "质量胜于数量：中国AI微短剧制作人应对观众疲劳",
@@ -118,6 +234,23 @@
   ]
  },
  {
+  "id": "16e8369233877c89",
+  "url": "https://pandaily.com/tianjin-university-haihe-lab-3-gram-non-invasive-bci-cube-worlds-smallest",
+  "title_cn": "天津大学海河实验室发布3克非侵入式脑机接口",
+  "date": "2026-10-04",
+  "sector": "Biotech",
+  "news_type": "Breakthrough",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Tianjin University Lab Unveils 3-Gram Non-Invasive Brain-Computer Interface",
+  "summary_en": "Tianjin University's Haihe BCI lab unveiled a 3-gram, non-invasive brain-computer interface (BCI). The device measures 2 cubic centimeters and integrates electrodes, a battery, and a wireless link into a single unit designed to be concealed in hair.",
+  "companies": [
+   "Tianjin University"
+  ]
+ },
+ {
   "id": "0c1337689940b6a0",
   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1RbXIySmpHTFhJNDF4QUx4cWRkRTdnS3ZTckZwaDBxdkVvYlE1elplOHdBRlQwbnBEWEk1OFdjRHF4Zw?oc=5",
   "title_cn": "长飞光纤：算力数据中心光纤需求持续上升，行业处于上行周期",
@@ -152,6 +285,23 @@
   ]
  },
  {
+  "id": "22b42e1d8e1cbdee",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wMEEzSVg3UnN2d0o2OXcwN2pRT1M5WGdoaGk1eFlpRFY1OU54eVBFUzNkSjRYb2pLQnRwQk1WTWZXU1d5dXktaFdKMm9YeVctNG00?oc=5",
+  "title_cn": "余承东：华为已量产381款τ芯片 覆盖手机、AI、汽车等领域",
+  "date": "2026-10-04",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Yu Chengdong: Huawei Mass-Produced 381 Types of 'Tau' Chips Covering Mobile, AI, and Automotive",
+  "summary_en": "Huawei executive Yu Chengdong announced that the company has mass-produced 381 types of chips referred to as \"tau\" (τ). These products cover applications in smartphones, artificial intelligence, and automotive sectors. No further technical specifications or financial details were provided in the source text.",
+  "companies": [
+   "Huawei"
+  ]
+ },
+ {
   "id": "037cd67821e86a80",
   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03UWE0MUs0RW9YZDdCWWVydDhhb19RVU9PeEpSZlBkSDJid0lMeWdQcnVIMW94TlFXRm12ejJUVmRRQ2VxRXE4eEd5c0RPNHc?oc=5",
   "title_cn": "英国最畅销车 奇瑞Jaecoo7时隔半年重回宝座",
@@ -167,6 +317,21 @@
   "companies": [
    "Chery"
   ]
+ },
+ {
+  "id": "e0279f413cedf9af",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kbFA4N2I0VWFmblFhMWQ4dmdVNkRVS2M1MDl3UXpaN0pER01wQzEwOFVjQTlfRl9IeVhJdjdHVWxKLW5pWnZncTJBa0FTZGEwQ2tfeXZ3bU83RU9ISHBnUG9rVkxxOE1MeVRBRkFIR202QQ?oc=5",
+  "title_cn": "【央企助力青海高质量发展】绿动高原储领未来-政务公开",
+  "date": "2026-10-03",
+  "sector": "Green Tech",
+  "news_type": "Policy",
+  "source_domain": "gov.cn",
+  "source_cn": "中国政府网",
+  "source_en": "State Council",
+  "source_tier": 0,
+  "title_en": "Central SOEs Support High-Quality Development in Qinghai: Green Energy and Storage Lead the Future",
+  "summary_en": "The State Council website published a report on how central state-owned enterprises (SOEs) are supporting high-quality development in Qinghai province. The initiative focuses on leveraging green energy and storage solutions to drive regional growth, aligning with national goals for sustainable industrial expansion.",
+  "companies": []
  },
  {
   "id": "67874af2fa971d97",
@@ -270,6 +435,23 @@
   ]
  },
  {
+  "id": "afae2a37f5b8f2aa",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5pMkJzeklpTFo0WE9XX0xVa0puRmVFYzh5LTAzSzByNjcxWjNCeTZrcGlrQ20zdG1ybEpFbUZHMjNKUQ?oc=5",
+  "title_cn": "台积电熊本设厂效应外溢，日本与台湾地区地方协议激增",
+  "date": "2026-10-03",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "TSMC Kumamoto Plant Effect Spills Over: Surge in Local Agreements Between Japan and Taiwan",
+  "summary_en": "The establishment of TSMC's plant in Kumamoto, Japan, is driving an increase in local agreements and cooperation between Japanese municipalities and Taiwanese entities. This 'spillover effect' highlights the broader economic and industrial ties extending beyond the direct operations of the semiconductor manufacturer.",
+  "companies": [
+   "TSMC"
+  ]
+ },
+ {
   "id": "b06328074a6aca17",
   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QcVBfRkI0OE5rZnhDaHpodlB0alNCRjdKVnJCbTU0ZzFVdEc2WWdmbllRTmZvWkItdmNlZFN4dDhsbkt5SDFBbnozSHllWmhMcURKZFQ0NA?oc=5",
   "title_cn": "FSV9563 全协议 NFC 读写芯片：多场景下的高频射频解决方案",
@@ -332,6 +514,39 @@
   "companies": [
    "Xunjie Guangyuan"
   ]
+ },
+ {
+  "id": "5461a6c098342678",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90QUx6ZmJIbFU4am5OaFhpUWJfazR2REhtdE1oUEVteXpQTDlsMXQ2ei1TaVprcFYwd2FWV28ybXA1YV9LMHRYaDNwOUV5Zw?oc=5",
+  "title_cn": "中国公司全球化周报｜速卖通智能经营AI Agent全面上线 / 百度海外版Kooko用户破千万",
+  "date": "2026-10-03",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "AliExpress AI Agent Launches; Baidu's Kooko Hits 10 Million Users",
+  "summary_en": "AliExpress has fully launched its intelligent business AI Agent to assist merchants. Separately, Baidu's overseas search product, Kooko, has surpassed 10 million users. These developments highlight the expansion of Chinese tech firms into global markets through AI integration and user growth.",
+  "companies": [
+   "Alibaba Group",
+   "Baidu"
+  ]
+ },
+ {
+  "id": "59ee79aba000d64a",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NR2pmcmdZaXVlaFZnLWRSXzFXZl81OUFmUUExLXozdC1Hc1laTURBZV9RWjB3T1NwaG5CMk5fZ0t6T2s0Z1ZYUVV1VkZZZw?oc=5",
+  "title_cn": "Claude满分、GPT 99分，何恺明团队把AGI考试打穿了",
+  "date": "2026-10-03",
+  "sector": "AI",
+  "news_type": "Breakthrough",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "He Kaiming's Team Scores Perfect on AGI Test, Surpassing Claude and GPT",
+  "summary_en": "Researcher Kaiming He's team reportedly achieved a perfect score on an AGI evaluation benchmark, outperforming models like Claude and GPT. The text provides no specific details regarding the model architecture, dataset, or verification of these results.",
+  "companies": []
  },
  {
   "id": "0879f451cdd6580d",
@@ -756,6 +971,21 @@
   ]
  },
  {
+  "id": "4538eb22956a159e",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hNzVCaVJWVGdDcWhpQmJsTnVzNm41ekRBeHNFNGhxQVdOV3Jod0Y1U0tJZUczSF9sdXViQlBOcktSWkJrbVptcElJZ0lRV1F0Mmk2eEFLUzhWbGRC?oc=5",
+  "title_cn": "人形机器人破局点：攻克电力电子难题",
+  "date": "2026-10-01",
+  "sector": "Robotics",
+  "news_type": "Breakthrough",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Humanoid Robots' Breakthrough: Overcoming Power Electronics Challenges",
+  "summary_en": "The article discusses power electronics as a critical bottleneck for the advancement of humanoid robots. It highlights the technical difficulties in managing high-power density and efficiency required for robotic actuators, suggesting that solving these hardware challenges is essential for the industry's commercial breakthrough.",
+  "companies": []
+ },
+ {
   "id": "ce65a8c52d32e46e",
   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jQkNLLWVWVFo3QnByT0c4dk9HTDE3bFBldEt0c2laanlJWkRmYWFoVzJUTER4UmZYVGlsaklwM3YzSENYUXMxX3libXg4b2xKdHpR?oc=5",
   "title_cn": "阿维塔9月交付量达8,183辆",
@@ -787,6 +1017,40 @@
   "summary_en": "NIO delivered 300,301 vehicles in the first three quarters of 2026, representing a 49.2% year-on-year increase and setting a new historical record for cumulative deliveries.",
   "companies": [
    "NIO"
+  ]
+ },
+ {
+  "id": "00b3cf9bce0d4e55",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBRd3Bwb3V4Rm0zY095bjhpbU5aMGtIWXB3TW9qbEIzdk1zRVQxS05Lalcxc0tEM3J1ZEs3Rm1rXzJTVEdDMVVYNVNyeU9CZw?oc=5",
+  "title_cn": "极氪9月交付数据出炉：单月交付37,216辆，同比增长103.85%",
+  "date": "2026-10-01",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Zeekr September Deliveries: 37,216 Units Delivered, Up 103.85% Year-on-Year",
+  "summary_en": "Zeekr delivered 37,216 vehicles in September 2026, representing a year-over-year increase of 103.85%. The data highlights significant growth in the company's monthly sales volume.",
+  "companies": [
+   "Zeekr"
+  ]
+ },
+ {
+  "id": "f225381fde9cab5c",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5FUmdBVURGVTIzVmVvMkJJZERnekp2NXlCZzJ3b281ajA4V1VjY0ZmMnNtQUlteEFDMWxJZ0pUVFFPUG5USjlsTDhXdGdSZw?oc=5",
+  "title_cn": "理想汽车9月交付31,817辆 历史累计交付达1,833,651辆",
+  "date": "2026-10-01",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Li Auto Delivers 31,817 Vehicles in September, Cumulative Total Reaches 1,833,651",
+  "summary_en": "Li Auto delivered 31,817 vehicles in September 2026. The company's cumulative historical delivery volume reached 1,833,651 units.",
+  "companies": [
+   "Li Auto"
   ]
  },
  {
@@ -1119,6 +1383,73 @@
   "companies": []
  },
  {
+  "id": "27bdb94a65234735",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94MkllLV91Y2Q0YkRUQ3lxSFBEMVVQSVFjbjBuRVhXWU9laFZ5T3AwY3pHb3luRGQySUZEWUpmMkhhVHlPYnJDNVpzMEFJOTNZNFBj?oc=5",
+  "title_cn": "椭圆时空与山东源航超轻材料研究院签署超轻卫星开发框架合作协议",
+  "date": "2026-09-30",
+  "sector": "Space",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Elliptic Space and Shandong Yuanhang Ultra-Light Materials Research Institute Sign Framework Agreement for Ultra-Light Satellite Development",
+  "summary_en": "Elliptic Space (Yuantong Shikong) and the Shandong Yuanhang Ultra-Light Materials Research Institute signed a framework cooperation agreement to develop ultra-light satellites. The partnership focuses on integrating advanced lightweight materials into satellite construction.",
+  "companies": [
+   "Elliptic Space",
+   "Shandong Yuanhang Ultra-Light Materials Research Institute"
+  ]
+ },
+ {
+  "id": "9f9a732b436853c9",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA4NzQ4U1NOMjdHOUt4a3RnNDhWSFBTRmR5NVNVUlNVei1FOG8wZ0x6TWVvTmgxZ1lsdmo5T2w5aEwwRkNzUzlpdjZBX3V0UGJnNmRN?oc=5",
+  "title_cn": "阿拉善盟航天产业发展有限公司揭牌",
+  "date": "2026-09-30",
+  "sector": "Space",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Alxa League Aerospace Industry Development Co., Ltd. Unveiled",
+  "summary_en": "The Alxa League Aerospace Industry Development Co., Ltd. has been officially unveiled in Inner Mongolia, China. The establishment marks a local government initiative to develop the regional aerospace sector.",
+  "companies": []
+ },
+ {
+  "id": "3dd1e0effe35b2c2",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqUzQ1d3E3cktWQmc3RTl1VU1oV0ZneEhrM1JVakZ4dVp6TXA5Z2I4SFlObnVGaHJLLV9JcFdOVWxldEN0ZlhmYzA4amFYM0NsUlVz?oc=5",
+  "title_cn": "北斗短信加快普惠应用，已覆盖4.5亿公众用户",
+  "date": "2026-09-30",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Beidou Short Messages Accelerate Inclusive Application, Covering 450 Million Public Users",
+  "summary_en": "China's Beidou Navigation Satellite System has expanded its short-message service to cover 450 million public users. This development marks a significant step in the inclusive application of Beidou technology, extending communication capabilities beyond traditional positioning and timing services to a broad consumer base.",
+  "companies": [
+   "Beidou"
+  ]
+ },
+ {
+  "id": "59b7b0286ca16aae",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zNXBfa3FDdjA0QlRyb2I4czdVQjF0NUdmQVByWE9Sb2YzOVlqY0dhTDZxTURBeUJPbUc3aFlsV1R6V2N4d3ZuejBYNlQwUFNIZVZr?oc=5",
+  "title_cn": "前黑芝麻智能CMO杨宇欣，加入姚颂创办的物理AI公司",
+  "date": "2026-09-30",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Former Black Sesame CMO Yang Yuxin Joins Yao Song's Physical AI Company",
+  "summary_en": "Yang Yuxin, former Chief Marketing Officer of Black Sesame Technologies, has joined a physical AI company founded by Yao Song. The text confirms the personnel move but provides no details on the specific company name, product focus, or investment figures.",
+  "companies": [
+   "Black Sesame Technologies"
+  ]
+ },
+ {
   "id": "9526f68620a090b6",
   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZZWpVdTctdUFiN0FHeGhaUFpFWllRSXNUWjlHenc3V3ZmZ0FzRDBtUWp2Y1V0OG9sV2xxRE5HZ3FZbFdJemxFdlg2MlcweVcxWG1SSllvZ0FTZWpjN3JocmtEeVEtNWZ2RVc0MF9aa3VJWFk?oc=5",
   "title_cn": "用得上、用得起、用得好……未来五年，如何让老百姓的“药箱”更有底气",
@@ -1215,6 +1546,24 @@
   "summary_en": "Suzhou Dongshan Precision Manufacturing, a mainland China printed circuit board (PCB) maker, has cleared its final listing hurdle with the Hong Kong Exchanges and Clearing (HKEX). The company is preparing for a share sale potentially ranking among Hong Kong's largest IPOs in the fourth quarter. The article provides no further details on specific financial figures or operational metrics.",
   "companies": [
    "Suzhou Dongshan Precision Manufacturing"
+  ]
+ },
+ {
+  "id": "23597ffad0f22dc0",
+  "url": "https://www.scmp.com/tech/tech-trends/article/3369301/chinas-deepseek-open-sources-tools-help-huawei-chips-supplant-nvidia-ai?utm_source=rss_feed",
+  "title_cn": "DeepSeek开源适配华为昇腾芯片工具，助力国产AI替代英伟达",
+  "date": "2026-09-30",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "scmp.com",
+  "source_cn": "南华早报",
+  "source_en": "SCMP",
+  "source_tier": 1,
+  "title_en": "China's DeepSeek open-sources tools to help Huawei chips supplant Nvidia in AI",
+  "summary_en": "Hangzhou-based AI startup DeepSeek open-sourced six software modules tailored for Huawei's Ascend AI chips. This move aims to establish an independent and controllable software ecosystem for domestic GPUs, reducing reliance on US-made Nvidia processors amidst ongoing export curbs.",
+  "companies": [
+   "DeepSeek",
+   "Huawei"
   ]
  },
  {
@@ -1613,6 +1962,21 @@
   "companies": []
  },
  {
+  "id": "4d1551988c25743a",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aUlJtLXA4UzhQeUFSeXJqbTFqQ2daamJ1dE9iNzFoZ2p2SlJ1alhMckZPUm9MMjFHaTJwQTlfMmEzTGw3Z0RqTEZ3bXBsZw?oc=5",
+  "title_cn": "2027款纵横G700正式上市",
+  "date": "2026-09-30",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "2027 Zongheng G700 Officially Launched",
+  "summary_en": "The 2027 model of the Zongheng G700 has been officially launched. No further details regarding specifications, pricing, or manufacturer information are provided in the source text.",
+  "companies": []
+ },
+ {
   "id": "f262077c8b9ce6c5",
   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96aWt1RXN1X1BMUWs3X0djLWdlQ1BVamlCU195MlMwM0JFZDhtNjdFcExZVTBUT3dRWGJld3BOUkNSV19tbjlzeEg5TW9mRE8xX0E?oc=5",
   "title_cn": "北京6G应用创新实验室暨产业合作共创行动正式启动",
@@ -1740,6 +2104,51 @@
   "source_tier": 1,
   "title_en": "2026 High-Quality Development Conference for Industrial Machine Tool Industry Chain Held",
   "summary_en": "The 2026 High-Quality Development Conference for the Industrial Machine Tool Industry Chain was held. The event focused on advancing the development of industrial machine tools, a critical sector for manufacturing infrastructure.",
+  "companies": []
+ },
+ {
+  "id": "e05b40a550260206",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05TWxnaE5KN0Q1cEl1c3IzNzdXb25pb01fbDJrRzNFOUJMYWNjMHVxLS1Td2ZFN2dRZmJqRzBlbVFodGNoS1ZzR0hsQXJWaV9GbVpFdm9YdEg2S00?oc=5",
+  "title_cn": "政策赋能 氢电协同共筑新型能源体系",
+  "date": "2026-09-30",
+  "sector": "Green Tech",
+  "news_type": "Policy",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Policy Empowerment: Hydrogen-Electric Synergy Builds New Energy System",
+  "summary_en": "An article discussing the role of policy in promoting hydrogen-electric synergy to construct a new energy system. The text is a headline only and lacks specific details on companies, investments, or technical milestones.",
+  "companies": []
+ },
+ {
+  "id": "62671323f009e0fb",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3dElzRzJnZk8tSk54b1lVLTVrTU5vY1FLcmNkT0dMdm9uNHF6YS0yZ3NTQjlfMTJUelBuVGcxTldGRG1PemxLNTU2ZUFRREFtaTlPUzIzRFJXdDg?oc=5",
+  "title_cn": "世界首个紧凑型聚变能实验装置 BEST TF线圈盒批量交付",
+  "date": "2026-09-30",
+  "sector": "Green Tech",
+  "news_type": "Breakthrough",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "World's First Compact Fusion Experimental Device BEST TF Coil Box Mass Delivered",
+  "summary_en": "The first toroidal field (TF) coil box for the BEST compact fusion experimental device has been delivered in mass production. This marks a significant manufacturing milestone for the world's first device of its kind.",
+  "companies": []
+ },
+ {
+  "id": "2541ef34aef65a13",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hRl9CMWFKdlpRSmlQZjNrbWxZTUJtSDRXSVBVcDJpNE5fcEFFWTVlanllX2ZBcEhqWEN5SDhONUVWcUViZjNFZEFHSXNKYjFmeEdnZUxEc2FWcEk?oc=5",
+  "title_cn": "3.5万亿目标背后：中国医药工业的“十五五”怎么走？",
+  "date": "2026-09-30",
+  "sector": "Biotech",
+  "news_type": "Policy",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Behind the 3.5 Trillion Target: How China's Pharmaceutical Industry Will Navigate the 15th Five-Year Plan",
+  "summary_en": "The article discusses strategic planning for China's pharmaceutical industry under the upcoming 15th Five-Year Plan, focusing on a target of 3.5 trillion yuan in output value. It analyzes the developmental path and industrial goals for the sector.",
   "companies": []
  },
  {
@@ -1987,6 +2396,21 @@
   "companies": [
    "CASC"
   ]
+ },
+ {
+  "id": "c3ce114a9a705215",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PQTd4S1hrMGlaRWdMWHdIcW82TmgyYkp4SUl0R2Z2d2NmUjlMdllFV3U2dFJtaWY4UnpoR1hDdWxRWklmWXVpWEFBbHBnYXZNMjVyZmR1bmNqUU9aSlE?oc=5",
+  "title_cn": "科技部：我国成为创新力上升最快的国家之一",
+  "date": "2026-09-29",
+  "sector": "AI",
+  "news_type": "Policy",
+  "source_domain": "thepaper.cn",
+  "source_cn": "澎湃新闻",
+  "source_en": "The Paper",
+  "source_tier": 1,
+  "title_en": "Ministry of Science and Technology: China is one of the fastest-rising countries in innovation",
+  "summary_en": "China's Ministry of Science and Technology stated that the country has become one of the nations with the fastest rising innovation capabilities. The text provides no specific metrics, sectors, or details regarding this assessment.",
+  "companies": []
  },
  {
   "id": "583830b940bec337",
@@ -3087,6 +3511,21 @@
   ]
  },
  {
+  "id": "3e1b428c28893372",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpR1FtRS1hYnNfXzgzWW1RUjNEU05KWk9YWU4zVzNBcUVOa21OMEhSOEhDdUZxRXcyaXJkMGNtdE9weTVBbVZUTW91VEx5VHZ4U3lLc3VTUHBRc2c?oc=5",
+  "title_cn": "工信部等七部门联合印发《新型电池产业发展“十五五”规划》",
+  "date": "2026-09-29",
+  "sector": "Green Tech",
+  "news_type": "Policy",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "MIIT and Six Other Agencies Jointly Issue the '15th Five-Year Plan for New Battery Industry Development'",
+  "summary_en": "The Ministry of Industry and Information Technology (MIIT) and six other Chinese government agencies jointly issued the '15th Five-Year Plan for New Battery Industry Development'. The document outlines strategic guidance for the new battery sector during China's 15th Five-Year Plan period, covering technologies such as lithium-ion, solid-state, and sodium-ion batteries.",
+  "companies": []
+ },
+ {
   "id": "eb6f4f63d52d3b7f",
   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9taXpXVHNxeldYUkNWX0xWaGtUeDNwZ3llY0QwVC1BazNkbHVXMEwzQ2Y1YTNsMUROUjdiblQwaUN1bGlJVmYyY19UcUpDcFhjSkVfZEVuVQ?oc=5",
   "title_cn": "联舌工坊算力中心选址加速推进一期30亿布局开始",
@@ -3451,6 +3890,24 @@
   "title_en": "Ministry of Science and Technology: Systematic Layout of Major National Science and Technology Tasks",
   "summary_en": "The Ministry of Science and Technology (MOST) announced a systematic layout for a batch of major national science and technology tasks. The text provides no specific details regarding the sectors, companies, or technical milestones involved in this policy announcement.",
   "companies": []
+ },
+ {
+  "id": "acaea407664bf082",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zQ2kyQ1ZrWklYLVpyOFUwcDlQbC1Fb1dMTjRNdG1IRmlzOENYckhaeEZtWElaZjRiQWMxenJfUEpXeFFKWHNVb0M5dGVsUQ?oc=5",
+  "title_cn": "DeepSeek加速向华为靠拢",
+  "date": "2026-09-29",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "DeepSeek Accelerates Closer Alignment with Huawei",
+  "summary_en": "Reports indicate that DeepSeek is accelerating its strategic alignment and integration with Huawei. Specific details regarding the nature of this collaboration, technical milestones, or financial terms are not provided in the source text.",
+  "companies": [
+   "DeepSeek",
+   "Huawei"
+  ]
  },
  {
   "id": "167720f174a1c51e",
@@ -4813,6 +5270,23 @@
   "summary_en": "Liyang Microelectronics has adjusted its 2026 private placement plan, reducing the total fundraising amount to 870 million yuan. The company is modifying its capital raising strategy for the year.",
   "companies": [
    "Liyang Microelectronics"
+  ]
+ },
+ {
+  "id": "1d4107c6fcc9e1a9",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IbENJNDFacXR1QUVPUS15QXF0QjdTY0ZhUTdjOEFGUXczZW5LR1NBUWowbTYyc1B6VU1idzFpemlKZw?oc=5",
+  "title_cn": "华为靳玉志谈车企自研智驾：年销不到规模难摊薄成本，合作比“什么都自研”更划算",
+  "date": "2026-09-28",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Huawei's Jin Yuzhi: Auto Makers' Self-Developed Smart Driving Hard to Cost-Effective Below Scale",
+  "summary_en": "Huawei executive Jin Yuzhi stated that automakers with annual sales below a certain scale struggle to amortize the costs of self-developed intelligent driving systems. He argued that partnering with suppliers is more cost-effective than pursuing full in-house development.",
+  "companies": [
+   "Huawei"
   ]
  },
  {
@@ -7349,21 +7823,6 @@
   "source_tier": 2,
   "title_en": "Humanoid Robots Enter Theme Parks: Can Cyber NPCs Make Money?",
   "summary_en": "An analysis of the trend where humanoid robots are being deployed as interactive characters (Cyber NPCs) in theme parks. The article examines the commercial viability and profitability of this application.",
-  "companies": []
- },
- {
-  "id": "6d221ec846ea048b",
-  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yWTg1cFdZc2N3Q2xsYVo3MU90OUtWZkx1Q3VZcUJHSnFQOFNhWUcySGxGcXBuc1dydGxqc2dBMG5aYWpfa3VZSm9wMVBvU24wejdJOW5lbjVET1k?oc=5",
-  "title_cn": "工信部等七部门联合印发《新型电池产业发展“十五五”规划》",
-  "date": "2026-09-27",
-  "sector": "Green Tech",
-  "news_type": "Policy",
-  "source_domain": "36kr.com",
-  "source_cn": "36氪",
-  "source_en": "36Kr",
-  "source_tier": 2,
-  "title_en": "MIIT and Six Other Departments Jointly Issue the '15th Five-Year Plan for the New Battery Industry'",
-  "summary_en": "The Ministry of Industry and Information Technology (MIIT) along with six other Chinese government departments have jointly issued the '15th Five-Year Plan for the New Battery Industry'. This policy document outlines strategic directions and development goals for China's new battery sector through the 2026-2030 period.",
   "companies": []
  },
  {
