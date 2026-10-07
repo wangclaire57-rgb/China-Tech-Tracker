@@ -1,5 +1,208 @@
 [
  {
+  "id": "7db7067126fe4ab0",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90T2JOZy1hVndqS09Bc0FQQURmYUdYeUw0LUJnc04zbUpHUXdpZWc0MGM4bC1tWXd6ZHZpeXpNYlZ1UEpUSjVmMlV0bzhIcnVBZHBfQ211RmdTalJxc25HRA?oc=5",
+  "title_cn": "算力加速“西进”：中国数据中心版图之变，关键在电",
+  "date": "2026-10-06",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "thepaper.cn",
+  "source_cn": "澎湃新闻",
+  "source_en": "The Paper",
+  "source_tier": 1,
+  "title_en": "Computing Power Accelerates Westward: The Changing Landscape of China's Data Centers Hinges on Power",
+  "summary_en": "The article discusses the westward expansion of China's data center infrastructure, emphasizing that power availability is the critical factor driving this shift in the national computing landscape.",
+  "companies": []
+ },
+ {
+  "id": "b9488db46dcee49b",
+  "url": "https://www.scmp.com/opinion/world-opinion/article/3369561/would-china-agree-slow-ai-development-thats-wrong-question?utm_source=rss_feed",
+  "title_cn": "中国会同意放缓AI发展吗？这是个错误的问题",
+  "date": "2026-10-06",
+  "sector": "AI",
+  "news_type": "Policy",
+  "source_domain": "scmp.com",
+  "source_cn": "南华早报",
+  "source_en": "SCMP",
+  "source_tier": 1,
+  "title_en": "Would China agree to slow AI development? That’s the wrong question",
+  "summary_en": "An opinion piece argues that asking whether China would agree to pause or slow frontier AI development is the wrong question. The article notes that recent US-China summit readouts did not address this issue, despite heated debate and questions from US officials regarding Beijing's potential willingness to enter such an arrangement.",
+  "companies": []
+ },
+ {
+  "id": "8c2f46e76aefe0f0",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Wb0xIZEFBY05lVGxkbEluSE1ZLWxDMmE4UnU0akJFa0txTzlMbXRYUnBadXBTc19YSXhHOTF4NUNxN0t5QzB3djBJSHhYQXNUV1Rfb2F6N0tSbkNHTktDRml6emhiWXlyWmJNekxWTFdjZFV0cWh0ZjlPVXVCdw?oc=5",
+  "title_cn": "冠脉CTA或介入术后如何护肾？黄蜀葵花制剂抑制铁死亡的新证据",
+  "date": "2026-10-06",
+  "sector": "Biotech",
+  "news_type": "Breakthrough",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "New Evidence: Abelmoschus moschatus Flower Preparations Inhibit Ferroptosis for Renal Protection Post-Coronary CTA or Intervention",
+  "summary_en": "PharmCube reports new evidence that preparations derived from Abelmoschus moschatus flowers (yellow hibiscus) inhibit ferroptosis, potentially offering renal protection for patients following coronary computed tomography angiography (CTA) or interventional procedures. The article discusses the mechanism of action and clinical implications for kidney safety in cardiovascular interventions.",
+  "companies": [
+   "PharmCube"
+  ]
+ },
+ {
+  "id": "e4d0ee14144bc1ec",
+  "url": "https://pandaily.com/moxin-technology-moworld-4d-world-model-huawei-mate-90-on-device-pet-digital-twin",
+  "title_cn": "魔心科技将MoWorld 4D世界模型部署于华为Mate 90，实现宠物照片数字孪生",
+  "date": "2026-10-06",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Moxin Technology Deploys MoWorld 4D Model on Huawei Mate 90 for On-Device Pet Digital Twins",
+  "summary_en": "Moxin Technology has integrated its MoWorld 4D world model onto the Huawei Mate 90 smartphone. The solution utilizes a 600-million-parameter model running locally on Kirin chips, paired with Ascend cloud generation services. This enables users to convert static pet photos into animated 4D digital twins directly on the device.",
+  "companies": [
+   "Moxin Technology",
+   "Huawei"
+  ]
+ },
+ {
+  "id": "4fdff2dabff8b93e",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9EemViUFVTWVRxaGV3Zk9NQnR3MEhibzFWRmRVck9sQmRrbzBxYS1vVFNjWU1kZEllNHdhLUNCckpkdw?oc=5",
+  "title_cn": "智谱 GLM-5.3 牵手亚马逊云科技，国内外分成体系贯通",
+  "date": "2026-10-06",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Zhipu GLM-5.3 Partners with AWS to Integrate Global Revenue Sharing",
+  "summary_en": "Chinese AI firm Zhipu has partnered with Amazon Web Services (AWS) to integrate its revenue sharing systems across domestic and international markets. This collaboration facilitates the distribution and monetization of the GLM-5.3 model through AWS's global infrastructure.",
+  "companies": [
+   "Zhipu AI",
+   "Amazon Web Services"
+  ]
+ },
+ {
+  "id": "fec9292a3a9d21c6",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAxS29SNGliNHMyMFRlXzB1SHpFeEUyaGZmMmFFMmFCUGtlaDY3Qk5fRWZUdGpNNERlc08zSGtHN1R2Zw?oc=5",
+  "title_cn": "字节、腾讯、阿里抢人，AI高端人才薪酬持续走高",
+  "date": "2026-10-06",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "ByteDance, Tencent, and Alibaba Compete for AI Talent as Salaries Rise",
+  "summary_en": "Major Chinese tech firms ByteDance, Tencent, and Alibaba are actively recruiting high-end AI talent. The article highlights a trend of continuously increasing compensation packages for these specialized roles within the domestic AI sector.",
+  "companies": [
+   "ByteDance",
+   "Tencent",
+   "Alibaba"
+  ]
+ },
+ {
+  "id": "121f565d500b0203",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBtS0g2anlUWmxxd0gzRUxjY2sxZnhGbllFeEFrT0FaNmNZX1JHTVZWT2hDTktoMFNJXzBUaUlnUmpKUQ?oc=5",
+  "title_cn": "英伟达投资的模型公司发布首款开放权重模型 ，对标中国 AI",
+  "date": "2026-10-06",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "NVIDIA-Backed Model Company Releases First Open-Weight Model, Targeting Chinese AI",
+  "summary_en": "A model company backed by NVIDIA has launched its first open-weight AI model. The release is explicitly positioned to compete with or benchmark against China's AI capabilities. Specific technical details, model sizes, and performance metrics are not provided in the source text.",
+  "companies": [
+   "NVIDIA"
+  ]
+ },
+ {
+  "id": "a1175f4b3825720d",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vSDgzSFdZUEZFc0NzbFpFRUIwUU92aFJBTUdoTnFBT3piTDFtTVhGSWNZUFl3MG1xS1RQYmp4WXVSa1E4TUh4bjlPSFowRVpNbk1FcTFjaw?oc=5",
+  "title_cn": "连续两年质量第一，亿纬锂能做对了什么？",
+  "date": "2026-10-06",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "What Did EVE Energy Do Right to Rank First in Quality for Two Consecutive Years?",
+  "summary_en": "EVE Energy (亿纬锂能) achieved the first position in quality rankings for two consecutive years. The article analyzes the specific strategies and operational improvements that contributed to this achievement, highlighting the company's focus on manufacturing excellence and quality control within the lithium battery sector.",
+  "companies": [
+   "EVE Energy"
+  ]
+ },
+ {
+  "id": "148289d2054e613f",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPbVk4VUhmeFZ6NjkxQjZVSTU0UWEwRVlfdU5WTm5WbEdwa1NoSHVOYk53S3VhdDNNdWdqRWVzLUsxRzlfcF9QY3hwVVExU0xyWDg4?oc=5",
+  "title_cn": "SoC芯片迭代竞速，国产化渗透率几何？",
+  "date": "2026-10-06",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "SoC Chip Iteration Race: What is the Domestic Penetration Rate?",
+  "summary_en": "The article title suggests an analysis of the rapid iteration cycle of System-on-Chip (SoC) technologies and the current level of localization or domestic penetration rate in China's semiconductor market. However, the provided text contains only the headline without specific data, company details, or factual content to summarize.",
+  "companies": []
+ },
+ {
+  "id": "a3d1a8b1034068e8",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tR2tjRjNXb05YZnplNDR6UjZhMV9EV1FtbXZWSGRwUHM3ZmlvVm5IMkFVbGt4cE1PV01pM0NUdU0tYlRiVGYwc21WdWJvNmRuSE1F?oc=5",
+  "title_cn": "中美RISC-V合作反而加深：RISC-V已占全球25%处理器份额",
+  "date": "2026-10-06",
+  "sector": "Semiconductors",
+  "news_type": "Breakthrough",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "China-US RISC-V Cooperation Deepens: RISC-V Now Holds 25% Global Processor Share",
+  "summary_en": "RISC-V architecture has captured 25% of the global processor market share. The report highlights that despite geopolitical tensions, cooperation between China and the US in the RISC-V ecosystem is intensifying, leveraging the open-standard nature of the technology to drive adoption across various sectors.",
+  "companies": [
+   "RISC-V International"
+  ]
+ },
+ {
+  "id": "22b072af12ca4072",
+  "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqVHk0a2FlUXNpV1oyQTVuTXdtX21mc2NhU1BQZ25jSm92bUV4QzJpOWRqNTJ2elcySC1KM1owNVBJRF9VWDlUZQ?oc=5",
+  "title_cn": "10月5日，蔚来换电183,664次，再创历史新高",
+  "date": "2026-10-06",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "NIO Battery Swaps Hit Record 183,664 on Oct 5",
+  "summary_en": "On October 5, NIO performed 183,664 battery swaps, setting a new all-time high for the company's daily swap volume. The figure highlights operational scale in electric vehicle infrastructure.",
+  "companies": [
+   "NIO"
+  ]
+ },
+ {
+  "id": "4aea6320cb13a41e",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEQzhQa0hLNEpGQUFWU1pEX2d0a2tfQi12UFc1Y3g0V3BTWWJyb3hKcTRkMldFWFQ0bmtNZEIwak12cFdqQXU5TGVWcFhiaVl1WmlLd3ZVNTA3WlVyQmc?oc=5",
+  "title_cn": "快手可灵AI计划最早明年赴港上市，至少融资10亿美元",
+  "date": "2026-10-06",
+  "sector": "AI",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Kuaishou's Kling AI Plans Hong Kong IPO by Next Year, Targeting $1 Billion Funding",
+  "summary_en": "Kuaishou's AI subsidiary, Kling AI, plans to list on the Hong Kong Stock Exchange as early as next year. The company aims to raise at least $1 billion in this financing round.",
+  "companies": [
+   "Kuaishou",
+   "Kling AI"
+  ]
+ },
+ {
   "id": "09ed879466627704",
   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hX1dJaFp5aW9nLUpuR2MtSkZqV09yYUxDVVJFTlRldmdxVmd0LVR5UWNuRkI5WnBaR1pWU3l2TjZvR2pfbHZVZGtmTnJ5aFp4dDRsYVdxSUxzNTJ2WjMyV0YtM3BNbWNCbzNBZTZDMkVvX1hN?oc=5",
   "title_cn": "中国汽车供应链企业改写全球产业格局",
@@ -52,6 +255,55 @@
   ]
  },
  {
+  "id": "6b9749cf502f97b4",
+  "url": "https://pandaily.com/china-huadian-mulei-xinjiang-100mw-compressed-co2-energy-storage-grid-connected",
+  "title_cn": "华电新疆木垒百兆瓦级压缩空气储能项目并网",
+  "date": "2026-10-05",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "China Huadian Connects First 100-MW-Class Compressed CO2 Energy Storage Project in Xinjiang to Grid",
+  "summary_en": "China Huadian connected its Mulei project in Xinjiang, the country's first 100-MW-class compressed CO2 energy storage plant, to the grid. The facility stores approximately 290 GWh annually and provides over six hours of output.",
+  "companies": [
+   "China Huadian"
+  ]
+ },
+ {
+  "id": "0af49231b4f8993a",
+  "url": "https://pandaily.com/cosmoleap-qingyu-11-150-ton-methalox-engine-valves-full-condition-ground-tests",
+  "title_cn": "星际荣耀150吨级清宇-11甲烷发动机完成全状态阀门地面试验",
+  "date": "2026-10-05",
+  "sector": "Space",
+  "news_type": "Breakthrough",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Cosmoleap's 150-Ton Qingyu-11 Methalox Engine Clears Full-Condition Valve Tests",
+  "summary_en": "Cosmoleap announced that the full valve set for its 150-ton-class Qingyu-11 liquid oxygen-methane engine passed cryogenic, high-pressure, and vibration tests. This milestone clears the path for subsequent engine integration.",
+  "companies": [
+   "Cosmoleap"
+  ]
+ },
+ {
+  "id": "d875b84bd91cd46b",
+  "url": "https://pandaily.com/hainan-commercial-launch-site-phase-ii-pads-3-4-full-system-rehearsal-612-days",
+  "title_cn": "海南商业发射场二期进入全系统演练，新增工位3号和4号",
+  "date": "2026-10-05",
+  "sector": "Space",
+  "news_type": "Corporate",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Hainan Commercial Launch Site Phase II Enters Full Rehearsal After 612 Days, Adding Pads 3 and 4",
+  "summary_en": "Phase II of the Hainan commercial launch site in Wenchang is essentially complete after a 612-day construction period. Pads 3 and 4 are currently undergoing full-system rehearsals. The facility's annual launch capacity is projected to reach 60 missions.",
+  "companies": []
+ },
+ {
   "id": "dd96fb6a690f49d6",
   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFB0Q0Jla3pCdF94eDV0LWg1Z25nbVdpOXY2X09nSm9rOHJ0OXdsbExFdTNTNVE0Q0ZkZFJhQXFrbjVVdw?oc=5",
   "title_cn": "5499元起！iQOO16与Pad Ultra登场 打通移动与PC游戏壁垒",
@@ -99,6 +351,55 @@
   "title_en": "Optics Valley High-End Microelectronics Device Industrial Park Construction Begins",
   "summary_en": "Construction has commenced on the Optics Valley High-End Microelectronics Device Industrial Park in Wuhan. The project involves a total investment of approximately 1.2 billion yuan. Specific details regarding the park's capacity, tenant companies, or specific microelectronic technologies are not provided in the source text.",
   "companies": []
+ },
+ {
+  "id": "40d3d59d645a3c0f",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oWWNrM0NRWUZpbmlwQXlncFhHWmpYNVFiZENjY2lYbXg0OHRxbFgzV0NaSE5ySGRscDQxR3B0SjdyZnQwYW42V3lURWFLRUNZd1g0?oc=5",
+  "title_cn": "亿元融资加码，装卸机器人风起！这份产业趋势报告即将重磅发布",
+  "date": "2026-10-05",
+  "sector": "Robotics",
+  "news_type": "Capital",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Yuan-level Financing Boosts Loading and Unloading Robots: Industry Trend Report to be Released",
+  "summary_en": "EE Times China reports on significant financing for loading and unloading robots, citing an upcoming industry trend report. The article highlights the growing momentum in this robotics sector but provides no specific details on companies, funding amounts, or dates.",
+  "companies": []
+ },
+ {
+  "id": "7ddb920f2a6aabbb",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9rM1ZTOVhsZHI4Qng3MXZYdU14VHdNVHlxWGVueURDUWZBNXlTRGtKbVlqTmFabmppNlJSRnU2cTV5YUo5WklvLVY5UDdsZ3pSbUtr?oc=5",
+  "title_cn": "2026比亚迪深度分析：国内承压向外突围，技术矩阵兑现全球化红利",
+  "date": "2026-10-05",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "2026 BYD Deep Dive: Domestic Pressure, Global Expansion, Technology Matrix Realizing Dividends",
+  "summary_en": "The article provides a deep analysis of BYD's status in 2026, highlighting domestic market pressures and efforts to expand globally. It discusses how BYD's technology matrix is realizing global dividends. The text does not provide specific operational numbers or detailed technical breakthroughs beyond the general strategic overview.",
+  "companies": [
+   "BYD"
+  ]
+ },
+ {
+  "id": "b56201108cbc079f",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RSHdTN0RHMnFJQ2UxN09jUXFycDNnLUFRNUlPZ0N4WVpWbG9Mc1ozYUc4V0lEYU12OF9WSkMwbGdyU01JbUZlWFBGWWJQRk1SdERXb3dTLWoycEdUeXZPSA?oc=5",
+  "title_cn": "月之暗面完成Pre-IPO融资，最新估值约500亿美元",
+  "date": "2026-10-05",
+  "sector": "AI",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Moonshot AI Completes Pre-IPO Financing at $50 Billion Valuation",
+  "summary_en": "Moonshot AI has completed its pre-IPO financing round. The company's latest valuation is reported to be approximately 50 billion US dollars.",
+  "companies": [
+   "Moonshot AI"
+  ]
  },
  {
   "id": "3ac4ceb6075ff975",
@@ -418,6 +719,27 @@
   ]
  },
  {
+  "id": "e9e0d595bacf8299",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OelNLV2RSNEJrSVBtaUx4QmFkaERxaml1MjFsOFEwUXFOcXdlcS1KeVBQT0ZCQk1hNTd1Skc3UGRMZm1jckNMMlk1NURyNE1XclNMMUZYaHRUQXltQzRfQnRvcUt0ZzhaTmdaZ05zRlpYa01Ba0RJejNCdEx0QQ?oc=5",
+  "title_cn": "翰森、康方、君实、荣昌、映恩、宜联，世界肺癌大会的中国创新药“成建制阅兵”",
+  "date": "2026-10-03",
+  "sector": "Biotech",
+  "news_type": "Product",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Chinese Biotechs Showcase Pipeline at World Lung Cancer Conference",
+  "summary_en": "Pharmaceutical companies Hansoh, Akeso, Junshi, RemeGen, Innovent, and Yiling presented their innovative drug pipelines at the World Lung Cancer Conference. The event featured a coordinated display of Chinese biotech advancements in oncology.",
+  "companies": [
+   "Hansoh Pharma",
+   "Akeso",
+   "Junshi Biosciences",
+   "RemeGen",
+   "Innovent Biologics"
+  ]
+ },
+ {
   "id": "020d0eae17771804",
   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15eEg4VUV5d1Z6MDU2UVlWc01UNFNyWk0zY18tNDQ1OWhvb2NCTE1zXzJWWENqYmFfQjd0U1I3WElyUQ?oc=5",
   "title_cn": "台积电15日开业绩说明会，2027年资本开支、A14、CoPoS等成焦点",
@@ -516,6 +838,23 @@
   ]
  },
  {
+  "id": "635dc524fbe02027",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81NDVYWTNTdEVuRTR2UkhFWUVxNHp2MUk1UVR3T0h0OTdIaW0weTVQUllrb29vZGRBalVBZENOckloajFqVTByLWplcVNLaHZ6UGF3?oc=5",
+  "title_cn": "华为：昇腾AI芯片中国份额已超过英伟达",
+  "date": "2026-10-03",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Huawei: Ascend AI Chip Market Share in China Has Surpassed Nvidia",
+  "summary_en": "EE Times China reports that Huawei claims its Ascend AI chips have surpassed Nvidia's market share within the Chinese domestic market. The source provides no specific data, revenue figures, or third-party verification to substantiate this claim.",
+  "companies": [
+   "Huawei"
+  ]
+ },
+ {
   "id": "5461a6c098342678",
   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90QUx6ZmJIbFU4am5OaFhpUWJfazR2REhtdE1oUEVteXpQTDlsMXQ2ei1TaVprcFYwd2FWV28ybXA1YV9LMHRYaDNwOUV5Zw?oc=5",
   "title_cn": "中国公司全球化周报｜速卖通智能经营AI Agent全面上线 / 百度海外版Kooko用户破千万",
@@ -547,6 +886,24 @@
   "title_en": "He Kaiming's Team Scores Perfect on AGI Test, Surpassing Claude and GPT",
   "summary_en": "Researcher Kaiming He's team reportedly achieved a perfect score on an AGI evaluation benchmark, outperforming models like Claude and GPT. The text provides no specific details regarding the model architecture, dataset, or verification of these results.",
   "companies": []
+ },
+ {
+  "id": "1d758e468df70e35",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA5ZjMyTjJhN2twM1N0NFJQLXNvbDJuMDRKd0ZMb3pQOTgyVC1xTmREbjdiOUdCTWVpcndKdkxPN2lpdzlZV2w0MjhqakVWQQ?oc=5",
+  "title_cn": "太卷了！DeepSeek假期更新，Harness有了新版本",
+  "date": "2026-10-03",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "DeepSeek Holiday Update, Harness New Version",
+  "summary_en": "36Kr reports on recent updates from AI model developer DeepSeek and the AI infrastructure platform Harness. Specific technical details, new features, or key metrics are not provided in the source text.",
+  "companies": [
+   "DeepSeek",
+   "Harness"
+  ]
  },
  {
   "id": "0879f451cdd6580d",
@@ -821,6 +1178,21 @@
   ]
  },
  {
+  "id": "f01bb66da63c5000",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DcWl6amwzTWtHMjBiem14c0hhNFQ5eDctS0dYcVBXbmRBRE1EcExsM2RlX2t6VlVVTVI5YkJtLXdWUlRVUUN0eHE5cEUtZw?oc=5",
+  "title_cn": "刚刚，AI击穿了“视频图灵测试”，1700万网友在线围观",
+  "date": "2026-10-02",
+  "sector": "AI",
+  "news_type": "Breakthrough",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "AI Passes 'Video Turing Test' as 17 Million Users Watch",
+  "summary_en": "A Chinese AI system has reportedly passed a 'video Turing test,' attracting 17 million online viewers. The text provides no details on the specific company, model, or technical methodology behind this claim.",
+  "companies": []
+ },
+ {
   "id": "ea58cb974b3b6787",
   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmMEpkeXJyNXFrX2M2YlZndDJFYndxOExsU01fLVdNWkZGRlZ0UTduTlg3NnFJemQ2Y1ZnSjllSE5iZzU3aFd5M0VCVUtVRUR1ZUo4Vk94SlZxOVA0NlR0bzYwakpFcFR6S3hndWVmTm9uYkQyNHc0?oc=5",
   "title_cn": "百兆瓦级压缩二氧化碳储能项目并网发电",
@@ -986,6 +1358,23 @@
   "companies": []
  },
  {
+  "id": "376fa1a322d57301",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLWGpkNXJzUVlKa2duNk5VdXBpblNrdmVPaUw2WUlHOExSekpWelBZSV9MSTlaenJUaDlZUWRKdHZsWmJWU1lZQm9NMEtzXzVxUENR?oc=5",
+  "title_cn": "史上最强麒麟芯片！华为大大方方介绍9050 Pro：首发韬定律逻辑折叠 性能飙升23%",
+  "date": "2026-10-01",
+  "sector": "Semiconductors",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Huawei Introduces Kirin 9050 Pro: First to Use Tao's Law Logic Folding for 23% Performance Boost",
+  "summary_en": "Huawei presented the Kirin 9050 Pro chip, claiming it is its strongest processor. The company stated the chip features a first-of-its-kind 'Tao's Law logic folding' technique, resulting in a 23% performance increase. Specific technical details regarding the implementation or manufacturing node were not provided in the source text.",
+  "companies": [
+   "Huawei"
+  ]
+ },
+ {
   "id": "ce65a8c52d32e46e",
   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jQkNLLWVWVFo3QnByT0c4dk9HTDE3bFBldEt0c2laanlJWkRmYWFoVzJUTER4UmZYVGlsaklwM3YzSENYUXMxX3libXg4b2xKdHpR?oc=5",
   "title_cn": "阿维塔9月交付量达8,183辆",
@@ -1051,6 +1440,25 @@
   "summary_en": "Li Auto delivered 31,817 vehicles in September 2026. The company's cumulative historical delivery volume reached 1,833,651 units.",
   "companies": [
    "Li Auto"
+  ]
+ },
+ {
+  "id": "e38967cea3943be3",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzMVMtdEZ0S0pHbWJUek5oVWZnZGJ5OGdpRW0taUI5emJ6VGJGenJ1RkJRV0Uzekk2TFg2SWtXOTFYWkJEdzRKRlpJWU5GQQ?oc=5",
+  "title_cn": "鸿蒙智行9月交付37490台，累计交付破156万台",
+  "date": "2026-10-01",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Harmony Intelligent Mobility Delivers 37,490 Units in September, Cumulative Deliveries Exceed 1.56 Million",
+  "summary_en": "Harmony Intelligent Mobility (HIMA) delivered 37,490 vehicles in September 2026. This brings its cumulative delivery volume to over 1.56 million units. HIMA is a joint venture initiative involving Huawei and automotive partners such as Changan, Seres, JAC, and Luxeed.",
+  "companies": [
+   "Huawei",
+   "Changan Automobile",
+   "Seres"
   ]
  },
  {
@@ -1567,6 +1975,21 @@
   ]
  },
  {
+  "id": "b4372d2ee7827553",
+  "url": "https://www.scmp.com/plus/tech/tech-trends/article/3369300/chinese-biopharmas-global-expansion?utm_source=rss_feed",
+  "title_cn": "中国生物制药的全球扩张",
+  "date": "2026-09-30",
+  "sector": "Biotech",
+  "news_type": "Corporate",
+  "source_domain": "scmp.com",
+  "source_cn": "南华早报",
+  "source_en": "SCMP",
+  "source_tier": 1,
+  "title_en": "Chinese biopharma’s global expansion",
+  "summary_en": "The article discusses the trend of Chinese biopharmaceutical companies expanding their operations globally. Specific details, key players, and quantitative data are not provided in the source text.",
+  "companies": []
+ },
+ {
   "id": "ec58e05e188a3e4f",
   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UN2w3ZXhNVVVyOG5wUldZeDVwMlVicGVNVVd1bTVSTWtGZjhYc1g3OWRNbVFSUURoSmtwa3VhbGM4b2RwdTB6OXhkVXdLMl9sQXZlQw?oc=5",
   "title_cn": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
@@ -1823,6 +2246,23 @@
   "companies": [
    "Leiman",
    "Samsung"
+  ]
+ },
+ {
+  "id": "dfa4ebc53303645c",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iRHBsTVRTV1lXcktrTU9qdVB5NmdBVGxWNW5ZbUFwMFJaa1VHbUpFa1ptZU1tVV9lLWl2OGFKYXpwN3VqcmVJaWxrcVpXbW9aYzVORjVlbGZzMkpi?oc=5",
+  "title_cn": "专访行芯贺青｜解读τ芯片不可或缺的EDA工具",
+  "date": "2026-09-30",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Interview with He Qing of Xingxin: Interpreting the EDA Tools Essential for Tau Chips",
+  "summary_en": "EE Times China published an interview with He Qing from Xingxin (Xingxin Microelectronics). The discussion focuses on Electronic Design Automation (EDA) tools required for 'tau chips' (likely referring to neuromorphic or specific specialized architectures). No specific product launch, funding figures, or regulatory details are provided in the text.",
+  "companies": [
+   "Xingxin Microelectronics"
   ]
  },
  {
@@ -2284,6 +2724,107 @@
   "companies": [
    "China Unicom"
   ]
+ },
+ {
+  "id": "aaf21bc6171931ca",
+  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRNjR5RGhWOU1OM0dfTUhRbXgzVi1MWi1PZ0pPWHhicjRxWUdHYTI5Vmg2bFBKZGY4eVRhVG1rNms4Wl8ydTZBUWExX3dxU00?oc=5",
+  "title_cn": "辽宁移动联合华为打造“基于5G-A超级上行演进的Mobile AI体验保障体系”荣获ICT中国（2026）案例一等奖",
+  "date": "2026-09-30",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "Liaoning Mobile and Huawei Win ICT China 2026 Grand Prize for 5G-A Super Uplink Mobile AI Experience Assurance System",
+  "summary_en": "Liaoning Mobile, in partnership with Huawei, won the Grand Prize at the ICT China 2026 awards. The award recognizes their 'Mobile AI Experience Assurance System' which leverages 5G-Advanced (5G-A) super uplink technology to enhance AI application performance on mobile networks.",
+  "companies": [
+   "China Mobile Liaoning",
+   "Huawei"
+  ]
+ },
+ {
+  "id": "7f3b04fab1b3ebc4",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RVUx6Mmp2Qjc4VFo3OTVSdDE3dXZBUTBFWVBxOFFDenJYTEtXWXZkdjJuamJWYTdFalFqamtGWEZYc3pfQ2F2elZqTG1JLUZ5?oc=5",
+  "title_cn": "湖北移动“信号升格”照亮革命老区振兴路",
+  "date": "2026-09-30",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "Hubei Mobile's \"Signal Upgrade\" Lights the Path to Revitalization of Revolutionary Old Areas",
+  "summary_en": "China Mobile Hubei Branch implemented a \"signal upgrade\" initiative in revolutionary old areas within Hubei province to improve network coverage and support regional revitalization. The project focuses on enhancing telecommunications infrastructure in these specific regions.",
+  "companies": [
+   "China Mobile"
+  ]
+ },
+ {
+  "id": "c89e8327e7ec3e51",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTazBuMnNrRXV2dWRyQ2U3RWZETTRPNzhFeXRjcDNjNnNwV2ZzV2pUbmd6ZkRESUVNenFfZEk0RkVEcGRhb2RPZ216b2tJYmli?oc=5",
+  "title_cn": "假期长途自驾怕困？用华为浏览器AI播客听一场双人Talk Show！",
+  "date": "2026-09-30",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "Huawei Browser AI Podcast for Long-Distance Driving",
+  "summary_en": "Huawei promotes its browser's AI podcast feature, offering a dual-host talk show format aimed at keeping drivers alert during long trips. The text highlights the application of generative AI in consumer software but provides no technical specifications, performance metrics, or launch details.",
+  "companies": [
+   "Huawei"
+  ]
+ },
+ {
+  "id": "f37208cc4b12b776",
+  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0Y3J2ZmJGM2RzcjlBR3gzQmNaVlRUdHQwdVVDeFlIU1NVazQyb19TYmQyWGFsQXlEMV93RkZtRlY4dTdkN2NMRGJWd1g0MmM?oc=5",
+  "title_cn": "连续四年！北京移动再获“综合评价领先的运营商”",
+  "date": "2026-09-30",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "Beijing Mobile Wins 'Leading Operator in Comprehensive Evaluation' for Fourth Consecutive Year",
+  "summary_en": "China Mobile's Beijing branch has been awarded the title of 'Leading Operator in Comprehensive Evaluation' for the fourth consecutive year, as reported by C114. The recognition highlights the operator's consistent performance and standing within the telecommunications sector.",
+  "companies": [
+   "China Mobile"
+  ]
+ },
+ {
+  "id": "423ab4f8a3a42c60",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qR29PWTlINlJyTkdpWkxjUkhsOFJhSlFBRFFyRGpaYVdiUy11VldQeU02eUtrX2RQZU9POVljY0E3UHFCVkVnd1huQzYwcUlZ?oc=5",
+  "title_cn": "2026PT展 | 云南移动：提升量子安全能力筑牢数字安全屏障",
+  "date": "2026-09-30",
+  "sector": "Quantum",
+  "news_type": "Corporate",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "2026 PT Expo: Yunnan Mobile Enhances Quantum Security Capabilities to Fortify Digital Safety",
+  "summary_en": "Yunnan Mobile showcased its quantum security capabilities at the 2026 PT Expo, aiming to strengthen digital security barriers. The item highlights the operator's focus on integrating quantum technologies for network protection.",
+  "companies": [
+   "China Mobile"
+  ]
+ },
+ {
+  "id": "d3d2e8d75061a317",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYXJiR1dBaEVWM1ppLVFGYjFBSXNZNThaZXhGXzA3eTVJTWNMcmd0Wm9XYnYzTGFoOEpvUjVFc1pmU1Q1ZGJ3RkQybXNJR19kU2wyZko0eTBnLUtNcEtHS3kzTmVzejRRSXRibzF3SmVERkM5OUZRVk9DZ21KRVozQjAwSGRKc3FmQ0c2V25RMHlBc1FG?oc=5",
+  "title_cn": "广东再拓AI应用场景，将于明年4月举办国际人形机器人篮球赛事",
+  "date": "2026-09-30",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "21jingji.com",
+  "source_cn": "21世纪经济报道",
+  "source_en": "21st Century Business Herald",
+  "source_tier": 1,
+  "title_en": "Guangdong to Host International Humanoid Robot Basketball Tournament in April",
+  "summary_en": "Guangdong province plans to host an international humanoid robot basketball tournament in April 2027. The event aims to expand AI application scenarios and showcase advancements in embodied AI and robotics technology within the region.",
+  "companies": []
  },
  {
   "id": "82f7a74256066c5f",
@@ -3907,6 +4448,23 @@
   "companies": [
    "DeepSeek",
    "Huawei"
+  ]
+ },
+ {
+  "id": "6f094e942bb2c284",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55Vl9VT0FobktWYlBGWmZHZmhIVkFsbE1NeWNVMWQyRUp2VEtwUVQ1SWFyLWRhbEVGQ2dyeTdWMTlmRldjR2N1cHIyZkVvVDBHMDdr?oc=5",
+  "title_cn": "银河通用200亿估值背后真相：是订单支撑还是资本堆砌？深度解析估值逻辑",
+  "date": "2026-09-29",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "The Truth Behind Galbot's 20 Billion Valuation: Order Support or Capital Stacking?",
+  "summary_en": "36Kr published an analytical article examining the valuation logic of Galbot (Yinhe Tongyong), a robotics company valued at 20 billion yuan. The piece investigates whether this valuation is supported by actual orders or driven by capital injection, offering a deep dive into the financial and operational basis of the company's market standing.",
+  "companies": [
+   "Galbot"
   ]
  },
  {
