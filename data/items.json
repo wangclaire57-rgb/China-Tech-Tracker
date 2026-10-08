@@ -1,5 +1,359 @@
 [
  {
+  "id": "6dc8c9d673516261",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSbTVDWFRUX1haVXl0a0wzblA3VUV2elBlZ2piNlVTcEdBdzBlQjFUR1lGZ2xlNkxMZ0F5ZG9ZNjRpMDVYdDRPWTBraGFVQzl0Z3RkSHBYTFpGakxrbF8xd1pkOTNfOGh6MkgxV2JrenZldkZEUWtF?oc=5",
+  "title_cn": "向更精准计时迈进 中国科学家成功研制核光钟",
+  "date": "2026-10-07",
+  "sector": "Quantum",
+  "news_type": "Breakthrough",
+  "source_domain": "news.cn",
+  "source_cn": "新华网",
+  "source_en": "Xinhua",
+  "source_tier": 1,
+  "title_en": "Chinese Scientists Successfully Develop Nuclear Optical Clock",
+  "summary_en": "Chinese scientists have successfully developed a nuclear optical clock, marking progress toward more precise timekeeping. The achievement represents a technical milestone in high-precision metrology and quantum sensing capabilities.",
+  "companies": []
+ },
+ {
+  "id": "d9e9188b87709f59",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqYXI2UnJOODFYLVh6MnZPdHlaLWZyNmpJU2VkN1JJTXI3cEJCMmxicXJtS0FpaS1EOEFBOUdzc3MtSlFZamw2VXJXTFlFc1FUSVdaeHFHTE9EazZwQ3dZZQ?oc=5",
+  "title_cn": "医药工业“十五五”规划部署25项重点任务，释放了哪些信号？",
+  "date": "2026-10-07",
+  "sector": "Biotech",
+  "news_type": "Policy",
+  "source_domain": "thepaper.cn",
+  "source_cn": "澎湃新闻",
+  "source_en": "The Paper",
+  "source_tier": 1,
+  "title_en": "Pharmaceutical Industry '15th Five-Year Plan' Outlines 25 Key Tasks",
+  "summary_en": "China's pharmaceutical industry has outlined 25 key tasks in its '15th Five-Year Plan'. The article analyzes the strategic signals and priorities for the sector during this period, though specific details of the tasks are not provided in the text.",
+  "companies": []
+ },
+ {
+  "id": "6a835402db7e7938",
+  "url": "https://www.scmp.com/tech/tech-trends/article/3370012/chinas-open-weight-ai-models-are-winning-global-users-who-capturing-value?utm_source=rss_feed",
+  "title_cn": "",
+  "date": "2026-10-07",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "scmp.com",
+  "source_cn": "南华早报",
+  "source_en": "SCMP",
+  "source_tier": 1,
+  "title_en": "China's open-weight AI models are winning global users. Who is capturing the value?",
+  "summary_en": "A study indicates that Chinese open-weight AI models, such as those from DeepSeek and Moonshot AI, have gained significant global adoption. However, much of the revenue generated flows to third-party providers who host or run the models, rather than the original developers who release the weights for free.",
+  "companies": [
+   "DeepSeek",
+   "Moonshot AI"
+  ]
+ },
+ {
+  "id": "9daba5fd235dcfaa",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zU2QtNzZhbU96aDdFWmJxQzM0X0xSVFhEcmlIclBPSmlYQkVyYy1mZnBYcTBJck5sUTZYd1djb0tSMDJGZFlCNjN5X1YxdFh5STJkVQ?oc=5",
+  "title_cn": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+  "date": "2026-10-07",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "qbitai.com",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "source_tier": 2,
+  "title_en": "Meshy Ranks in a16z Top 50 Consumer AI Apps by Monthly Revenue, Sole AI 3D Company",
+  "summary_en": "Chinese startup Meshy has entered the a16z (Andreessen Horowitz) list of top 50 consumer AI applications by monthly revenue. It is noted as the only AI 3D company on this specific ranking.",
+  "companies": [
+   "Meshy"
+  ]
+ },
+ {
+  "id": "5d3346cfb0a43c70",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mNmlMelJON2ljNWN0S1RaY21BeGdJdVNmTTd5OXd6aXpDUThSZHlpbHhOd2FFRV9OX1pTMkRWWHRRcnBnUGZCdV9fcGtHNHZPOUw2UGxFRm1xZUduM2hGeEdfZjRZMHVDWUVReXlBTnRKSVg2X2FKb0UxRjRHUQ?oc=5",
+  "title_cn": "可灵AI被曝谋求独立上市，快手为什么要把AI单独拿出来？",
+  "date": "2026-10-07",
+  "sector": "AI",
+  "news_type": "Capital",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Kling AI Reported Seeking Independent IPO; Why Kuaishou Spun Off Its AI Unit?",
+  "summary_en": "Reports indicate that Kling AI, the artificial intelligence arm of Kuaishou, is pursuing an independent initial public offering. The news highlights Kuaishou's strategic decision to separate its AI operations from its core video business, though specific financial details or regulatory filings were not provided in the source text.",
+  "companies": [
+   "Kuaishou"
+  ]
+ },
+ {
+  "id": "398b46748f6276bf",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iYjJCTWx1R3l3WUZuUndWaEwtbGxLS0VWeWt4Z1dudWdFQzBuc2R4Z3QzZDNZWWRveU5Qb3c1WlViRHpIUElvdVhXTHVXN3JncVRJNS1ZSzNGU04wVHZBUzU1WjhHaDR5Z0VkQkgxMjM3OHRJRVZyM1UzSWxUQQ?oc=5",
+  "title_cn": "大国新药｜对话康方生物夏瑜：底线思维，上限无限",
+  "date": "2026-10-07",
+  "sector": "Biotech",
+  "news_type": "Corporate",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Great Power New Drugs: Dialogue with Akeso's Xia Yu on Bottom-Line Thinking and Unlimited Potential",
+  "summary_en": "PharmCube published an interview with Xia Yu, representing Akeso (康方生物). The discussion centers on corporate strategy, specifically emphasizing 'bottom-line thinking' regarding risk management and the potential for high growth in drug development. No specific clinical trial results, financial figures, or product launches are detailed in the provided text.",
+  "companies": [
+   "Akeso"
+  ]
+ },
+ {
+  "id": "913c908a52e4a5b8",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1tWXRoZFFITVB3TmdVZGNHelR6eDJEeDZjQ0tNU1ROUFJPdnEyMXY2OU43Ny1BR2lwSjRiNUJuQTRkTDI5UmJEeVZiNTgwckZQYmRTVmNHMHVvdG5hVnE5YnBucWMtWjhWSkxna3pheTMxeXVVY2sxLTJiV0p6QQ?oc=5",
+  "title_cn": "国内首仿——杭州朱养心药业：格拉司琼透皮贴片（格斯苏®）正式获批上市",
+  "date": "2026-10-07",
+  "sector": "Biotech",
+  "news_type": "Product",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Zhu Yangxin Pharma Gets Approval for First Domestic Generic Granisetron Transdermal Patch",
+  "summary_en": "Hangzhou Zhu Yangxin Pharmaceutical received approval in China for the generic granisetron transdermal patch, branded as Gesusu. This marks the first domestic generic version of this medication to be officially approved for market launch.",
+  "companies": [
+   "Hangzhou Zhu Yangxin Pharmaceutical"
+  ]
+ },
+ {
+  "id": "c077ebd68ec3bb8c",
+  "url": "https://pandaily.com/cosmoleap-chopsticks-rocket-catch-tower-ground-test-leap-1-2027",
+  "title_cn": "中科宇航完成中国首个“筷子夹”火箭回收塔地面测试",
+  "date": "2026-10-07",
+  "sector": "Space",
+  "news_type": "Breakthrough",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Cosmoleap Completes China's First Ground Test of 'Chopsticks' Rocket-Catch Tower",
+  "summary_en": "Cosmoleap completed China's first ground test of a chopsticks-style rocket recovery tower, utilizing its own tower controller. The company is targeting a debut for its Leap-1 launch vehicle in 2027.",
+  "companies": [
+   "Cosmoleap"
+  ]
+ },
+ {
+  "id": "6708c0db7cb65f44",
+  "url": "https://pandaily.com/shanghai-ai-lab-intern-decision-open-source-0-8b-2b-4b-decision-model",
+  "title_cn": "上海AI实验室开源Intern-Decision决策模型",
+  "date": "2026-10-07",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Shanghai AI Lab Open-Sources Intern-Decision Small Models",
+  "summary_en": "Shanghai AI Lab has open-sourced Intern-Decision, a series of small language models available in 0.8B, 2B, and 4B parameter sizes. Unlike standard text generators, these models output direct choices, scores, and yes/no answers with associated probabilities. MetaX provides Day-0 support for the new architecture.",
+  "companies": [
+   "Shanghai AI Lab",
+   "MetaX"
+  ]
+ },
+ {
+  "id": "e6300005e41bdfa0",
+  "url": "https://pandaily.com/baqis-cas-physics-modular-cryogen-free-dilution-refrigerator-2000-uw",
+  "title_cn": "霸秋科技与中科院物理所交付2000微瓦模块化无液氦稀释制冷机",
+  "date": "2026-10-07",
+  "sector": "Quantum",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "BAQIS and CAS Physics Ship Modular Cryogen-Free Dilution Fridge Below 10 mK",
+  "summary_en": "BAQIS (Baqis) and the Chinese Academy of Sciences Institute of Physics have shipped a modular cryogen-free dilution refrigerator prototype. The system features dual modules operating below 10 millikelvin, offering approximately doubled cooling power compared to previous iterations.",
+  "companies": [
+   "Baqis",
+   "Institute of Physics, Chinese Academy of Sciences"
+  ]
+ },
+ {
+  "id": "190b3b81d153efe2",
+  "url": "https://pandaily.com/hailing-trident-south-china-sea-neutrino-telescope-phase-one-2027",
+  "title_cn": "海铃TRIDENT中微子望远镜计划明年完成一期",
+  "date": "2026-10-07",
+  "sector": "Quantum",
+  "news_type": "Breakthrough",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "China's Hailing TRIDENT Neutrino Telescope Targets Phase-One Completion in 2027",
+  "summary_en": "Hailing/TRIDENT chief Xu Donglian announced that full sea trials for the deep-sea neutrino telescope are complete. The project aims to finish its first phase in 2027, following the Nobel Prize recognition of similar research like IceCube.",
+  "companies": [
+   "Hailing"
+  ]
+ },
+ {
+  "id": "8d01f097dac98673",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE16Ti1uT1lJNnZwM0dzbzhwUGZ1X251aTJkcWs2M0d5Z2dha3BNLVZRNFNLSmFWbVVPWVJ0ZkV2YndXUQ?oc=5",
+  "title_cn": "理想汽车9月交付新车31817辆",
+  "date": "2026-10-07",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Li Auto Delivers 31,817 New Vehicles in September",
+  "summary_en": "Li Auto delivered 31,817 new vehicles in September 2026. The figure represents the company's monthly delivery volume for that period.",
+  "companies": [
+   "Li Auto"
+  ]
+ },
+ {
+  "id": "7457d3d29fcedaeb",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZbW9kZEgyanAwX0Y1ZFhPcjJkTlBDa2x6REh6ZzNKTDdmdk9rLVQ1Z2ZiQm5jOTZweHl5bmFCczJnTFVPSm1uLXFkbVBhaEhYX2NFenN1Q0FxRHJ1?oc=5",
+  "title_cn": "MEMS带来开关技术的跨越式发展",
+  "date": "2026-10-07",
+  "sector": "Semiconductors",
+  "news_type": "Breakthrough",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "MEMS Brings Leapfrog Development to Switching Technology",
+  "summary_en": "The article discusses how Micro-Electro-Mechanical Systems (MEMS) are driving significant advancements in switching technology. It highlights the technical improvements and capabilities enabled by MEMS integration into switches, suggesting a leap in performance or functionality compared to traditional methods.",
+  "companies": []
+ },
+ {
+  "id": "9f8ef18146a0b5f5",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fQ2lrRWFMOF9tWW1IVXFKMVFlOWx2OVltZXJic1NSbWRNRlh6UlFubGRuYkJnT1ZTVnlsMjFQNzc3aHpLbG4tMDBDbkwwZUxERU5j?oc=5",
+  "title_cn": "华为麒麟首创逻辑折叠技术：未来会有更多机型搭载",
+  "date": "2026-10-07",
+  "sector": "Semiconductors",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Huawei Kirin Pioneers Logic Folding Technology: More Models to Follow",
+  "summary_en": "Huawei's Kirin chip division has introduced a 'logic folding' technology, described as a first for the brand. The article states that this innovation will be integrated into future smartphone models, though specific technical details, performance metrics, or launch timelines are not provided in the source text.",
+  "companies": [
+   "Huawei"
+  ]
+ },
+ {
+  "id": "76491913af48836d",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iWWQ4ekNwTVVFVjVNOEEwd0lMcGJveUFJWlFEM1pNRkM0X3VWRUl3NnBLajZxbjZiTTJvbGg1T3NDYVpVcHFrN2Rpa1JLcGgwSWJv?oc=5",
+  "title_cn": "网友250元捡漏9卡矿机！54GB显存能跑70B模型",
+  "date": "2026-10-07",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "User Acquires 9-GPU Mining Rig for 250 Yuan; 54GB VRAM Runs 70B Model",
+  "summary_en": "A user acquired a nine-GPU mining rig for 250 yuan. The hardware provides 54GB of video memory, enabling the operation of a 70-billion parameter AI model.",
+  "companies": []
+ },
+ {
+  "id": "decc5911604d79aa",
+  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nNl93aFd6eXVhX1FSaVlGdnB1T3VobkkySERxbTBjR3pBUmRIbTVMekpBXzVlUTlIQ0owRDU1T19pSC1WT0I1cnRPQkdoRk0?oc=5",
+  "title_cn": "铃木e-Sky 下月上市 电池用的还是比亚迪",
+  "date": "2026-10-07",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Suzuki e-Sky Launching Next Month, Still Using BYD Batteries",
+  "summary_en": "Suzuki plans to launch the e-Sky electric vehicle next month. The vehicle continues to utilize battery packs supplied by BYD, maintaining the existing supply chain partnership for its EV powertrain.",
+  "companies": [
+   "Suzuki",
+   "BYD"
+  ]
+ },
+ {
+  "id": "50b7229689669847",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpbnFfQTFoQ3V1YXY5VHRWQ1ktSzhpeFowSHBYMmJZQkgyeHNuUHlWYXBUZDd0UlF6VmROLV9jSlUzNldCNmZmemduOUIxdw?oc=5",
+  "title_cn": "10月1日乐道单日换电33341单，创历史新高",
+  "date": "2026-10-07",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Onvo Records Record 33,341 Battery Swaps in Single Day on Oct 1",
+  "summary_en": "NIO's sub-brand Onvo (Ledao) performed 33,341 battery swap transactions on October 1, setting a new daily record. This milestone highlights the operational scale of China's battery-swapping infrastructure and EV adoption trends.",
+  "companies": [
+   "NIO"
+  ]
+ },
+ {
+  "id": "4384d6bed7a8021a",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80Vm8zelUtVWxoZ012WFluSXZkX0NSa0lwTlVxMFZ2TmdnZHFBOFlVdnVneUZHaWZteTFEbk1NNFNLMGFJbXo4ZnBJbWtfZw?oc=5",
+  "title_cn": "FFAI与FFR 9月机器人销量265台创新高，累计出货817台",
+  "date": "2026-10-07",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "FFAI and FFR September Robot Sales Hit Record 265 Units, Cumulative Shipments Reach 817",
+  "summary_en": "FFAI and FFR reported robot sales of 265 units in September, setting a new monthly record. The combined cumulative shipments have reached 817 units. No further details on specific models or revenue were provided.",
+  "companies": [
+   "FFAI",
+   "FFR"
+  ]
+ },
+ {
+  "id": "47af95d3f8068c9f",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yNVk3MWs3VW9hRGtCRkZwVzRUS1NoeXlmdXpJbnZIOXoyaHZEeXhEWVhlRFNPSkliMUhfaUFaLUM4a2VoaUQ3ZjFjczdKdw?oc=5",
+  "title_cn": "奇瑞集团前三季度销量超221万辆，出口超去年全年",
+  "date": "2026-10-07",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Chery Group Q1-Q3 Sales Exceed 2.21 Million Units, Exports Surpass Full-Year Total",
+  "summary_en": "Chery Group reported sales exceeding 2.21 million units in the first three quarters of 2026. Its export volume for this period surpassed its total exports from the previous full year, highlighting strong international demand for its vehicle portfolio.",
+  "companies": [
+   "Chery"
+  ]
+ },
+ {
+  "id": "8a0bf8b2fc9af4c5",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1kN0VjMm1ZMjNibm9zcWtQNmpIb1VoSi1vd3pTX2lpTUl0LVZyUkxhRV9sRElPTGZ1NHJlZDNKRkFRN2RFZ01GQlVEemtUOGQ4?oc=5",
+  "title_cn": "中国电信回应实名举报：言论与事实不符，项目原始档案可佐证",
+  "date": "2026-10-07",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "China Telecom Responds to Whistleblower: Claims Contradict Facts, Project Archives Provide Evidence",
+  "summary_en": "China Telecom issued a response to a whistleblower's allegations, stating that the claims are inconsistent with the facts. The company asserts that original project archives can serve as evidence to support its position regarding the reported issues.",
+  "companies": [
+   "China Telecom"
+  ]
+ },
+ {
+  "id": "3e65ce4a96ef7bb8",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaUo5UWdkSHl0VTNETzJvSUNzQjZXQzQ4NUJfSjdtMTdEOG5iZjZPT0ZmS2l0NFU5MUJKdlFuRk1OZUk1Y3NTV1lDT0lDUWRlb2hOVGhhYmh3M1cwODEyd294VmtkdWJQc0ZURTU2RHRPLWZKcTMzTjl3QXIxZVRHTXl3M0tVejM1bFpHOWdXZHRjUFZp?oc=5",
+  "title_cn": "DeepSeek新一轮融资或达千亿，“豪赌”国产算力预训练",
+  "date": "2026-10-07",
+  "sector": "AI",
+  "news_type": "Capital",
+  "source_domain": "21jingji.com",
+  "source_cn": "21世纪经济报道",
+  "source_en": "21st Century Business Herald",
+  "source_tier": 1,
+  "title_en": "DeepSeek's New Funding Round May Reach 100 Billion RMB, Betting on Domestic Compute for Pre-training",
+  "summary_en": "According to reports, DeepSeek is reportedly raising a new funding round potentially reaching 100 billion RMB. The capital is intended to support the company's strategy of utilizing domestic computing power for large model pre-training, reflecting significant investment in local infrastructure amid ongoing geopolitical constraints.",
+  "companies": [
+   "DeepSeek"
+  ]
+ },
+ {
   "id": "7db7067126fe4ab0",
   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90T2JOZy1hVndqS09Bc0FQQURmYUdYeUw0LUJnc04zbUpHUXdpZWc0MGM4bC1tWXd6ZHZpeXpNYlZ1UEpUSjVmMlV0bzhIcnVBZHBfQ211RmdTalJxc25HRA?oc=5",
   "title_cn": "算力加速“西进”：中国数据中心版图之变，关键在电",
@@ -116,6 +470,40 @@
   "summary_en": "A model company backed by NVIDIA has launched its first open-weight AI model. The release is explicitly positioned to compete with or benchmark against China's AI capabilities. Specific technical details, model sizes, and performance metrics are not provided in the source text.",
   "companies": [
    "NVIDIA"
+  ]
+ },
+ {
+  "id": "194d1afa4de25189",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9UMDJRRjZETlJCXzVCME02cUd0UXhkdldqZFV0bzRsVTg0Y3RsSmlwTUdYRzI0SUNXSmFndFJCSi1LQQ?oc=5",
+  "title_cn": "华为余承东：Mate 90系列是中国半导体行业的答卷",
+  "date": "2026-10-06",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Huawei's Yu Chengdong: Mate 90 Series is the Answer Sheet for China's Semiconductor Industry",
+  "summary_en": "Huawei executive Yu Chengdong stated that the Mate 90 series represents a significant achievement and validation for China's domestic semiconductor industry. The comment highlights the device's reliance on local supply chains and manufacturing capabilities amid ongoing geopolitical tensions.",
+  "companies": [
+   "Huawei"
+  ]
+ },
+ {
+  "id": "ff2c601579f32e2a",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5PWEU3SUtBdElma2l5ZHNET0RRakZDTmtGUWZ3S3AtQ3pJOFFhdFFoOXd6YmZkZExiWU9hWGVzZjE0Zw?oc=5",
+  "title_cn": "华为FreeBuds Neo重磅发布：超强降噪，静界随行，喧嚣止步耳外",
+  "date": "2026-10-06",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Huawei Launches FreeBuds Neo with Strong Noise Cancellation",
+  "summary_en": "Huawei has launched the FreeBuds Neo wireless earbuds, highlighting strong active noise cancellation capabilities. The product aims to provide users with a quiet listening experience in noisy environments.",
+  "companies": [
+   "Huawei"
   ]
  },
  {
@@ -603,6 +991,21 @@
   ]
  },
  {
+  "id": "d374bb3147a97c3c",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFUS1CRld6SlNNc2p3eFEzbWtnbU1aeVowU3B2WWszRlJTejNGVy1ONUJxU0xsSEF3MTlTOG96anZxUElVRnkwc0FDUTVyNjBnTHZQUUNZS2ktYjBs?oc=5",
+  "title_cn": "人形机器人进军工厂",
+  "date": "2026-10-04",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Humanoid Robots Enter Factories",
+  "summary_en": "The article reports on the deployment of humanoid robots in factory settings. The provided text is extremely brief, containing only the headline and source attribution without specific details on companies, technical specifications, or operational metrics.",
+  "companies": []
+ },
+ {
   "id": "037cd67821e86a80",
   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03UWE0MUs0RW9YZDdCWWVydDhhb19RVU9PeEpSZlBkSDJid0lMeWdQcnVIMW94TlFXRm12ejJUVmRRQ2VxRXE4eEd5c0RPNHc?oc=5",
   "title_cn": "英国最畅销车 奇瑞Jaecoo7时隔半年重回宝座",
@@ -617,6 +1020,23 @@
   "summary_en": "The Chery Jaecoo 7 has returned to the position of best-selling car in the United Kingdom, reclaiming the top spot after a six-month absence. The article highlights this sales achievement for the Chinese automaker's model in the UK market.",
   "companies": [
    "Chery"
+  ]
+ },
+ {
+  "id": "a08d9d43be2fcbb3",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBURm9RZHQwY0xDNEdCeG03VUYtY2NiT0xMZDJ2TFJab3ZXWEtUTjM3a3g4WU9OZmJlR0FoQXFVY3o4MWxHMmZ3ZUhFTXQ3UQ?oc=5",
+  "title_cn": "Rabbit 创始人吕骋：人不该为 Agent 改变思考方式",
+  "date": "2026-10-04",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Rabbit Founder Lv Cheng: Humans Should Not Change Their Thinking for Agents",
+  "summary_en": "Lv Cheng, founder of Rabbit, argues that human cognition and thinking processes should remain the standard, rather than forcing humans to adapt their mental models to fit AI agent architectures. The statement reflects a perspective on human-centric AI design principles.",
+  "companies": [
+   "Rabbit"
   ]
  },
  {
@@ -906,6 +1326,38 @@
   ]
  },
  {
+  "id": "55682415382f53ff",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1VTzI4cEFjbkh1RHRnRUlJREp6bVVwQ2F2TXBBZlZkVENsV3JNZm84VGprQ0tKUWx2MFNvcWtsWVJfRzRqYzVvN2Q1RDJqQQ?oc=5",
+  "title_cn": "阿里，把AI交给了90后",
+  "date": "2026-10-03",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Alibaba Hands Over AI Leadership to Post-90s Generation",
+  "summary_en": "Alibaba has appointed post-90s generation executives to lead its artificial intelligence initiatives. The move signals a strategic shift towards younger leadership within the company's AI division, though specific roles, individuals, or immediate operational impacts are not detailed in the source text.",
+  "companies": [
+   "Alibaba"
+  ]
+ },
+ {
+  "id": "28d6837740f86d82",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1fY01mUDFIUXZ4M0llRWMzV3FmUTNuNlFhaUlVZjdrcy1VM1ZsaTZDZnM3SWRlcTJUR2Z2VDF0dVpVTVI2NFZLTG1LZkdhblAyRmxB?oc=5",
+  "title_cn": "随手同意APP用户条款竟藏离谱要求 强制扫公共厕所引热议",
+  "date": "2026-10-03",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "APP User Agreements Contain Absurd Clauses, Sparking Outrage Over Mandatory Public Toilet Scans",
+  "summary_en": "A mobile application has sparked public controversy by embedding unreasonable requirements in its user agreement, specifically mandating users to scan public toilets. The incident highlights ongoing concerns regarding privacy overreach and the enforcement of excessive digital terms of service within China's app ecosystem.",
+  "companies": []
+ },
+ {
   "id": "0879f451cdd6580d",
   "url": "https://www.scmp.com/plus/tech/policy/article/3369537/chinas-ai-compute-ambitions-demand-innovation?utm_source=rss_feed",
   "title_cn": "中国AI算力雄心呼唤创新",
@@ -952,6 +1404,23 @@
   "summary_en": "A report by the Centre for Technology & Statecraft states that Chinese fabs had acquired approximately 343 immersion deep ultraviolet (DUV) lithography systems by early 2026. Former US officials are urging Washington and allies to enforce a complete export ban on these tools to curb China's semiconductor capabilities.",
   "companies": [
    "ASML"
+  ]
+ },
+ {
+  "id": "5473bde55aeeeee4",
+  "url": "https://www.scmp.com/tech/tech-war/article/3369526/hong-kong-users-caught-offguard-anthropic-tightens-vpn-access-claude?utm_source=rss_feed",
+  "title_cn": "Anthropic收紧香港Claude的VPN访问限制",
+  "date": "2026-10-02",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "scmp.com",
+  "source_cn": "南华早报",
+  "source_en": "SCMP",
+  "source_tier": 1,
+  "title_en": "Anthropic Tightens VPN Access to Claude in Hong Kong",
+  "summary_en": "US AI company Anthropic has enforced geographical restrictions on its Claude models in Hong Kong, leading to abrupt account suspensions for users accessing the service via VPNs. Complaints emerged on social media platforms X and Reddit as long-term users found their accounts disabled without warning.",
+  "companies": [
+   "Anthropic"
   ]
  },
  {
@@ -1190,6 +1659,21 @@
   "source_tier": 2,
   "title_en": "AI Passes 'Video Turing Test' as 17 Million Users Watch",
   "summary_en": "A Chinese AI system has reportedly passed a 'video Turing test,' attracting 17 million online viewers. The text provides no details on the specific company, model, or technical methodology behind this claim.",
+  "companies": []
+ },
+ {
+  "id": "2c7abf2bc772797e",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQUNDdlVpZWRldFdoUTluU0I1YTF3RVQ2MFJnaGRhUHZzenMtQ3M4S0ZBaE1kM1A0b0x0ajJCdzQ3bTNGejNGTTIzb0h4NWpGOHdlcGdyQTV3SHoxZjdHVFlsMU0tSUlTV2g4YjhrLTNfYkRTUW9xTGRJZzRBWnlpLV91MVNhLWNOZUlXNXZsTQ?oc=5",
+  "title_cn": "让机器人“能干活” 具身智能从“中国量产”走向“全球落地”",
+  "date": "2026-10-02",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "21jingji.com",
+  "source_cn": "21世纪经济报道",
+  "source_en": "21st Century Business Herald",
+  "source_tier": 1,
+  "title_en": "Making Robots 'Work': Embodied AI Moves from Chinese Mass Production to Global Deployment",
+  "summary_en": "The article discusses the transition of China's embodied AI and robotics sector from domestic mass production capabilities to global market deployment. It highlights the industry's progress in enabling robots to perform practical tasks, signaling a shift towards international commercialization.",
   "companies": []
  },
  {
@@ -1459,6 +1943,23 @@
    "Huawei",
    "Changan Automobile",
    "Seres"
+  ]
+ },
+ {
+  "id": "8dfe5c2ea18cd686",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CVGFQVTNXeFlualI2Wi1qbDB1dDRVUUlRMjNUMnRRalY4SmlvQk9Wa21rUkE5MHMxT0JJaEM3SGl2d3pBVEFKVmptWHg0UQ?oc=5",
+  "title_cn": "极狐汽车9月销量达21,518台，前三季度累计交付超13.5万台",
+  "date": "2026-10-01",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Arcfox September Sales Reach 21,518 Units, Q3 Cumulative Deliveries Exceed 135,000",
+  "summary_en": "Arcfox reported September sales of 21,518 units. For the first three quarters of the year, cumulative deliveries exceeded 135,000 units.",
+  "companies": [
+   "Arcfox"
   ]
  },
  {
@@ -1855,6 +2356,41 @@
   "summary_en": "Yang Yuxin, former Chief Marketing Officer of Black Sesame Technologies, has joined a physical AI company founded by Yao Song. The text confirms the personnel move but provides no details on the specific company name, product focus, or investment figures.",
   "companies": [
    "Black Sesame Technologies"
+  ]
+ },
+ {
+  "id": "362e34cc28e7f7ac",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vRHBvLWpTOTk5dHQ2U2RpanJXSVdGMFdiX1JMSElSODNOU3VVWDJ2T0V2X3diZm1UeExQcEt2Wmd4dw?oc=5",
+  "title_cn": "斩获2.27亿大单！中科星图低空经济“合伙人”模式，落地巴彦淖尔",
+  "date": "2026-09-30",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "GDSign Wins 227 Million RMB Order in Bayannur for Low-Altitude Economy",
+  "summary_en": "GDSign (Zhongke Xingtu) secured a contract worth 227 million RMB in Bayannur. The deal involves implementing a 'partner' model focused on the low-altitude economy sector, which relates to airspace management and infrastructure.",
+  "companies": [
+   "GDSign"
+  ]
+ },
+ {
+  "id": "805b6258cb2e204a",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1maUpQWmtmV2lZNzU2eTVaNzFzN296aHAyWXBkcXVadG9qOXpHTDFmdC1IUWJLSXhCaldXSnBseGxKQQ?oc=5",
+  "title_cn": "泰伯早报 | 9月30日：公安部公布无人机违法行为处罚规定；前黑芝麻CMO杨宇欣，加入姚颂创办的物理AI公司",
+  "date": "2026-09-30",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Taibo Morning Brief: Public Security Bureau Drone Regulations; Former黑芝麻 CMO Joins Physical AI Startup",
+  "summary_en": "The Chinese Ministry of Public Security published regulations punishing illegal drone operations. Additionally, Yang Yuxin, former Chief Marketing Officer of Black Sesame Technologies (Heihua Zhi), joined a physical AI company founded by Yao Song. The brief also mentions OpenAI's release of GPT-6.1 Sol.",
+  "companies": [
+   "Black Sesame Technologies",
+   "Heihua Zhi"
   ]
  },
  {
@@ -2502,6 +3038,41 @@
   ]
  },
  {
+  "id": "df17b12086d05995",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oRWZFd0FwYnZ5SjVUa0o4SWRpSFk2SG83MUZoaXkzTUw0SU0wbDlnY2dDZ3ZOS2JpMkpaSXVkSW9iVFVzSTgtWk9WNlUyS056SGJ1ZV9INTJhNWVmMTVPVDhLTTZaUHU2WHRCZGhNRVB3OFY0?oc=5",
+  "title_cn": "AMD史上第二大收购：82亿美元“拿下”李飞飞初创公司",
+  "date": "2026-09-30",
+  "sector": "AI",
+  "news_type": "Capital",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "AMD's Second-Largest Acquisition: $8.2 Billion Deal for Li Feifei's Startup",
+  "summary_en": "AMD announced the acquisition of a startup founded by AI researcher Li Feifei for $8.2 billion, marking the company's second-largest acquisition in history. The deal involves significant capital expenditure to integrate the startup's assets into AMD's portfolio.",
+  "companies": [
+   "AMD"
+  ]
+ },
+ {
+  "id": "b971f4abb36b48c1",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83bVZfYUlZanhSdGZOYXRUb3FWOXFBT19wUEJsdENPMWplcURDcnNvVnJJN0gxZFFaTjF1azVSUXRWQmJzdHdoc0UtRDloVm5Z?oc=5",
+  "title_cn": "中国电信辽宁分公司携手华为构建数据驱动的用户体验提升创新矩阵入选ICT中国（2026）案例",
+  "date": "2026-09-30",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "China Telecom Liaoning and Huawei Selected for ICT China 2026 Case Study on Data-Driven User Experience",
+  "summary_en": "China Telecom's Liaoning branch and Huawei were selected as a case study for the ICT China 2026 awards. The initiative focuses on building an innovation matrix to enhance user experience through data-driven methods.",
+  "companies": [
+   "China Telecom",
+   "Huawei"
+  ]
+ },
+ {
   "id": "a571ed5138fa5a35",
   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PUGpwcjViYVN5dmRNclBKV19TZFVzaVVhNGFKeVpTTlZvYVU1OXBoTkYtNUVDR1A1RlFENzFBV1M3Yll1Q2lBRUpoU2pFVGhpSUhfaUh1T0xDN3c?oc=5",
   "title_cn": "我国生成式人工智能用户规模突破7亿 普及率超50%",
@@ -2812,6 +3383,23 @@
   ]
  },
  {
+  "id": "bcb72fc1cb7c85f3",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LWDhMeDBpN2FFVy1oTlh4Q0wxaThMd19zcTVZNXB1c1JaaVNoZVpHZHR4WUQ2elBuSVZOZlRHODd2bHRJNTJPY3ZxX1JrR3Bl?oc=5",
+  "title_cn": "中信科移动王希：星地融合 创新发展，共筑NTN手机直连卫星新生态",
+  "date": "2026-09-30",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "CITIC Telecom's Wang Xi: Star-Earth Integration and NTN Mobile Direct-to-Satellite Ecosystem",
+  "summary_en": "Wang Xi of CITIC Telecom (中信科移动) advocates for star-earth integration to build a new ecosystem for Non-Terrestrial Network (NTN) direct-to-satellite mobile connectivity. The article highlights the development of this technology but provides no specific product launches, technical metrics, or corporate actions.",
+  "companies": [
+   "CITIC Telecom"
+  ]
+ },
+ {
   "id": "d3d2e8d75061a317",
   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYXJiR1dBaEVWM1ppLVFGYjFBSXNZNThaZXhGXzA3eTVJTWNMcmd0Wm9XYnYzTGFoOEpvUjVFc1pmU1Q1ZGJ3RkQybXNJR19kU2wyZko0eTBnLUtNcEtHS3kzTmVzejRRSXRibzF3SmVERkM5OUZRVk9DZ21KRVozQjAwSGRKc3FmQ0c2V25RMHlBc1FG?oc=5",
   "title_cn": "广东再拓AI应用场景，将于明年4月举办国际人形机器人篮球赛事",
@@ -2825,6 +3413,23 @@
   "title_en": "Guangdong to Host International Humanoid Robot Basketball Tournament in April",
   "summary_en": "Guangdong province plans to host an international humanoid robot basketball tournament in April 2027. The event aims to expand AI application scenarios and showcase advancements in embodied AI and robotics technology within the region.",
   "companies": []
+ },
+ {
+  "id": "5b03dcae7372cb85",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS0RyRWgzcFY0ZFMxeFN2Vng3X2lWWHNhMzRTbWZKXzVabnlyNGNXMW1jQTdTZ3JPQ21QNkRqc1ViR090TUc2OTNNM1NiV182YUN2R3RCbldOenFKNlh4LUFuRDI3b3Bwamp3T1F2ejlWSTc4QjF0bUxKU2M3QnZCRGZmRXdSUnJtOFoxcG5ucw?oc=5",
+  "title_cn": "造汽车不赚钱，贾跃亭的机器人业务要单独上市了",
+  "date": "2026-09-30",
+  "sector": "Robotics",
+  "news_type": "Capital",
+  "source_domain": "21jingji.com",
+  "source_cn": "21世纪经济报道",
+  "source_en": "21st Century Business Herald",
+  "source_tier": 1,
+  "title_en": "Jia Yueting's Robot Business to Spin Off for IPO Amid Auto Losses",
+  "summary_en": "Faraday Future founder Jia Yueting plans to spin off his robotics business into a separate listed entity, as the company's electric vehicle operations remain unprofitable. The move aims to isolate the robotics venture from automotive financial losses.",
+  "companies": [
+   "Faraday Future"
+  ]
  },
  {
   "id": "82f7a74256066c5f",
