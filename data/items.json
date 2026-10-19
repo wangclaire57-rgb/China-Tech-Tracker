@@ -1,5 +1,74 @@
 [
  {
+  "id": "78689f49ff73f630",
+  "url": "https://pandaily.com/xian-jiaotong-university-plasmon-enhanced-ferroelectric-2d-phototransistor-ws2-partial-discharge-detection",
+  "title_cn": "西安交大团队构建零栅压二维光晶体管用于检测微弱电网局部放电",
+  "date": "2026-10-18",
+  "sector": "Semiconductors",
+  "news_type": "Breakthrough",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Xi'an Jiaotong Team Builds a Zero-Gate-Bias 2D Phototransistor to Spot Faint Grid Discharges",
+  "summary_en": "Researchers from Xi'an Jiaotong University developed a two-dimensional phototransistor using tungsten disulfide (WS2), gold nanoparticles, and a 10nm ferroelectric gate. The device achieves a detectivity of 1.36 x 10^14 Jones and a 9.51 ms response time without requiring an external gate voltage. It is designed for partial discharge monitoring in electrical grids.",
+  "companies": [
+   "Xi'an Jiaotong University"
+  ]
+ },
+ {
+  "id": "8323ce944af6b2e7",
+  "url": "https://pandaily.com/peng-cheng-cloud-brain-iii-10000p-domestic-ai-computing-trial-operation-wcnc-2026",
+  "title_cn": "鹏城云脑III万P国产算力投入试运行",
+  "date": "2026-10-18",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Peng Cheng Cloud Brain III Puts 10,000P of Domestic AI Computing Into Trial Operation",
+  "summary_en": "Peng Cheng Laboratory's Peng Cheng Cloud Brain III has entered trial operation with 10,000P of domestic AI computing capacity. Construction continues toward a planned total of 16,000P. The facility supports domestic large model training and AI for science research.",
+  "companies": [
+   "Peng Cheng Laboratory"
+  ]
+ },
+ {
+  "id": "35830bf007272c65",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qR0FqZTl0eU1kak85aDd3NFZ4NGduaGo0TzB3WVNDZzdVUzJ3cDVoLS1hSUVrOF9mdzlfamdseW5SUkJfamVrS1lJTWd2SkU4XzZ3?oc=5",
+  "title_cn": "联合发布白皮书、签署合作备忘录，安富利携手国地中心、古月居共同推动具身智能的应用创新与产业落地",
+  "date": "2026-10-18",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Avnet Partners with National Engineering Research Center and Guyueju to Promote Embodied AI Innovation",
+  "summary_en": "Avnet, the National Engineering Research Center for Industrial Technology (GuoDiZhongXin), and Guyueju jointly released a white paper and signed a memorandum of understanding. The collaboration aims to promote application innovation and industrial implementation of embodied intelligence (robotics).",
+  "companies": [
+   "Avnet",
+   "Guyueju"
+  ]
+ },
+ {
+  "id": "ee783e5daa3ec3c4",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0eFVZWjlEWGFwem1IWGxvQUFJTGZXR0JyT2dHR0hPd0Uwb05lSEc1bkpqLWhIa3ZnUzZWb0Zna2RMdXJiR1pyaV8xMWtJdw?oc=5",
+  "title_cn": "拿下86亿元，今年华为系创业者攻占了具身智能融资榜",
+  "date": "2026-10-18",
+  "sector": "Robotics",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Huawei-affiliated entrepreneurs dominate embodied AI funding with 8.6 billion yuan raised this year",
+  "summary_en": "Entrepreneurs with Huawei affiliations have secured 8.6 billion yuan in financing for embodied AI companies in 2026, leading the sector's funding rankings. The article highlights their dominance in the robot and embodied intelligence investment landscape.",
+  "companies": [
+   "Huawei"
+  ]
+ },
+ {
   "id": "1e892f51ac09ea9c",
   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uRGhSRTg0a2FHRThTQWljVVB5MkZtMzNfMHVVOHFaOTFTdzdlSko0dkJxck1KcFI3ZE05NDNreWdHR1pVMG5Ec1RYQnhER2htTExOMXY3T0g1X0RDM2Q4Z1AtaXpfNFNnOUs0MXE5eFVxWnA2?oc=5",
   "title_cn": "中国储能产业加速体系化出海",
@@ -13,6 +82,23 @@
   "title_en": "China's Energy Storage Industry Accelerates Systematic Global Expansion",
   "summary_en": "Xinhua reports that China's energy storage industry is accelerating its systematic expansion into international markets. The article highlights the strategic shift from individual product exports to comprehensive, system-level global deployment of energy storage solutions.",
   "companies": []
+ },
+ {
+  "id": "eeedad60139fa17e",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jTDRobFJQN0dsSUEybnJ0RXVtRDJ5MTlhQ0pUUmlwOG1ZaGZSMGl6YXVNaHVERTFsTm9lUVJRXzZNZHZNSmktcUJmQjJOajJvVkN2MkROT2YzNW9QTVpHNQ?oc=5",
+  "title_cn": "马上评｜欣赏特斯拉的想象力，更要读懂中国新能源汽车硬实力",
+  "date": "2026-10-17",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "thepaper.cn",
+  "source_cn": "澎湃新闻",
+  "source_en": "The Paper",
+  "source_tier": 1,
+  "title_en": "Comment: Appreciate Tesla's Imagination, but Understand China's NEV Hard Power",
+  "summary_en": "An opinion piece arguing that while Tesla demonstrates strong imagination, China possesses significant hard power in the New Energy Vehicle (NEV) sector. The article serves as a commentary on the competitive landscape between US and Chinese automotive innovation.",
+  "companies": [
+   "Tesla"
+  ]
  },
  {
   "id": "07208395fe157fe5",
@@ -134,6 +220,23 @@
   ]
  },
  {
+  "id": "1836284cd5ff702c",
+  "url": "https://pandaily.com/tencent-hunyuan-hy-memory-2-0-open-source-working-code-memory-memhub-apache-2",
+  "title_cn": "腾讯开源Hunyuan Hy Memory 2.0，为AI代理增加工作记忆与代码记忆",
+  "date": "2026-10-17",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Tencent Open-Sources Hy Memory 2.0 for AI Agents",
+  "summary_en": "Tencent open-sourced Hy Memory 2.0, an SDK featuring a 30B-A3B memory model and the MemHub local app. The update adds working and code memory capabilities for AI agents. Tencent reports a 72.6% score on LoCoMo benchmarks and reduced token usage per question from 1,159 to 703.",
+  "companies": [
+   "Tencent"
+  ]
+ },
+ {
   "id": "e03f06fdd3337725",
   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE94R3dxS1RSbUFjQmM1Y2o2d3hiQnFSZG9Rci1XdjNuUHRiY09teGZSY2VSUjdfc00wbUZCWUtfZmFxUQ?oc=5",
   "title_cn": "【一周IC快报】美国起诉中国科技巨头,立讯精密被调查；“成都造”光刻机将集中交付；晶圆大厂突发爆炸；英伟达停产",
@@ -169,6 +272,23 @@
   ]
  },
  {
+  "id": "9c22f24719a96d1e",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0yREZvU1J3SlMtcHFDT3RNMFhqSmFiMmJSLTB5Nm9xSkUzWDRBWWdpYjFSYXFSd0F0YnJkejh3Y0J1NlZ5U0JzSHVNbnpRcEE5S2trUm9NaVJ6Nklh?oc=5",
+  "title_cn": "超科林CKL发布全新品牌形象，详解“在中国，为中国”战略",
+  "date": "2026-10-17",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "CKL Unveils New Brand Identity, Details 'In China, For China' Strategy",
+  "summary_en": "CKL (Chaoke Lin) launched a new brand identity and outlined its 'In China, For China' strategic approach. The announcement focuses on corporate branding and market positioning within China.",
+  "companies": [
+   "CKL"
+  ]
+ },
+ {
   "id": "61609aa6b88486b2",
   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBja2dNa1VqRzF1cDRUOEh4VVRKbG1MWDR5XzgxS25aLW05TWpQTHdHSC1Ec3puR0dmWUNHbi00dGh1aUpaY3RhblAzOC1mQ2c?oc=5",
   "title_cn": "智能大掀背 一汽大众ID.AURA L5官图首秀",
@@ -200,6 +320,38 @@
   "summary_en": "The Sunway 8000 supercomputer is being utilized to assist in solving technical challenges related to rocket recovery. The article highlights the system's application in expanding scientific research boundaries within the aerospace sector.",
   "companies": [
    "Sugon"
+  ]
+ },
+ {
+  "id": "34d1423b80e41463",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1uME5xNjV4QVVfNXhqWmZJNHdOZHB1eGhhMi1MMExyc2I5eW1PTHN2eDFTM1VIdzhNVjVqMlgxZGh1d0xBWlhpLUtIZEk2Zw?oc=5",
+  "title_cn": "盖茨投的手术机器人破产，中国同行却开始赚钱",
+  "date": "2026-10-17",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Surgical Robot Startup Backed by Gates Bankrupts as Chinese Rivals Profit",
+  "summary_en": "A surgical robot startup backed by Bill Gates has filed for bankruptcy. The article contrasts this failure with the profitability of competing Chinese firms in the same sector, highlighting a divergence in commercial success between foreign and domestic players in the surgical robotics market.",
+  "companies": []
+ },
+ {
+  "id": "aeab6fdd684199ad",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0ejFVMkl4ZXladkRZTks4cmpWZXdnbzZTQ0p4OTB4TUlua0FuM2RKR2VqYWVUUUY3YzFVcTVlb0F6akVJRVdHcFcxalJTSW9XQXpiejJURTB4dnNDalVpSw?oc=5",
+  "title_cn": "具身智能公司“格物同志”完成近亿元天使轮融资",
+  "date": "2026-10-17",
+  "sector": "Robotics",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Embodied AI Company Gewu Tongzhi Raises Nearly 100 Million Yuan in Angel Round",
+  "summary_en": "Gewu Tongzhi, an embodied intelligence company, has completed an angel round of financing totaling nearly 100 million yuan. The transaction marks early-stage capital support for the firm's development in embodied AI.",
+  "companies": [
+   "Gewu Tongzhi"
   ]
  },
  {
@@ -283,6 +435,58 @@
   "summary_en": "AI company MiniMax has updated its filing for IPO counseling. The report states that the company's internal governance structure has been established, but there is still room for optimization in execution-level operations. This indicates the company is preparing for a public listing.",
   "companies": [
    "MiniMax"
+  ]
+ },
+ {
+  "id": "4982ef97d3263dc3",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCVnNTcUFqNzQ3OUZ4c1pQc2FhelR4MTE5T1AyUGNuY1NOM3RpcENMbktweUJUWFJWYlRpcXVrdzhrZWlZLWI1bHQ5Rlc0a21qT01Z?oc=5",
+  "title_cn": "邦盛时空入驻人工智能企业研发基地，加速面向东盟布局",
+  "date": "2026-10-16",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Bangsheng Space-Time Joins AI R&D Base to Accelerate ASEAN Expansion",
+  "summary_en": "Bangsheng Space-Time has joined an artificial intelligence enterprise R&D base. The company aims to accelerate its strategic layout and expansion into the Association of Southeast Asian Nations (ASEAN) markets through this partnership.",
+  "companies": [
+   "Bangsheng Space-Time"
+  ]
+ },
+ {
+  "id": "d17de0604c861dff",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlYjVmQzEwVW1xRjBhb0JIc3U5b2o4SlU1UGpNVWJZSDJta0VoWHR4RllNTV9HamRjMC1TNmJnUU5VY0hNLWhVR3REVU9QTGVXMGNV?oc=5",
+  "title_cn": "理想智驾迎来技术人才，原华为ADS预测负责人杨旭光加盟",
+  "date": "2026-10-16",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Li Auto Hires Former Huawei ADS Lead Yang Xuguang",
+  "summary_en": "Li Auto has hired Yang Xuguang, the former head of prediction for Huawei's Autonomous Driving Solution (ADS). This move strengthens Li Auto's intelligent driving team with senior talent from a key competitor in China's autonomous vehicle sector.",
+  "companies": [
+   "Li Auto",
+   "Huawei"
+  ]
+ },
+ {
+  "id": "13e3cb2415ec4bd3",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xVmtjVnhodUJkMjhURjRqVFVzdGs3MDNwUjJYV251a0FBaDVFQnBQZFRLVDJ1YnlYTURhb3pBSElhYV9LWWhFT19jdWU2cTRnc2pj?oc=5",
+  "title_cn": "DeepSeek整合成立“产品部”，崔添翼担任负责人",
+  "date": "2026-10-16",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "DeepSeek Establishes 'Product Department' with Cui Tianyi as Head",
+  "summary_en": "Chinese AI developer DeepSeek has reorganized its internal structure by establishing a dedicated Product Department. Cui Tianyi has been appointed to lead this new division. The move signals an effort to consolidate product management functions within the company, though specific operational details or strategic implications were not provided in the source text.",
+  "companies": [
+   "DeepSeek"
   ]
  },
  {
@@ -727,6 +931,21 @@
   "companies": []
  },
  {
+  "id": "74d993170208aad2",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qeTY3UUxkSHZFeGV0T2g0ZWdBV2d3UWdMREhtLURucE9IcnFZUUdXd0NvN00xMmNGN1lnMktUQmlHTTNBNzcwVXZKY2dzZFVvZ3FLa1JDMjNIdkRNejhV?oc=5",
+  "title_cn": "2026年全自动影像测量仪行业发展趋势深度研判：十五五重点赛道、市场占有率与区域格局",
+  "date": "2026-10-16",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "2026 Fully Automatic Vision Measuring Machine Industry Trends and Market Analysis",
+  "summary_en": "An analytical report outlines industry trends for fully automatic vision measuring machines in 2026, identifying key tracks under China's 15th Five-Year Plan. The article discusses market share distribution and regional patterns within the automated inspection equipment sector.",
+  "companies": []
+ },
+ {
   "id": "3413fb7927747edb",
   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PbDd3VTZ5akdXSms3Z2swZ2dIakxOM0U4NWZLMllNU3RsdHplVzU5SVNGZE9MNEFXUGkya1dhNXhZOEIzVHVWNnc5cHNYSG8?oc=5",
   "title_cn": "智界R7将10月27日在全国20座城市首批交付",
@@ -864,6 +1083,23 @@
   "summary_en": "CALB (Zhongchuang Xinhang) launched two public data dashboards as part of the Greater Bay Area (GBA) battery passport operational pilot. This initiative supports battery lifecycle tracking and transparency, aligning with emerging regulatory frameworks for sustainable energy storage and electric vehicle supply chains.",
   "companies": [
    "CALB"
+  ]
+ },
+ {
+  "id": "5d9674603e0037e9",
+  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1id3dRLWhybVZnOGVpWkE3N2FSTDN2R05FRFFodkxhUjhIM1k5dERXODAwSm9xRmg4SWRpUFVMUlNSOXBHbVkwSjNUMnZtVUU?oc=5",
+  "title_cn": "比亚迪预告第三代唐将首发搭载全新巨幕UI",
+  "date": "2026-10-16",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "BYD Teases New Giant Screen UI for Third-Generation Tang",
+  "summary_en": "BYD announced that the third-generation Tang SUV will debut a new giant screen user interface. The announcement is limited to a software and design update; no technical specifications, pricing, or launch dates are provided in the source text.",
+  "companies": [
+   "BYD"
   ]
  },
  {
@@ -1104,6 +1340,38 @@
   "companies": []
  },
  {
+  "id": "8bde98a307bc1a12",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzb2c0T2NGeGJ3eXNGRzIxdktsbjFTWnBoMFZtMEl3RVFKa3ZIM3V2V1Q3Xzlxd0FyLVhhYTJNdUtTR2xkRGdJTVF2RjBtcTAwbm4tWkdFZkRZSlU?oc=5",
+  "title_cn": "持证启航！欣旺达高倍率船用电池获得中国船级社型式认可",
+  "date": "2026-10-16",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Sunwoda High-C-rate Marine Battery Receives CCS Type Approval",
+  "summary_en": "Sunwoda has obtained type approval from the China Classification Society (CCS) for its high-c-rate marine battery. This certification validates the product's compliance with marine safety standards, enabling its deployment in marine applications.",
+  "companies": [
+   "Sunwoda"
+  ]
+ },
+ {
+  "id": "d670f284f9406233",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81RUkyYi1raEJLMWJtWlctLThkb2FxS0NPbDlmeGNJRkhSamhmd2VVZnhYMk4tRGJEbEg0a3V3UEtUWnQ3aG1BU3J5M1djUzhNYkZ1WTBCeDNBS2M?oc=5",
+  "title_cn": "2025年中国研发经费投入总量突破3.9万亿元",
+  "date": "2026-10-16",
+  "sector": "Digital Connectivity",
+  "news_type": "Policy",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "China's R&D Investment Surpasses 3.9 Trillion Yuan in 2025",
+  "summary_en": "China's total research and development expenditure exceeded 3.9 trillion yuan in 2025, according to China Industry News. The figure highlights the continued scale of national investment in innovation and technological advancement.",
+  "companies": []
+ },
+ {
   "id": "d18907c16bf2296a",
   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByMFZoVXptR2p6S1ZFME53VDYtUVpuWndPMV93bUdEdGFjSUdNeTNLcUd0WTlxdmJ0YnRHX2dLcEVDVV9OMmtsa1pZa1h0d1NkUXRWLXFfSm1mUWc?oc=5",
   "title_cn": "我国清洁能源装备加速“出海” 提速全球能源转型",
@@ -1166,9 +1434,9 @@
   ]
  },
  {
-  "id": "c32fe020311d4e5f",
-  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42MVBlMmE0emgyQ1Nmc1JnRXFQUEJJNTNyb3ROZmNxZXRQTnMtTEJpeHJLSkxzNWpsWlVXSTNVWDdwTXZXMHFmMnU4WjdYNzE1S2pR?oc=5",
-  "title_cn": "特斯拉发布“会飞”的跑车预订金33.2万元中国限制或禁止出口AI等领域40项技术长鑫科技预计前三季度净利超1300亿",
+  "id": "158ec0cafef3ea92",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pbEJjczRNWmo0Q3d3UmVlMDZzeUFPVEZQTDlkQzc1M0w5N1BZTm9mRElEdWVjOU9fWjRra2VTdUdfQzdBZkRNQTNiamNCQQ?oc=5",
+  "title_cn": "9点1氪丨特斯拉发布“会飞”的跑车，预订金33.2万元；中国限制或禁止出口AI等领域40项技术；长鑫科技预计前三季度净利超1300亿",
   "date": "2026-10-16",
   "sector": "Semiconductors",
   "news_type": "Policy",
@@ -1176,8 +1444,8 @@
   "source_cn": "36氪",
   "source_en": "36Kr",
   "source_tier": 2,
-  "title_en": "Tesla Cybercab Pre-order Deposit; China Restricts Export of 40 AI Technologies; CXMT Q3 Net Profit Surpasses 130B RMB",
-  "summary_en": "China announced restrictions or bans on the export of 40 technologies related to AI and other fields. Meanwhile, memory chipmaker CXMT (ChangXin Memory Technologies) forecasted net profits exceeding 130 billion RMB for the first three quarters. Separately, Tesla released a pre-order deposit amount of 332,000 RMB for its flying car concept.",
+  "title_en": "Tesla Unveils 'Flying' Sports Car; China Restricts Export of 40 AI Technologies; CXMT Q3 Net Profit Exceeds 130B RMB",
+  "summary_en": "China has restricted or prohibited the export of 40 technologies related to AI and other fields. Meanwhile, memory chipmaker CXMT (ChangXin Memory Technologies) forecasts its net profit for the first three quarters will exceed 13 billion RMB. Additionally, Tesla announced a new flying sports car with a reservation deposit of 332,000 RMB.",
   "companies": [
    "CXMT",
    "Tesla"
@@ -1201,9 +1469,9 @@
   ]
  },
  {
-  "id": "18efde5755009f2d",
-  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WalNXMVJBRFU5elluSkh6MUZjUXdRNmc2VHotY08zaDRNMjd4MDVEeEVJcUY2QjVHSkdjUFV3WXBZdkcyajdBNmNmeVVZS1kzeW5ZUnpBZm9ZNTVBNEtSYg?oc=5",
-  "title_cn": "六角半导体完成超亿元C1轮融资",
+  "id": "9dafdc510babf7d3",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55NG1UanN0SWxnc0ZxREk4TUI0VTAwenp4NXVXS2lwNjloRE5ZMTZjUXNKemxES2t6bS1UTE9RNlBJcnJqVGhjbGF4c29jR2VLY2hJcDdMRFozT1E?oc=5",
+  "title_cn": "“六方半导体”完成超亿元C1轮股权融资",
   "date": "2026-10-16",
   "sector": "Semiconductors",
   "news_type": "Capital",
@@ -1211,10 +1479,10 @@
   "source_cn": "36氪",
   "source_en": "36Kr",
   "source_tier": 2,
-  "title_en": "Hexa Semiconductor Completes Series C1 Financing of Over 100 Million Yuan",
-  "summary_en": "Hexa Semiconductor has completed a Series C1 equity financing round exceeding 100 million yuan. The transaction represents capital investment in the company, though specific investor details or strategic use of funds are not provided in the source text.",
+  "title_en": "Liufang Semiconductor Closes Over 100 Million RMB in C1 Equity Financing",
+  "summary_en": "Liufang Semiconductor has completed its C1 round of equity financing, raising over 100 million RMB. The specific details regarding the use of funds and the investors involved were not provided in the source text.",
   "companies": [
-   "Hexa Semiconductor"
+   "Liufang Semiconductor"
   ]
  },
  {
@@ -2229,6 +2497,21 @@
   ]
  },
  {
+  "id": "a92fb08f2f37d3bf",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jSEdDdXdyX0RoZlQzNkRmWkljeU5fUnRYNDd5aGw3a3pwMEZ1VHU0Mkp2cjRhSHlvMnhQMGRpYlJlQjgzZUQ1d3dvU1Z4U1dCSlJpZ3dqcjhQdmpCWm5IUm5tRGNjUXdFMFZNV2pEUWV1WEVU?oc=5",
+  "title_cn": "一箭十星，成功发射！",
+  "date": "2026-10-15",
+  "sector": "Space",
+  "news_type": "Product",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "Ten Satellites Successfully Launched in Single Rocket",
+  "summary_en": "A single launch vehicle successfully deployed ten satellites into orbit. Specific details regarding the satellite manufacturer, operator, mission purpose, or launch site are not provided in the source text.",
+  "companies": []
+ },
+ {
   "id": "f9874480c37d0884",
   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6Yy1qeU5MMDBpcUlfUDlHMEE1TUVCVUdXNnFrdFk4WmxON25PWS1WWGNrUWdjaTJzY0kyenNURlNSakhVZk5OOHZyZzZyNkZpZGVROHgzR2pLczA?oc=5",
   "title_cn": "我国地理信息产业总产值超9000亿元 已构建起完整产业链",
@@ -2304,6 +2587,23 @@
   "title_en": "Nearly 100,000 Green Certificates Completed in China's First Cross-Border Centralized Trading",
   "summary_en": "China has completed its first cross-border centralized trading of green certificates (green power certificates), involving nearly 100,000 units. This event marks a significant step in the commercialization and international recognition of China's renewable energy attributes, facilitating the trade of environmental benefits across borders.",
   "companies": []
+ },
+ {
+  "id": "ef6d96433c85329e",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45alZGdUg1Rk9wUFBGU3B2MzdmMWxOZ0d0QV9NQm1PeF9oa3hFa25vLWhXa09STTM1TDcwNFpXS1d3eURDWGl1cXBGUWxzYWp3bEZiRHppUklGbnM?oc=5",
+  "title_cn": "1300亿粤芯半导体上市：广东国资的超级回报与大湾区的半导体追赶战",
+  "date": "2026-10-15",
+  "sector": "Semiconductors",
+  "news_type": "Capital",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "130 Billion RMB Yuexin Semiconductor Listing: Guangdong State Capital's Super Return and the Greater Bay Area's Semiconductor Catch-Up",
+  "summary_en": "Guangdong state-owned capital is realizing significant returns following the listing of Yuexin Semiconductor, a key player in the Greater Bay Area's semiconductor industry. The event highlights the region's strategic push to catch up in chip manufacturing capabilities through substantial state-backed investment.",
+  "companies": [
+   "Yuexin Semiconductor"
+  ]
  },
  {
   "id": "9120f9cf4a98a7d8",
@@ -5091,6 +5391,38 @@
   ]
  },
  {
+  "id": "871e1a3ac6ad8e2d",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByVlRJdTFyUkFYdHBGaDBDbkp0UmRsdnZxa2ExQmNGXzlqaGIySFM2bFdCOEdEY1ZDV2JzZVhlTFlRcDRwX21FWDdaZVg5MFZsSFFB?oc=5",
+  "title_cn": "康方生物六年第六轮融资 成功募资19.4亿刷新生物医药融资纪录",
+  "date": "2026-10-13",
+  "sector": "Biotech",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Akeso Raises 1.94 Billion RMB in Sixth Funding Round, Setting New Biotech Record",
+  "summary_en": "Akeso completed its sixth funding round over six years, raising 1.94 billion RMB. This transaction sets a new record for biopharmaceutical financing. The article confirms the capital raise and the resulting milestone without detailing specific investors or use of proceeds.",
+  "companies": [
+   "Akeso"
+  ]
+ },
+ {
+  "id": "ad2fd9f398c78261",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oeFh6MHhXSWg5alhnMXJBdmFjSk96Sk9jcUZIaHNuSTdlbkhvWmZrM0FSREJEanZzWXpYa0g3ZzB6NVlJSHdqOHNqcnJDZw?oc=5",
+  "title_cn": "Natura-1发布：从百万小时人类经验中学会零样本泛化与灵巧操作",
+  "date": "2026-10-13",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Natura-1 Released: Learning Zero-Shot Generalization and Dexterous Manipulation from Million-Hours of Human Experience",
+  "summary_en": "Natura-1, an embodied AI model, has been released. It leverages millions of hours of human experience data to achieve zero-shot generalization and dexterous manipulation capabilities in robotic tasks.",
+  "companies": []
+ },
+ {
   "id": "279c553e6cfddfa4",
   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOFVnUVFpbzlMWTViYTI4dXlGaTF6eTQycnRoUlY5cTRVREN2SjBLNmVVMXhoVnJkY0tNOGQ4cWh3RDdpemthVm52ZHA3aG55LTlrVUNVX2JCUUJNaEVPcXVGNmdiSENuNVc2U2JPUVFwc2YwcEx4YUktUVpmSEJSaVluOC14VzJaTFVkeVZMUQ?oc=5",
   "title_cn": "出口退税率下调：新能源汽车出口从“政策红利”转向“体系竞争力”",
@@ -5966,6 +6298,23 @@
   "companies": []
  },
  {
+  "id": "ae9effcbbde83b2f",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBQODBnMHZ4VTVMeE9UQ002ZXNnV0xWWFA0NUlsM05udlBrYzF3MWk2Y0RPRWZqNC1yRXRXNG1sbUh1LThrQmlybWlQTENEUQ?oc=5",
+  "title_cn": "千里浩瀚辅助驾驶累计里程超31亿公里，同比增长252.6%",
+  "date": "2026-10-12",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Qianli Haohan ADAS Cumulative Mileage Exceeds 3.1 Billion Kilometers, Up 252.6% YoY",
+  "summary_en": "The Qianli Haohan advanced driver-assistance system (ADAS) has accumulated over 3.1 billion kilometers of testing and operational mileage. This figure represents a year-over-year growth of 252.6%, indicating rapid scaling of its autonomous driving data collection and deployment.",
+  "companies": [
+   "Qianli Haohan"
+  ]
+ },
+ {
   "id": "0c3cb4de3178d9b5",
   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wNy02UmZNTzBuSzNiQ1pHWVZnRUgtR2stMVdlVTExZXJWUUdqeDlqN1RKUFh5R24xbndBOTFMbFJhS2F0eTJSaV9nMzBSNkFkX2c?oc=5",
   "title_cn": "蚂蚁集团“灵光”开启小范围内测",
@@ -6445,6 +6794,44 @@
   ]
  },
  {
+  "id": "a674f80a2bd63159",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9BMGpWaHJfZFhVWF9CNTFmWmtfZklEVks1SXpFNWY4R3hnTmNJVzhENTVhbW9CZGI5cUQwU2paNTJya09EZGIyWE41M2pldw?oc=5",
+  "title_cn": "圣因生物据报已秘密递表港交所，与大摩、中金合作，礼来与罗氏争相押注",
+  "date": "2026-10-12",
+  "sector": "Biotech",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Shengyin Bio Reports Secret Hong Kong IPO Filing with Goldman Sachs and CICC; Eli Lilly and Roche Compete for Investment",
+  "summary_en": "Shengyin Bio has reportedly submitted a confidential application to the Hong Kong Stock Exchange for an IPO, partnering with Goldman Sachs and China International Capital Corporation (CICC). Major pharmaceutical firms Eli Lilly and Roche are competing to invest in the company. Specific financial details and valuation figures were not disclosed in the report.",
+  "companies": [
+   "Shengyin Bio",
+   "Goldman Sachs",
+   "China International Capital Corporation",
+   "Eli Lilly",
+   "Roche"
+  ]
+ },
+ {
+  "id": "91ad659784f0c376",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81ZG1wUlBJX3kzbUVISHFPSDByY3U4WFc2ZWM4MTlKSExnOUhtUEZ1UXhlbnZqekZobzhTMXo1a0hCOUh4bUlZelBELXp6UQ?oc=5",
+  "title_cn": "QuestMobile 2026年AI用户洞察与营销分析报告：黏性持续攀升，AI原生APP 8月人均次数同比增长67.1%，冲击“信息第一入口”地位",
+  "date": "2026-10-12",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "QuestMobile 2026 AI User Insight and Marketing Analysis Report: Stickiness Rises, AI-Native Apps See 67.1% YoY Growth in Monthly Active Usage",
+  "summary_en": "QuestMobile released its 2026 report on AI user behavior and marketing. The data indicates that the stickiness of AI applications is continuously increasing. Specifically, the average monthly usage frequency per user for AI-native apps grew by 67.1% year-over-year in August 2026. The report highlights these trends as challenging the traditional status of existing platforms as the primary entry point for information.",
+  "companies": [
+   "QuestMobile"
+  ]
+ },
+ {
   "id": "afdfa8f4e2b1df52",
   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT05nYWdtbHBwV2ZyNFZVR2pRV01QRHVFZXFJSXY5ZDNGX0lvYlVhN3ItbUxubWdSLXVJU05CcjZzWHE4ZlBJbnVYODVnS2ZuVWs0dHBvN0gzczFmaVo1VTdwQUxIbWdaeVpSd3hteThIVWYtb1RSaWVFT3JPOElhMklkMF9QZ2J1dm51bTdCdw?oc=5",
   "title_cn": "前三季度中国新能源汽车产销双超1200万辆",
@@ -6490,6 +6877,21 @@
   "companies": [
    "Seres"
   ]
+ },
+ {
+  "id": "e5965a6e9574fb6d",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMGNZNDJHM1ZQZnpEelhDUW1tbmRuNU95Q2RSX0dBQmxNOFRJaGdwUDM5UXFiYlpfbElnMXJpM0c0bGs5SGk2dVhWWXg4WTdiOC1idjZKNzhuZVhwbTVTVER1cUlYNlZ5LTJpVWw0aGZrUWxuOHZpbEFZUVpBSXBKSFFUTUttRHBnYldHMmVhTQ?oc=5",
+  "title_cn": "车市收官“金九”：新能源零售批发渗透率双创新高 四成上市车企实现同比增长",
+  "date": "2026-10-12",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "21jingji.com",
+  "source_cn": "21世纪经济报道",
+  "source_en": "21st Century Business Herald",
+  "source_tier": 1,
+  "title_en": "Auto Market Closes 'Golden September': NEV Retail and Wholesale Penetration Hit New Highs, 40% of Listed Automakers See YoY Growth",
+  "summary_en": "The Chinese auto market concluded the 'Golden September' sales period with new high penetration rates for both retail and wholesale of New Energy Vehicles (NEVs). Approximately 40% of listed automakers achieved year-on-year growth. Specific data points on total sales volume or exact penetration percentages are not provided in the source text.",
+  "companies": []
  },
  {
   "id": "8ca9a4a6ca812ce9",
