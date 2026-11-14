@@ -1,5 +1,88 @@
 [
  {
+  "id": "28a38039bc29f033",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONGlEcnJmcmJKdkxkYXZHZFEzRzBUZUVQN1JmRm5TOFJDMm4yeVVwRWdGZzJKUmhVQU9Vdm5nQjZFazhLUnQ5RFp3Q2thb2xGMmdNOFFwMzdEM3RSU2JvNkpwcHpnZWZtYWVpbDhNRjJVd2FNT3dhUUxoOVhvaUVPVQ?oc=5",
+  "title_cn": "医药生物行业动态点评：多因素赋能脑机接口产业高速发展，关注技术及商业化落地",
+  "date": "2026-11-14",
+  "sector": "Biotech",
+  "news_type": "Corporate",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Pharma & Bio Industry Review: Multiple Factors Drive Rapid BCI Development, Focus on Tech and Commercialization",
+  "summary_en": "PharmCube published an industry review analyzing the rapid growth of the brain-computer interface (BCI) sector in China. The report identifies multiple enabling factors driving development and highlights the importance of technological advancement and commercial implementation. No specific companies or quantitative data are provided in the source text.",
+  "companies": [
+   "PharmCube"
+  ]
+ },
+ {
+  "id": "e776b7addb110baf",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mTnAtcUMwdXZNcHFhWU1mNzNwUDhObnVob2w1ZElKU3RBOE9UZXBzcktveXdvbmhsS0hPdFJSMWpTTVJRUDBfZmRMVjF2MUFPNGhDU19mV2w3cXRWYXJQUmVjVjNMa3E2Y0lCaUFyNkVQQ3ZkV1BFWFlEeGFCQQ?oc=5",
+  "title_cn": "重磅！热烈祝贺利非司特滴眼液（朗悦明®）纳入2026年国家医保目录！",
+  "date": "2026-11-14",
+  "sector": "Biotech",
+  "news_type": "Policy",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Lifisite Eye Drops Included in 2026 National Medical Insurance Catalog",
+  "summary_en": "PharmCube reports that Lifisite eye drops (brand name Langyueming) have been included in the 2026 National Medical Insurance Catalog. This inclusion allows patients to access the medication with subsidized pricing through China's national health insurance scheme.",
+  "companies": [
+   "PharmCube"
+  ]
+ },
+ {
+  "id": "ec7a5910537c411d",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iNi1HdEU1NHViTy05ZExsM083dmxSX2NMTVhiTjJzTXJQMW54RUpCQURwZEdaRVhpUWhyZVMwRW1tSVpiZFpfcUM1Zk1xQ3UteUcxUGZLeWdkQUVfNk1pRnJuUmJqX2RLYnZ0ZnVrZ0JlTnUyOGUwZWZrTldmQQ?oc=5",
+  "title_cn": "刚刚，新版国家医保药品目录发布！",
+  "date": "2026-11-14",
+  "sector": "Biotech",
+  "news_type": "Policy",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "New National Medical Insurance Drug Catalog Released",
+  "summary_en": "China has officially released the new version of its National Medical Insurance Drug Catalog. This update determines which pharmaceutical products are covered by the national health insurance scheme, impacting drug pricing and market access for biotech and pharma companies in China.",
+  "companies": []
+ },
+ {
+  "id": "3d20d3b647a192a3",
+  "url": "https://pandaily.com/deepseek-full-suite-application-apis-web-search-file-input-ocr-asr-tts-chat-demo",
+  "title_cn": "DeepSeek将搜索、OCR及语音等应用功能开放为API供开发者调用",
+  "date": "2026-11-14",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "DeepSeek Exposes App Features as APIs for Developers",
+  "summary_en": "DeepSeek has released a suite of standalone APIs, including web search, deep thinking search, file input, URL reading, safety checks, OCR, ASR, and TTS. This move allows third-party developers to integrate these capabilities directly into their own applications, effectively enabling them to rebuild or replicate functionalities found within the DeepSeek app.",
+  "companies": [
+   "DeepSeek"
+  ]
+ },
+ {
+  "id": "109e45bc3b591eb4",
+  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtM014bUtHZHpJVV9zcVR2SDFmdnRnRzUxbmRpelplaWRQd0R1aFhPUmdJNjVQcnROanFmOUlRczNZUlRBOWZiZnIyZXI0WkE?oc=5",
+  "title_cn": "L3级架构猎装车 启境GT7新车型上市",
+  "date": "2026-11-14",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Qijing GT7 Shooting Brake with L3 Architecture Launched",
+  "summary_en": "Qijing has launched a new model of the GT7 shooting brake, featuring an L3 autonomous driving architecture. Specific details regarding pricing, performance metrics, or the manufacturer's identity were not provided in the source text.",
+  "companies": [
+   "Qijing"
+  ]
+ },
+ {
   "id": "b04e7dc67f878fbd",
   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMDc3aE56RVMydHV3aU9aLWJDanhpXzRVTDNfbGZNVV9SeVRsbV9ERFA2Z0ZOTUxRdWNwOUpUUUtZR2ZhakpGcldieFlrZXNMbC1hTkVRcnV6bmh5MFh3UmlwVUVPYnhHN0x6Y3RkS1FIRi1iYnRjTXZFWjlNWjg2eVZyLURGZzQ?oc=5",
   "title_cn": "外企在中国丨百时美施贵宝副总裁、中国研发负责人朱正缨：让创新的价值真正抵达中国患者",
@@ -15,6 +98,53 @@
   "companies": [
    "Bristol Myers Squibb"
   ]
+ },
+ {
+  "id": "327b8b44309b6a7a",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5scUJIbUpheE9QaWlEZzRtQXlNUFJfU0k1eVpIZlptZzVQMUZGNGZTUTExNjMyY29MT0dwWEFiOU9uZzIyelNpVUR6enVENXlvaXRaa3hUejFwU2JZb2tIOA?oc=5",
+  "title_cn": "“未来超级明星正来自中国”，欧洲科技盛会中的AI竞逐",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "thepaper.cn",
+  "source_cn": "澎湃新闻",
+  "source_en": "The Paper",
+  "source_tier": 1,
+  "title_en": "\"Future Superstars Are Coming from China\": AI Competition at European Tech Event",
+  "summary_en": "A report covering an event in Europe where Chinese artificial intelligence capabilities are highlighted as future 'superstars'. The article discusses the competitive landscape of AI, noting the rising prominence of Chinese firms or researchers in global tech discussions. Specific companies, quantitative data, or detailed breakthroughs are not provided in the snippet.",
+  "companies": []
+ },
+ {
+  "id": "4cb9dfa605defd3b",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DSGJoYUl4elpyaDZJVmE4RXRBaTM3RUpjTFdaY3VpbGhWVV9mWVI2OEdRWHdEUFN0czY5OEptQzRDVkExcDNkd3Vjc3BzNmpCQ09pR1pLUkpJYXd1WmExaw?oc=5",
+  "title_cn": "\"太空AI第一股\"国星宇航登陆港股，上市首日收盘跌1.37%",
+  "date": "2026-11-13",
+  "sector": "Space",
+  "news_type": "Capital",
+  "source_domain": "thepaper.cn",
+  "source_cn": "澎湃新闻",
+  "source_en": "The Paper",
+  "source_tier": 1,
+  "title_en": "Guoxing Aerospace, dubbed 'Space AI First Stock', Lists on Hong Kong Stock Exchange; Shares Dip 1.37% on Day One",
+  "summary_en": "Guoxing Aerospace listed on the Hong Kong Stock Exchange on November 13, 2026. The company's shares closed down 1.37% on its first day of trading. It is marketed as the 'first space AI stock'.",
+  "companies": [
+   "Guoxing Aerospace"
+  ]
+ },
+ {
+  "id": "271eb03b4b2c012a",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85VllTLUt2bUhCMnp2dW1oRWc5bjBsa1o2UVFsWGhuUlNuODV3QWh1YXNZRk9JaXlGSDlFR0dpbTJ5OXl1SGVSNHl5Q090OVRBcmthaVBCU0UxWHJ4VmU4TQ?oc=5",
+  "title_cn": "Anthropic估值缩水，压力给到国内大模型公司",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "thepaper.cn",
+  "source_cn": "澎湃新闻",
+  "source_en": "The Paper",
+  "source_tier": 1,
+  "title_en": "Anthropic's Valuation Shrinks, Pressure Shifts to Domestic Large Model Companies",
+  "summary_en": "The article discusses the impact of Anthropic's valuation decline on China's domestic large language model companies. It suggests that reduced global valuations in the AI sector are creating competitive and financial pressure for Chinese firms operating in the same space. The text implies a shift in market dynamics but does not provide specific financial figures or company names beyond general reference to 'domestic large model companies'.",
+  "companies": []
  },
  {
   "id": "fe45f563120aaa0f",
@@ -49,6 +179,221 @@
   "companies": [
    "Digital Green Earth"
   ]
+ },
+ {
+  "id": "8bfecc1f5637a0a5",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUbXlTZDUtRHY2NjlrLWJxZmVvSjlzWms0Qm1lNlVfdUxIRnRTZWJRWXBvMFVjcmp2MDloOVpmLUFMaGoycTlfQ1dLZmFHa2t2a2RZ?oc=5",
+  "title_cn": "海康机器人已完成股份制改制及上市辅导备案",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Hikrobot Completes Shareholding Reform and IPO Counseling Filing",
+  "summary_en": "Hikvision announced that its robotics subsidiary, Hikrobot, has completed shareholding system reform and filed for IPO counseling. This administrative step precedes a potential public listing, marking a significant corporate development for the company's robotics division.",
+  "companies": [
+   "Hikvision",
+   "Hikrobot"
+  ]
+ },
+ {
+  "id": "6694abd450a623cf",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fSjBfX2ZsRXpDNW9Ea09xVUx1T2J5cVBvZjJNcFhBM2Y3TW13V28yOXQ0bVZEWHNQSGl2cGFDeFdWUWRNUDlLSVh5TWZ4SHJZc1U4?oc=5",
+  "title_cn": "国星宇航“星算”计划03组卫星顺利下线，近期择机发射",
+  "date": "2026-11-13",
+  "sector": "Space",
+  "news_type": "Product",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Guoxing Aerospace 'Star Computing' Plan Group 03 Satellites Roll Off Production Line, Launch Soon",
+  "summary_en": "Guoxing Aerospace's 'Star Computing' (Xingsuan) Plan Group 03 satellites have successfully completed production and rolled off the line. The company plans to launch them soon. No specific technical specifications or launch dates were provided in the source text.",
+  "companies": [
+   "Guoxing Aerospace"
+  ]
+ },
+ {
+  "id": "0c0b2b0468e14867",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YWEw3RVhpdGFLeXJ1d0w3dUIta1VvbEtHRXRDZWo3UDJnRVptRmp0MUMwQXhDdkRKU1FGYUpGcG5lTmk1SGtONXYyd3pmd1pWbkl3?oc=5",
+  "title_cn": "大晓机器人发布ACE-CaP-0，真机操作任务成功率达92.1%",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Daxiao Robotics Releases ACE-CaP-0 with 92.1% Real-World Task Success Rate",
+  "summary_en": "Daxiao Robotics announced the release of ACE-CaP-0, achieving a 92.1% success rate in real-world operational tasks.",
+  "companies": [
+   "Daxiao Robotics"
+  ]
+ },
+ {
+  "id": "7b015be51d52c63b",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UV1lWRjJVOVBaMGQ1XzdkNVFGdW5qUG4yWFkyVXlfaThwbC1Yd1JzSC1weEVmRHY1QWMzaHA2RnZ2YTVNUmdobXhub3YwLU41WXVv?oc=5",
+  "title_cn": "南大×建邺，时空智能联合实验室揭牌",
+  "date": "2026-11-13",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Nanjing University and Jianye District Unveil Joint Laboratory for Spatiotemporal Intelligence",
+  "summary_en": "Nanjing University and the Jianye District government have unveiled a joint laboratory focused on spatiotemporal intelligence. The initiative aims to integrate academic research with local industrial applications in fields such as autonomous systems, geographic information systems, and spatial data analytics.",
+  "companies": [
+   "Nanjing University"
+  ]
+ },
+ {
+  "id": "53d9e8389eda1f9b",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yQ1cyOVdncng5NVhjRFBwT2lxSldhS21tT1pkT001YlVNSWk3OGJ1dDFJV21CeEFSeFFyTUUzNld2MnNjUVozbzlzNFIxMzNKVm1n?oc=5",
+  "title_cn": "总投资约2.7亿元，陈志杰、苏东林两位院士领衔，航大低空航行安全研究院在长沙揭牌",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Academy of Aeronautical Low-Altitude Flight Safety Unveiled in Changsha with 270 Million RMB Investment",
+  "summary_en": "The Academy of Aeronautical Low-Altitude Flight Safety was unveiled in Changsha, backed by an investment of approximately 270 million RMB. The institute is led by academicians Chen Zhijie and Su Donglin. The initiative aims to advance safety research for low-altitude aviation.",
+  "companies": []
+ },
+ {
+  "id": "dcd1aac5aeefe582",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3YlplUGVFZ3pXUDFCZjJ1dXFiaUhMXzJDYS13VjJZSHdmdERocUhrc3A2UElaZ2NZX2xsTjFIY3ZhcXRmSkRoQWRQOXJaUjVGQjV3?oc=5",
+  "title_cn": "「东方空间」温州全资子公司设立",
+  "date": "2026-11-13",
+  "sector": "Space",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Oriental Space Establishes Wholly-Owned Subsidiary in Wenzhou",
+  "summary_en": "Oriental Space (东方空间) has established a wholly-owned subsidiary in Wenzhou. The move indicates expansion of the company's operational footprint, likely supporting its commercial launch vehicle and satellite activities.",
+  "companies": [
+   "Oriental Space"
+  ]
+ },
+ {
+  "id": "64bbc876da2625e2",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yVkQwdm1Pd2NIQmdZdnpGYjBDYlJTOTY0NGtKOUZmUDFqZjRLcVdCb2JqakVCZTNBNE5jNERJcWEyUy1ZcWVleGdfS1FNejVVckRB?oc=5",
+  "title_cn": "镜盾科技建成首个大视场巡天阵列，单站日更数千低轨目标",
+  "date": "2026-11-13",
+  "sector": "Space",
+  "news_type": "Product",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Jingdun Tech Completes First Large-Field Survey Array, Tracking Thousands of LEO Targets Daily",
+  "summary_en": "Jingdun Technology has completed its first large-field-of-view survey array. The system tracks and updates data on thousands of low Earth orbit (LEO) targets daily from a single station. This infrastructure supports space situational awareness and satellite tracking capabilities.",
+  "companies": [
+   "Jingdun Technology"
+  ]
+ },
+ {
+  "id": "79d11cfd6ede9fbc",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BanhWX0MwN081SW5wVW1lam5BSkR1Y2RKR25OTXdXd1JYMHBxQWlFVUNXaGxpR0p5UXdmTUFVbm5oaXF2UkliMV92N1hpbDlwMlo0?oc=5",
+  "title_cn": "星联天枢完成“地数天算”闭环试验，打造天基通算融合新范式",
+  "date": "2026-11-13",
+  "sector": "Space",
+  "news_type": "Breakthrough",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Starlink Tianzhu Completes 'Space Data and Computing' Closed-Loop Test, Paving Way for Space-Based Integration",
+  "summary_en": "Starlink Tianzhu (Xinglian Tianzhu) completed a closed-loop test for space-based data and computing integration. The initiative aims to establish a new paradigm for combining communication and computing capabilities in orbit, leveraging space infrastructure for enhanced data processing and transmission.",
+  "companies": [
+   "Starlink Tianzhu"
+  ]
+ },
+ {
+  "id": "6b0839f5f1247174",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VQm1JeEx0N0tveDcxdHZtNlZfUDJMU2lpSVpYY0Ffa2RUb2w5d29BZTBYbWUtdGY4S0ppLVFNNEoyTmE4TXRXWHN3LUxnM2ZYWVpZ?oc=5",
+  "title_cn": "中非低空经济（无人机）产教融合共同体成立",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "China-Africa Low-Altitude Economy (UAV) Industry-Education Integration Community Established",
+  "summary_en": "The China-Africa Low-Altitude Economy (UAV) Industry-Education Integration Community has been established. This initiative aims to foster collaboration between industry and education sectors regarding unmanned aerial vehicles, focusing on talent development and technological cooperation between China and African nations.",
+  "companies": []
+ },
+ {
+  "id": "02b09ef2f5e0d7ad",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGS0xHZnZsb1R1NE5yVTVIendCRGM2bmFGdWJOVUxDNFlpQUd3UUljVVBqT3FrajZuMnIySWtLc3V1Z09IZmE1UHZGTzcwaU9oMjJj?oc=5",
+  "title_cn": "开盘涨超4%，\"太空AI第一股\"诞生！国星宇航正式登陆港交所",
+  "date": "2026-11-13",
+  "sector": "Space",
+  "news_type": "Capital",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Guoxing Aerospace Debuts on HKEX as 'Space AI First Stock'",
+  "summary_en": "Guoxing Aerospace (国星宇航) officially listed on the Hong Kong Stock Exchange, marking its debut as a company combining space and artificial intelligence. The stock opened with gains exceeding 4%.",
+  "companies": [
+   "Guoxing Aerospace"
+  ]
+ },
+ {
+  "id": "bca86b191f6a6b57",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91Y2F3Q3BhRGVfMEtESjJvUWVXd1VHUTJ6dm1sSXpoVTZpYmxwVUhuRTFDODZYTjA0OHJudXlVV0d3TWIwNnU4bWQ2UWlaZGM5UVcxZVplQmN0RURUZV82TDFmd0pPNWNUdHZucUE5cVZPZHgxWHo1eE52ai0?oc=5",
+  "title_cn": "第二十三届中国国际半导体博览会在京开幕",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "gov.cn",
+  "source_cn": "中国政府网",
+  "source_en": "State Council",
+  "source_tier": 0,
+  "title_en": "23rd China International Semiconductor Expo Opens in Beijing",
+  "summary_en": "The 23rd China International Semiconductor Expo opened in Beijing. The event is organized by the Fujian Provincial Department of Industry and Information Technology, showcasing domestic industry dynamics within the semiconductor sector.",
+  "companies": []
+ },
+ {
+  "id": "38aafb08f09b9e47",
+  "url": "https://www.scmp.com/tech/tech-war/article/3374320/court-appointed-administrators-sound-out-investors-nexperia-stake-amid-wingtech-feud",
+  "title_cn": "法院任命的管理人就闻泰科技旗下安世半导体股权征求投资者意向",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "scmp.com",
+  "source_cn": "南华早报",
+  "source_en": "SCMP",
+  "source_tier": 1,
+  "title_en": "Court-appointed administrators seek investors for Nexperia stake amid Wingtech feud",
+  "summary_en": "Court-appointed administrators for Nexperia are assessing market interest in selling a majority or minority stake in the Dutch chipmaker. This follows Wingtech's rejection of a proposal to transfer control of operations outside China to foreign investors, highlighting an ongoing corporate feud between the Chinese owner and its administrators.",
+  "companies": [
+   "Nexperia",
+   "Wingtech"
+  ]
+ },
+ {
+  "id": "330e36edf9f546d9",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXVHdfM0w4aTQzTmdPTllfbThTN2FjeHFDRWN1aHNkbS1CTmxSbnVyMS1DY1N6b21iSEV0OFFFc2NVZWtyYVVkbEwxYzNtNUZVWG9WNg?oc=5",
+  "title_cn": "中国机器人学会隔墙“递眼色”！成功率从0飙到100%，组队干活不烧心",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Breakthrough",
+  "source_domain": "qbitai.com",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "source_tier": 2,
+  "title_en": "Chinese Society for Robotics Achieves 100% Success in Team Coordination via Non-Visual Communication",
+  "summary_en": "Researchers from the Chinese Society for Robotics have developed a coordination method allowing robots to collaborate without direct line-of-sight, using non-visual signals. This innovation increased task success rates from zero to 100%, enabling effective team-based operations and reducing operational friction.",
+  "companies": []
  },
  {
   "id": "4718e66d60b90c97",
@@ -100,6 +445,85 @@
   "companies": []
  },
  {
+  "id": "40467265cbd2c048",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZXhKNkVQNFVhY29jMXR1R1oxRVlrTG9BdzJRUnBVZFIyN0RfQi1xTmdrQm1yemd2ekpNb2JNVkZOX04wSzFreGpQOWtvTXFET3lYWmY4VXlQMDlZcWpySUc1NXRRZzEwNk1KU2cyaW1KaktKY2szRGF4ekQ0dmxENg?oc=5",
+  "title_cn": "医药行业2027年度投资策略：创新引领，多点开花",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Policy",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Pharmaceutical Industry 2027 Investment Strategy: Innovation-Led, Diversified Growth",
+  "summary_en": "PharmCube published a 2027 investment strategy report for the pharmaceutical industry. The analysis highlights innovation as the primary driver and anticipates diversified growth across multiple areas of the sector. No specific companies or financial figures are detailed in the provided text.",
+  "companies": [
+   "PharmCube"
+  ]
+ },
+ {
+  "id": "f785f6e80aedc271",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IMTk1eEh0bEpvemhNcFl2MVgzM0Q4SExjZXRkZjRkMXFHRzlNTjVoWmpmUW5QTXVmeDNhMjgwNER3VU90OHlZaXFWdXFmaVUwWENmVWpnejN3OFVUbmVtY2UzUkI5WGVaZXVyOGFsRFNBdVprdWJ1SVUwNVFrUQ?oc=5",
+  "title_cn": "全球首个自免CAR-T疗法申报上市",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Product",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Global First Autoimmune CAR-T Therapy Application for Approval",
+  "summary_en": "PharmCube reports that the world's first CAR-T therapy targeting autoimmune diseases has submitted an application for marketing approval. The specific company, drug name, and therapeutic indication are not provided in the source text.",
+  "companies": []
+ },
+ {
+  "id": "9bb14f004b36ab17",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1MQVUyVEFGY0o1MlYxUXZQTm9QT19UTjFSMzNERDFPS3BpWDEyN2ZMMjdFTXJyQTN6TTNadUd4cTlkWm5yS3ZydGM3Ujl1TldrUmhQVzEwRVl5QjV4SDhtV2RoWXJ5ODVRM2ZzTkhHbjA2dHVObExrWjhWRjYzdw?oc=5",
+  "title_cn": "开发双抗、双载荷ADC！一家中国Biotech完成近4000万美元A轮融资",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Capital",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Chinese Biotech Raises Nearly $40 Million in Series A for Bispecific Antibodies and Dual-Load ADCs",
+  "summary_en": "A Chinese biotechnology company has completed a Series A funding round raising nearly $40 million. The capital will support the development of bispecific antibodies and antibody-drug conjugates (ADCs) with dual payloads. Specific details regarding the investor or the exact identity of the biotech were not provided in the source text.",
+  "companies": []
+ },
+ {
+  "id": "05f1dcd08549d2e5",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9JdFZhX3pJUXlocG9zaHZ6Zi16TlVhLU4tWmhhQkJaa0JSOGNiek45N1JrRUJWRDJFMDREZUJCSllSTnJpcmhSNVFiOFNEOXRCdV9MLW0zQXJySk4zZkhjY29RTTFhZ1RrWktzUHBVN0VJWG93YTdhblBPTWE2QQ?oc=5",
+  "title_cn": "创新药开发，止损比进取更难 | CHDC2026•峰会掠影",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Corporate",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Innovative Drug Development: Cutting Losses is Harder than Advancing | CHDC2026 Summit Highlights",
+  "summary_en": "PharmCube reported on the CHDC2026 summit, highlighting the challenge of stopping loss-making innovative drug projects. The content focuses on strategic decision-making and portfolio management in pharmaceutical development rather than specific product launches, corporate actions, or policy changes.",
+  "companies": [
+   "PharmCube"
+  ]
+ },
+ {
+  "id": "3de40ec136203034",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1fYnVYd0djdXNzZXNEcTNCazNBUC02MHhkSU9sTl9sdmszS2NOSXBIekMxUnJ5cUF3WVh3V0JBamc4bDdtYy13T0dxejM2bmFUcEtJNGs3QnAwX19nWEpwbmVHamQ4LWZLMFBrT25xTWRQWnhSLVMzS2xFempmdw?oc=5",
+  "title_cn": "张友军院士团队揭示烟粉虱抗药性驱动种群替代机制并提出RNAi绿色防控策略",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Breakthrough",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Academician Zhang Youjun's Team Reveals Resistance-Driven Population Replacement in Whiteflies and Proposes RNAi Green Control Strategy",
+  "summary_en": "Academician Zhang Youjun’s team published research in Trends in Biotechnology detailing the mechanism by which insecticide resistance drives population replacement in whiteflies. The study proposes an RNA interference (RNAi) strategy for green pest control, addressing agricultural biotech challenges related to pesticide resistance.",
+  "companies": []
+ },
+ {
   "id": "917b925994101cf7",
   "url": "https://pandaily.com/cas-space-liqing-1-liqing-2-engine-hot-fire-tests-reusable-rockets",
   "title_cn": "中科院空天院完成力擎一号和二号发动机关键热试车",
@@ -132,6 +556,23 @@
   "companies": [
    "Quantum Dynamics",
    "Cainiao"
+  ]
+ },
+ {
+  "id": "13242fcfd8520ade",
+  "url": "https://pandaily.com/cxmt-ddr5-32gb-die-rdimm-mrdimm-12800mbps-server-memory",
+  "title_cn": "长鑫存储DDR5推进至32Gb Die，发布最高12,800Mbps MRDIMM服务器内存",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "CXMT Advances DDR5 to 32Gb Dies, Launches MRDIMM Server Memory at 12,800Mbps",
+  "summary_en": "Chinese memory maker CXMT has advanced its DDR5 technology to 32Gb dies. This enables RDIMMs with capacities up to 128GB operating at 8,000Mbps and MRDIMMs reaching 192GB at speeds of 12,800Mbps. The company notes that servers now constitute over half of total memory demand.",
+  "companies": [
+   "CXMT"
   ]
  },
  {
@@ -186,6 +627,91 @@
   ]
  },
  {
+  "id": "0cd67db97f3e65bb",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBybFh2bDdqcVVBSk8xYWNxdnJYUHQxQ2lMSlAwRXFxSV9PNHM4OWRUdzJITnBxdkZGTmtLVkJpeVdlUQ?oc=5",
+  "title_cn": "中芯国际赵海军：AI配套芯片供不应求，2027年晶圆供应将非常紧缺",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "SMIC's Zhao Haijun: AI Companion Chips in Short Supply, Wafer Availability to Tighten by 2027",
+  "summary_en": "Zhao Haijun of SMIC stated that companion chips for AI are currently in short supply. He further warned that wafer availability will become extremely tight by 2027, highlighting capacity constraints in the semiconductor manufacturing sector.",
+  "companies": [
+   "SMIC"
+  ]
+ },
+ {
+  "id": "185b16a496618e44",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5XSEp1LUdNaElZMVZuaXpDbUJSd0N2Q1BHdTZOQzJxTWtMb3BjTTlyWC1zY0FxWDBSRmVpcHlRV1NHdw?oc=5",
+  "title_cn": "锴威特16.5亿元收购第一大客户：溢价逾3倍，押注功率半导体周期反转",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Kaiweite Acquires Top Customer for 1.65B RMB, Betting on Power Semiconductor Cycle Reversal",
+  "summary_en": "Kaiweite is acquiring its largest customer for 1.65 billion RMB at a premium exceeding three times. The deal signals a strategic bet on the recovery of the power semiconductor market cycle.",
+  "companies": [
+   "Kaiweite"
+  ]
+ },
+ {
+  "id": "366992c8a709a38d",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8zZFBoV1dXYkJ1LWJWTWZYaWpzN244M0wtZENBNWFpT2pSV1hTbk9LbHNZenk3SDFsWW9PejNIRjV1UQ?oc=5",
+  "title_cn": "国产算力基建再扩围：中诚华隆年产5万台计算设备产线落地铜陵",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Zhongcheng Hualong Lands Production Line for 50,000 Domestic Computing Devices in Tongling",
+  "summary_en": "Zhongcheng Hualong has established a production line in Tongling with an annual capacity of 50,000 computing devices. This expansion aims to bolster domestic computing infrastructure capabilities.",
+  "companies": [
+   "Zhongcheng Hualong"
+  ]
+ },
+ {
+  "id": "fbc15700961d35e8",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9ZZ3FaVzMtbUIzRy1sLVFaV1ZucnhoNXVuS1JIUXJlX2JuN3p4dzl6S2M2dEY5b3ZXMXR0aGRoeUdXdw?oc=5",
+  "title_cn": "【IC风云榜候选企业37】攻克Gb级新型存储芯片流片 铭芯启睿以RRAM架构破局算力瓶颈",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Breakthrough",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Mingxin Qirui Breaks Through Compute Bottleneck with Gb-Level RRAM Chip Tape-out",
+  "summary_en": "Mingxin Qirui has successfully taped out a Gb-level new memory chip based on ReRAM architecture. The company aims to address compute bottlenecks through this advanced storage technology.",
+  "companies": [
+   "Mingxin Qirui"
+  ]
+ },
+ {
+  "id": "f3831c02ebbc8147",
+  "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5FdGpIS1pyLWpxMjk5dU9NQ0xtZ016QmxGdUQzemFLOTNINVAzZWIxNWlqUHA1ajNrdFJBME5BaVJ3dw?oc=5",
+  "title_cn": "徐直军署名文章登上美国《时代》杂志 讲述华为三十余年创新历程",
+  "date": "2026-11-13",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "ijiwei.com",
+  "source_cn": "爱集微",
+  "source_en": "JW Insights",
+  "source_tier": 2,
+  "title_en": "Xu Zhijun's Article on Huawei's Innovation Published in Time Magazine",
+  "summary_en": "Huawei co-chairman Xu Zhijun published an article in the US edition of Time magazine, detailing the company's innovation journey over its first thirty-plus years. The piece serves as a corporate narrative highlighting Huawei's historical development and technological contributions.",
+  "companies": [
+   "Huawei"
+  ]
+ },
+ {
   "id": "0827c20aebd895e9",
   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8ycVl1UzAzOUxoU1YxbFhhd0EwQWl3QTNpUkVuRkhOcExHaTBvbXJncHYtdDBMSGpwSDg0cXVhRFRKTHFZRVRrLVVsQ2pOSHlQeU9OeTlWcw?oc=5",
   "title_cn": "基于启扬RV1126B的桌面陪伴机器人应用解决方案",
@@ -200,6 +726,275 @@
   "summary_en": "EEFocus published an article detailing an application solution for desktop companion robots utilizing the E-Yang (Qi Yang) RV1126B system-on-chip. The content outlines hardware integration and software implementation strategies for this specific embedded AI platform.",
   "companies": [
    "E-Yang"
+  ]
+ },
+ {
+  "id": "b0282e8b2a44f094",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAyOUdWbzNLVXlFaENUTm0xVjRTYlNQQWp3aXdwOUFmM280alhBQXVBdW5XeHdiSDBlTXAydHRTZ1FfdUlOcmJUdDVFNl9oT0Rna2EzM0ZhMA?oc=5",
+  "title_cn": "脑机接口走进儿童诊疗，成都芯脑科技如何破解孤独症评估难题？",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Product",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Brain-Computer Interfaces Enter Pediatric Care: How Chengdu Xinnaokeji Tackles Autism Assessment",
+  "summary_en": "Chengdu Xinnaokeji is applying brain-computer interface (BCI) technology to pediatric healthcare, specifically for autism assessment. The company aims to solve challenges in evaluating autistic children through BCI integration.",
+  "companies": [
+   "Chengdu Xinnaokeji"
+  ]
+ },
+ {
+  "id": "ead6ec43d6d642e0",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yZG0wdHhXSThENW9rYTE4VGNINlBrVkZ2SnpFLTZvS3kwejNfTU44NUN3WG9ZX1FIOFU3TDVrTndEZ3VkVmdURTg5WnJzZEwteU9JZ1gwcw?oc=5",
+  "title_cn": "中芯国际预计，Q4毛利率下降至27%",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "SMIC Forecasts Q4 Gross Margin to Drop to 27%",
+  "summary_en": "SMIC (Semiconductor Manufacturing International Corporation) has announced that its gross margin is expected to decline to 27% in the fourth quarter. This financial forecast indicates a contraction in profitability for the major Chinese chip manufacturer during the specified period.",
+  "companies": [
+   "SMIC"
+  ]
+ },
+ {
+  "id": "9a78a3ad925f89c9",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAxbWZWY3d3cXB0Q3BlMno2RUZUc2l0M0tPLVZjcVZsZ29nMzl5X2h4Ym56dGN0TXlabXFSX2ZFNE9LVHZ3cnFlQUpYZFlybVd6eFNqbUFsRQ?oc=5",
+  "title_cn": "医疗芯片如何走出实验室？芯原联手上海交大布局海南",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "VeriSilicon Partners with Shanghai Jiao Tong University to Develop Medical Chips in Hainan",
+  "summary_en": "VeriSilicon has partnered with Shanghai Jiao Tong University to commercialize medical chips developed in the lab, establishing a presence in Hainan. The collaboration aims to bridge the gap between academic research and industrial application for specialized semiconductor devices.",
+  "companies": [
+   "VeriSilicon",
+   "Shanghai Jiao Tong University"
+  ]
+ },
+ {
+  "id": "3da56c9022916b44",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9BX2hRMDdpY3RNclJoWTJWN19nZmh4NGJtbDFmZjZUc2tiMDlwMFVzWmFMbG54a3FEYVRPaGpuc3BQQklnc1M1a0xnVEQ1SHFCNEVGMFBVZw?oc=5",
+  "title_cn": "西湖灵犀攻关语言脑机接口，中文解码准确率达71%",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Breakthrough",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "West Lake Lingxi Achieves 71% Accuracy in Chinese Language Brain-Computer Interface Decoding",
+  "summary_en": "West Lake Lingxi has achieved a 71% accuracy rate in decoding Chinese language using brain-computer interface (BCI) technology. This milestone demonstrates progress in translating neural signals into Chinese text or speech, marking a significant technical capability for the research team.",
+  "companies": [
+   "West Lake Lingxi"
+  ]
+ },
+ {
+  "id": "bd38a1eff30a73dc",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5Y0NnUXpEQTg2YzR3TkdRX2wzcHJWTDIyQkp2YXVtdkxnMWx3bzdZeHEzYlE0NEpfWVB6NERrVmp3NXh5bS1lSmxfQzRIMlhXcktKMDdfbw?oc=5",
+  "title_cn": "从脑控外骨骼到智能病房，布法罗机器人如何抢占脑机接口商业化先机？",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "How Buffalo Robot is Seizing the First-Mover Advantage in Brain-Computer Interface Commercialization",
+  "summary_en": "Buffalo Robot is positioning itself to lead the commercialization of brain-computer interfaces (BCI). The company is developing applications including brain-controlled exoskeletons and smart hospital wards, aiming to capture early market opportunities in this emerging technology sector.",
+  "companies": [
+   "Buffalo Robot"
+  ]
+ },
+ {
+  "id": "f2f899d4b07a765f",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RRk11UWJ2WG45VWxFTGxRUjJFUWxjZUdUM2dXNTBpY2pyb1dlazMzcWlXbDNqbWxQMnBMS3JHRlNyd3d5dUdBdEZ0eldTQXpONXBIT0NhYw?oc=5",
+  "title_cn": "安杰莱科技探索脑机接口康复机器人，从“读脑”走向“写脑”",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Anjielai Technology Explores BCI Rehabilitation Robots, Moving from 'Reading' to 'Writing' the Brain",
+  "summary_en": "Anjielai Technology is developing rehabilitation robots utilizing brain-computer interface (BCI) technology. The initiative aims to advance from decoding neural signals ('reading the brain') to actively stimulating or controlling motor functions ('writing to the brain'). This represents a strategic exploration in embodied AI and medical robotics.",
+  "companies": [
+   "Anjielai Technology"
+  ]
+ },
+ {
+  "id": "c1c0198bb3eb38a4",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15ZDhLNDhTRkU0cWpka1VKM002bGNrdW1TZ25jZGFseDZiSmIwVmJ6NHktTEppeUJ0cV9xVGlERklfSEtmQlhJVXAyMVJXRDJIS1V5aG9nMA?oc=5",
+  "title_cn": "神芯科技攻关植入式脑机接口芯片，闭环调控与千通道采集如何突破？",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Breakthrough",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Shenxin Technology Tackles Implantable Brain-Computer Interface Chips: Breakthroughs in Closed-Loop Control and Thousand-Channel Acquisition",
+  "summary_en": "Shenxin Technology is developing implantable brain-computer interface (BCI) chips. The company is addressing technical challenges related to closed-loop control mechanisms and achieving data acquisition from over a thousand channels simultaneously.",
+  "companies": [
+   "Shenxin Technology"
+  ]
+ },
+ {
+  "id": "49b8c63bbee195a8",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1EektJZDdEdGh1MXFSS0wxTmNGajN3VlFfYTRITlBEemtzQjAyUDVwYlg4Qm80X0EtWXZIbnIxNkR1WjZxcUcyaWxfMHRIWklBN1Ftekxnbw?oc=5",
+  "title_cn": "3亿慢性疼痛患者背后，睿酷医疗如何用脑机接口寻找新疗法？",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Product",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "How Ruku Medical Uses Brain-Computer Interfaces for Chronic Pain Therapy",
+  "summary_en": "Ruku Medical is exploring brain-computer interface (BCI) technologies to develop new therapies for the estimated 300 million patients suffering from chronic pain. The article highlights the company's focus on BCI as a potential treatment avenue.",
+  "companies": [
+   "Ruku Medical"
+  ]
+ },
+ {
+  "id": "3edd95271d02bc2c",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40NDJSZjVIQlR5dlI4Y3g2M1MzaDl4VTlCTGpPQUt3WHljUzVqdHJrc29ldFM3MG1NSHkwa05iVktFMHRsSEtqSXhQM2JPaEhpa3V0ZDlxdw?oc=5",
+  "title_cn": "脑电一动，机器人就动？卓道医疗直指脑机接口行业痛点",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Zhuodao Medical Targets Brain-Computer Interface Industry Pain Points",
+  "summary_en": "Zhuodao Medical is addressing key challenges in the brain-computer interface (BCI) sector. The company focuses on enabling control of robotic systems via neural signals, aiming to solve industry pain points related to BCI technology implementation and performance.",
+  "companies": [
+   "Zhuodao Medical"
+  ]
+ },
+ {
+  "id": "76b1279006c43b10",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jTG5pNTFyNHhVeFdKWHBZVklVdlJKNWU1aUUtRHN2cHRoNWhSUVk4cG5LX3YxRU5xLWVvellEWnVTcm8tZDRRbWdoeS15NndUcnZLTDdZRQ?oc=5",
+  "title_cn": "虚之实科技探索非侵入式脑机接口，VR如何解码情绪与认知？",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Breakthrough",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "VRoid Explores Non-Invasive Brain-Computer Interfaces: How VR Decodes Emotion and Cognition",
+  "summary_en": "VRoid (Xu Zhi Shi Technology) is researching non-invasive brain-computer interfaces to decode human emotions and cognitive states using virtual reality technology. The company aims to integrate BCI with VR for advanced interaction.",
+  "companies": [
+   "VRoid"
+  ]
+ },
+ {
+  "id": "e7e952bfec3462af",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CX0hPTTljb0FRNnVlR0IwOWpxWU1sZXdXb3FtUXg0M0Nfakl3blppdkNaT2I5MlBQVWZKdnJjOGIwUEdVdDhCTVV0THdCdzU1WDBYSXg3Yw?oc=5",
+  "title_cn": "从脑电数据到“神经处方”，千丘智能打造孤独症康复新平台",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Product",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Qianqiu Intelligence Builds New Autism Rehabilitation Platform Using EEG Data",
+  "summary_en": "Qianqiu Intelligence has developed a rehabilitation platform for autism that utilizes electroencephalogram (EEG) data to generate 'neural prescriptions.' The initiative aims to create a new therapeutic approach for autism treatment by leveraging brain signal analysis.",
+  "companies": [
+   "Qianqiu Intelligence"
+  ]
+ },
+ {
+  "id": "13911b2881993e09",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zMmFlZ0JDdlZwSDUwUjNzREp0eUFPeW1CWWs0dmJqODFPa2Fscjd0RDZkckwydmpvdHdvUU92cXItempWS1BwSlV5czdSanN1ejNzZTBaZw?oc=5",
+  "title_cn": "从固定刺激到闭环调控，南湖脑机交叉研究院如何攻克难治性抑郁症？",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Breakthrough",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "How the Nanhu Brain-Computer Interface Cross-Disciplinary Institute Tackles Treatment-Resistant Depression",
+  "summary_en": "The Nanhu Brain-Computer Interface Cross-Disciplinary Institute is developing closed-loop neuromodulation therapies to treat treatment-resistant depression. Moving beyond fixed stimulation methods, this approach aims to provide adaptive control for more effective clinical outcomes in mental health.",
+  "companies": [
+   "Nanhu Brain-Computer Interface Cross-Disciplinary Institute"
+  ]
+ },
+ {
+  "id": "9be7339c07c0f348",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBhYWYxMGVvTnZBR2lPUUs3Y054ajduNVFWeEdBeVVHM2pPdWdWVlZ5MWgycklOZmdHV0paazlOTldJNDZPQzJtOHF1eFhQTkxLbjNESFg4Zw?oc=5",
+  "title_cn": "回车科技：从EEG采集到多传感器融合，消费级脑机接口如何重构AI眼镜与耳机？",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "EnterTech: How Consumer BCI Reconstructs AI Glasses and Earphones via EEG and Multi-Sensor Fusion",
+  "summary_en": "EnterTech explores the integration of EEG collection and multi-sensor fusion in consumer brain-computer interfaces (BCI). The article discusses how these technologies are being applied to enhance and redefine AI-powered eyewear and audio devices, focusing on user interaction methods rather than a specific product launch or financial event.",
+  "companies": [
+   "EnterTech"
+  ]
+ },
+ {
+  "id": "d571097294a9d0b5",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEU1pCTU1ldkIwVjRMaVlROWJrZ0dNUVJMVVJVMnJJeGg5T1NyNjJjZmZYaE5jY2ppbVVjQnc4eUJFaXZhSGxGSGFmbDk5SUJTMlBSdDY1SQ?oc=5",
+  "title_cn": "六位专家圆桌讨论：脑机接口治疗抑郁症，还要等5—10年？",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Breakthrough",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Six Experts Discuss: How Long Until Brain-Computer Interfaces Treat Depression?",
+  "summary_en": "A panel of six experts discusses the timeline for using brain-computer interfaces (BCIs) to treat depression, estimating a wait of 5 to 10 years. The discussion covers current technical limitations and future clinical applications.",
+  "companies": []
+ },
+ {
+  "id": "6dc22d74d6a347b2",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84d0JtWkV0QWdKelIzYVZ6ZTViN3NWX3pDdW0xS2hKbnlKU05qYnVZQlNZa1ZkQXlVTUE4RVFOTEg5dEtpN29GRXRXREJ2NEcwQmdoR0RmYw?oc=5",
+  "title_cn": "16亿元外骨骼市场之后，脑机接口如何打开康复机器人的增量空间？",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "How Brain-Computer Interfaces Can Unlock Growth in Rehabilitation Robotics Beyond the Exoskeleton Market",
+  "summary_en": "The article discusses the potential for brain-computer interfaces (BCI) to expand the rehabilitation robotics market, which currently includes a 1.6 billion RMB exoskeleton sector. It explores how BCI technology can create incremental growth opportunities in this field.",
+  "companies": []
+ },
+ {
+  "id": "37bc9a37af379686",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0TmU5T1YtLWlDZGNmM1JuQTVNSmdPVHU5SEJJc3FJQl9IVXpubjA1RVludmFuVGh3Z0gxaGtRUVdMZjVubmpPUlc1UEZLQkJqUHZ5VWM3aw?oc=5",
+  "title_cn": "SGM63600 汽车电子抗扰度测试实操解读",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Product",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Practical Interpretation of Automotive Electronic Immunity Testing for SGM63600",
+  "summary_en": "The article provides a practical guide to immunity testing procedures for the SGM63600 automotive electronic component. It details operational steps and interpretations relevant to ensuring compliance with automotive electromagnetic compatibility standards.",
+  "companies": [
+   "SGMicro"
   ]
  },
  {
@@ -320,6 +1115,183 @@
   ]
  },
  {
+  "id": "684845ae179c82cd",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15dGtsWm83emx6OWp5aVBjWWRRRTVWaS1WdjkzU0RnMFQzOTNXTUllUlFCam1WcUk1eU12VUhzb1pOeFM2Z0NQb09ONVZTX2VMb2Rr?oc=5",
+  "title_cn": "1.67万亿元！买不到时间，2026年半导体并购整合潮中的结构重置！",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "1.67 Trillion Yuan: Structural Reset in the 2026 Semiconductor M&A Wave",
+  "summary_en": "An analysis of the 2026 semiconductor industry consolidation trend, highlighting a market volume of 1.67 trillion yuan. The piece discusses structural resets within the sector, noting that capital cannot simply buy time for technological catch-up.",
+  "companies": []
+ },
+ {
+  "id": "3f49ea2eab192d37",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vcERveWhTb21jNktTUGU2VEhTQ1RHYmZIbmNxdDBtYzBESmhGQjVBTDRqbHRndnAyeEttV1JVQ3lBd3V3YzloeEw3OWNWMzhIOUNDQzU3YUJiRVN5bkN3?oc=5",
+  "title_cn": "原创 广和通亮相MWC Doha 2026，展示支持U6G的FWA产品与PCBA级解决方案",
+  "date": "2026-11-13",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Fibocom Exhibits at MWC Doha 2026, Showcasing U6G-Supported FWA Products and PCBA-Level Solutions",
+  "summary_en": "Fibocom displayed Fixed Wireless Access (FWA) products supporting Ultra 6G (U6G) and PCBA-level solutions at MWC Doha 2026. The company showcased its hardware capabilities for next-generation connectivity applications.",
+  "companies": [
+   "Fibocom"
+  ]
+ },
+ {
+  "id": "a2017185b8a197c8",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1BMU5xLUxFc2pPSzIwbWFIQlBHZlBuQTllT2ViWUR1QTRTN2FaTnlQM3Z3NlAyLWoxbHB4Vm1CSU13SDRKZmZndHY2Q3M3OHQzeEppZjRKSXdlVmF1?oc=5",
+  "title_cn": "安杰莱科技李鲁亚：脑机接口+AI+机器人双模态闭环重构神经康复底层逻辑",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Angelai Technology: Brain-Computer Interface + AI + Robotics Dual-Modal Closed Loop Reconstructs Neurorehabilitation",
+  "summary_en": "Li Luya of Angelai Technology discusses integrating brain-computer interfaces (BCI), artificial intelligence, and robotics into a dual-modal closed-loop system. This approach aims to reconstruct the underlying logic of neurorehabilitation by combining neural signal processing with robotic assistance.",
+  "companies": [
+   "Angelai Technology"
+  ]
+ },
+ {
+  "id": "81d5091841559ab8",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EQjlHdWpIWUZVZW5pUFg5a2ZJQ0hZZTlDMmN4ajZQamZwRFg5WlZFS0g5Q2VjSVlueXJLX0RmMlRLSDdsY0dNMzlZMVFvYmExN213?oc=5",
+  "title_cn": "正式落子：华大九天联合大湾区基金，完成国产数字前端EDA专业化整合",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Empyrean Partners with Greater Bay Area Fund to Complete Specialized Integration of Domestic Digital Front-End EDA",
+  "summary_en": "Empyrean (华大九天) has partnered with the Greater Bay Area Fund to complete a specialized integration focused on domestic digital front-end Electronic Design Automation (EDA). This move consolidates capabilities in critical chip design software tools.",
+  "companies": [
+   "Empyrean"
+  ]
+ },
+ {
+  "id": "016e0f70905c9193",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvM3lYbWFTU1dYaDE3ZGo3bzhoR2xYeHJyMmRsS25oUGJfNHQ4X0NlbWNSLVl3QVJpTUVvcXIxdmlfQXZBQWlnd3kyOWtYRXJPanVMTUJMZUJHRmhI?oc=5",
+  "title_cn": "给疼痛打一个0—100的分，睿酷医疗用脑电把“你有多疼”变成客观数字",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Ruiku Medical Uses EEG to Quantify Pain Levels Objectively",
+  "summary_en": "Ruiku Medical is developing a medical device that uses electroencephalography (EEG) to objectively quantify pain levels on a 0-100 scale, addressing the subjectivity of traditional pain assessment methods. The company aims to provide a data-driven metric for pain management.",
+  "companies": [
+   "Ruiku Medical"
+  ]
+ },
+ {
+  "id": "4d6f0ee5851d8bc9",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EaXctM1RwSlIwVjUyYmthbnJudUFFbnlqdTYtUjFiQVIzY2tDd1R5WUJzNmpxYmF4cVYtWEdWdGx5SHQ2SVp6RXZCWi1XcXJYOGtVcUhKMlE3bHNf?oc=5",
+  "title_cn": "脑机接口为什么还没走进你的生活？回车科技要把脑电“藏进”眼镜和耳机里",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Why Brain-Computer Interfaces Haven't Entered Daily Life: HuiChe Technology Embeds EEG in Glasses and Earphones",
+  "summary_en": "HuiChe Technology is developing brain-computer interface (BCI) technology by integrating electroencephalography (EEG) sensors into consumer eyewear and earphones. The article discusses the challenges preventing BCI adoption and outlines HuiChe's strategy to embed this capability into wearable devices.",
+  "companies": [
+   "HuiChe Technology"
+  ]
+ },
+ {
+  "id": "8cd01afa4ce42f04",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JYkg4S3B6Q2xrc0dEV2hIQS00eHBKUlVLZ3ZIMXNCMVlUOS1CeTVkTWhBVWJsb1hpY3FsU1IzWXpsSi11bUhFTXVUVktGNFcwV2FtcUtsT2RtWjc2?oc=5",
+  "title_cn": "给脑机接口“泼冷水”，康复机器人不能只会“你动我也动”",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Cooling Hype on Brain-Computer Interfaces: Rehabilitation Robots Must Do More Than 'You Move, I Move'",
+  "summary_en": "An editorial in EE Times China critiques the current state of brain-computer interface (BCI) integration in rehabilitation robotics. The article argues that simply mirroring user movements ('you move, I move') is insufficient for effective therapy. It calls for more sophisticated adaptive control systems and challenges the prevailing hype surrounding BCI capabilities in clinical settings.",
+  "companies": []
+ },
+ {
+  "id": "39cbe06d416867fa",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wMHJnRlR1dzV4M2hySG1hME5WdmVWdzFYMDFVVU1kb0dibWY1ZXN4aWgyS2VMWlpvZURSUzFQbU5DM1phSks0OGlNaUVVV3lDLXFnb21rRnhGNzl3?oc=5",
+  "title_cn": "脑机接口数字疗法如何跨过疗效验证、医保立项与数据合规三道关？",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Policy",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "How Brain-Computer Interface Digital Therapies Overcome Efficacy Verification, Medical Insurance Listing, and Data Compliance",
+  "summary_en": "The article discusses the regulatory and commercial hurdles for brain-computer interface (BCI) digital therapies in China. It highlights three critical challenges: proving clinical efficacy, securing inclusion in national medical insurance schemes, and ensuring data compliance. No specific companies, products, or funding figures are mentioned.",
+  "companies": []
+ },
+ {
+  "id": "08c32900c60ac0a6",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82WkppYUwxMmxkYUIyMmhtTW1yQlhyNnRhNjJNSFdyLXFVZ2NvQXhjdEdqQzUzeTVheHptdEdhVGpDUEt6RG9oX1ppUl9obWtfdDhv?oc=5",
+  "title_cn": "一颗不到20美元的光纤模块，凭什么传20公里远？拆开看看",
+  "date": "2026-11-13",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "How a Sub-$20 Fiber Optic Module Transmits Data Over 20km: A Teardown",
+  "summary_en": "EE Times China published a technical teardown of an inexpensive fiber optic module priced under $20, analyzing its design and components to explain how it achieves a transmission range of 20 kilometers. The article focuses on the engineering principles and cost-effective architecture enabling long-distance optical connectivity at low price points.",
+  "companies": []
+ },
+ {
+  "id": "66a236a30a3e51ba",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HU2pYbGg5V1hOTHZJdkNOSUtFcENORm9obUlCOWJiVG1US09WOXZjY1pvX3BqZlE4ekRvN2hXcW92Uk9lSm9uQ3Z1enpqT0NxNUFR?oc=5",
+  "title_cn": "优利德发布13GHz有源差分探头，构建完整信号测试链路生态",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "UNI-T Releases 13GHz Active Differential Probe, Building Complete Signal Testing Ecosystem",
+  "summary_en": "UNI-T (优利德) released a 13GHz active differential probe. The company aims to establish a complete signal testing ecosystem with this new hardware component.",
+  "companies": [
+   "UNI-T"
+  ]
+ },
+ {
+  "id": "3cb61e029152f418",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5U1lTNTlvd2RoeUl1NnhhT2FnRG56bTBtX29yZ0kwOHB6RWpDOU5GTWFBMHA5OVRYR3pqemNBOWNoWXVDVkNXRWhFSnNJT2ppWk9zbWx1UW01Q2NX?oc=5",
+  "title_cn": "RISC-V中国峰会回顾：一套工具链，应对架构碎片化与功能安全挑战",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "RISC-V China Summit Review: One Toolchain to Address Architecture Fragmentation and Functional Safety",
+  "summary_en": "The article reviews the RISC-V China Summit, focusing on the development of a unified toolchain designed to mitigate challenges related to architecture fragmentation and functional safety within the RISC-V ecosystem in China.",
+  "companies": []
+ },
+ {
   "id": "551fb2e4966b85dc",
   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BeTdHNWs4RzZrY2h6eV93eExHcGtRclZaZ2kxTzlZLVdiZ2tEMGZVT1dEZmh0M1lOQndpSWpSdmRxby1MUXBvU0VxNEYzZw?oc=5",
   "title_cn": "德赛西威西班牙利纳雷斯智能工厂揭幕",
@@ -334,6 +1306,332 @@
   "summary_en": "Desay SV inaugurated a smart manufacturing facility in Linares, Spain. The company is a major Chinese supplier of automotive electronics and intelligent driving systems. This move expands its international production capacity to support global vehicle manufacturers.",
   "companies": [
    "Desay SV"
+  ]
+ },
+ {
+  "id": "9484405298e7eb71",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiSU5icmt4TURsckxpRUJHNWxxREJiQzNVdkVaYkJINWM2WjZJNHlmbGVrVU1sOHFXU0hMM0p2TGtMMXNnV05SOVo5cXJ2dw?oc=5",
+  "title_cn": "猛士汽车与采埃孚数据互联项目实现首阶段落地",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Mansy Auto and ZF Data Interconnection Project Completes First Phase",
+  "summary_en": "Mansy Auto (Dongfeng) and ZF Friedrichshafen have completed the first phase of their data interconnection project. The initiative aims to integrate vehicle data systems, likely supporting advanced driver assistance or autonomous driving capabilities through collaboration between the Chinese automaker and the German supplier.",
+  "companies": [
+   "Mansy Auto",
+   "Dongfeng Motor",
+   "ZF Friedrichshafen"
+  ]
+ },
+ {
+  "id": "2686cd790e1c9349",
+  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBXM2VUNThKV3RBcF9MRlJ0eXRFZWY5RVdaLW9ad2tpU1RPbV92ZmI5TDhqQ0gwNlgteHByTHFtamNHQnk3dkVrVmctMzd4NlE?oc=5",
+  "title_cn": "对标法拉利SF90 长城首台混动超跑明年上市",
+  "date": "2026-11-13",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "Great Wall's First Hybrid Supra to Launch Next Year, Rivaling Ferrari SF90",
+  "summary_en": "Great Wall Motor plans to launch its first hybrid supercar next year. The vehicle is positioned as a direct competitor to the Ferrari SF90. No specific technical specifications or pricing details are provided in the source text.",
+  "companies": [
+   "Great Wall Motor"
+  ]
+ },
+ {
+  "id": "cb2871470a312ac5",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE00Z0lzVlN6NEFSX3lWTjN6d2tRU2tYUF9KdVlVc0lfNHo1d215QWVld0pQWEoxclphdmdhY2dLdGhybDVidmVGcDNQS2NZdw?oc=5",
+  "title_cn": "北汽携手新紫光集团，舱驾控一体芯片拟2028年量产上车",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "d1ev.com",
+  "source_cn": "第一电动网",
+  "source_en": "D1EV",
+  "source_tier": 2,
+  "title_en": "BAIC Partners with New Unigroup for Cockpit-Driving-Control Chip Aiming for 2028 Mass Production",
+  "summary_en": "BAIC has partnered with New Unigroup to develop an integrated cockpit, driving, and control chip. The companies plan to have the chip mass-produced and installed in vehicles by 2028. No further technical specifications or financial details were provided.",
+  "companies": [
+   "BAIC",
+   "New Unigroup"
+  ]
+ },
+ {
+  "id": "b791003d2b672ec2",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BX2U0QkNIeUhWaUZwOXVEa0pmazczbEhVRW1fMzYzNUFwMUs0RFNQaVhfTVgxTEF4N1N2NV9KdGN0NGNLdGgwNW9RQWt2NVhk?oc=5",
+  "title_cn": "信而泰携1.6T高性能网络测试仪及多场景通信测试方案精彩亮相2026移动网络大会",
+  "date": "2026-11-13",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "Xinertai Showcases 1.6T High-Performance Network Tester at 2026 Mobile Network Conference",
+  "summary_en": "Xinertai exhibited its 1.6T high-performance network tester and multi-scenario communication testing solutions at the 2026 Mobile Network Conference. The company demonstrated capabilities in network testing infrastructure, aligning with digital connectivity sector developments.",
+  "companies": [
+   "Xinertai"
+  ]
+ },
+ {
+  "id": "ecd5a28c3918cb74",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14dUZTa1FHbTlrQkNZZ1F5cXdWYmVQTXAyMU9XYUxLa3lqZkg5SDd4OGI3aEpsZWhTd01MTEpYcTdEZWxld003cHlhRHVqeEVB?oc=5",
+  "title_cn": "信而泰亮相北京安博会 以端到端测试能力支撑安防网络安全验证",
+  "date": "2026-11-13",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "Xinertai Showcases End-to-End Testing Capabilities at Beijing Security Expo",
+  "summary_en": "Shanghai-based networking test equipment manufacturer Xinertai (信而泰) exhibited at the Beijing International Security Expo. The company demonstrated its end-to-end testing solutions designed to verify network security for surveillance and security applications. No specific product launches, financial figures, or strategic partnerships were detailed in the report.",
+  "companies": [
+   "Xinertai"
+  ]
+ },
+ {
+  "id": "f62f20b42ec6a333",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15bmcyQ0kzTUFvOXJueHRMcTBwQWtDVmhVWk96RVp0eEtfQmZlS0Zkb25IVkFqZ09yMkY3NFgxSURna3VlRnN2TzloVmFpdXlVMkE?oc=5",
+  "title_cn": "系列视频7丨江苏移动谢晖深度解读如何通过AI-OTN 方案，大幅提升运维效率",
+  "date": "2026-11-13",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "Jiangsu Mobile's Xie Hui: Deep Dive into AI-OTN for Operational Efficiency",
+  "summary_en": "Xie Hui from Jiangsu Mobile provides an in-depth explanation of how the AI-OTN (Optical Transport Network) solution significantly improves operational efficiency. The content focuses on the application of artificial intelligence within optical network infrastructure to enhance maintenance and management processes.",
+  "companies": [
+   "China Mobile"
+  ]
+ },
+ {
+  "id": "003802ec4fec6a61",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBnS1NVdVNPSGZicF9zU1B4WEdBNTZaS2JPbE1GaWd4b0pXdU0yZ2p5am1ncC1zanA4UHlXa0NMRTVrLVJUYTg0SFZqVVhOTVRySXdnRnIwQQ?oc=5",
+  "title_cn": "智能建造装备集中亮相——中交一航局参展2026中国国际城市轨道交通展览会",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Intelligent Construction Equipment Debuts: CCCC First Harbor Engineering Co. Exhibits at 2026 China International Urban Rail Transit Expo",
+  "summary_en": "CCCC First Harbor Engineering Co. exhibited intelligent construction equipment at the 2026 China International Urban Rail Transit Expo. The article reports on the display of these machines but provides no specific technical details, performance metrics, or product specifications.",
+  "companies": [
+   "CCCC First Harbor Engineering Co."
+  ]
+ },
+ {
+  "id": "2c516df7b9091d93",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zTG1oSENzMlNKM255Zk5KaVZIZkN4NjNnMnlHb3FfMXQ5bm82bmNNTk5tNFFyTXhaZDhaTGl6LXpSUXh6cFBoVzlLNXhjbzBaSm9MYVVadDg1THM?oc=5",
+  "title_cn": "智慧供热技术交流｜济南热力集团上线供热可视化平台 实现供暖一屏到户",
+  "date": "2026-11-13",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Jinan Thermal Group Launches Heating Visualization Platform for One-Screen-to-Home Management",
+  "summary_en": "Jinan Thermal Group has launched a heating visualization platform. The system enables real-time monitoring and management of district heating services, aiming to deliver heating control capabilities directly to the household level through a single interface.",
+  "companies": [
+   "Jinan Thermal Group"
+  ]
+ },
+ {
+  "id": "7a86762e43ae197e",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGT3d2UTFjU2xZc2NINFVVWDEtQ0xqQW5sOW1GNWN1VTRKaFRkOEZWblpNLWpRNlhsVzZNT3BKTzVhSHhaa0NFa2lVU2dfT1pvSDFIWkNucTNpcW8?oc=5",
+  "title_cn": "智能制造产业博览会：中望机械 CAD 亮相展会 破解机械二维成套出图痛点",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Zhongwang Mechanical CAD Showcases at Smart Manufacturing Expo to Solve 2D Drawing Pain Points",
+  "summary_en": "Zhongwang Mechanical CAD was exhibited at the Smart Manufacturing Industry Expo. The software aims to address specific challenges related to producing complete sets of 2D mechanical drawings, positioning itself as a solution for industry pain points.",
+  "companies": [
+   "Zhongwang"
+  ]
+ },
+ {
+  "id": "ff925bbb864675e5",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTM21MRnFOejkxakZTcUZqT1JHcEVkRFdfbUpxbUhwSERQbTBydnE5a2MwaUlhb291MmtHZ1hkNmxUTWF5RHNLRDBmM3FOYlV5T0lTOFdzRGpLRDA?oc=5",
+  "title_cn": "煤化工产业创新展｜伊东东研科技携产学研转化成果亮相，以校企协同激活新质生产力",
+  "date": "2026-11-13",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Coal Chemical Industry Innovation Expo: Yidong Dongyan Tech Showcases University-Industry Collaboration",
+  "summary_en": "Yidong Dongyan Technology participated in the Coal Chemical Industry Innovation Expo, presenting results from university-industry collaboration. The company highlighted how academic and industrial synergy aims to activate new quality productive forces within the coal chemical sector.",
+  "companies": [
+   "Yidong Dongyan Technology"
+  ]
+ },
+ {
+  "id": "643279fa23e95756",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoTzllQkdjWGU0U3pLNl84d1pCRTVuV0I4c0t4N1dMaHREdHFPVlY0MVM1SXJNOG1rODE4TVJZNDJ0T2JpLURxM2lDM0FLUk5xVlR4X1pLWFRYb28yTEN1NDJIRkNFRDVDZzBKUHVnNkJmdw?oc=5",
+  "title_cn": "工业文化大讲堂·大国重器专场主题宣传活动在中国一重举办",
+  "date": "2026-11-13",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Industrial Culture Lecture Hall: 'Great Power Heavy Equipment' Special Event Held at China First Heavy Industry",
+  "summary_en": "China First Heavy Industry (CFHI) hosted a special promotional event for the 'Industrial Culture Lecture Hall,' focusing on the 'Great Power Heavy Equipment' theme. The activity aims to promote industrial culture and highlight CFHI's contributions to heavy machinery manufacturing in China.",
+  "companies": [
+   "China First Heavy Industry"
+  ]
+ },
+ {
+  "id": "83ec3b883df62083",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XamF1WEIzd1BHNU5DX1dTeXc0UjRXNlNPc2pNNlkyS3NOVUhuX1FER3MxNnBISTZYQ0F6dEkzS19lcWlHZEE4bzFoMW0ycGtfS0h6RTNTMmtReU0?oc=5",
+  "title_cn": "小家电展创新观察｜小熊电器深耕细分场景 筑牢品控体系",
+  "date": "2026-11-13",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Small Home Appliance Exhibition Innovation: Bear Electric Deepens Niche Scenarios and Strengthens Quality Control",
+  "summary_en": "Bear Electric (小熊电器) showcased its strategy of focusing on niche consumer scenarios and strengthening quality control systems at a small home appliance exhibition. The report highlights the company's operational approach to product differentiation and manufacturing standards.",
+  "companies": [
+   "Bear Electric"
+  ]
+ },
+ {
+  "id": "76d10a796477f3d1",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42M3IwaFFQUnBtbldKeGx5NFVqVXhKTmxISUs3S0R2YllESUlrOXNMM0pJMkJvckRKSkZaT09ScEtPVF94M2wweXR3NWd6UHVxN0FUQ2VBRQ?oc=5",
+  "title_cn": "百度搭子加速智能组织进化：企业版升级强化智能底座，生态伙伴计划共拓规模化",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Baidu Dazi Enterprise Version Upgrade Strengthens Intelligent Foundation, Ecosystem Partner Plan Expands Scale",
+  "summary_en": "Baidu upgraded its enterprise version of Baidu Dazi to strengthen its intelligent foundation. The company launched an ecosystem partner plan aimed at expanding the scale of adoption for its AI applications within organizations.",
+  "companies": [
+   "Baidu"
+  ]
+ },
+ {
+  "id": "3c32d97353d64745",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA1TzFCaUdtOS1LUW1ERHU3R08waktBdEFDSEhCOEwtRlZYOEgydjYzSlJNZmNKRVNaUXMycExBQjJHM1dDMnF4eHpPSGdjVDZPNU5ocFZuVQ?oc=5",
+  "title_cn": "百度世界2026发布多项AI成果，李彦宏：AI下一幕是“智能组织”",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Baidu World 2026 Unveils Multiple AI Achievements; Li Yanhong: Next Stage is 'Intelligent Organization'",
+  "summary_en": "At Baidu World 2026, Baidu announced multiple AI-related achievements. CEO Li Yanhong stated that the next phase of AI development centers on the concept of an 'Intelligent Organization.' The event highlighted Baidu's strategic direction in integrating AI into organizational structures and operations.",
+  "companies": [
+   "Baidu"
+  ]
+ },
+ {
+  "id": "49b36b360f7da1cb",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDaEd0Z1FDUXNTRmw1S2RGWjI1bXQyTVdYX0szN0x4SlMtRXI3WVZKWnBYeXF3Y0Q3Z3J1UGdZMmE0dEZYTXd0WVZGcVlPTndvRFVGX0J4U2VubWc?oc=5",
+  "title_cn": "智博会上中望软件展示三维模型带参迁移方案 盘活制造业历史设计资产",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "ZWSOFT Demonstrates Parametric Migration for 3D Models at Smart China Expo to Revitalize Historical Design Assets",
+  "summary_en": "At the Smart China Expo, ZWSOFT showcased a solution for migrating parametric data in 3D models. The initiative aims to preserve and utilize historical design assets within the manufacturing sector, facilitating smoother transitions between different CAD software environments.",
+  "companies": [
+   "ZWSOFT"
+  ]
+ },
+ {
+  "id": "2b7b63ad8084fdfe",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04clVNRGctRkVUTldIR29BU0E1LWtHYm14OXY2SGNZQWJzNnpvWDFTa1o2aVk1T2tvQmhfbzR5SHpSeVNIaWJsaU5RRjV2UXZiYlBBNndBWnlYRms?oc=5",
+  "title_cn": "国网长治供电公司：“零停电”投运新线路保障电网迎峰度冬",
+  "date": "2026-11-13",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "cnenergynews.cn",
+  "source_cn": "中国能源网",
+  "source_en": "China Energy News",
+  "source_tier": 2,
+  "title_en": "State Grid Changzhi Power Supply Company: \"Zero Outage\" New Line Commissioned to Ensure Winter Peak Power Supply",
+  "summary_en": "State Grid Changzhi Power Supply Company commissioned a new power transmission line designed for 'zero outage' operations. The initiative aims to ensure grid stability and secure winter peak power supply in the Changzhi region.",
+  "companies": [
+   "State Grid"
+  ]
+ },
+ {
+  "id": "b2a1b4a97867a863",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXaU9xUTB4VmJUSWgyZk55R2xJMTd3RDNVUW5QYldGd1VQaW1lVTNrQnZrTlpDcFExMEhXa08wOE9BbWRNc1pkMmtZNEJvT2FuSWlHWk1rWUZhbzg?oc=5",
+  "title_cn": "国家电投集团露天煤矿边坡多元感知智能监管系统试运行成功",
+  "date": "2026-11-13",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "cnenergynews.cn",
+  "source_cn": "中国能源网",
+  "source_en": "China Energy News",
+  "source_tier": 2,
+  "title_en": "SPIC Open-Pit Coal Mine Slope Intelligent Supervision System Successfully Enters Trial Operation",
+  "summary_en": "State Power Investment Corporation (SPIC) successfully initiated trial operations for an intelligent supervision system monitoring open-pit coal mine slopes. The system utilizes multi-source perception technology to enhance safety and operational management in mining environments.",
+  "companies": [
+   "State Power Investment Corporation"
+  ]
+ },
+ {
+  "id": "0e7c966a71b96903",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sWmhaWGdmaXhmcVo2Q2tqZWg4TzUzcDgyczJvdHllMjJpU1lZSmNlQ1Z0NkpNcUVCSDAzclhzei14dC0zQnN5ZGkwZ1FlOWVTTGVTMklHYWV1VXM?oc=5",
+  "title_cn": "丰田在华召回3085辆十余年前生产TOYOTA 86汽车，喇叭或无法正常鸣响",
+  "date": "2026-11-13",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "cnenergynews.cn",
+  "source_cn": "中国能源网",
+  "source_en": "China Energy News",
+  "source_tier": 2,
+  "title_en": "Toyota Recalls 3,085 Toyota 86 Cars in China Due to Horn Issues",
+  "summary_en": "Toyota is recalling 3,085 vehicles in China manufactured over ten years ago. The recall addresses a potential malfunction where the horn may not sound correctly.",
+  "companies": [
+   "Toyota"
+  ]
+ },
+ {
+  "id": "326cb760a02d7915",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZVWdZZmtJaVU0WUpWTk5ybHZCQmJnU3lLcVBpU0oybkNQamM4MUwxTF81STJ5TWpoenpwNEJiZWt2dzY4bTQ4b2Z0dmt0dkRkaXVfcGEyZXpDNTQ?oc=5",
+  "title_cn": "华为Mate X8真机曝光",
+  "date": "2026-11-13",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "cnenergynews.cn",
+  "source_cn": "中国能源网",
+  "source_en": "China Energy News",
+  "source_tier": 2,
+  "title_en": "Huawei Mate X8 Real Device Exposed",
+  "summary_en": "The Huawei Mate X8 foldable smartphone has been exposed, revealing its physical design. The source provides minimal details regarding specifications or release timing.",
+  "companies": [
+   "Huawei"
   ]
  },
  {
@@ -369,6 +1667,94 @@
   "companies": [
    "China Mobile",
    "Taiping Communications"
+  ]
+ },
+ {
+  "id": "f9072013e9e450b7",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Ya0ZlM0l4WlkwVWFRNXRyd0NueVY2VG40WXBFVWZKWjlBZFNOYUJQZlRVa2xPZzdBd0kzVnFfc2hCdVc2LVBwd1UyN2hoZzlP?oc=5",
+  "title_cn": "中国移动研究院发布量子计算智能纠错创新成果",
+  "date": "2026-11-13",
+  "sector": "Quantum",
+  "news_type": "Breakthrough",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "China Mobile Research Institute Releases Quantum Computing Intelligent Error Correction Innovation",
+  "summary_en": "The China Mobile Research Institute has released an innovation in intelligent error correction for quantum computing. The announcement details a technical advancement aimed at improving the reliability and performance of quantum systems through AI-assisted error mitigation strategies.",
+  "companies": [
+   "China Mobile"
+  ]
+ },
+ {
+  "id": "b5ba9e2063fc9755",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zU3RIektoelk5RWlIdXdCWFp2eXFhbGdNM2p5Z29HTnFTYlZiQVQ3QW1qVlBMT0xndGUtWGIteXJIa0FjRVU1X1dIdUxGVElmdWc?oc=5",
+  "title_cn": "欢迎申报！2026年度AI+“硬核”榜单启动征集",
+  "date": "2026-11-13",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "Call for Applications: 2026 AI+ 'Hardcore' List Launches",
+  "summary_en": "C114 Communications Network announced the launch of the call for applications for its 2026 AI+ 'Hardcore' list. The initiative invites submissions from entities in the AI sector, though specific criteria, eligibility requirements, or selection methodologies are not detailed in the provided source text.",
+  "companies": [
+   "C114 Communications Network"
+  ]
+ },
+ {
+  "id": "1679ae032f71402f",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VcVRSaHpPNEpEZlJFM2sxRkpCUW5nd0xZWmJCYUpEWE9qMmdOOGl5VXBOWlRseWFiWDlZQi1KWFNJVUs0ZWVIM096S3pKQQ?oc=5",
+  "title_cn": "山东青岛半导体设备公司冲击IPO，为北方华创、拓荆科技的同行",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Shandong Qingdao Semiconductor Equipment Company Seeks IPO, Peer of NAURA and Piotech",
+  "summary_en": "A semiconductor equipment manufacturer based in Qingdao, Shandong, is preparing for an initial public offering. The company operates as a peer to major domestic players NAURA Technology and Piotech, indicating growth in the local semiconductor equipment supply chain.",
+  "companies": [
+   "NAURA Technology",
+   "Piotech"
+  ]
+ },
+ {
+  "id": "384435bea80b8a90",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM20tMzJ4M1Vhb05TaW1iR3R3TUJ2OFV0LWNKbzhMVVJQT2x0dDhYck1QcE1OQVNON3YyU1h4ZFlDU2F1NUxYTUJKQWNFR00xWmdFajg1aHRfX0taZDk2VXF1YXA4NmwtRmY4dUgzS2Y0TUk5OTdXWlB2UVVRNjRTR2RmTUxGdUl5TVg2ZkVOSQ?oc=5",
+  "title_cn": "德明利、中国稀土、利扬芯片密集披露并购与投资丨公告精选",
+  "date": "2026-11-13",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "21jingji.com",
+  "source_cn": "21世纪经济报道",
+  "source_en": "21st Century Business Herald",
+  "source_tier": 1,
+  "title_en": "DMDL, China Rare Earth, and Liyang Chip Announce M&A and Investments",
+  "summary_en": "Chinese firms DMDL (storage), China Rare Earth (minerals), and Liyang Chip (testing) disclosed multiple mergers, acquisitions, and investment activities. The report summarizes these corporate actions but provides no specific deal values or details in the available text.",
+  "companies": [
+   "DMDL",
+   "China Rare Earth Group",
+   "Liyang Chip"
+  ]
+ },
+ {
+  "id": "29345c79b44aed99",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQ2JseW9TazRJZnlMdTY1T3JSdFc0YWUyNHR0OHdsU2Y2akd5RzhfVEdtVWU5TndJTERkM0tiOVVqblJ3WlFONy1KSGV3X05DNjdxUHdpTDA5bTRPWlhiMmNsbzhFTHBpM2hqTjk0UzQwVldPMnhoSjFrSTVpNUQ4V0NXcU12VUtjMEp2UHBuOA?oc=5",
+  "title_cn": "中国首个口服减重GLP-1类药物获批；北大医药董事长离任",
+  "date": "2026-11-13",
+  "sector": "Biotech",
+  "news_type": "Breakthrough",
+  "source_domain": "21jingji.com",
+  "source_cn": "21世纪经济报道",
+  "source_en": "21st Century Business Herald",
+  "source_tier": 1,
+  "title_en": "China Approves First Oral GLP-1 Weight Loss Drug; Peking University Medicine Chairman Resigns",
+  "summary_en": "China has approved its first oral GLP-1 receptor agonist for weight loss, marking a regulatory milestone for the biotech sector. Concurrently, the chairman of Peking University Medicine (PKU Medicine) has resigned from his position. The approval signals domestic progress in non-injectable obesity treatments.",
+  "companies": [
+   "Peking University Medicine"
   ]
  },
  {
@@ -524,6 +1910,21 @@
   ]
  },
  {
+  "id": "38ce7d7d0d837769",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NRXFqU3d5akgtUDFYQ3h3Q3Z5X2liZUdCYVRjcGRFc3ZoUjRoWmhldTBEdnk3MHJDU0lLNmFuVGNRV1NVWVBxRTlCLVkwZHF4TTh3?oc=5",
+  "title_cn": "25颗卫星“驰援”非洲，中国空天技术守护12国",
+  "date": "2026-11-12",
+  "sector": "Space",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "25 Chinese Satellites 'Rush to Aid' Africa, Protecting 12 Nations",
+  "summary_en": "China has deployed 25 satellites to support 12 African nations. The initiative utilizes Chinese aerospace technology to provide services across the continent. Specific technical capabilities or commercial entities involved are not detailed in the source text.",
+  "companies": []
+ },
+ {
   "id": "0cb5a74bebc83d12",
   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aRW1MR2x6NlJrSkgzaU5FT0pkU2x4Q1FUX05OZG01NmJ1Zjdjd1ZyM0QwTE1aNzJhNTZaWGxqbVktTlEzRmgxX2lHWmg5M3lWSTJ5OFJLWERXY003Y1dUYUkwWktRVXZ6QWdXaHJoR21lZw?oc=5",
   "title_cn": "国光量子华中研发总部落户光谷",
@@ -553,6 +1954,21 @@
   "source_tier": 0,
   "title_en": "Fujian Builds 'Energy Heart' to Support Computing Power in Space",
   "summary_en": "The Fujian Provincial Department of Industry and Information Technology announced plans to construct an energy infrastructure project described as an 'energy heart' to support computing power deployment in space. The initiative aims to provide necessary power systems for space-based computational applications.",
+  "companies": []
+ },
+ {
+  "id": "ec0aa035108d8226",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yY2RrTmpoMjJFVFgzVmZUUzVDNHlFNlMwdE1Lckh5emF2amYtSDBRV2pQOXNoamRDN1ZhS2RrZkZmaW1oc3RIZmliZ0lZVXFobUNwWm00V1B0LXdmT2lHek5mcGFXWXF5Z200SXM4OEE?oc=5",
+  "title_cn": "中国光伏产业全球气候贡献研究报告发布：15年为全球能源转型节约资金1753亿美元",
+  "date": "2026-11-12",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "stdaily.com",
+  "source_cn": "中国科技网",
+  "source_en": "Science and Technology Daily",
+  "source_tier": 1,
+  "title_en": "Report on China's PV Industry Global Climate Contribution: $175.3 Billion Saved for Energy Transition Over 15 Years",
+  "summary_en": "A report released by the China Science and Technology Daily highlights that China's photovoltaic industry has saved $175.3 billion in funding for global energy transition over a 15-year period. The study quantifies the financial impact of Chinese solar technology adoption worldwide.",
   "companies": []
  },
  {
@@ -701,6 +2117,21 @@
   "source_tier": 2,
   "title_en": "\"Side Effects of Weight-Loss Injections\" Trend on Social Media",
   "summary_en": "The topic of side effects associated with weight-loss injections (GLP-1 agonists) has trended on Chinese social media platforms. This indicates rising public scrutiny and discussion regarding the safety profile of these pharmaceutical products, which are currently in high demand for obesity treatment.",
+  "companies": []
+ },
+ {
+  "id": "621f61fc9dc26bc0",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE84N3VNUVZQYWVhUzVlSF9HWUNiQVh3a0dRMDNPOEQ4MFh2ZzF6YUhURlZKQU90U1VNLWtrcE8xcTR0NVdFeG1MZWxpQ1FiMzVaTVZFcEFOOXZWaHl6S0F4RWx3d0hkN0ZHY0pnekxsUWtYQk9KejNYNm5lXzNxQQ?oc=5",
+  "title_cn": "中国药企出海欧美，监管策略需要更早一步",
+  "date": "2026-11-12",
+  "sector": "Biotech",
+  "news_type": "Policy",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Chinese Pharma Firms Going Global: Regulatory Strategies Need to Be Proactive",
+  "summary_en": "An article by ByDrug discusses the necessity for Chinese pharmaceutical companies expanding into European and American markets to adopt earlier and more proactive regulatory strategies. The text highlights strategic advice rather than reporting specific company actions, financial data, or product launches.",
   "companies": []
  },
  {
@@ -1007,6 +2438,21 @@
   "companies": []
  },
  {
+  "id": "c75d2ebf6094cdcf",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPRXc1MWVrdnF6QmpRV1Rpa0lham9SUjROTVpjenlZckNKdEdqQlUyWklWWDFfQlBTYmtIVnd6azFaeDdOMUllRHRmMFFtaU1fcm03Q0xLOA?oc=5",
+  "title_cn": "一家从没融资的半导体零部件公司，要被收购了",
+  "date": "2026-11-12",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Unfunded Semiconductor Components Company to be Acquired",
+  "summary_en": "An unfunded semiconductor components company is set to be acquired. The source text provides no details on the acquiring entity, financial terms, or specific component technologies involved.",
+  "companies": []
+ },
+ {
   "id": "31a0ec3eab733027",
   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NX2NVLUZFMWl3V2lnWXVmNUNrTko1QTRlWEdGX040RHZya3NmTzZCVk9zd3luVGFHbHRfVUs4TGpkVm1RR1RhWnBmamI5Z3M5djlR?oc=5",
   "title_cn": "10月汽车工业产销情况：燃油车销量接近腰斩，新能源与出口撑起中国汽车大盘",
@@ -1258,6 +2704,23 @@
   "companies": []
  },
  {
+  "id": "bb80f5a1a98e02cf",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRSHNKZGRid2hZRnZoWDRqazFjUTdCMFVTdnh2elFRdGtNeGtiQS0tSE5Ydlp5N0hnV2NESEFWakRkU2hhN3NWZTNjNXBVR1l4MkE?oc=5",
+  "title_cn": "广电前三季度数据披露：5G用户超过4400万户",
+  "date": "2026-11-12",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "China Broadnet Discloses Q3 Data: 5G Subscribers Exceed 44 Million",
+  "summary_en": "China Broadnet (China Broadcasting Network) reported that its 5G subscriber base surpassed 44 million in the first three quarters of the year. The data highlights the carrier's progress in mobile network adoption during this period.",
+  "companies": [
+   "China Broadcasting Network"
+  ]
+ },
+ {
   "id": "6241705821c029d5",
   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fNVM3WDYxMGxQVWZTd1hGNmVSV1ZJazR4MTBfNVE4R2c5WmxCRktxWWZYaDRUTV9lYzB4VEVEcUVydDMwaTF2Qno2N3hsX3Rfb2c?oc=5",
   "title_cn": "百度推出“词元所”大模型交易平台",
@@ -1354,23 +2817,6 @@
   "summary_en": "China Mobile has released its supplier list for the 2026 tier-1 centralized procurement, confirming 94 qualified vendors. The announcement details the companies selected to supply goods and services under China Mobile's major procurement contracts for the year.",
   "companies": [
    "China Mobile"
-  ]
- },
- {
-  "id": "bb80f5a1a98e02cf",
-  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRSHNKZGRid2hZRnZoWDRqazFjUTdCMFVTdnh2elFRdGtNeGtiQS0tSE5Ydlp5N0hnV2NESEFWakRkU2hhN3NWZTNjNXBVR1l4MkE?oc=5",
-  "title_cn": "广电前三季度数据披露：5G用户超过4400万户",
-  "date": "2026-11-12",
-  "sector": "Digital Connectivity",
-  "news_type": "Corporate",
-  "source_domain": "cww.net.cn",
-  "source_cn": "通信世界网",
-  "source_en": "Communication World",
-  "source_tier": 2,
-  "title_en": "China Broadnet Discloses Q3 Data: 5G Subscribers Exceed 44 Million",
-  "summary_en": "China Broadnet (China Broadcasting Network) reported that its 5G subscriber base surpassed 44 million in the first three quarters of the year. The data highlights the carrier's progress in mobile network adoption during this period.",
-  "companies": [
-   "China Broadcasting Network"
   ]
  },
  {
@@ -1483,6 +2929,89 @@
   "title_en": "Developing Intelligent Economy via Comprehensive Transport and Logistics Network",
   "summary_en": "The article discusses the strategy of developing an intelligent economy using China's comprehensive transport and logistics network as a carrier. It outlines policy directions for integrating digital technologies into logistics infrastructure to enhance economic efficiency.",
   "companies": []
+ },
+ {
+  "id": "2c93a87bd3da3173",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uLXRvU2VIUjR1ZDJyZmowalhLZmlnXzU5dnlzYi1wQmxfTjlhZkJma0kzc2ZJTjZVR3g3OVJJTzE0ZWpDdTYxcndMWHRFMkNiOXZ6Wl9OMkVONHM?oc=5",
+  "title_cn": "智护雪域天路 青藏铁路科技智能监测装备亮相轨道交通产业展会",
+  "date": "2026-11-12",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Smart Monitoring Equipment for Qinghai-Tibet Railway Debuts at Rail Transit Exhibition",
+  "summary_en": "Intelligent monitoring equipment designed for the harsh conditions of the Qinghai-Tibet Railway was showcased at a rail transit industry exhibition. The display highlights technological advancements in infrastructure safety and maintenance for high-altitude railway operations.",
+  "companies": []
+ },
+ {
+  "id": "845b5b652dcc9d61",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tbG9SeDRqRlZ2aVgzbDNQX1ZaSjZFM21pVlRXNUg3WGZlR2N3UzMwZE43TUNmSklPWlo3RWZIQ2I2blZvU1NPbTMyOGhxTXJIU1BhbWFuLUpsdm8?oc=5",
+  "title_cn": "天融信：体系化工控安全方案护航关键信息基础设施建设 亮相行业展会共探关基防护路径",
+  "date": "2026-11-12",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Topsec: Systematic Industrial Control Security Solution to Safeguard Critical Information Infrastructure",
+  "summary_en": "Topsec showcased its systematic industrial control security solution at an industry exhibition, aiming to support the construction of critical information infrastructure and explore protection pathways. The article highlights the company's approach to securing industrial systems but provides no specific product launches, financial figures, or technical milestones.",
+  "companies": [
+   "Topsec"
+  ]
+ },
+ {
+  "id": "9a3c50926ae36940",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NZnp2MHRFN2YwM3FZa2d3d0NDSTV3NXFFVVk4d2tXRUp6NVFidE0yTGIwcXdPM191ekU2bTltT3pSYWFmSjF5d3dVbkpHOWtQV0pXbTBZSVozS1k?oc=5",
+  "title_cn": "怡能（Eanera）亮相产业展会 依托精密制造积淀深耕家用新能源充电赛道",
+  "date": "2026-11-12",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Eanera Showcases Home EV Charging Solutions at Industry Exhibition",
+  "summary_en": "Eanera (Yineng) participated in an industry exhibition, highlighting its focus on home new energy vehicle (EV) charging products. The company leverages its background in precision manufacturing to develop and promote its offerings in the residential EV charging sector.",
+  "companies": [
+   "Eanera"
+  ]
+ },
+ {
+  "id": "118c9fcebd33c6a0",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yQmd6MjNoa1ZYMllidjFxQnNscndpMzEtZG9YZXV3N2JMeUh3MWxPbGxKUGNrWEkxYWI5VW1fVjI2RnhsSDdqNXZhZ3ZOQU5vTEpDU1UtNS11MWs?oc=5",
+  "title_cn": "绿色制造供需对接活动持续开展 扬州苏明电气入选省级绿色工厂标杆",
+  "date": "2026-11-12",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Yangzhou Suming Electrical Selected as Provincial Green Factory Benchmark Amid Ongoing Supply-Demand Matching Activities",
+  "summary_en": "Yangzhou Suming Electrical has been selected as a provincial-level green factory benchmark. This recognition comes within the context of ongoing activities designed to match supply and demand for green manufacturing services in China, highlighting the company's adherence to green production standards.",
+  "companies": [
+   "Yangzhou Suming Electrical"
+  ]
+ },
+ {
+  "id": "9ac3617b132bae03",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lQkRDRnYyVnowZWhUcjhDTmlGMDNZSEt1czNNb0Jqa1JZMl9GaFBwYUxHNzVjVHVKbklHaTRBYk15aFRlWGJZek45aVBTTjhTQ3hmM1JHeTBpQms?oc=5",
+  "title_cn": "一根绿丝串起循环新图景 荣成化纤以再生纤维亮相行业展会",
+  "date": "2026-11-12",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Rongcheng Chemical Fiber Showcases Recycled Fibers at Industry Exhibition",
+  "summary_en": "Rongcheng Chemical Fiber displayed recycled fiber products at an industry exhibition, highlighting its role in circular economy initiatives. The article focuses on the presentation of sustainable materials rather than specific technical metrics or corporate financial data.",
+  "companies": [
+   "Rongcheng Chemical Fiber"
+  ]
  },
  {
   "id": "7528dcee69e49a71",
@@ -2061,6 +3590,26 @@
   ]
  },
  {
+  "id": "24d05884ca3dac50",
+  "url": "https://www.scmp.com/business/companies/article/3374076/next-gen-ultrasound-cancer-treatment-advances-does-evidence-match-commercial-hype",
+  "title_cn": "下一代超声癌症治疗进展：证据是否匹配商业炒作？",
+  "date": "2026-11-11",
+  "sector": "Biotech",
+  "news_type": "Product",
+  "source_domain": "scmp.com",
+  "source_cn": "南华早报",
+  "source_en": "SCMP",
+  "source_tier": 1,
+  "title_en": "Next-gen ultrasound cancer treatment advances: does the evidence match commercial hype?",
+  "summary_en": "Hong Kong is expanding clinical trials of histotripsy, a non-invasive focused ultrasound technology for destroying kidney tumors. The Li Ka Shing Foundation announced that CUHK Medical Centre, Gleneagles Hospital Hong Kong, and Hong Kong Sanatorium & Hospital will begin trials involving 30 patients. This initiative aims to establish Hong Kong's role in developing this specific cancer treatment technology.",
+  "companies": [
+   "CUHK Medical Centre",
+   "Gleneagles Hospital Hong Kong",
+   "Hong Kong Sanatorium & Hospital",
+   "Li Ka Shing Foundation"
+  ]
+ },
+ {
   "id": "e573b7cab0e99128",
   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xdDVYUjE4VWlBT01PM3hfWDdXaDdHRnFrZi1pQVh4YjFLTkJGV1VfTG5qdHpaN082TExpQmN3aEcyYXQ3amx6anlYUDZmclk0ZE04TQ?oc=5",
   "title_cn": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
@@ -2490,6 +4039,21 @@
   "source_tier": 2,
   "title_en": "Jiangsu GPU Leader Lists on Exchange, Billion-Dollar Valuation, Opens Below IPO Price",
   "summary_en": "A leading GPU manufacturer in Jiangsu province has completed its initial public offering. The company achieved a market capitalization of approximately 10 billion RMB upon listing. Shares opened below the IPO price (breaking issue), indicating initial market pressure or undervaluation at the start of trading.",
+  "companies": []
+ },
+ {
+  "id": "196f505d180a2f0a",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yc3QtWTJTSTljWVpzNWlEdXlNeGkwY3hrTFM5VEVycEl2RGJrNmQxYldRaGN1RGp1MEx2V2dQSXlzbUVyVnVMLTMxeWgyQWJvb0Q4YUpURQ?oc=5",
+  "title_cn": "智驾芯片卷到1000 TOPS，VLA又把规则改了？",
+  "date": "2026-11-11",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Smart Driving Chips Hit 1000 TOPS, VLA Changes the Rules?",
+  "summary_en": "The article discusses the intensifying competition in smart driving chips, with performance metrics reaching 1000 TOPS. It questions how Vision-Language-Action (VLA) models are reshaping industry standards and requirements for automotive AI hardware. No specific companies or concrete product launches are detailed in the provided text.",
   "companies": []
  },
  {
@@ -3037,6 +4601,23 @@
   "companies": [
    "Alibaba",
    "T-Head"
+  ]
+ },
+ {
+  "id": "ee2175ae9c6ede1f",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GcHRSNUxzVWFRV2JpVmMxQjZCVmZDOWMzRDI1UWVPcXR5YXIyLVFDTW5EQldnSFd6c19xeXFGVXJ5SGxQMlpJWkJWTkpKVzNN?oc=5",
+  "title_cn": "杨志军出任中国电信集团总会计师、党组成员",
+  "date": "2026-11-11",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "Yang Zhijun Appointed Chief Accountant and Party Member of China Telecom Group",
+  "summary_en": "Yang Zhijun has been appointed as the chief accountant and a member of the Party Committee of China Telecom Group. This is a personnel change within the telecom operator's leadership structure.",
+  "companies": [
+   "China Telecom"
   ]
  },
  {
