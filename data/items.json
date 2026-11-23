@@ -1,5 +1,251 @@
 [
  {
+  "id": "d7dea58d75ff918f",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90bjhiLWd6Zm03UVNKTW1LVTFXN0dqUUVicmV5Vmx5M0JmVkFEQjItYmlFTkl0QjZqTG0wMjhsaGFOSF9hdDJ6X1FJaWhsX3FJUElR?oc=5",
+  "title_cn": "力箭二号运载火箭进入多发并行总装阶段",
+  "date": "2026-11-23",
+  "sector": "Space",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Lijian-2 Launch Vehicle Enters Multi-Rocket Parallel Assembly Phase",
+  "summary_en": "The Lijian-2 launch vehicle has entered a phase of parallel assembly for multiple units. This indicates increased production capacity and operational tempo for the rocket system, aimed at supporting higher launch cadence.",
+  "companies": [
+   "OneSpace"
+  ]
+ },
+ {
+  "id": "851acfe57133ecbe",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHcWczTV9QZUp4eHkwYk1oSW9SUDdGU3NrNW9yMWttMW9SNXFUdzRJZjhVLWpoSHBVUEk1TEk4cGlKWHFsTS1SRG9zSUxFT1NOZ2dR?oc=5",
+  "title_cn": "苍宇智航正式揭牌成立",
+  "date": "2026-11-23",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Cangyu Zhihang Officially Established",
+  "summary_en": "Cangyu Zhihang has officially held its inauguration ceremony. The source text provides no further details regarding the company's specific business focus, leadership, or operational plans.",
+  "companies": [
+   "Cangyu Zhihang"
+  ]
+ },
+ {
+  "id": "cc8b202e03815951",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE16Unl0SXMycnQycjZSVmxWQU15cEpmNzNhVU9YYWpQYUJnYUdOaXMzWjVfaE5TVk9WcXZkRjZLaU96M3VLamhjQ3FCLUJiajBiYi13?oc=5",
+  "title_cn": "雷格讯发布“霄览”系列 布局W频段通感一体化与低空防御技术",
+  "date": "2026-11-23",
+  "sector": "Digital Connectivity",
+  "news_type": "Product",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Leigexun Releases 'Xiaolan' Series for W-Band Integrated Sensing and Communication and Low-Altitude Defense",
+  "summary_en": "Leigexun launched the 'Xiaolan' series, targeting W-band integrated sensing and communication (ISAC) applications and low-altitude defense technologies. The release positions the company in advanced radar and spectrum management sectors.",
+  "companies": [
+   "Leigexun"
+  ]
+ },
+ {
+  "id": "fcaae5f59746b659",
+  "url": "https://pandaily.com/cepri-live-line-insulator-diagnostic-robot",
+  "title_cn": "中国电科院报告检测35个绝缘子的机器人",
+  "date": "2026-11-23",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "CEPRI Reports Robot That Checks 35 Insulators in Six Minutes",
+  "summary_en": "China Electric Power Research Institute (CEPRI) reports system testing results for an inspection robot capable of checking 35 insulators in six minutes. Accuracy and efficiency figures are based on project-reported data.",
+  "companies": [
+   "China Electric Power Research Institute"
+  ]
+ },
+ {
+  "id": "ddce663570739d6a",
+  "url": "https://pandaily.com/shanghai-ai-lab-vitamin-c-flow-battery-additive-plant-use",
+  "title_cn": "上海AI实验室称AI识别的维生素C电池添加剂已用于工厂",
+  "date": "2026-11-23",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Shanghai AI Lab Reports Plant Use of AI-Identified Vitamin C Battery Additive",
+  "summary_en": "Shanghai AI Lab reports that an iron-chromium electrolyte formulation, identified via AI assistance, has reached storage plants. The company claims capacity, efficiency, and cost gains for the battery additive, though these metrics remain project assertions rather than verified independent data.",
+  "companies": [
+   "Shanghai AI Lab"
+  ]
+ },
+ {
+  "id": "604ad60980dcc6b8",
+  "url": "https://pandaily.com/loongson-openatom-loongarch-community-projects-members",
+  "title_cn": "龙芯正式组建开放原子龙芯架构社区，首批成员达22家",
+  "date": "2026-11-23",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "Loongson Formalizes OpenAtom LoongArch Community With 22 Initial Members",
+  "summary_en": "On November 20, Loongson announced the formal establishment of the OpenAtom LoongArch community. The initiative launched with 22 initial members and projects covering processor cores, binary translation technologies, and operating systems.",
+  "companies": [
+   "Loongson"
+  ]
+ },
+ {
+  "id": "2eb04b82c2d2ecf3",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9na2RLUjVuX3FObFpvZ19ER2ItZ3BmSDBKcUlZeUpHczRJMjVmX2dubDdmalN3bWdIaHNCRlRkNUZKeVowOHNhcVlUbUhSdU91VG1VVXpKVQ?oc=5",
+  "title_cn": "中国汽车出口快 1000 万辆了，除了中国车企，钱还被谁赚走了？",
+  "date": "2026-11-23",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "China's auto exports near 10 million: Who else is profiting besides Chinese automakers?",
+  "summary_en": "The article analyzes the economic benefits of China's vehicle export volume approaching 10 million units, examining which entities beyond domestic automakers are capturing value from this trade surge.",
+  "companies": []
+ },
+ {
+  "id": "6541802f16c67893",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oSGdWSVFJRU1zM3NKRzFGM2pEbFpzb0JWSnBiWXBlbGQySHFVRGpXWUxKa1dfOTc4a3p1UnBmX0h4NDNKZFZyaWlmY1pNR2VVcmdr?oc=5",
+  "title_cn": "国产卫星通信芯片厂商，冲刺港股IPO！",
+  "date": "2026-11-23",
+  "sector": "Space",
+  "news_type": "Capital",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Domestic Satellite Communication Chip Maker Rushes for Hong Kong IPO",
+  "summary_en": "A Chinese domestic satellite communication chip manufacturer is preparing to list on the Hong Kong Stock Exchange. The company aims to raise capital through an Initial Public Offering (IPO) to support its business expansion and R&D efforts in the satellite communications sector.",
+  "companies": []
+ },
+ {
+  "id": "b56785895df4e41e",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnMUsxMGMyRWlha040MUVMT2czUHpVb0hVeDc2V2RTZFdWOUN0bkJWWWZTdlFXWWt6eVBTdHhXaGZEYnB0WjBnM1BJbEo5MVlKaHl6NDNiRHZLTC0x?oc=5",
+  "title_cn": "三安光电副董事长兼总经理林科闯辞职，董事长林志强代行总经理职责",
+  "date": "2026-11-23",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "San'an Optoelectronics Vice Chairman and General Manager Lin Kechuang Resigns; Chairman Lin Zhiqiang Acts as General Manager",
+  "summary_en": "Lin Kechuang has resigned from his positions as vice chairman and general manager of San'an Optoelectronics. Chairman Lin Zhiqiang will assume the role of acting general manager. The company did not disclose specific reasons for the leadership change or immediate strategic impacts.",
+  "companies": [
+   "San'an Optoelectronics"
+  ]
+ },
+ {
+  "id": "ae36255906322e05",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yeGhQNGlKVjZrakJ3cDdaT0Q0S19zbUNLdk5yNFd4bkQ0a3dOaG11eEpYa3Q1TGVlWF9TdHktd0RmZWktam9zVGNkaFVkU1hjbUE?oc=5",
+  "title_cn": "工信部拟收回部分电信网码号",
+  "date": "2026-11-23",
+  "sector": "Digital Connectivity",
+  "news_type": "Policy",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "MIIT Plans to Reclaim Certain Telecommunication Network Number Ranges",
+  "summary_en": "The Ministry of Industry and Information Technology (MIIT) in China has proposed measures to reclaim specific telecommunication network number ranges. This action targets the management and allocation of telecom identifiers, aiming to optimize resource usage within the national telecommunications infrastructure.",
+  "companies": []
+ },
+ {
+  "id": "851ae9db5c4b62ec",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBjUXBWM3h5VkFMUmsyT0hQUHA0ZV9VdVZKdk1BSmhIQUk1cWpQUDFfclFKNU5QWTNkVmxDSmFwQmxGdnVKXy01dE9LSUhtZW4tckE?oc=5",
+  "title_cn": "商务部回应FCC将三大运营商列入“覆盖清单”：坚决反对，立即撤销",
+  "date": "2026-11-23",
+  "sector": "Digital Connectivity",
+  "news_type": "Geopolitics",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "Ministry of Commerce Responds to FCC Listing Three Chinese Telecom Operators on 'Cover List': Firmly Opposes, Demands Immediate Removal",
+  "summary_en": "China's Ministry of Commerce responded to the US Federal Communications Commission (FCC) decision to list three major Chinese telecommunications operators on a 'covered list'. The ministry firmly opposed the move and demanded its immediate revocation.",
+  "companies": [
+   "FCC",
+   "China Ministry of Commerce"
+  ]
+ },
+ {
+  "id": "8ee4a622f8a6929f",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsSE9NQ3ZobTcyZElLd3h1QmpaVjZoeTMzWVBmc242TEtMZFlwMzhBNkFQS2VRYTE2VGVjZUlGNUI0Sks4NWZPWHdKN0s2M25m?oc=5",
+  "title_cn": "我国“5G+工业互联网”项目达2.7万个",
+  "date": "2026-11-23",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "China's '5G+Industrial Internet' Projects Reach 27,000",
+  "summary_en": "China has reached a total of 27,000 projects integrating 5G with industrial applications. This milestone reflects the ongoing deployment and adoption of 5G technology within the country's industrial sector.",
+  "companies": []
+ },
+ {
+  "id": "5d57e5a5998c1aeb",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tNzZ6THB0d3N5RXhKZ2plenAwTDBfbzd5cXhLVkFWODNMZVA1dl8yWDZneWJkREVWX3ozcnlCYjcwTHp6YU9ySHVCd2Y0R0pISFE?oc=5",
+  "title_cn": "从翻台账到扫标签：北京移动智慧资产管理落地北京经开区",
+  "date": "2026-11-23",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "cww.net.cn",
+  "source_cn": "通信世界网",
+  "source_en": "Communication World",
+  "source_tier": 2,
+  "title_en": "Beijing Mobile Implements Smart Asset Management in Beijing Economic-Technological Development Area",
+  "summary_en": "Beijing Mobile has deployed a smart asset management system in the Beijing Economic-Technological Development Area. The initiative transitions operations from manual ledger checks to barcode scanning for improved efficiency.",
+  "companies": [
+   "China Mobile"
+  ]
+ },
+ {
+  "id": "48633fba627bd89c",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jcVExQlprUlE2Z21nc0ZOVE0tMzJrSUdxRHpqS2xyODIzaDJPY3FhZFdPTHBEWFJVdDBOMjVXTGl4UkZ4S0xIbWJZWHE5cnBzdEE?oc=5",
+  "title_cn": "星思半导体IPO获备案，计划登陆港交所",
+  "date": "2026-11-23",
+  "sector": "Semiconductors",
+  "news_type": "Capital",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "Sinno Chip IPO Approved, Plans Hong Kong Listing",
+  "summary_en": "Sinno Chip (Xingsi Semiconductor) has received regulatory filing approval for its Initial Public Offering and plans to list on the Hong Kong Stock Exchange. The company is a Chinese semiconductor firm specializing in RF and wireless connectivity chips.",
+  "companies": [
+   "Sinno Chip"
+  ]
+ },
+ {
+  "id": "8742bbb6670e070f",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zam1HbzNYX2R4NjQxMFV4ZFVvS3lEQTFwTHM0dExLZE5PUm50aWp3Qm0yQ2JBdEhWX2Q1VTJwSi1YZ0U4alBUWUlDWXg4U0RnZGRjdGhINDdxOVp5TG85dVNzNHJtUGxybk5ZcG5KYUg?oc=5",
+  "title_cn": "怀柔科学城举办具身智能生态大会 仿生情感机器人“小唯”正式发布",
+  "date": "2026-11-22",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "stdaily.com",
+  "source_cn": "中国科技网",
+  "source_en": "Science and Technology Daily",
+  "source_tier": 1,
+  "title_en": "Huairou Science City Hosts Embodied Intelligence Ecosystem Conference; Bionic Emotional Robot \"Xiao Wei\" Officially Released",
+  "summary_en": "The Huairou Science City hosted an ecosystem conference focused on embodied intelligence. During the event, a bionic emotional robot named \"Xiao Wei\" was officially released. The text provides no further details on specifications or developers.",
+  "companies": []
+ },
+ {
   "id": "191329e9ff3c8376",
   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5XZ296MFlTOTNtejdrRFRLX2ViOTU3T2VFb0E4MmZTaW0zR0pMNWh2NFJRZ1B3MDhFWW0yMHN0akhvVlFCOHpuU2hOWEtLTlRpdDAtenZaTEhOWVhXQUw0bS1FTnBsbTkwZHBDaUlMTHJLMVpBSmNmNi1IWmlBQQ?oc=5",
   "title_cn": "直肠癌cN分期影像分析",
@@ -34,6 +280,122 @@
   ]
  },
  {
+  "id": "de9ade1ccb61eb1b",
+  "url": "https://pandaily.com/openatom-humanoid-robot-open-source-working-committee",
+  "title_cn": "开放原子成立人形机器人开源社区工作组",
+  "date": "2026-11-22",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "pandaily.com",
+  "source_cn": "Pandaily",
+  "source_en": "Pandaily",
+  "source_tier": 2,
+  "title_en": "OpenAtom Forms Working Committee for Humanoid Robot Open-Source Community",
+  "summary_en": "Nine organizations have established an OpenAtom humanoid robot community committee. The group aims to coordinate shared software, models, data, and governance frameworks for the open-source humanoid robotics ecosystem.",
+  "companies": [
+   "OpenAtom Foundation"
+  ]
+ },
+ {
+  "id": "55649398353031ef",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wblpqaDF0ZkxZR013NkVXOFNSYUxhc0tkWXZyQTNjUHZOT0F1QkQzWDM4dEc5cDRTT01ldzNjRnZmR3JqTzQ3ODFoNVVMTG5qakQ4?oc=5",
+  "title_cn": "5%的国产化率，汽车模拟芯片国产进展为何这么慢？",
+  "date": "2026-11-22",
+  "sector": "Semiconductors",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "Why is the localization rate of automotive analog chips so slow at only 5%?",
+  "summary_en": "The article discusses the low domestic substitution rate, estimated at 5%, for automotive analog chips in China. It investigates the reasons behind the slow progress of local manufacturers in this specific semiconductor segment compared to other areas.",
+  "companies": []
+ },
+ {
+  "id": "5b406e2d0008f5ea",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0ybE83X29IRXMzNm9YaU1IaGpoMlU4elg0Nk1TM3FhTkl0cE12bV82b1kzNGt4STFZeHVoSHp6Z1Ytak1zd29nTXVVMzZMZzdfeFVYOTA3d1pLd3V6TFl4Qzk2aGJlT0hB?oc=5",
+  "title_cn": "以匠心锻精品 以标准筑强链——鑫泰轴承深耕上游赋能临西产业集群向新跃升",
+  "date": "2026-11-22",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "Xintai Bearings Deepens Upstream Empowerment to Boost Linxi Industrial Cluster",
+  "summary_en": "Xintai Bearings is focusing on upstream empowerment and standard-setting to support the transformation and upgrading of the Linxi bearing industrial cluster. The article highlights efforts to improve product quality and strengthen supply chain resilience through craftsmanship and standards, aiming for a 'new leap' in the local industry.",
+  "companies": [
+   "Xintai Bearings"
+  ]
+ },
+ {
+  "id": "b33c5924c8832af0",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zVVhISnB4TmxIQzFiV28wNWRwc0NVaWZMUWRybVFPaHNwOEl2Z0JTaGR5X2VpWkNKYXNZUS1VYklnMEVYc2JCZldvbTBJbUJtZHNjM3NqcXdnX00?oc=5",
+  "title_cn": "三峡电力外送通道首条超高压输电线路完成迁改",
+  "date": "2026-11-22",
+  "sector": "Green Tech",
+  "news_type": "Corporate",
+  "source_domain": "cnenergynews.cn",
+  "source_cn": "中国能源网",
+  "source_en": "China Energy News",
+  "source_tier": 2,
+  "title_en": "First Ultra-High-Voltage Transmission Line in Three Gorges Power Export Channel Completed for Relocation",
+  "summary_en": "The first ultra-high-voltage (UHV) transmission line within the Three Gorges power export channel has completed its relocation work. This infrastructure adjustment supports the continued transmission of electricity from the Three Gorges region to other areas.",
+  "companies": []
+ },
+ {
+  "id": "b3bdb3b184c89fa9",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvbVZfWmxKVTl0UFFoaV9ocnR5eXg0Sjd1SVFuWmZydk1Fc2N6Zk5CdnE5LTRUTlYxTEltUWxIT2ZCY2pha21ZQm9fUWNnOXNvc25VZGtTbTU4bjhQMUpQQw?oc=5",
+  "title_cn": "AI体育硬件公司“增强机器人”完成超亿元B轮融资",
+  "date": "2026-11-22",
+  "sector": "Robotics",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Enhanced Robotics Closes Over 100 Million Yuan Series B Financing",
+  "summary_en": "Enhanced Robotics, an AI sports hardware company, has closed a Series B financing round valued at over 100 million yuan. The company operates in the intersection of artificial intelligence and physical sports equipment.",
+  "companies": [
+   "Enhanced Robotics"
+  ]
+ },
+ {
+  "id": "3b2fefa77802066d",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWNlRDN09VWEhBUWEwS1pTbElaeTlhenI4enFpaG9vbmd0SGFYOFhoQnhUcjBSX1JoeXpfQmF5eXVueThFd3ZCTDRBZ1liRkNIMi1SM3FMa0Vmck4zWTVFQw?oc=5",
+  "title_cn": "127只股票融资买入额超1亿元，新易盛以13.2亿元位居首位",
+  "date": "2026-11-22",
+  "sector": "Digital Connectivity",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "127 Stocks See Margin Buying Over 100 Million Yuan, Eoptolink Leads with 1.32 Billion Yuan",
+  "summary_en": "According to 36Kr, 127 stocks recorded margin buying exceeding 100 million yuan. Eoptolink (新易盛) led the list with a margin buying volume of 1.32 billion yuan. The report highlights investor leverage activity in these equities.",
+  "companies": [
+   "Eoptolink"
+  ]
+ },
+ {
+  "id": "43a068d124216858",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hTUJheXZrS215SFNJa3I5c0tWTDllU3d1TUJ1R0tkblF0cWlMWENOWnJmZUxpc0VUZUFEbzk4R2RSU2Q4Y2F4TEdNbDFuU0pZTUxNajNsSklZRUlwcEtuUw?oc=5",
+  "title_cn": "禾和精密完成B+轮融资，东山精密战略入股",
+  "date": "2026-11-22",
+  "sector": "Semiconductors",
+  "news_type": "Capital",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Huahe Jidian Closes Series B+ Funding with Dongshan Precision Investment",
+  "summary_en": "Huahe Jidian (Dongguan Huahe Electronic Materials) has completed its Series B+ funding round. Dongshan Precision has entered as an investor, taking a stake in the company. The transaction marks a strategic investment from the electronics manufacturing services provider into Huahe Jidian.",
+  "companies": [
+   "Huahe Jidian",
+   "Dongshan Precision"
+  ]
+ },
+ {
   "id": "82915c575f1634a0",
   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nMlk0aVJGVVZFNkpoQ3hueXJPcHQzV2NmZGplUkFHbFZ3S3ZCWVhMOF8yaVNpUTFUMFlzTHp2VTVBMkI0cW05VGlqZ3RXN2NlZFE0?oc=5",
   "title_cn": "长八甲火箭成功发射卫星互联网低轨30组卫星",
@@ -46,6 +408,21 @@
   "source_tier": 2,
   "title_en": "Long March 8A Successfully Launches 30 Satellites for Satellite Internet Low-Orbit Constellation",
   "summary_en": "The Long March 8A rocket successfully launched a batch of 30 satellites into low-Earth orbit. The payload is designated for the satellite internet constellation, marking another deployment step in China's expanding space infrastructure and connectivity network.",
+  "companies": []
+ },
+ {
+  "id": "3b128929bc9554cd",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tS2NNSmdxd1p2RlVpRmtDdHFtWjRnWnBkVmFHeGE3TkVHQnJCSG5maVF6RjEwNXJ4QzVnZTVxUUVGMmIxNVRnNUFEMkl6VEcxbkVfUA?oc=5",
+  "title_cn": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+  "date": "2026-11-21",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "qbitai.com",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "source_tier": 2,
+  "title_en": "DeepSeek V1 Author's Startup Exposed: Open Source Agent",
+  "summary_en": "The founder of DeepSeek V1 has launched a new startup focused on open-source AI agents. Specific details regarding the company name, funding, or product specifications are not provided in the source text.",
   "companies": []
  },
  {
@@ -113,6 +490,24 @@
   "title_en": "CEPEA/CSEAC 2027 to Move to Suzhou; First Semiconductor Industry Ecosystem Matching Conference Held",
   "summary_en": "The CEPEA/CSEAC 2027 conference is scheduled to relocate to Suzhou. The organizers successfully held the first Semiconductor Industry Ecosystem Matching Conference, facilitating connections within the semiconductor sector.",
   "companies": []
+ },
+ {
+  "id": "808dea1775cb0e30",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA1eV9JOHNLNExoTHJGNlJuUlpmcThVX2d3Ri1mVDB2Y0FoX2JwbjlCaURncWpmX2RHSnVlVUZCRktvNkxXdVZ6TFJRdGNhWGRkcHdjMFBNSQ?oc=5",
+  "title_cn": "量额齐超苹果！联想的PC和平板靠AI赢下一局，然后呢？",
+  "date": "2026-11-21",
+  "sector": "Digital Connectivity",
+  "news_type": "Corporate",
+  "source_domain": "eefocus.com",
+  "source_cn": "与非网",
+  "source_en": "EEFocus",
+  "source_tier": 2,
+  "title_en": "Lenovo's PC and Tablet Sales Surpass Apple on Volume and Value Thanks to AI, But What Next?",
+  "summary_en": "Lenovo surpassed Apple in both volume and revenue for PCs and tablets, attributing the success to its AI strategy. The article questions Lenovo's future outlook after this competitive win.",
+  "companies": [
+   "Lenovo",
+   "Apple"
+  ]
  },
  {
   "id": "c0c339679a520620",
@@ -199,6 +594,85 @@
   "companies": []
  },
  {
+  "id": "f2ab5f952a602354",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FT05QQ1ZvVURoUjJIQi0yOFlMb0Y4MWtKRlNJTzFJd1RYeXh5ZnFzWGRJQk9fSnJQdWgzQzdOS3NkUy1Ic1E1Q3BLa2RtS3gzRS1yLUN0SXA0c0ZuZ0Uw?oc=5",
+  "title_cn": "原创 SiC/IGBT 开关特性测不准？问题可能出在探头上",
+  "date": "2026-11-21",
+  "sector": "Semiconductors",
+  "news_type": "Product",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "SiC/IGBT Switching Characteristics Measurement Inaccurate? The Problem May Lie with the Probes",
+  "summary_en": "An article from EE Times China's Breadboard Community suggests that inaccuracies in measuring switching characteristics of SiC and IGBT devices may stem from issues with measurement probes. It addresses technical challenges in power electronics testing without specifying a particular manufacturer or product launch.",
+  "companies": []
+ },
+ {
+  "id": "f2de46196c69ea52",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxbkRSS29KdjZzckk1c2NMYkhZcWpUQmNUUklpbExQTy1CY0lMVFZ6TVVOTzlPMGpLdWV3SXVick9xa05QZ2hZUDE0ZG01cHNOZ2xwMXczbmloc0xaNmVV?oc=5",
+  "title_cn": "原创 软硬件一体化怎么落地？去标杆工厂看看 | 精工智能AI数字工厂",
+  "date": "2026-11-21",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "How to Implement Software-Hardware Integration? Visit a Benchmark Factory | Jinggong Intelligent AI Digital Factory",
+  "summary_en": "An article discussing the implementation of software-hardware integration by visiting a benchmark factory associated with Jinggong Intelligent's AI digital factory. The text serves as an introduction or teaser without providing specific technical details, company metrics, or concrete product launches.",
+  "companies": [
+   "Jinggong Intelligent"
+  ]
+ },
+ {
+  "id": "4b03c67dbe0c233f",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5TFppUVFlRVd6YzNWZU5Qci1Dbl80TF9LWjZwUkk2LVVxcEtIWE44OU4xZEdlWENOc2I2M0dodkxtNmpOUWw5c280bFRfcU9OQTFtLWpJZVl3cFEz?oc=5",
+  "title_cn": "CPU价值重估，FP4量产提速：安谋科技重构Agentic AI算力版图",
+  "date": "2026-11-21",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "eet-china.com",
+  "source_cn": "电子工程专辑",
+  "source_en": "EE Times China",
+  "source_tier": 2,
+  "title_en": "CPU Value Reassessment, FP4 Mass Production Acceleration: Arm China Restructures Agentic AI Compute Landscape",
+  "summary_en": "Arm China (安谋科技) is repositioning its strategy for Agentic AI compute. The company emphasizes a reassessment of CPU value alongside accelerated mass production timelines for its FP4 data format. This move aims to redefine the architecture and efficiency landscape for next-generation AI workloads in China.",
+  "companies": [
+   "Arm China"
+  ]
+ },
+ {
+  "id": "c96e96ebbcd9e596",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SRGk1VnhFby1GTnc5OGZNX2NoT3lRZDBfQWZtRFpaQ0hoVHM4V09ubUthLXd3WGRpSlBXNkFQa1V1WFFvRUpQcWpCUlVucGo0cnJ6T2RPN0V5NDQ?oc=5",
+  "title_cn": "IEC智能制造系统委员会中国专家委员会2026年度会议召开",
+  "date": "2026-11-21",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "IEC Smart Manufacturing Systems Committee China Expert Committee Holds 2026 Annual Meeting",
+  "summary_en": "The IEC Smart Manufacturing Systems Committee China Expert Committee held its 2026 annual meeting. The text provides no further details on the agenda, participants, or specific outcomes discussed.",
+  "companies": []
+ },
+ {
+  "id": "dc548adfe042e607",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4dEh2LXNyTnFrcldiQnlHczBsZU9vNldOZ0Ryam0ybDVmNVBRaXhnclVTc2ZnY2NZM3EtZ1JDWlRIdVhnbEhPeUtRajVEY21IT1E?oc=5",
+  "title_cn": "工信部孙姬：智算规模达2592EFlops，同比增长146%",
+  "date": "2026-11-21",
+  "sector": "AI",
+  "news_type": "Policy",
+  "source_domain": "c114.com.cn",
+  "source_cn": "C114通信网",
+  "source_en": "C114",
+  "source_tier": 2,
+  "title_en": "MIIT: China's Intelligent Computing Capacity Reaches 2592 EFlops, Up 146% YoY",
+  "summary_en": "Sun Ji from the Ministry of Industry and Information Technology (MIIT) announced that China's intelligent computing capacity has reached 2592 exaflops (EFlops), representing a year-on-year growth of 146%. This data highlights the rapid expansion of high-performance computing infrastructure within the country.",
+  "companies": []
+ },
+ {
   "id": "229bae1488f56a1e",
   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaNENqdDNpWVFFUHltaTR2MnI4VDktZVBfcjdMRDZUcFc0LUN2RkpkMkNodkMtMGZLZ3BTX0RyTjBiMGhGdkUwOGZFU3FkUQ?oc=5",
   "title_cn": "中国公司全球化周报｜阿里国际站前两季度GMV增速均超20% / 镁伽科技获近2亿美元融资",
@@ -214,6 +688,23 @@
   "companies": [
    "Alibaba",
    "Magi Robotics"
+  ]
+ },
+ {
+  "id": "07568467fc8919f1",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hR2ZBM0dHWnpGbE1vOF92eEtMTng0VVprSi1zN3hhMTR0RWswd3hPMTFrdFM2QlpVMWttYTZuNEhhUE1OMkFsTWs1VXZjZw?oc=5",
+  "title_cn": "2万亿造富，25位华人员工接住Anthropic泼天富贵",
+  "date": "2026-11-21",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "25 Chinese Employees at Anthropic Benefit from $2 Trillion Wealth Creation",
+  "summary_en": "According to 36Kr, 25 Chinese employees at US AI company Anthropic have benefited significantly from the company's valuation surge, described as 'receiving wealth from the sky.' The report highlights the financial gains for these specific staff members amidst a broader market context of significant value creation.",
+  "companies": [
+   "Anthropic"
   ]
  },
  {
@@ -279,23 +770,6 @@
   "title_en": "Economic Daily: APEC Official Vehicles Witness Auto Industry Leap",
   "summary_en": "The Economic Daily reports that the selection of vehicles for the APEC summit highlights the advancement of China's automotive industry. The article uses the official fleet as a case study to illustrate industrial progress, though specific models or manufacturers are not detailed in the provided text.",
   "companies": []
- },
- {
-  "id": "072a897eecde7981",
-  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4RXBkakwydGVwYWF6SU9lSF9pM1F1SExCWk1fUzRBOXhzMWxwUzdvWV9Fc01kREFYbEtxU3J3SkhaNVA4N3dwNGNWZEdpODlyTmo4?oc=5",
-  "title_cn": "腾讯混元正式开源Hy4",
-  "date": "2026-11-20",
-  "sector": "AI",
-  "news_type": "Product",
-  "source_domain": "taibo.cn",
-  "source_cn": "泰伯网",
-  "source_en": "Taibo",
-  "source_tier": 2,
-  "title_en": "Tencent Hunyuan Officially Open-Sources Hy4",
-  "summary_en": "Tencent has officially open-sourced its AI model, Hy4. This release makes the company's generative AI capabilities available to the public developer community.",
-  "companies": [
-   "Tencent"
-  ]
  },
  {
   "id": "01b71a566bd5510a",
@@ -467,6 +941,23 @@
   "companies": []
  },
  {
+  "id": "fd5ba07f4b53ff44",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vZVFtcldYTVB2TTNWbGhsYkQ4SXhPUWZLc3FDS3V5ZG9VelBWY0pVQ1FlaHBOTUlPaGVBZ3FSSmYzNWtfY2ZrZ2tjeTNtSGVMUlpv?oc=5",
+  "title_cn": "湘南学院低空经济产业技术研究院揭牌成立",
+  "date": "2026-11-20",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Xiangnan University Low-Altitude Economy Industry Technology Research Institute Unveiled",
+  "summary_en": "Xiangnan University has unveiled the Low-Altitude Economy Industry Technology Research Institute. The establishment marks an institutional effort to support research and development in China's emerging low-altitude economy sector, focusing on technologies related to drones and urban air mobility.",
+  "companies": [
+   "Xiangnan University"
+  ]
+ },
+ {
   "id": "74cb0ebd2a8afaf8",
   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFByWEhvN05BNVhUakQxOTRMMWxtZEk5aG9KZ2Z0bjhZd19CSW1YTHR5ZGFVY0tHMlkxdDJZQkNVczZfRUdqa0F6Zi0xN2hId0VGeEY1dnpzdTFaSkJtWUZWUzF3UTl3QXNLQ0FPc2pYRktvUQ?oc=5",
   "title_cn": "长二丁火箭成功发射实践二十四号卫星",
@@ -517,6 +1008,23 @@
   ]
  },
  {
+  "id": "4328812cfa24c024",
+  "url": "https://www.scmp.com/plus/business/china-evs/article/3375206/chinas-battery-powered-heavy-trucks-see-electric-growth",
+  "title_cn": "中国电动重卡实现电气化增长",
+  "date": "2026-11-20",
+  "sector": "Green Tech",
+  "news_type": "Product",
+  "source_domain": "scmp.com",
+  "source_cn": "南华早报",
+  "source_en": "SCMP",
+  "source_tier": 1,
+  "title_en": "China’s Battery-Powered Heavy Trucks See Electric Growth",
+  "summary_en": "Ceva Logistics conducted a 5,000-kilometer trial of battery-electric heavy trucks in China, traveling from Shenzhen to Alashankou with nine recharging stops. The trial reduced energy costs by 43% compared to diesel equivalents. This demonstrates the operational viability and growing infrastructure support for new-energy articulated lorries and industrial vehicles in China.",
+  "companies": [
+   "Ceva Logistics"
+  ]
+ },
+ {
   "id": "1a608d338d6693b2",
   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBndUVTbk5EWDdodklaUG91aXltdUJ2TmkzZ2VzZE16cW1qSEJBNExOaW50bElDcFdTQ2FmbU5xUTQ4Qi1zX0JwbGhuUVNINUNiTFpHOQ?oc=5",
   "title_cn": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来",
@@ -532,6 +1040,21 @@
   "companies": [
    "Huawei Cloud"
   ]
+ },
+ {
+  "id": "69ee699ac177ed0f",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BcG5qa3ZOMzQySUJGTm05SEZxRkhXX1ZDSzBOazEzTG9kdW93UFB3b2d2eG5oTnZVdXVUQmRTczV3R1RsaGJnZ0J4R0N6MlJxTTJjZA?oc=5",
+  "title_cn": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
+  "date": "2026-11-20",
+  "sector": "AI",
+  "news_type": "Breakthrough",
+  "source_domain": "qbitai.com",
+  "source_cn": "量子位",
+  "source_en": "QbitAI",
+  "source_tier": 2,
+  "title_en": "Agnes Agent Achieves 14x Speedup and 27x Cost Reduction via Dual-System Decision Making and Self-Evolution",
+  "summary_en": "The Agnes agent framework utilizes a dual-system decision mechanism and two-layer self-evolution to optimize performance. According to the source, this approach achieves up to a 14-fold increase in efficiency and reduces costs to one-twenty-seventh of previous levels. The text highlights these technical metrics as key improvements for AI agents.",
+  "companies": []
  },
  {
   "id": "c1bd33fc19279bea",
@@ -596,6 +1119,23 @@
   "title_en": "Billion-Dollar Pharma Company Appoints Post-90s Chairman",
   "summary_en": "A pharmaceutical company with a valuation exceeding 10 billion RMB has appointed a chairman born after 1990. The article highlights the leadership transition within this major Chinese biotech firm, though specific details regarding the individual's identity or strategic plans are not provided in the snippet.",
   "companies": []
+ },
+ {
+  "id": "4744a661fd9bb87a",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPcjVuTDYyVV9DcjBIX2lxQU40bGI2bWtEamsyel9JRkV1dTl5MnRNZVhYc1ljNnlIUFM1dlJ2VUNsdjJpUWQ5eVN5djR2cjE4SFhSZ2doSFF4RXdOMG1XTE1OMFRLVzF1MEVXaGhSYTVoSVc5ZFAyQVJiOWhOUQ?oc=5",
+  "title_cn": "科济药业公布一款体内CAR-T首个临床研究结果",
+  "date": "2026-11-20",
+  "sector": "Biotech",
+  "news_type": "Breakthrough",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "JW Therapeutics Announces First-in-Human Clinical Trial Results for In Vivo CAR-T",
+  "summary_en": "JW Therapeutics (科济药业) has released the first clinical trial results for its in vivo CAR-T therapy. The announcement marks a significant milestone in the company's pipeline, demonstrating initial data from the first-in-human study of this novel cell therapy approach.",
+  "companies": [
+   "JW Therapeutics"
+  ]
  },
  {
   "id": "46a195381ab868cc",
@@ -1119,6 +1659,23 @@
   ]
  },
  {
+  "id": "e1faecb62c79046a",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1JWEZIMFhuM2oyc0tlODRyWTNST3hHZDhnTEJIRzQ3SFoxODJzWDlYNWRKamRmUmVkQVZpdEo3aVRvekdjbHRSa041eTNHQQ?oc=5",
+  "title_cn": "腾讯姚顺雨团队深夜回应一切：算力不足、模型刷榜、雷霆大思考",
+  "date": "2026-11-20",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Tencent's Yao Shunyu Team Responds to Controversies: Compute Shortages, Leaderboard Grinding, and Strategic Reflection",
+  "summary_en": "Tencent executive Yao Shunyu issued a late-night statement addressing recent controversies surrounding the company's AI capabilities. The response cited insufficient compute resources as a primary constraint, acknowledged practices of optimizing models for leaderboards (leaderboard grinding), and outlined significant strategic reflections on Tencent's AI development path.",
+  "companies": [
+   "Tencent"
+  ]
+ },
+ {
   "id": "d139160cd35fbeb7",
   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVmpqclpDZHlYbDczLTNVdV94SmdVcEZ4U1NPZ2hyUVVPc1oyeG5aYi1tVXh4N2VsV3BaZEJEUm56XzVJeWp1R2YyRnFETlFHMDkyRHduMkZhT0QxU0JOYS1WSUlwMGZhM0JEbTVJOTA1WVd4eWxaUFdEMEFTb0hBdVJSWnFiVU1lQjB5WDFrRQ?oc=5",
   "title_cn": "沈文忠：光伏技术的下一个五年，在极限效率与无银降本间寻求破局",
@@ -1532,6 +2089,23 @@
   "summary_en": "Tencent reported a 6% decline in Q3 non-IFRS net profit. The source, PharmCube (医药魔方), published this financial analysis on November 19, 2026. The text provides no specific details on the causes of the decline or operational metrics beyond the headline figure.",
   "companies": [
    "Tencent"
+  ]
+ },
+ {
+  "id": "779ff97647ec5848",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtTUFuZ0ExUTNIQXBhRy1tYTBPZUVieENSbGd2cHVfYmNMaGJWYjVSeGU2WXRRMWRfc2NUVUc4V1ZGT00ta3Btc3NjY0NSU0FNSUk4cDlLRkRxY0NrbmU4aVpvbkJvWUZhY2dsa1BaQ0k4Z1Npb1N3R3pEcGJfUQ?oc=5",
+  "title_cn": "信达生物蝉联福布斯中国创新力企业50强，持续创新投入再获认可",
+  "date": "2026-11-19",
+  "sector": "Biotech",
+  "news_type": "Corporate",
+  "source_domain": "pharmcube.com",
+  "source_cn": "医药魔方",
+  "source_en": "PharmCube",
+  "source_tier": 2,
+  "title_en": "Innovent Biologics Retains Forbes China Top 50 Most Innovative Companies Title",
+  "summary_en": "Innovent Biologics was named among the Top 50 Most Innovative Companies in China by Forbes. The recognition highlights the company's continued investment in innovation within the biopharmaceutical sector.",
+  "companies": [
+   "Innovent Biologics"
   ]
  },
  {
@@ -2290,20 +2864,20 @@
   ]
  },
  {
-  "id": "8abad30e0c6ad98f",
-  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzT0R0Qk15Ry1KcFFmNnA3MDNBb0ctbXljUGFKbk5jV1BmaENjZ3JCYlVRTElYU1lPemExT0c2elp6eEhEZzljSm10eXRVUQ?oc=5",
-  "title_cn": "刚刚，DeepSeek张博创业曝光：开源个人Agent",
+  "id": "560839b310033998",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51bktLME5vTWhldzdDY2dBc1RydXBYWEdCUTVTeTlFQTVyM1RielVtaFdPaXV2cERpNWdTUlE2eUxHcURwTk1XNWF4c2RFTEYzektJR1NJMjBjc3VVTUE?oc=5",
+  "title_cn": "腾讯混元正式开源Hy4",
   "date": "2026-11-19",
   "sector": "AI",
-  "news_type": "Corporate",
+  "news_type": "Product",
   "source_domain": "36kr.com",
   "source_cn": "36氪",
   "source_en": "36Kr",
   "source_tier": 2,
-  "title_en": "DeepSeek's Zhang Bo Reveals Startup: Open-Source Personal Agent",
-  "summary_en": "Zhang Bo, a figure associated with DeepSeek, has launched a new venture focused on open-source personal AI agents. The specific details of the startup, funding, or product capabilities are not provided in the source text.",
+  "title_en": "Tencent Hunyuan Open Sources Hy4",
+  "summary_en": "Tencent has open-sourced its Hy4 model under the Hunyuan brand. The release makes the technology available to the public, aligning with broader industry trends of major Chinese tech firms sharing foundational AI models.",
   "companies": [
-   "DeepSeek"
+   "Tencent"
   ]
  },
  {
@@ -2535,6 +3109,38 @@
   "companies": [
    "Shikong Daoyu"
   ]
+ },
+ {
+  "id": "4956e85884096953",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TTVZLWEZSOXVMdG54TTNORWxxYTFEUE1DenpVMVdHeEJjVGZVY2N4SkFCMEdyLWN6YXJNbkdlTG9mekR0b2ZOWGxGV3VIQVpadVJ3?oc=5",
+  "title_cn": "柏川数据完成5000万元Pre-A轮融资，打造物理AI全栈数据基座",
+  "date": "2026-11-18",
+  "sector": "Robotics",
+  "news_type": "Capital",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Baichuan Data Completes 50 Million RMB Pre-A Financing Round to Build Physical AI Full-Stack Data Infrastructure",
+  "summary_en": "Baichuan Data completed a 50 million RMB Pre-A financing round. The company aims to build a full-stack data infrastructure for physical AI, focusing on data foundation layers for robotics and embodied intelligence applications.",
+  "companies": [
+   "Baichuan Data"
+  ]
+ },
+ {
+  "id": "2d53b6254a3bb997",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5TQVhmUlJ6bFZycVZSRHlHSkI3aFRRZVM5Q2NLM2NrZDYwcUxmLURNaDI4cWpRNDhuamFORlNKbDExUkNwamc2M0NDN2N2S0UtMmZr?oc=5",
+  "title_cn": "广东：探索建立低空无人机救援队",
+  "date": "2026-11-18",
+  "sector": "Robotics",
+  "news_type": "Policy",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Guangdong Explores Establishing Low-Altitude Drone Rescue Teams",
+  "summary_en": "Guangdong province is exploring the establishment of low-altitude drone rescue teams. The initiative aims to integrate unmanned aerial vehicles into emergency response and disaster relief operations within the region.",
+  "companies": []
  },
  {
   "id": "8176a44ccdafec9b",
@@ -3581,6 +4187,24 @@
   "companies": []
  },
  {
+  "id": "990043bdc27b62d5",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ORUhnSTNSMW9rQ2ZEZ2lJQ2pwckxKd0ZQaDljMmwxQkducXJxMUM3NU5PSUU1UjM0aWN5SG1nVXJWaFd4NEJaS3ZZMXJXUWZQc2JV?oc=5",
+  "title_cn": "群核科技、华测导航发布联名款激光扫描仪",
+  "date": "2026-11-17",
+  "sector": "Robotics",
+  "news_type": "Product",
+  "source_domain": "taibo.cn",
+  "source_cn": "泰伯网",
+  "source_en": "Taibo",
+  "source_tier": 2,
+  "title_en": "Qunhe Technology and Huace Navigation Release Co-branded Laser Scanner",
+  "summary_en": "Qunhe Technology and Huace Navigation have launched a co-branded laser scanner. The text provides no further details on specifications, pricing, or technical capabilities.",
+  "companies": [
+   "Qunhe Technology",
+   "Huace Navigation"
+  ]
+ },
+ {
   "id": "994a44d69425e1b7",
   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GTTh6cTV3V1lrMHFUNnE1cG90WWtnX3h6aEhLN3hYTTRBOHdGS2VkRHItZ29oVzlTOFVSeGZJSy1oMHNCQ3FOZzdsc0hWNE1xaUJzQ211d2NET25VeENhMmlfaENDcGY1MHU1Q3BwQ0o?oc=5",
   "title_cn": "中国万拓气象大模型发布，低成本实现全球天气模型精细化",
@@ -4517,6 +5141,23 @@
   "companies": []
  },
  {
+  "id": "823f2ff384aa6ce6",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1tNTE5ck9TT2wxMks1SnM2cFQ0SV9MaUlFOUFMWXZ1NjYyTEt5WEJNM25qdzRiNVRkX2tLN1BqNVpaQTZCRFBoRV9Ya3JaT2FKOGh1YUhqSQ?oc=5",
+  "title_cn": "2026柳工农业机械全球商务大会在柳州召开",
+  "date": "2026-11-17",
+  "sector": "Robotics",
+  "news_type": "Corporate",
+  "source_domain": "cinn.cn",
+  "source_cn": "中国工业新闻网",
+  "source_en": "China Industry News",
+  "source_tier": 1,
+  "title_en": "2026 LiuGong Agricultural Machinery Global Business Conference Held in Liuzhou",
+  "summary_en": "LiuGong held its 2026 Global Business Conference for agricultural machinery in Liuzhou. The event focuses on business partnerships and market expansion for the company's agricultural equipment division.",
+  "companies": [
+   "LiuGong"
+  ]
+ },
+ {
   "id": "ebd5ac4059a511b3",
   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sbDg5Yno0elpvRmNTYmtDNEZDMmlVbUNZRmpVODMyY1YyMkxzTmJGYlhObXBhdDJTMzRLU084QUlUTTJ3QnBudmhENkxVX1BJVFFWYUFWbXgyaDA?oc=5",
   "title_cn": "我国深层页岩油钻井周期刷新纪录",
@@ -4762,6 +5403,21 @@
   "companies": [
    "TCL"
   ]
+ },
+ {
+  "id": "77c70b82ad8dc937",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Jd3FPSkZzWGNVc0J6d1lCdmRUaUlCcTNpU3AyR3pBRmxSUUl5aUdudEhXT1lDeUVWZHZwbXg1UXVYa0VXeTZ6c2xCeG5PUQ?oc=5",
+  "title_cn": "中国开源模型，正成为全球 AI 的“度量衡”",
+  "date": "2026-11-17",
+  "sector": "AI",
+  "news_type": "Corporate",
+  "source_domain": "36kr.com",
+  "source_cn": "36氪",
+  "source_en": "36Kr",
+  "source_tier": 2,
+  "title_en": "Chinese open-source models becoming the global AI benchmark",
+  "summary_en": "An article argues that Chinese open-source AI models are establishing themselves as a standard reference or 'yardstick' for the global artificial intelligence industry. The text highlights the growing influence and adoption of these models in international contexts, positioning them as key metrics for evaluation.",
+  "companies": []
  },
  {
   "id": "e651c031abaf836a",

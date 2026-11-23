@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-22T05:02:51+00:00",
+ "last_run": "2026-11-23T05:45:20+00:00",
  "status": "warn",
  "provider": "qwen",
  "model": "qwen3.7-flash",
@@ -8,29 +8,29 @@
   "total": 40,
   "empty": 1,
   "empty_ids": [
-   "t_semi"
+   "t_ai_policy"
   ]
  },
  "items": {
-  "raw_fetched": 1748,
-  "off_whitelist_dropped": 394,
-  "in_whitelist": 689,
-  "deduped_before_enrich": 32,
+  "raw_fetched": 1582,
+  "off_whitelist_dropped": 314,
+  "in_whitelist": 670,
+  "deduped_before_enrich": 42,
   "new": 250,
-  "deferred": 146,
-  "enriched": 85,
-  "failed": 34,
-  "deduped_on_merge": 41,
-  "archive_total": 4052
+  "deferred": 160,
+  "enriched": 78,
+  "failed": 31,
+  "deduped_on_merge": 38,
+  "archive_total": 4092
  },
  "by_sector": {
-  "AI": 758,
-  "Digital Connectivity": 734,
-  "Green Tech": 633,
-  "Semiconductors": 542,
-  "Robotics": 442,
-  "Biotech": 342,
-  "Space": 275,
+  "AI": 764,
+  "Digital Connectivity": 741,
+  "Green Tech": 637,
+  "Semiconductors": 548,
+  "Robotics": 455,
+  "Biotech": 344,
+  "Space": 277,
   "General Tech": 111,
   "人工智能": 59,
   "Quantum": 53,
@@ -45,35 +45,35 @@
   "量子": 2
  },
  "by_news_type": {
-  "Corporate": 1645,
-  "Product": 976,
-  "Policy": 408,
-  "Capital": 396,
-  "Breakthrough": 309,
+  "Corporate": 1666,
+  "Product": 983,
+  "Policy": 411,
+  "Capital": 402,
+  "Breakthrough": 311,
   "?": 273,
-  "Geopolitics": 45
+  "Geopolitics": 46
  },
  "by_source": {
-  "泰伯网": 458,
-  "36氪": 408,
-  "电子工程专辑": 376,
+  "泰伯网": 464,
+  "36氪": 414,
+  "电子工程专辑": 382,
   "第一电动网": 271,
-  "通信世界网": 255,
-  "C114通信网": 252,
-  "医药魔方": 228,
-  "Pandaily": 217,
-  "与非网": 207,
-  "量子位": 169,
+  "通信世界网": 259,
+  "C114通信网": 254,
+  "医药魔方": 230,
+  "Pandaily": 221,
+  "与非网": 209,
+  "量子位": 171,
   "爱集微": 168,
-  "南华早报": 161,
-  "中国工业新闻网": 158,
+  "南华早报": 162,
+  "中国工业新闻网": 161,
   "21世纪经济报道": 105,
-  "中国能源网": 77,
+  "中国能源网": 78,
   "澎湃新闻": 61,
   "中国政府网": 55,
   "新华网": 52,
   "澎湃新闻·科技": 35,
-  "中国科技网": 33,
+  "中国科技网": 34,
   "21世纪经济报道 & 经济网": 22,
   "中国半导体产业": 20,
   "财新网·科技": 19,
@@ -116,7 +116,6 @@
  },
  "problems": [],
  "sample_errors": [
-  "ValueError: 板块越界: ''",
-  "ValueError: 板块越界: 'Geopolitics'"
+  "ValueError: 板块越界: ''"
  ]
 }
